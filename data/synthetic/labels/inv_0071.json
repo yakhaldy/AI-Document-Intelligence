@@ -1,0 +1,70 @@
+{
+  "id": "inv_0071",
+  "invoice_number": "FA-000098",
+  "invoice_date": "2025-03-03",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Négoce SA",
+    "ice": "473829973763116",
+    "if": "56670106",
+    "rc": "513338",
+    "patente": null,
+    "address": "114 Rue Moulay Youssef",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 13,
+      "unit_price_ht": 414.75,
+      "total_ht": 5391.75
+    },
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 3,
+      "unit_price_ht": 855.0,
+      "total_ht": 2565.0
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 2,
+      "unit_price_ht": 2795.0,
+      "total_ht": 5590.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 9,
+      "unit_price_ht": 587.31,
+      "total_ht": 5285.79
+    }
+  ],
+  "total_ht": 18832.54,
+  "tva_rate": 20,
+  "total_tva": 3766.51,
+  "total_ttc": 22599.05,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-03-09",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.1,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

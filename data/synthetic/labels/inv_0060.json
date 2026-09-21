@@ -1,0 +1,58 @@
+{
+  "id": "inv_0060",
+  "invoice_number": "FAC/2026/00051",
+  "invoice_date": "2026-05-17",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 4,
+      "unit_price_ht": 8359.29,
+      "total_ht": 33437.16
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 1,
+      "unit_price_ht": 3584.14,
+      "total_ht": 3584.14
+    }
+  ],
+  "total_ht": 37021.3,
+  "tva_rate": 10,
+  "total_tva": 3702.13,
+  "total_ttc": 40723.43,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.91,
+    "blur": 0.49,
+    "noise": 7.37,
+    "contrast": 1.03,
+    "brightness": 0.99,
+    "shadow": 0.05,
+    "quality": 77,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

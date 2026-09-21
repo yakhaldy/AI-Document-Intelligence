@@ -1,0 +1,64 @@
+{
+  "id": "inv_0065",
+  "invoice_number": "FA-000154",
+  "invoice_date": "2025-08-12",
+  "due_date": null,
+  "supplier": {
+    "name": "Doukkala Négoce SARL",
+    "ice": "229413186999386",
+    "if": "77496499",
+    "rc": "091334",
+    "patente": "12328120",
+    "address": "105 Bd Anfa",
+    "postal_code": "28800",
+    "city": "Mohammedia"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 3,
+      "unit_price_ht": 7390.0,
+      "total_ht": 22170.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 11,
+      "unit_price_ht": 925.0,
+      "total_ht": 10175.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 18,
+      "unit_price_ht": 519.19,
+      "total_ht": 9345.42
+    }
+  ],
+  "total_ht": 41690.42,
+  "tva_rate": 20,
+  "total_tva": 8338.08,
+  "total_ttc": 50028.5,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-08-27",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 1.84,
+    "blur": 0.83,
+    "noise": 15.01,
+    "contrast": 0.92,
+    "brightness": 0.9,
+    "shadow": 0.29,
+    "quality": 40,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

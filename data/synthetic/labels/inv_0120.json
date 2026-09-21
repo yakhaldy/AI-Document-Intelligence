@@ -1,0 +1,58 @@
+{
+  "id": "inv_0120",
+  "invoice_number": "202600021",
+  "invoice_date": "2026-03-02",
+  "due_date": "2026-04-01",
+  "supplier": {
+    "name": "Tingis Logistique SARL",
+    "ice": "831727889579868",
+    "if": "72774348",
+    "rc": "734714",
+    "patente": null,
+    "address": "60 Rue des Orangers",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 7470.0,
+      "total_ht": 14940.0
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 3,
+      "unit_price_ht": 2760.43,
+      "total_ht": 8281.29
+    }
+  ],
+  "total_ht": 23221.29,
+  "tva_rate": 20,
+  "total_tva": 4644.26,
+  "total_ttc": 27865.55,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-04-19",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.18,
+    "blur": 0.68,
+    "noise": 7.9,
+    "contrast": 0.92,
+    "brightness": 0.98,
+    "shadow": 0.02,
+    "quality": 75,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

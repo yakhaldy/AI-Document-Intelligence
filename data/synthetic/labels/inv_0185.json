@@ -1,0 +1,70 @@
+{
+  "id": "inv_0185",
+  "invoice_number": "FAC/2025/00318",
+  "invoice_date": "2025-12-31",
+  "due_date": "2026-01-30",
+  "supplier": {
+    "name": "Tafilalet Conseil SNC",
+    "ice": "889373467065627",
+    "if": "29806990",
+    "rc": "162720",
+    "patente": null,
+    "address": "72 Rue des Orangers",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 8575.0,
+      "total_ht": 17150.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 3,
+      "unit_price_ht": 233.81,
+      "total_ht": 701.43
+    },
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 15,
+      "unit_price_ht": 605.0,
+      "total_ht": 9075.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 4,
+      "unit_price_ht": 817.78,
+      "total_ht": 3271.12
+    }
+  ],
+  "total_ht": 30197.55,
+  "tva_rate": 20,
+  "total_tva": 6039.51,
+  "total_ttc": 36237.06,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-02-14",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 1.34,
+    "blur": 0.37,
+    "noise": 9.37,
+    "contrast": 0.95,
+    "brightness": 0.99,
+    "shadow": 0.02,
+    "quality": 84,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

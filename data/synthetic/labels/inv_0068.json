@@ -1,0 +1,58 @@
+{
+  "id": "inv_0068",
+  "invoice_number": "FAC/2025/00054",
+  "invoice_date": "2025-05-17",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 2,
+      "unit_price_ht": 4772.93,
+      "total_ht": 9545.86
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 15,
+      "unit_price_ht": 305.95,
+      "total_ht": 4589.25
+    }
+  ],
+  "total_ht": 14135.11,
+  "tva_rate": 20,
+  "total_tva": 2827.02,
+  "total_ttc": 16962.13,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-05-21",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.17,
+    "blur": 0.41,
+    "noise": 9.38,
+    "contrast": 0.93,
+    "brightness": 0.96,
+    "shadow": 0.07,
+    "quality": 66,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

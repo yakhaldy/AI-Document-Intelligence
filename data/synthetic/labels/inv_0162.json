@@ -1,0 +1,58 @@
+{
+  "id": "inv_0162",
+  "invoice_number": "FAC/2026/00084",
+  "invoice_date": "2026-05-30",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Palette eau minérale",
+      "quantity": 15,
+      "unit_price_ht": 305.95,
+      "total_ht": 4589.25
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 1,
+      "unit_price_ht": 14240.0,
+      "total_ht": 14240.0
+    }
+  ],
+  "total_ht": 18829.25,
+  "tva_rate": 20,
+  "total_tva": 3765.85,
+  "total_ttc": 22595.1,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-06-11",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.07,
+    "blur": 0.67,
+    "noise": 7.29,
+    "contrast": 0.95,
+    "brightness": 0.99,
+    "shadow": 0.04,
+    "quality": 77,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

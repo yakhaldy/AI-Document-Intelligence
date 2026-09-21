@@ -1,0 +1,76 @@
+{
+  "id": "inv_0150",
+  "invoice_number": "FAC/2025/00080",
+  "invoice_date": "2025-04-24",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 2,
+      "unit_price_ht": 3584.14,
+      "total_ht": 7168.28
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 1,
+      "unit_price_ht": 14240.0,
+      "total_ht": 14240.0
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 18,
+      "unit_price_ht": 305.95,
+      "total_ht": 5507.1
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 8359.29,
+      "total_ht": 8359.29
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 2,
+      "unit_price_ht": 4772.93,
+      "total_ht": 9545.86
+    }
+  ],
+  "total_ht": 44820.53,
+  "tva_rate": 7,
+  "total_tva": 3137.44,
+  "total_ttc": 47957.97,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-28",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.8,
+    "blur": 0.38,
+    "noise": 6.96,
+    "contrast": 0.97,
+    "brightness": 0.98,
+    "shadow": 0.08,
+    "quality": 66,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

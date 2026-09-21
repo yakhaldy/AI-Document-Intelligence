@@ -1,0 +1,52 @@
+{
+  "id": "inv_0194",
+  "invoice_number": "FAC/2026/00190",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-05-30",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 1,
+      "unit_price_ht": 1800.0,
+      "total_ht": 1800.0
+    }
+  ],
+  "total_ht": 1800.0,
+  "tva_rate": 20,
+  "total_tva": 360.0,
+  "total_ttc": 2160.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-06-01",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.74,
+    "blur": 0.61,
+    "noise": 5.65,
+    "contrast": 0.95,
+    "brightness": 1.02,
+    "shadow": 0.06,
+    "quality": 84,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

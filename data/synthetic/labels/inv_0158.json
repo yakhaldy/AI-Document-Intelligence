@@ -1,0 +1,82 @@
+{
+  "id": "inv_0158",
+  "invoice_number": "FA-000159",
+  "invoice_date": "2026-08-14",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 11,
+      "unit_price_ht": 561.16,
+      "total_ht": 6172.76
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 2,
+      "unit_price_ht": 1337.03,
+      "total_ht": 2674.06
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 4,
+      "unit_price_ht": 1065.0,
+      "total_ht": 4260.0
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 3,
+      "unit_price_ht": 1536.8,
+      "total_ht": 4610.4
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 3,
+      "unit_price_ht": 13580.67,
+      "total_ht": 40742.01
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 3,
+      "unit_price_ht": 1218.1,
+      "total_ht": 3654.3
+    }
+  ],
+  "total_ht": 62113.53,
+  "tva_rate": 10,
+  "total_tva": 6211.35,
+  "total_ttc": 68324.88,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-09-03",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.33,
+    "blur": 0.58,
+    "noise": 5.28,
+    "contrast": 1.05,
+    "brightness": 1.04,
+    "shadow": 0.03,
+    "quality": 85,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

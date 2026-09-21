@@ -1,0 +1,64 @@
+{
+  "id": "inv_0096",
+  "invoice_number": "202500113",
+  "invoice_date": "2025-08-22",
+  "due_date": "2025-10-06",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 9,
+      "unit_price_ht": 766.04,
+      "total_ht": 6894.36
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 14,
+      "unit_price_ht": 450.0,
+      "total_ht": 6300.0
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 1,
+      "unit_price_ht": 7450.0,
+      "total_ht": 7450.0
+    }
+  ],
+  "total_ht": 20644.36,
+  "tva_rate": 20,
+  "total_tva": 4128.87,
+  "total_ttc": 24773.23,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-10-13",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 1.1,
+    "blur": 0.71,
+    "noise": 7.09,
+    "contrast": 0.93,
+    "brightness": 0.98,
+    "shadow": 0.05,
+    "quality": 59,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

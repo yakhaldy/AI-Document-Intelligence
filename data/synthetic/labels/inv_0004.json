@@ -1,0 +1,58 @@
+{
+  "id": "inv_0004",
+  "invoice_number": "F2025-0215",
+  "invoice_date": "2025-04-01",
+  "due_date": "2025-05-01",
+  "supplier": {
+    "name": "Doukkala Hygiène SNC",
+    "ice": "109324808613171",
+    "if": "27484677",
+    "rc": "378263",
+    "patente": null,
+    "address": "69 Bd Zerktouni",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 4,
+      "unit_price_ht": 8993.3,
+      "total_ht": 35973.2
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 1,
+      "unit_price_ht": 3095.0,
+      "total_ht": 3095.0
+    }
+  ],
+  "total_ht": 39068.2,
+  "tva_rate": 20,
+  "total_tva": 7813.64,
+  "total_ttc": 46881.84,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-22",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -1.27,
+    "blur": 0.62,
+    "noise": 7.18,
+    "contrast": 0.94,
+    "brightness": 1.03,
+    "shadow": 0.04,
+    "quality": 85,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

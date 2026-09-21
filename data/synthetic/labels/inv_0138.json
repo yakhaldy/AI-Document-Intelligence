@@ -1,0 +1,64 @@
+{
+  "id": "inv_0138",
+  "invoice_number": "FA-000154",
+  "invoice_date": "2025-12-22",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 13580.67,
+      "total_ht": 13580.67
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 3,
+      "unit_price_ht": 2348.25,
+      "total_ht": 7044.75
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 6,
+      "unit_price_ht": 561.16,
+      "total_ht": 3366.96
+    }
+  ],
+  "total_ht": 23992.38,
+  "tva_rate": 20,
+  "total_tva": 4798.48,
+  "total_ttc": 28790.86,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-12-24",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -1.15,
+    "blur": 0.56,
+    "noise": 5.55,
+    "contrast": 1.01,
+    "brightness": 1.03,
+    "shadow": 0.03,
+    "quality": 69,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

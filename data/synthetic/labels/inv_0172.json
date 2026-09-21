@@ -1,0 +1,76 @@
+{
+  "id": "inv_0172",
+  "invoice_number": "F2026-0184",
+  "invoice_date": "2026-01-25",
+  "due_date": "2026-03-26",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 1,
+      "unit_price_ht": 3685.0,
+      "total_ht": 3685.0
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 15,
+      "unit_price_ht": 990.97,
+      "total_ht": 14864.55
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 4,
+      "unit_price_ht": 1365.0,
+      "total_ht": 5460.0
+    },
+    {
+      "description": "Hotte aspirante inox",
+      "quantity": 1,
+      "unit_price_ht": 2826.15,
+      "total_ht": 2826.15
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 2,
+      "unit_price_ht": 6224.63,
+      "total_ht": 12449.26
+    }
+  ],
+  "total_ht": 39284.96,
+  "tva_rate": 20,
+  "total_tva": 7856.99,
+  "total_ttc": 47141.95,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-01-30",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.39,
+    "blur": 0.32,
+    "noise": 5.75,
+    "contrast": 0.98,
+    "brightness": 0.98,
+    "shadow": 0.08,
+    "quality": 69,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

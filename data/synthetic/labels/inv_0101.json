@@ -1,0 +1,94 @@
+{
+  "id": "inv_0101",
+  "invoice_number": "FAC/2025/00190",
+  "invoice_date": "2025-12-18",
+  "due_date": "2026-02-16",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 1,
+      "unit_price_ht": 4150.0,
+      "total_ht": 4150.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 16,
+      "unit_price_ht": 625.0,
+      "total_ht": 10000.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 5,
+      "unit_price_ht": 626.92,
+      "total_ht": 3134.6
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 9,
+      "unit_price_ht": 890.0,
+      "total_ht": 8010.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 2,
+      "unit_price_ht": 1462.73,
+      "total_ht": 2925.46
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 3,
+      "unit_price_ht": 3232.95,
+      "total_ht": 9698.85
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 3,
+      "unit_price_ht": 679.82,
+      "total_ht": 2039.46
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 19,
+      "unit_price_ht": 90.0,
+      "total_ht": 1710.0
+    }
+  ],
+  "total_ht": 41668.37,
+  "tva_rate": 20,
+  "total_tva": 8333.67,
+  "total_ttc": 50002.04,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.86,
+    "blur": 0.47,
+    "noise": 5.56,
+    "contrast": 0.96,
+    "brightness": 1.04,
+    "shadow": 0.05,
+    "quality": 82,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

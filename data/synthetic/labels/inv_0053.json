@@ -1,0 +1,64 @@
+{
+  "id": "inv_0053",
+  "invoice_number": "F2025-0172",
+  "invoice_date": "2025-10-26",
+  "due_date": "2025-12-25",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 4,
+      "unit_price_ht": 6224.63,
+      "total_ht": 24898.52
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 12,
+      "unit_price_ht": 945.0,
+      "total_ht": 11340.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 1,
+      "unit_price_ht": 1365.0,
+      "total_ht": 1365.0
+    }
+  ],
+  "total_ht": 37603.52,
+  "tva_rate": 14,
+  "total_tva": 5264.49,
+  "total_ttc": 42868.01,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-01-03",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -1.42,
+    "blur": 0.66,
+    "noise": 9.66,
+    "contrast": 0.94,
+    "brightness": 1.03,
+    "shadow": 0.08,
+    "quality": 57,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

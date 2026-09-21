@@ -1,0 +1,33 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Données volumineuses / générées
+data/synthetic/pdf/
+data/synthetic/images/
+data/public/*
+!data/public/.gitkeep
+data/real_anonymized/*
+!data/real_anonymized/.gitkeep
+*.zip
+
+# Vector DB / index locaux
+.chroma/
+qdrant_storage/
+
+# Logs et artefacts
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

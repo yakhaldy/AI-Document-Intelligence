@@ -1,0 +1,76 @@
+{
+  "id": "inv_0040",
+  "invoice_number": "202500110",
+  "invoice_date": "2025-09-08",
+  "due_date": "2025-10-23",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 5,
+      "unit_price_ht": 450.0,
+      "total_ht": 2250.0
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 3,
+      "unit_price_ht": 11660.0,
+      "total_ht": 34980.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 8,
+      "unit_price_ht": 625.03,
+      "total_ht": 5000.24
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 19,
+      "unit_price_ht": 766.04,
+      "total_ht": 14554.76
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 3,
+      "unit_price_ht": 8924.55,
+      "total_ht": 26773.65
+    }
+  ],
+  "total_ht": 83558.65,
+  "tva_rate": 20,
+  "total_tva": 16711.73,
+  "total_ttc": 100270.38,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.84,
+    "blur": 1.33,
+    "noise": 17.89,
+    "contrast": 0.85,
+    "brightness": 0.96,
+    "shadow": 0.19,
+    "quality": 52,
+    "gray": false,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

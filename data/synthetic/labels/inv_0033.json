@@ -1,0 +1,58 @@
+{
+  "id": "inv_0033",
+  "invoice_number": "FA-000136",
+  "invoice_date": "2025-06-29",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 1337.03,
+      "total_ht": 5348.12
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 16,
+      "unit_price_ht": 561.16,
+      "total_ht": 8978.56
+    }
+  ],
+  "total_ht": 14326.68,
+  "tva_rate": 20,
+  "total_tva": 2865.34,
+  "total_ttc": 17192.02,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-07-08",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.04,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

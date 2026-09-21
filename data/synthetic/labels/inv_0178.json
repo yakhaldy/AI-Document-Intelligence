@@ -1,0 +1,94 @@
+{
+  "id": "inv_0178",
+  "invoice_number": "FAC/2025/00180",
+  "invoice_date": "2025-11-21",
+  "due_date": "2025-12-21",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 2,
+      "unit_price_ht": 13080.0,
+      "total_ht": 26160.0
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 2,
+      "unit_price_ht": 1495.0,
+      "total_ht": 2990.0
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 3,
+      "unit_price_ht": 1800.0,
+      "total_ht": 5400.0
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 2,
+      "unit_price_ht": 1266.43,
+      "total_ht": 2532.86
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 1,
+      "unit_price_ht": 4052.9,
+      "total_ht": 4052.9
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 1,
+      "unit_price_ht": 6260.0,
+      "total_ht": 6260.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 1,
+      "unit_price_ht": 1481.93,
+      "total_ht": 1481.93
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 15,
+      "unit_price_ht": 561.25,
+      "total_ht": 8418.75
+    }
+  ],
+  "total_ht": 57296.44,
+  "tva_rate": 20,
+  "total_tva": 11459.29,
+  "total_ttc": 68755.73,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-12-04",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.6,
+    "blur": 1.0,
+    "noise": 14.48,
+    "contrast": 0.88,
+    "brightness": 0.9,
+    "shadow": 0.18,
+    "quality": 44,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

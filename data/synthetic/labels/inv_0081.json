@@ -1,0 +1,82 @@
+{
+  "id": "inv_0081",
+  "invoice_number": "FA-000159",
+  "invoice_date": "2025-05-06",
+  "due_date": null,
+  "supplier": {
+    "name": "Doukkala Négoce SARL",
+    "ice": "229413186999386",
+    "if": "77496499",
+    "rc": "091334",
+    "patente": "12328120",
+    "address": "105 Bd Anfa",
+    "postal_code": "28800",
+    "city": "Mohammedia"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1530.0,
+      "total_ht": 1530.0
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 4,
+      "unit_price_ht": 11190.0,
+      "total_ht": 44760.0
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 48,
+      "unit_price_ht": 90.0,
+      "total_ht": 4320.0
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 4,
+      "unit_price_ht": 1716.84,
+      "total_ht": 6867.36
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 6,
+      "unit_price_ht": 190.0,
+      "total_ht": 1140.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 12,
+      "unit_price_ht": 519.19,
+      "total_ht": 6230.28
+    }
+  ],
+  "total_ht": 64847.64,
+  "tva_rate": 20,
+  "total_tva": 12969.53,
+  "total_ttc": 77817.17,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-05-14",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.07,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

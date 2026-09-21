@@ -1,0 +1,82 @@
+{
+  "id": "inv_0144",
+  "invoice_number": "202600123",
+  "invoice_date": "2026-05-03",
+  "due_date": "2026-06-17",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 12,
+      "unit_price_ht": 766.04,
+      "total_ht": 9192.48
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 1,
+      "unit_price_ht": 7450.0,
+      "total_ht": 7450.0
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 4,
+      "unit_price_ht": 8455.0,
+      "total_ht": 33820.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 4,
+      "unit_price_ht": 625.03,
+      "total_ht": 2500.12
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 3,
+      "unit_price_ht": 11660.0,
+      "total_ht": 34980.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 20,
+      "unit_price_ht": 450.0,
+      "total_ht": 9000.0
+    }
+  ],
+  "total_ht": 96942.6,
+  "tva_rate": 20,
+  "total_tva": 19388.52,
+  "total_ttc": 116331.12,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.98,
+    "blur": 0.69,
+    "noise": 6.13,
+    "contrast": 1.03,
+    "brightness": 1.0,
+    "shadow": 0.07,
+    "quality": 83,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

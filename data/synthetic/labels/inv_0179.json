@@ -1,0 +1,52 @@
+{
+  "id": "inv_0179",
+  "invoice_number": "FAC/2026/00183",
+  "invoice_date": "2026-06-03",
+  "due_date": "2026-07-03",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 3,
+      "unit_price_ht": 1495.0,
+      "total_ht": 4485.0
+    }
+  ],
+  "total_ht": 4485.0,
+  "tva_rate": 20,
+  "total_tva": 897.0,
+  "total_ttc": 5382.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-07-12",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -2.14,
+    "blur": 1.3,
+    "noise": 17.38,
+    "contrast": 0.85,
+    "brightness": 0.97,
+    "shadow": 0.16,
+    "quality": 39,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

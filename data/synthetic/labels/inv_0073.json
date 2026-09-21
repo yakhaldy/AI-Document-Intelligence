@@ -1,0 +1,70 @@
+{
+  "id": "inv_0073",
+  "invoice_number": "FA-000158",
+  "invoice_date": "2025-05-01",
+  "due_date": null,
+  "supplier": {
+    "name": "Doukkala Négoce SARL",
+    "ice": "229413186999386",
+    "if": "77496499",
+    "rc": "091334",
+    "patente": "12328120",
+    "address": "105 Bd Anfa",
+    "postal_code": "28800",
+    "city": "Mohammedia"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 9,
+      "unit_price_ht": 519.19,
+      "total_ht": 4672.71
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 19,
+      "unit_price_ht": 925.0,
+      "total_ht": 17575.0
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 45,
+      "unit_price_ht": 90.0,
+      "total_ht": 4050.0
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1530.0,
+      "total_ht": 1530.0
+    }
+  ],
+  "total_ht": 27827.71,
+  "tva_rate": 20,
+  "total_tva": 5565.54,
+  "total_ttc": 33393.25,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-05-02",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.4,
+    "blur": 0.43,
+    "noise": 4.62,
+    "contrast": 1.01,
+    "brightness": 1.02,
+    "shadow": 0.02,
+    "quality": 71,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

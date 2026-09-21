@@ -1,0 +1,70 @@
+{
+  "id": "inv_0070",
+  "invoice_number": "0157/2026",
+  "invoice_date": "2026-06-25",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Installation et mise en service",
+      "quantity": 14,
+      "unit_price_ht": 738.79,
+      "total_ht": 10343.06
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 12,
+      "unit_price_ht": 305.0,
+      "total_ht": 3660.0
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 2,
+      "unit_price_ht": 1285.0,
+      "total_ht": 2570.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 16,
+      "unit_price_ht": 621.87,
+      "total_ht": 9949.92
+    }
+  ],
+  "total_ht": 26522.98,
+  "tva_rate": 7,
+  "total_tva": 1856.61,
+  "total_ttc": 28379.59,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.26,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

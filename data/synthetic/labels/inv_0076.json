@@ -1,0 +1,52 @@
+{
+  "id": "inv_0076",
+  "invoice_number": "FAC/2026/00188",
+  "invoice_date": "2026-07-09",
+  "due_date": "2026-09-07",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 1,
+      "unit_price_ht": 625.0,
+      "total_ht": 625.0
+    }
+  ],
+  "total_ht": 625.0,
+  "tva_rate": 20,
+  "total_tva": 125.0,
+  "total_ttc": 750.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-08-17",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.79,
+    "blur": 0.55,
+    "noise": 4.36,
+    "contrast": 1.1,
+    "brightness": 1.02,
+    "shadow": 0.01,
+    "quality": 84,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

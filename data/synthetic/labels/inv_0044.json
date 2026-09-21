@@ -1,0 +1,76 @@
+{
+  "id": "inv_0044",
+  "invoice_number": "FAC/2026/00093",
+  "invoice_date": "2026-01-15",
+  "due_date": "2026-01-30",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 1,
+      "unit_price_ht": 1214.13,
+      "total_ht": 1214.13
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 3,
+      "unit_price_ht": 3140.0,
+      "total_ht": 9420.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 18,
+      "unit_price_ht": 625.0,
+      "total_ht": 11250.0
+    },
+    {
+      "description": "Maintenance climatisation - forfait",
+      "quantity": 4,
+      "unit_price_ht": 1000.0,
+      "total_ht": 4000.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 10,
+      "unit_price_ht": 798.26,
+      "total_ht": 7982.6
+    }
+  ],
+  "total_ht": 33866.73,
+  "tva_rate": 20,
+  "total_tva": 6773.35,
+  "total_ttc": 40640.08,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-02-08",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.15,
+    "blur": 0.77,
+    "noise": 6.03,
+    "contrast": 1.05,
+    "brightness": 1.0,
+    "shadow": 0.07,
+    "quality": 78,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

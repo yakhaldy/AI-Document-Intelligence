@@ -1,0 +1,58 @@
+{
+  "id": "inv_0066",
+  "invoice_number": "F2025-0175",
+  "invoice_date": "2025-05-16",
+  "due_date": "2025-07-15",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 1,
+      "unit_price_ht": 1365.0,
+      "total_ht": 1365.0
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 3,
+      "unit_price_ht": 6224.63,
+      "total_ht": 18673.89
+    }
+  ],
+  "total_ht": 20038.89,
+  "tva_rate": 20,
+  "total_tva": 4007.78,
+  "total_ttc": 24046.67,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-06-06",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.68,
+    "blur": 0.68,
+    "noise": 6.58,
+    "contrast": 0.92,
+    "brightness": 0.96,
+    "shadow": 0.02,
+    "quality": 57,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

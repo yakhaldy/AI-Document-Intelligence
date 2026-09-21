@@ -1,0 +1,64 @@
+{
+  "id": "inv_0188",
+  "invoice_number": "FAC/2026/00109",
+  "invoice_date": "2026-04-01",
+  "due_date": "2026-04-16",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Installation et mise en service",
+      "quantity": 20,
+      "unit_price_ht": 392.51,
+      "total_ht": 7850.2
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 4,
+      "unit_price_ht": 1214.13,
+      "total_ht": 4856.52
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 3,
+      "unit_price_ht": 3140.0,
+      "total_ht": 9420.0
+    }
+  ],
+  "total_ht": 22126.72,
+  "tva_rate": 20,
+  "total_tva": 4425.34,
+  "total_ttc": 26552.06,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-04-06",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.05,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

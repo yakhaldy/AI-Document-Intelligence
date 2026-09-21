@@ -1,0 +1,58 @@
+{
+  "id": "inv_0069",
+  "invoice_number": "FA-000157",
+  "invoice_date": "2025-09-11",
+  "due_date": null,
+  "supplier": {
+    "name": "Doukkala Négoce SARL",
+    "ice": "229413186999386",
+    "if": "77496499",
+    "rc": "091334",
+    "patente": "12328120",
+    "address": "105 Bd Anfa",
+    "postal_code": "28800",
+    "city": "Mohammedia"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 3,
+      "unit_price_ht": 1716.84,
+      "total_ht": 5150.52
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 54,
+      "unit_price_ht": 90.0,
+      "total_ht": 4860.0
+    }
+  ],
+  "total_ht": 10010.52,
+  "tva_rate": 14,
+  "total_tva": 1401.47,
+  "total_ttc": 11411.99,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-09-20",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.93,
+    "blur": 0.5,
+    "noise": 7.88,
+    "contrast": 1.06,
+    "brightness": 1.03,
+    "shadow": 0.02,
+    "quality": 67,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "inv_0072",
+  "invoice_number": "0161/2025",
+  "invoice_date": "2025-11-14",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 32,
+      "unit_price_ht": 53.5,
+      "total_ht": 1712.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 4,
+      "unit_price_ht": 305.0,
+      "total_ht": 1220.0
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 4,
+      "unit_price_ht": 3990.39,
+      "total_ht": 15961.56
+    }
+  ],
+  "total_ht": 18893.56,
+  "tva_rate": 20,
+  "total_tva": 3778.71,
+  "total_ttc": 22672.27,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-11-19",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.6,
+    "blur": 0.38,
+    "noise": 9.72,
+    "contrast": 1.0,
+    "brightness": 1.03,
+    "shadow": 0.07,
+    "quality": 60,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

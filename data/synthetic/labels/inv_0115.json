@@ -1,0 +1,82 @@
+{
+  "id": "inv_0115",
+  "invoice_number": "FA-000149",
+  "invoice_date": "2026-07-21",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 4,
+      "unit_price_ht": 1218.1,
+      "total_ht": 4872.4
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 3,
+      "unit_price_ht": 1536.8,
+      "total_ht": 4610.4
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 4,
+      "unit_price_ht": 1700.0,
+      "total_ht": 6800.0
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 4,
+      "unit_price_ht": 1065.0,
+      "total_ht": 4260.0
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 20,
+      "unit_price_ht": 561.16,
+      "total_ht": 11223.2
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 2,
+      "unit_price_ht": 1337.03,
+      "total_ht": 2674.06
+    }
+  ],
+  "total_ht": 34440.06,
+  "tva_rate": 20,
+  "total_tva": 6888.01,
+  "total_ttc": 41328.07,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.33,
+    "blur": 0.88,
+    "noise": 13.3,
+    "contrast": 0.89,
+    "brightness": 1.01,
+    "shadow": 0.19,
+    "quality": 52,
+    "gray": false,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

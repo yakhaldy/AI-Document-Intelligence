@@ -1,0 +1,82 @@
+{
+  "id": "inv_0014",
+  "invoice_number": "FAC/2025/00296",
+  "invoice_date": "2025-07-11",
+  "due_date": "2025-08-10",
+  "supplier": {
+    "name": "Tafilalet Conseil SNC",
+    "ice": "889373467065627",
+    "if": "29806990",
+    "rc": "162720",
+    "patente": null,
+    "address": "72 Rue des Orangers",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 4,
+      "unit_price_ht": 1365.0,
+      "total_ht": 5460.0
+    },
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 12,
+      "unit_price_ht": 605.0,
+      "total_ht": 7260.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 9,
+      "unit_price_ht": 233.81,
+      "total_ht": 2104.29
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 1,
+      "unit_price_ht": 8575.0,
+      "total_ht": 8575.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 12,
+      "unit_price_ht": 817.78,
+      "total_ht": 9813.36
+    },
+    {
+      "description": "Ramette papier A4 80g",
+      "quantity": 55,
+      "unit_price_ht": 30.0,
+      "total_ht": 1650.0
+    }
+  ],
+  "total_ht": 34862.65,
+  "tva_rate": 20,
+  "total_tva": 6972.53,
+  "total_ttc": 41835.18,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-08-22",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.71,
+    "blur": 0.47,
+    "noise": 4.27,
+    "contrast": 1.01,
+    "brightness": 1.03,
+    "shadow": 0.02,
+    "quality": 79,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

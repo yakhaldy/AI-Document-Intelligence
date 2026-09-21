@@ -1,0 +1,94 @@
+{
+  "id": "inv_0174",
+  "invoice_number": "F2026-0275",
+  "invoice_date": "2026-01-07",
+  "due_date": "2026-03-08",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 2,
+      "unit_price_ht": 4492.04,
+      "total_ht": 8984.08
+    },
+    {
+      "description": "Maintenance climatisation - forfait",
+      "quantity": 3,
+      "unit_price_ht": 1620.0,
+      "total_ht": 4860.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 2,
+      "unit_price_ht": 1676.58,
+      "total_ht": 3353.16
+    },
+    {
+      "description": "Transport de marchandises Casablanca-Rabat",
+      "quantity": 2,
+      "unit_price_ht": 1408.67,
+      "total_ht": 2817.34
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 6337.07,
+      "total_ht": 12674.14
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 6,
+      "unit_price_ht": 895.0,
+      "total_ht": 5370.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 1,
+      "unit_price_ht": 2040.0,
+      "total_ht": 2040.0
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 4,
+      "unit_price_ht": 1050.0,
+      "total_ht": 4200.0
+    }
+  ],
+  "total_ht": 44298.72,
+  "tva_rate": 20,
+  "total_tva": 8859.74,
+  "total_ttc": 53158.46,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-03-05",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.24,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

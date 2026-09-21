@@ -1,0 +1,94 @@
+{
+  "id": "inv_0051",
+  "invoice_number": "F2026-0255",
+  "invoice_date": "2026-03-18",
+  "due_date": "2026-05-17",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 4,
+      "unit_price_ht": 4492.04,
+      "total_ht": 17968.16
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1050.0,
+      "total_ht": 1050.0
+    },
+    {
+      "description": "Transport de marchandises Casablanca-Rabat",
+      "quantity": 3,
+      "unit_price_ht": 1408.67,
+      "total_ht": 4226.01
+    },
+    {
+      "description": "Maintenance climatisation - forfait",
+      "quantity": 4,
+      "unit_price_ht": 1620.0,
+      "total_ht": 6480.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 2040.0,
+      "total_ht": 8160.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 3,
+      "unit_price_ht": 895.0,
+      "total_ht": 2685.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 2,
+      "unit_price_ht": 1676.58,
+      "total_ht": 3353.16
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 6337.07,
+      "total_ht": 12674.14
+    }
+  ],
+  "total_ht": 56596.47,
+  "tva_rate": 20,
+  "total_tva": 11319.29,
+  "total_ttc": 67915.76,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-04-21",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.31,
+    "blur": 0.52,
+    "noise": 6.53,
+    "contrast": 1.0,
+    "brightness": 0.96,
+    "shadow": 0.03,
+    "quality": 62,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

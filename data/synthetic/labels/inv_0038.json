@@ -1,0 +1,52 @@
+{
+  "id": "inv_0038",
+  "invoice_number": "F2025-0247",
+  "invoice_date": "2025-03-12",
+  "due_date": "2025-05-11",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 4,
+      "unit_price_ht": 1676.58,
+      "total_ht": 6706.32
+    }
+  ],
+  "total_ht": 6706.32,
+  "tva_rate": 20,
+  "total_tva": 1341.26,
+  "total_ttc": 8047.58,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-05-04",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.36,
+    "blur": 1.35,
+    "noise": 13.02,
+    "contrast": 0.77,
+    "brightness": 1.04,
+    "shadow": 0.28,
+    "quality": 39,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

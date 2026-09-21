@@ -1,0 +1,76 @@
+{
+  "id": "inv_0062",
+  "invoice_number": "202600007",
+  "invoice_date": "2026-07-10",
+  "due_date": "2026-08-09",
+  "supplier": {
+    "name": "Tingis Logistique SARL",
+    "ice": "831727889579868",
+    "if": "72774348",
+    "rc": "734714",
+    "patente": null,
+    "address": "60 Rue des Orangers",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 3,
+      "unit_price_ht": 4205.0,
+      "total_ht": 12615.0
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 1,
+      "unit_price_ht": 2760.43,
+      "total_ht": 2760.43
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 4,
+      "unit_price_ht": 1070.0,
+      "total_ht": 4280.0
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 9,
+      "unit_price_ht": 240.0,
+      "total_ht": 2160.0
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 3,
+      "unit_price_ht": 7470.0,
+      "total_ht": 22410.0
+    }
+  ],
+  "total_ht": 44225.43,
+  "tva_rate": 10,
+  "total_tva": 4422.54,
+  "total_ttc": 48647.97,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-07-17",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.93,
+    "blur": 0.59,
+    "noise": 6.1,
+    "contrast": 1.04,
+    "brightness": 1.01,
+    "shadow": 0.02,
+    "quality": 59,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

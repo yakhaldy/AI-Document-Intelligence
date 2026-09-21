@@ -1,0 +1,64 @@
+{
+  "id": "inv_0095",
+  "invoice_number": "FA-000063",
+  "invoice_date": "2025-02-08",
+  "due_date": "2025-02-23",
+  "supplier": {
+    "name": "Souss Informatique SNC",
+    "ice": "564823662994680",
+    "if": "44369957",
+    "rc": "773872",
+    "patente": "14895134",
+    "address": "58 Bd Mohammed VI",
+    "postal_code": "14000",
+    "city": "Kénitra"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 20,
+      "unit_price_ht": 881.79,
+      "total_ht": 17635.8
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 13,
+      "unit_price_ht": 801.91,
+      "total_ht": 10424.83
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 1,
+      "unit_price_ht": 1944.53,
+      "total_ht": 1944.53
+    }
+  ],
+  "total_ht": 30005.16,
+  "tva_rate": 20,
+  "total_tva": 6001.03,
+  "total_ttc": 36006.19,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.35,
+    "blur": 0.54,
+    "noise": 5.61,
+    "contrast": 0.97,
+    "brightness": 0.98,
+    "shadow": 0.08,
+    "quality": 64,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

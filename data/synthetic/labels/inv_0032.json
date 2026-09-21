@@ -1,0 +1,58 @@
+{
+  "id": "inv_0032",
+  "invoice_number": "F2026-0162",
+  "invoice_date": "2026-04-29",
+  "due_date": "2026-06-28",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Hotte aspirante inox",
+      "quantity": 2,
+      "unit_price_ht": 2826.15,
+      "total_ht": 5652.3
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 4,
+      "unit_price_ht": 3685.0,
+      "total_ht": 14740.0
+    }
+  ],
+  "total_ht": 20392.3,
+  "tva_rate": 20,
+  "total_tva": 4078.46,
+  "total_ttc": 24470.76,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.45,
+    "blur": 0.68,
+    "noise": 5.72,
+    "contrast": 0.96,
+    "brightness": 0.96,
+    "shadow": 0.08,
+    "quality": 75,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "inv_0110",
+  "invoice_number": "202500118",
+  "invoice_date": "2025-04-17",
+  "due_date": "2025-06-01",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 3,
+      "unit_price_ht": 8455.0,
+      "total_ht": 25365.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 20,
+      "unit_price_ht": 625.03,
+      "total_ht": 12500.6
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 1,
+      "unit_price_ht": 450.0,
+      "total_ht": 450.0
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 2,
+      "unit_price_ht": 11660.0,
+      "total_ht": 23320.0
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 4,
+      "unit_price_ht": 7450.0,
+      "total_ht": 29800.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 16,
+      "unit_price_ht": 766.04,
+      "total_ht": 12256.64
+    }
+  ],
+  "total_ht": 103692.24,
+  "tva_rate": 20,
+  "total_tva": 20738.45,
+  "total_ttc": 124430.69,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-22",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.46,
+    "blur": 0.73,
+    "noise": 7.15,
+    "contrast": 1.05,
+    "brightness": 1.02,
+    "shadow": 0.02,
+    "quality": 85,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "inv_0045",
+  "invoice_number": "FA-000142",
+  "invoice_date": "2025-06-23",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 4,
+      "unit_price_ht": 2348.25,
+      "total_ht": 9393.0
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 2,
+      "unit_price_ht": 1065.0,
+      "total_ht": 2130.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 2,
+      "unit_price_ht": 1700.0,
+      "total_ht": 3400.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 1,
+      "unit_price_ht": 1337.03,
+      "total_ht": 1337.03
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 2,
+      "unit_price_ht": 1536.8,
+      "total_ht": 3073.6
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 13580.67,
+      "total_ht": 13580.67
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 2,
+      "unit_price_ht": 1218.1,
+      "total_ht": 2436.2
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 17,
+      "unit_price_ht": 561.16,
+      "total_ht": 9539.72
+    }
+  ],
+  "total_ht": 44890.22,
+  "tva_rate": 20,
+  "total_tva": 8978.04,
+  "total_ttc": 53868.26,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-07-13",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.05,
+    "blur": 0.54,
+    "noise": 4.04,
+    "contrast": 1.01,
+    "brightness": 0.95,
+    "shadow": 0.05,
+    "quality": 63,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

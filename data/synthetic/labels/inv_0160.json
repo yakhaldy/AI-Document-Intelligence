@@ -1,0 +1,58 @@
+{
+  "id": "inv_0160",
+  "invoice_number": "F2026-0270",
+  "invoice_date": "2026-04-17",
+  "due_date": "2026-06-16",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 3,
+      "unit_price_ht": 2040.0,
+      "total_ht": 6120.0
+    },
+    {
+      "description": "Transport de marchandises Casablanca-Rabat",
+      "quantity": 2,
+      "unit_price_ht": 1408.67,
+      "total_ht": 2817.34
+    }
+  ],
+  "total_ht": 8937.34,
+  "tva_rate": 20,
+  "total_tva": 1787.47,
+  "total_ttc": 10724.81,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-04-28",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.85,
+    "blur": 0.34,
+    "noise": 5.95,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.09,
+    "quality": 77,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

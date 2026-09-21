@@ -1,0 +1,76 @@
+{
+  "id": "inv_0106",
+  "invoice_number": "202500114",
+  "invoice_date": "2025-02-19",
+  "due_date": "2025-04-05",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 5,
+      "unit_price_ht": 450.0,
+      "total_ht": 2250.0
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 8455.0,
+      "total_ht": 16910.0
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 8924.55,
+      "total_ht": 8924.55
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 3,
+      "unit_price_ht": 7450.0,
+      "total_ht": 22350.0
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 4,
+      "unit_price_ht": 11660.0,
+      "total_ht": 46640.0
+    }
+  ],
+  "total_ht": 97074.55,
+  "tva_rate": 20,
+  "total_tva": 19414.91,
+  "total_ttc": 116489.46,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.32,
+    "blur": 0.37,
+    "noise": 8.98,
+    "contrast": 0.92,
+    "brightness": 1.02,
+    "shadow": 0.01,
+    "quality": 58,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,201 @@
+id,split,supplier,template,scan_profile,invoice_date,payment_status,total_ttc
+inv_0001,test,Souss Matériaux SARL,minimal,scan,2025-02-23,paid,8138.87
+inv_0002,dev,Tafilalet Conseil SNC,classic,clean,2025-01-08,unpaid,43302.7
+inv_0003,dev,Rif Négoce SA,classic,scan,2025-03-15,paid,1026.0
+inv_0004,dev,Doukkala Hygiène SNC,minimal,scan,2025-04-01,paid,46881.84
+inv_0005,test,Tingis Équipement SA,minimal,scan,2025-04-16,paid,30665.98
+inv_0006,dev,Oum Errabia Informatique SARL,modern,bad,2026-03-29,paid,16651.58
+inv_0007,dev,Tafilalet Conseil SNC,classic,scan,2025-11-26,unpaid,44956.62
+inv_0008,test,Tafilalet Équipement SNC,modern,scan,2025-12-08,unpaid,77808.0
+inv_0009,dev,Rif Services SARL,modern,bad,2026-06-05,paid,8865.48
+inv_0010,dev,Doukkala Hygiène SNC,minimal,scan,2026-01-21,paid,66439.92
+inv_0011,test,Souss Matériaux SARL,minimal,scan,2026-04-18,paid,26527.06
+inv_0012,test,Souss Matériaux SARL,minimal,scan,2026-03-01,paid,19334.41
+inv_0013,dev,Bouregreg Import Export SARL AU,modern,bad,2026-07-16,paid,47112.0
+inv_0014,dev,Tafilalet Conseil SNC,classic,scan,2025-07-11,paid,41835.18
+inv_0015,test,Maghreb Electro SNC,minimal,scan,2025-07-06,paid,11662.57
+inv_0016,dev,Rif Services SARL,modern,clean,2025-10-07,paid,39544.92
+inv_0017,dev,Tafilalet Conseil SNC,classic,clean,2026-07-13,paid,25173.36
+inv_0018,dev,Tafilalet Conseil SNC,classic,scan,2025-10-09,paid,12015.7
+inv_0019,dev,Rif Services SARL,modern,scan,2026-01-15,paid,32124.28
+inv_0020,test,Tingis Équipement SA,minimal,clean,2025-03-31,paid,36465.2
+inv_0021,dev,Souss Informatique SNC,modern,scan,2025-03-30,paid,22043.51
+inv_0022,dev,Maghreb Distribution SARL AU,classic,scan,2026-06-15,paid,21884.9
+inv_0023,test,Souss Matériaux SARL,minimal,clean,2025-01-30,paid,18200.33
+inv_0024,test,Tafilalet Équipement SNC,modern,bad,2026-05-10,paid,105241.92
+inv_0025,test,Tingis Équipement SA,minimal,scan,2025-02-21,paid,110889.85
+inv_0026,test,Tafilalet Équipement SNC,modern,scan,2025-04-21,paid,69264.0
+inv_0027,dev,Oum Errabia Informatique SARL,modern,scan,2026-01-18,paid,76893.76
+inv_0028,test,Souss Matériaux SARL,minimal,scan,2026-03-03,paid,15072.0
+inv_0029,dev,Oum Errabia Informatique SARL,modern,scan,2025-01-20,paid,57508.54
+inv_0030,dev,Tafilalet Conseil SNC,classic,bad,2025-07-16,paid,28299.72
+inv_0031,test,Tingis Équipement SA,minimal,scan,2025-02-13,paid,81254.9
+inv_0032,dev,Sahara Hygiène SNC,classic,scan,2026-04-29,unpaid,24470.76
+inv_0033,test,Maghreb Electro SNC,minimal,clean,2025-06-29,paid,17192.02
+inv_0034,dev,Doukkala Hygiène SNC,minimal,scan,2025-10-19,paid,76917.29
+inv_0035,test,Tingis Équipement SA,minimal,scan,2026-05-04,paid,44792.37
+inv_0036,test,Tafilalet Équipement SNC,modern,bad,2025-10-30,paid,21462.11
+inv_0037,dev,Doukkala Hygiène SNC,minimal,scan,2025-03-05,paid,67169.33
+inv_0038,dev,Oum Errabia Informatique SARL,modern,bad,2025-03-12,paid,8047.58
+inv_0039,dev,Oum Errabia Informatique SARL,modern,scan,2026-07-05,paid,60168.03
+inv_0040,dev,Bouregreg Import Export SARL AU,modern,bad,2025-09-08,unpaid,100270.38
+inv_0041,test,Maghreb Electro SNC,minimal,scan,2026-03-14,paid,7376.64
+inv_0042,dev,Sahara Hygiène SNC,classic,scan,2026-07-25,paid,61330.27
+inv_0043,test,Tafilalet Équipement SNC,modern,scan,2025-08-05,paid,9704.66
+inv_0044,test,Souss Matériaux SARL,minimal,scan,2026-01-15,paid,40640.08
+inv_0045,test,Maghreb Electro SNC,minimal,scan,2025-06-23,paid,53868.26
+inv_0046,dev,Maghreb Distribution SARL AU,classic,scan,2025-07-03,unpaid,10018.13
+inv_0047,dev,Rif Services SARL,modern,bad,2025-04-06,paid,36169.52
+inv_0048,dev,Rif Services SARL,modern,scan,2025-07-03,unpaid,3084.0
+inv_0049,test,Tingis Équipement SA,minimal,bad,2026-05-28,paid,5139.96
+inv_0050,dev,Sahara Hygiène SNC,classic,scan,2026-08-23,paid,13758.0
+inv_0051,dev,Oum Errabia Informatique SARL,modern,scan,2026-03-18,paid,67915.76
+inv_0052,dev,Tafilalet Conseil SNC,classic,scan,2026-04-14,paid,13326.5
+inv_0053,dev,Sahara Hygiène SNC,classic,scan,2025-10-26,paid,42868.01
+inv_0054,dev,Doukkala Négoce SARL,classic,scan,2026-05-27,unpaid,22624.42
+inv_0055,dev,Tingis Logistique SARL,minimal,scan,2025-04-22,paid,27979.55
+inv_0056,dev,Oum Errabia Informatique SARL,modern,clean,2026-03-02,paid,12415.21
+inv_0057,test,Souss Matériaux SARL,minimal,clean,2025-11-04,paid,3664.11
+inv_0058,dev,Souss Informatique SNC,modern,scan,2026-02-19,paid,3506.15
+inv_0059,test,Tafilalet Équipement SNC,modern,scan,2026-06-25,paid,28719.7
+inv_0060,test,Tingis Équipement SA,minimal,scan,2026-05-17,unpaid,40723.43
+inv_0061,test,Tingis Équipement SA,minimal,clean,2026-08-02,paid,45303.9
+inv_0062,dev,Tingis Logistique SARL,minimal,scan,2026-07-10,paid,48647.97
+inv_0063,dev,Rif Négoce SA,classic,scan,2026-08-07,paid,34498.29
+inv_0064,dev,Rif Négoce SA,classic,scan,2026-05-17,paid,12902.1
+inv_0065,dev,Doukkala Négoce SARL,classic,bad,2025-08-12,paid,50028.5
+inv_0066,dev,Sahara Hygiène SNC,classic,scan,2025-05-16,paid,24046.67
+inv_0067,dev,Tingis Logistique SARL,minimal,clean,2025-01-10,unpaid,44004.0
+inv_0068,test,Tingis Équipement SA,minimal,scan,2025-05-17,paid,16962.13
+inv_0069,dev,Doukkala Négoce SARL,classic,scan,2025-09-11,paid,11411.99
+inv_0070,dev,Rif Services SARL,modern,clean,2026-06-25,unpaid,28379.59
+inv_0071,dev,Rif Négoce SA,classic,clean,2025-03-03,paid,22599.05
+inv_0072,dev,Rif Services SARL,modern,scan,2025-11-14,paid,22672.27
+inv_0073,dev,Doukkala Négoce SARL,classic,scan,2025-05-01,paid,33393.25
+inv_0074,dev,Bouregreg Import Export SARL AU,modern,clean,2025-09-08,unpaid,94147.27
+inv_0075,test,Tingis Équipement SA,minimal,scan,2026-06-13,paid,103842.5
+inv_0076,dev,Maghreb Distribution SARL AU,classic,scan,2026-07-09,paid,750.0
+inv_0077,dev,Tingis Logistique SARL,minimal,clean,2026-01-17,paid,13836.0
+inv_0078,test,Souss Matériaux SARL,minimal,scan,2025-12-01,paid,41051.77
+inv_0079,test,Tingis Équipement SA,minimal,clean,2025-09-12,paid,103326.64
+inv_0080,test,Tingis Équipement SA,minimal,clean,2026-02-15,paid,8942.06
+inv_0081,dev,Doukkala Négoce SARL,classic,clean,2025-05-06,paid,77817.17
+inv_0082,dev,Rif Négoce SA,classic,bad,2026-05-26,paid,30537.66
+inv_0083,test,Tafilalet Équipement SNC,modern,bad,2025-01-27,unpaid,30996.26
+inv_0084,dev,Doukkala Négoce SARL,classic,scan,2025-12-30,paid,12228.62
+inv_0085,dev,Souss Informatique SNC,modern,clean,2025-04-03,paid,6454.58
+inv_0086,test,Souss Matériaux SARL,minimal,scan,2025-01-23,unpaid,8138.87
+inv_0087,test,Tingis Équipement SA,minimal,scan,2025-08-17,paid,96460.52
+inv_0088,dev,Souss Informatique SNC,modern,bad,2025-09-29,paid,5275.73
+inv_0089,test,Tingis Équipement SA,minimal,bad,2025-03-17,paid,35862.97
+inv_0090,test,Tingis Équipement SA,minimal,scan,2025-04-14,paid,94260.35
+inv_0091,dev,Rif Services SARL,modern,clean,2025-03-25,unpaid,22557.49
+inv_0092,test,Souss Matériaux SARL,minimal,bad,2026-01-14,paid,24006.47
+inv_0093,dev,Doukkala Hygiène SNC,minimal,scan,2026-05-30,paid,26594.26
+inv_0094,dev,Tingis Logistique SARL,minimal,bad,2026-07-20,paid,25500.0
+inv_0095,dev,Souss Informatique SNC,modern,scan,2025-02-08,unpaid,36006.19
+inv_0096,dev,Bouregreg Import Export SARL AU,modern,scan,2025-08-22,paid,24773.23
+inv_0097,dev,Doukkala Hygiène SNC,minimal,scan,2025-06-27,paid,25779.52
+inv_0098,test,Tingis Équipement SA,minimal,scan,2025-04-03,paid,17088.0
+inv_0099,dev,Rif Services SARL,modern,scan,2025-01-09,paid,27109.16
+inv_0100,dev,Tafilalet Conseil SNC,classic,scan,2025-11-02,unpaid,33420.45
+inv_0101,dev,Maghreb Distribution SARL AU,classic,scan,2025-12-18,unpaid,50002.04
+inv_0102,dev,Tafilalet Conseil SNC,classic,clean,2026-04-29,unpaid,73169.96
+inv_0103,dev,Rif Services SARL,modern,scan,2025-11-17,unpaid,14365.4
+inv_0104,dev,Maghreb Distribution SARL AU,classic,scan,2026-07-01,paid,15227.84
+inv_0105,dev,Rif Services SARL,modern,scan,2025-12-17,paid,16744.54
+inv_0106,dev,Bouregreg Import Export SARL AU,modern,scan,2025-02-19,unpaid,116489.46
+inv_0107,dev,Rif Négoce SA,classic,bad,2025-09-27,paid,44780.6
+inv_0108,test,Tafilalet Équipement SNC,modern,clean,2026-04-21,paid,12846.95
+inv_0109,dev,Maghreb Distribution SARL AU,classic,scan,2025-06-24,unpaid,35081.36
+inv_0110,dev,Bouregreg Import Export SARL AU,modern,scan,2025-04-17,paid,124430.69
+inv_0111,dev,Tingis Logistique SARL,minimal,clean,2026-03-20,paid,41076.52
+inv_0112,dev,Sahara Hygiène SNC,classic,scan,2025-08-29,paid,60129.01
+inv_0113,dev,Bouregreg Import Export SARL AU,modern,clean,2026-04-11,paid,121964.51
+inv_0114,test,Maghreb Electro SNC,minimal,scan,2025-04-20,paid,44647.15
+inv_0115,test,Maghreb Electro SNC,minimal,bad,2026-07-21,unpaid,41328.07
+inv_0116,test,Maghreb Electro SNC,minimal,scan,2025-07-25,paid,13420.02
+inv_0117,test,Tingis Équipement SA,minimal,bad,2025-02-27,paid,55783.38
+inv_0118,dev,Doukkala Négoce SARL,classic,scan,2025-02-18,unpaid,53503.11
+inv_0119,dev,Rif Services SARL,modern,scan,2025-07-11,paid,39920.19
+inv_0120,dev,Tingis Logistique SARL,minimal,scan,2026-03-02,paid,27865.55
+inv_0121,dev,Rif Négoce SA,classic,scan,2025-11-25,paid,28530.0
+inv_0122,dev,Maghreb Distribution SARL AU,classic,scan,2025-08-04,paid,40519.38
+inv_0123,dev,Tingis Logistique SARL,minimal,bad,2025-03-06,paid,29772.0
+inv_0124,test,Tafilalet Équipement SNC,modern,scan,2025-01-12,unpaid,18875.36
+inv_0125,dev,Bouregreg Import Export SARL AU,modern,scan,2025-07-18,unpaid,15339.14
+inv_0126,dev,Tafilalet Conseil SNC,classic,scan,2025-07-18,paid,48342.02
+inv_0127,dev,Rif Services SARL,modern,scan,2025-10-15,unpaid,64657.7
+inv_0128,dev,Tafilalet Conseil SNC,classic,scan,2026-06-11,paid,32763.84
+inv_0129,test,Tafilalet Équipement SNC,modern,bad,2026-08-16,paid,43418.41
+inv_0130,dev,Rif Services SARL,modern,clean,2026-03-01,paid,33338.64
+inv_0131,test,Tingis Équipement SA,minimal,scan,2026-08-10,paid,28588.77
+inv_0132,dev,Rif Négoce SA,classic,bad,2025-05-27,paid,34906.67
+inv_0133,dev,Tingis Logistique SARL,minimal,scan,2025-04-06,unpaid,25080.0
+inv_0134,dev,Tafilalet Conseil SNC,classic,scan,2026-03-12,paid,48522.0
+inv_0135,test,Tafilalet Équipement SNC,modern,scan,2026-08-02,paid,16780.13
+inv_0136,dev,Oum Errabia Informatique SARL,modern,clean,2026-06-05,paid,40414.58
+inv_0137,dev,Sahara Hygiène SNC,classic,scan,2025-02-28,paid,68751.24
+inv_0138,test,Maghreb Electro SNC,minimal,scan,2025-12-22,paid,28790.86
+inv_0139,dev,Souss Informatique SNC,modern,bad,2025-12-14,paid,25431.83
+inv_0140,dev,Doukkala Hygiène SNC,minimal,scan,2025-07-07,paid,79017.62
+inv_0141,dev,Doukkala Hygiène SNC,minimal,clean,2026-05-18,paid,120145.69
+inv_0142,test,Maghreb Electro SNC,minimal,scan,2025-01-13,paid,23027.23
+inv_0143,dev,Oum Errabia Informatique SARL,modern,scan,2025-08-30,unpaid,43693.06
+inv_0144,dev,Bouregreg Import Export SARL AU,modern,scan,2026-05-03,unpaid,116331.12
+inv_0145,test,Tafilalet Équipement SNC,modern,scan,2025-05-29,paid,28008.7
+inv_0146,test,Tingis Équipement SA,minimal,scan,2025-05-09,unpaid,20531.48
+inv_0147,test,Tafilalet Équipement SNC,modern,scan,2025-09-11,paid,70384.7
+inv_0148,dev,Rif Négoce SA,classic,scan,2026-03-29,paid,18849.62
+inv_0149,dev,Doukkala Hygiène SNC,minimal,scan,2026-02-09,paid,14451.41
+inv_0150,test,Tingis Équipement SA,minimal,scan,2025-04-24,paid,47957.97
+inv_0151,dev,Maghreb Distribution SARL AU,classic,scan,2025-03-24,paid,13884.0
+inv_0152,dev,Rif Négoce SA,classic,bad,2025-04-07,paid,16848.35
+inv_0153,dev,Maghreb Distribution SARL AU,classic,bad,2026-08-19,paid,5760.55
+inv_0154,dev,Tingis Logistique SARL,minimal,scan,2026-03-26,paid,3852.0
+inv_0155,dev,Doukkala Hygiène SNC,minimal,scan,2025-03-12,paid,73367.77
+inv_0156,test,Tingis Équipement SA,minimal,scan,2025-02-02,paid,27119.15
+inv_0157,dev,Oum Errabia Informatique SARL,modern,clean,2025-03-04,paid,57810.3
+inv_0158,test,Maghreb Electro SNC,minimal,scan,2026-08-14,paid,68324.88
+inv_0159,dev,Sahara Hygiène SNC,classic,scan,2025-02-05,paid,7885.9
+inv_0160,dev,Oum Errabia Informatique SARL,modern,scan,2026-04-17,paid,10724.81
+inv_0161,dev,Oum Errabia Informatique SARL,modern,scan,2025-02-08,paid,18288.73
+inv_0162,test,Tingis Équipement SA,minimal,scan,2026-05-30,paid,22595.1
+inv_0163,dev,Souss Informatique SNC,modern,scan,2026-05-15,unpaid,11828.63
+inv_0164,test,Souss Matériaux SARL,minimal,clean,2025-05-30,paid,5250.0
+inv_0165,test,Tingis Équipement SA,minimal,scan,2025-01-15,paid,34291.87
+inv_0166,dev,Maghreb Distribution SARL AU,classic,clean,2025-06-24,unpaid,23081.51
+inv_0167,dev,Bouregreg Import Export SARL AU,modern,scan,2025-04-21,paid,36934.82
+inv_0168,dev,Souss Informatique SNC,modern,bad,2025-06-10,unpaid,17522.81
+inv_0169,dev,Rif Services SARL,modern,scan,2026-03-04,paid,25885.73
+inv_0170,dev,Rif Services SARL,modern,scan,2025-11-22,unpaid,51967.5
+inv_0171,dev,Tingis Logistique SARL,minimal,scan,2026-01-18,paid,27238.23
+inv_0172,dev,Sahara Hygiène SNC,classic,scan,2026-01-25,paid,47141.95
+inv_0173,dev,Tafilalet Conseil SNC,classic,scan,2026-06-14,paid,81560.82
+inv_0174,dev,Oum Errabia Informatique SARL,modern,clean,2026-01-07,paid,53158.46
+inv_0175,dev,Rif Négoce SA,classic,scan,2025-09-17,paid,36269.87
+inv_0176,dev,Bouregreg Import Export SARL AU,modern,scan,2026-08-15,unpaid,61703.4
+inv_0177,dev,Bouregreg Import Export SARL AU,modern,scan,2026-03-14,unpaid,89673.84
+inv_0178,test,Tafilalet Équipement SNC,modern,bad,2025-11-21,paid,68755.73
+inv_0179,test,Tafilalet Équipement SNC,modern,bad,2026-06-03,paid,5382.0
+inv_0180,dev,Souss Informatique SNC,modern,scan,2026-04-19,unpaid,3672.0
+inv_0181,test,Souss Matériaux SARL,minimal,scan,2026-07-02,paid,24113.43
+inv_0182,dev,Rif Négoce SA,classic,scan,2026-05-11,paid,37837.68
+inv_0183,dev,Doukkala Hygiène SNC,minimal,scan,2025-11-25,paid,49257.85
+inv_0184,test,Tafilalet Équipement SNC,modern,clean,2026-07-08,paid,7512.0
+inv_0185,dev,Tafilalet Conseil SNC,classic,scan,2025-12-31,paid,36237.06
+inv_0186,dev,Bouregreg Import Export SARL AU,modern,bad,2026-04-10,unpaid,42837.84
+inv_0187,dev,Oum Errabia Informatique SARL,modern,scan,2026-06-30,paid,57704.93
+inv_0188,test,Souss Matériaux SARL,minimal,clean,2026-04-01,paid,26552.06
+inv_0189,dev,Rif Services SARL,modern,bad,2025-05-31,unpaid,51149.12
+inv_0190,test,Maghreb Electro SNC,minimal,scan,2025-04-23,paid,65187.22
+inv_0191,test,Tafilalet Équipement SNC,modern,scan,2025-05-18,paid,16007.2
+inv_0192,test,Souss Matériaux SARL,minimal,bad,2025-07-10,paid,13816.0
+inv_0193,dev,Tingis Logistique SARL,minimal,scan,2026-04-22,paid,41083.55
+inv_0194,test,Tafilalet Équipement SNC,modern,scan,2026-04-30,paid,2160.0
+inv_0195,dev,Rif Services SARL,modern,scan,2026-01-14,paid,15163.15
+inv_0196,test,Tafilalet Équipement SNC,modern,bad,2025-02-23,paid,61478.62
+inv_0197,test,Tafilalet Équipement SNC,modern,scan,2025-04-11,paid,54227.97
+inv_0198,dev,Rif Négoce SA,classic,scan,2025-05-03,paid,20606.85
+inv_0199,dev,Doukkala Négoce SARL,classic,scan,2025-10-11,paid,59532.17
+inv_0200,dev,Doukkala Négoce SARL,classic,scan,2025-01-20,paid,33948.0

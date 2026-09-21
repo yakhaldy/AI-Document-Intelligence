@@ -1,0 +1,70 @@
+{
+  "id": "inv_0109",
+  "invoice_number": "FAC/2025/00195",
+  "invoice_date": "2025-06-24",
+  "due_date": "2025-08-23",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 3,
+      "unit_price_ht": 4150.0,
+      "total_ht": 12450.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 11,
+      "unit_price_ht": 890.0,
+      "total_ht": 9790.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 6,
+      "unit_price_ht": 626.92,
+      "total_ht": 3761.52
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 1,
+      "unit_price_ht": 3232.95,
+      "total_ht": 3232.95
+    }
+  ],
+  "total_ht": 29234.47,
+  "tva_rate": 20,
+  "total_tva": 5846.89,
+  "total_ttc": 35081.36,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.34,
+    "blur": 0.73,
+    "noise": 8.8,
+    "contrast": 1.03,
+    "brightness": 1.03,
+    "shadow": 0.01,
+    "quality": 77,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

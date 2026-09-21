@@ -1,0 +1,52 @@
+{
+  "id": "inv_0151",
+  "invoice_number": "FAC/2025/00199",
+  "invoice_date": "2025-03-24",
+  "due_date": "2025-05-23",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 13,
+      "unit_price_ht": 890.0,
+      "total_ht": 11570.0
+    }
+  ],
+  "total_ht": 11570.0,
+  "tva_rate": 20,
+  "total_tva": 2314.0,
+  "total_ttc": 13884.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-17",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.36,
+    "blur": 0.31,
+    "noise": 9.85,
+    "contrast": 1.04,
+    "brightness": 0.99,
+    "shadow": 0.1,
+    "quality": 62,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

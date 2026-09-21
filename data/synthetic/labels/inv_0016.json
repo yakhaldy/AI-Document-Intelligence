@@ -1,0 +1,70 @@
+{
+  "id": "inv_0016",
+  "invoice_number": "0146/2025",
+  "invoice_date": "2025-10-07",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 13,
+      "unit_price_ht": 669.6,
+      "total_ht": 8704.8
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 3,
+      "unit_price_ht": 1285.0,
+      "total_ht": 3855.0
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 6,
+      "unit_price_ht": 738.79,
+      "total_ht": 4432.74
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 4,
+      "unit_price_ht": 3990.39,
+      "total_ht": 15961.56
+    }
+  ],
+  "total_ht": 32954.1,
+  "tva_rate": 20,
+  "total_tva": 6590.82,
+  "total_ttc": 39544.92,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-10-23",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.05,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "inv_0121",
+  "invoice_number": "FA-000108",
+  "invoice_date": "2025-11-25",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Négoce SA",
+    "ice": "473829973763116",
+    "if": "56670106",
+    "rc": "513338",
+    "patente": null,
+    "address": "114 Rue Moulay Youssef",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 18,
+      "unit_price_ht": 855.0,
+      "total_ht": 15390.0
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 3,
+      "unit_price_ht": 2795.0,
+      "total_ht": 8385.0
+    }
+  ],
+  "total_ht": 23775.0,
+  "tva_rate": 20,
+  "total_tva": 4755.0,
+  "total_ttc": 28530.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-12-06",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.04,
+    "blur": 0.45,
+    "noise": 7.91,
+    "contrast": 0.96,
+    "brightness": 0.96,
+    "shadow": 0.01,
+    "quality": 85,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "inv_0187",
+  "invoice_number": "F2026-0279",
+  "invoice_date": "2026-06-30",
+  "due_date": "2026-08-29",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 4,
+      "unit_price_ht": 4492.04,
+      "total_ht": 17968.16
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 4,
+      "unit_price_ht": 6337.07,
+      "total_ht": 25348.28
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 1,
+      "unit_price_ht": 1676.58,
+      "total_ht": 1676.58
+    },
+    {
+      "description": "Transport de marchandises Casablanca-Rabat",
+      "quantity": 3,
+      "unit_price_ht": 1408.67,
+      "total_ht": 4226.01
+    },
+    {
+      "description": "Maintenance climatisation - forfait",
+      "quantity": 2,
+      "unit_price_ht": 1620.0,
+      "total_ht": 3240.0
+    }
+  ],
+  "total_ht": 52459.03,
+  "tva_rate": 10,
+  "total_tva": 5245.9,
+  "total_ttc": 57704.93,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-08-24",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.58,
+    "blur": 0.39,
+    "noise": 8.02,
+    "contrast": 1.05,
+    "brightness": 1.02,
+    "shadow": 0.08,
+    "quality": 58,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

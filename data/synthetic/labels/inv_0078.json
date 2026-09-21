@@ -1,0 +1,82 @@
+{
+  "id": "inv_0078",
+  "invoice_number": "FAC/2025/00097",
+  "invoice_date": "2025-12-01",
+  "due_date": "2025-12-16",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Maintenance climatisation - forfait",
+      "quantity": 2,
+      "unit_price_ht": 1000.0,
+      "total_ht": 2000.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 4,
+      "unit_price_ht": 625.0,
+      "total_ht": 2500.0
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 2,
+      "unit_price_ht": 1214.13,
+      "total_ht": 2428.26
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 15,
+      "unit_price_ht": 392.51,
+      "total_ht": 5887.65
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 15,
+      "unit_price_ht": 798.26,
+      "total_ht": 11973.9
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 3,
+      "unit_price_ht": 3140.0,
+      "total_ht": 9420.0
+    }
+  ],
+  "total_ht": 34209.81,
+  "tva_rate": 20,
+  "total_tva": 6841.96,
+  "total_ttc": 41051.77,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-12-14",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 1.06,
+    "blur": 0.35,
+    "noise": 8.85,
+    "contrast": 0.96,
+    "brightness": 1.02,
+    "shadow": 0.06,
+    "quality": 61,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

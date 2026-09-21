@@ -1,0 +1,70 @@
+{
+  "id": "inv_0182",
+  "invoice_number": "FA-000119",
+  "invoice_date": "2026-05-11",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Négoce SA",
+    "ice": "473829973763116",
+    "if": "56670106",
+    "rc": "513338",
+    "patente": null,
+    "address": "114 Rue Moulay Youssef",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 1,
+      "unit_price_ht": 2795.0,
+      "total_ht": 2795.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 15,
+      "unit_price_ht": 587.31,
+      "total_ht": 8809.65
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 13,
+      "unit_price_ht": 414.75,
+      "total_ht": 5391.75
+    },
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 17,
+      "unit_price_ht": 855.0,
+      "total_ht": 14535.0
+    }
+  ],
+  "total_ht": 31531.4,
+  "tva_rate": 20,
+  "total_tva": 6306.28,
+  "total_ttc": 37837.68,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-05-12",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -1.24,
+    "blur": 0.53,
+    "noise": 4.28,
+    "contrast": 1.0,
+    "brightness": 1.02,
+    "shadow": 0.03,
+    "quality": 73,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

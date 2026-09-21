@@ -1,0 +1,76 @@
+{
+  "id": "inv_0059",
+  "invoice_number": "FAC/2026/00161",
+  "invoice_date": "2026-06-25",
+  "due_date": "2026-07-25",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 1481.93,
+      "total_ht": 5927.72
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 2,
+      "unit_price_ht": 1800.0,
+      "total_ht": 3600.0
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 10,
+      "unit_price_ht": 561.25,
+      "total_ht": 5612.5
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 1,
+      "unit_price_ht": 6260.0,
+      "total_ht": 6260.0
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 2,
+      "unit_price_ht": 1266.43,
+      "total_ht": 2532.86
+    }
+  ],
+  "total_ht": 23933.08,
+  "tva_rate": 20,
+  "total_tva": 4786.62,
+  "total_ttc": 28719.7,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-07-02",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.03,
+    "blur": 0.51,
+    "noise": 4.83,
+    "contrast": 0.98,
+    "brightness": 0.97,
+    "shadow": 0.06,
+    "quality": 77,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

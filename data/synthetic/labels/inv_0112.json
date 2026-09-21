@@ -1,0 +1,82 @@
+{
+  "id": "inv_0112",
+  "invoice_number": "F2025-0176",
+  "invoice_date": "2025-08-29",
+  "due_date": "2025-10-28",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Installation et mise en service",
+      "quantity": 11,
+      "unit_price_ht": 945.0,
+      "total_ht": 10395.0
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 1,
+      "unit_price_ht": 3685.0,
+      "total_ht": 3685.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 4,
+      "unit_price_ht": 1365.0,
+      "total_ht": 5460.0
+    },
+    {
+      "description": "Hotte aspirante inox",
+      "quantity": 1,
+      "unit_price_ht": 2826.15,
+      "total_ht": 2826.15
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 4,
+      "unit_price_ht": 710.71,
+      "total_ht": 2842.84
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 4,
+      "unit_price_ht": 6224.63,
+      "total_ht": 24898.52
+    }
+  ],
+  "total_ht": 50107.51,
+  "tva_rate": 20,
+  "total_tva": 10021.5,
+  "total_ttc": 60129.01,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-08-29",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 1.39,
+    "blur": 0.62,
+    "noise": 9.34,
+    "contrast": 1.01,
+    "brightness": 1.02,
+    "shadow": 0.05,
+    "quality": 65,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

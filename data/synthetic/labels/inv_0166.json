@@ -1,0 +1,64 @@
+{
+  "id": "inv_0166",
+  "invoice_number": "FAC/2025/00204",
+  "invoice_date": "2025-06-24",
+  "due_date": "2025-08-23",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 20,
+      "unit_price_ht": 679.82,
+      "total_ht": 13596.4
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 3,
+      "unit_price_ht": 1462.73,
+      "total_ht": 4388.19
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 2,
+      "unit_price_ht": 625.0,
+      "total_ht": 1250.0
+    }
+  ],
+  "total_ht": 19234.59,
+  "tva_rate": 20,
+  "total_tva": 3846.92,
+  "total_ttc": 23081.51,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.1,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

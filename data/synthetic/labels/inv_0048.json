@@ -1,0 +1,52 @@
+{
+  "id": "inv_0048",
+  "invoice_number": "0156/2025",
+  "invoice_date": "2025-07-03",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 2,
+      "unit_price_ht": 1285.0,
+      "total_ht": 2570.0
+    }
+  ],
+  "total_ht": 2570.0,
+  "tva_rate": 20,
+  "total_tva": 514.0,
+  "total_ttc": 3084.0,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.27,
+    "blur": 0.38,
+    "noise": 5.44,
+    "contrast": 1.07,
+    "brightness": 0.99,
+    "shadow": 0.09,
+    "quality": 65,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

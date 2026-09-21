@@ -1,0 +1,64 @@
+{
+  "id": "inv_0021",
+  "invoice_number": "FA-000056",
+  "invoice_date": "2025-03-30",
+  "due_date": "2025-04-14",
+  "supplier": {
+    "name": "Souss Informatique SNC",
+    "ice": "564823662994680",
+    "if": "44369957",
+    "rc": "773872",
+    "patente": "14895134",
+    "address": "58 Bd Mohammed VI",
+    "postal_code": "14000",
+    "city": "Kénitra"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 14,
+      "unit_price_ht": 881.79,
+      "total_ht": 12345.06
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 4,
+      "unit_price_ht": 1020.0,
+      "total_ht": 4080.0
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 1,
+      "unit_price_ht": 1944.53,
+      "total_ht": 1944.53
+    }
+  ],
+  "total_ht": 18369.59,
+  "tva_rate": 20,
+  "total_tva": 3673.92,
+  "total_ttc": 22043.51,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-03",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.47,
+    "blur": 0.74,
+    "noise": 8.68,
+    "contrast": 1.03,
+    "brightness": 0.97,
+    "shadow": 0.1,
+    "quality": 68,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

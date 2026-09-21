@@ -1,0 +1,52 @@
+{
+  "id": "inv_0164",
+  "invoice_number": "FAC/2025/00105",
+  "invoice_date": "2025-05-30",
+  "due_date": "2025-06-14",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 7,
+      "unit_price_ht": 625.0,
+      "total_ht": 4375.0
+    }
+  ],
+  "total_ht": 4375.0,
+  "tva_rate": 20,
+  "total_tva": 875.0,
+  "total_ttc": 5250.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-06-04",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.27,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

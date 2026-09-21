@@ -1,0 +1,64 @@
+{
+  "id": "inv_0195",
+  "invoice_number": "0186/2026",
+  "invoice_date": "2026-01-14",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1285.0,
+      "total_ht": 1285.0
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 3,
+      "unit_price_ht": 3990.39,
+      "total_ht": 11971.17
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 3,
+      "unit_price_ht": 305.0,
+      "total_ht": 915.0
+    }
+  ],
+  "total_ht": 14171.17,
+  "tva_rate": 7,
+  "total_tva": 991.98,
+  "total_ttc": 15163.15,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-01-18",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.26,
+    "blur": 0.49,
+    "noise": 7.96,
+    "contrast": 1.05,
+    "brightness": 0.97,
+    "shadow": 0.06,
+    "quality": 81,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

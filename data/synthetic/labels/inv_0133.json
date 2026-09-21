@@ -1,0 +1,58 @@
+{
+  "id": "inv_0133",
+  "invoice_number": "202500026",
+  "invoice_date": "2025-04-06",
+  "due_date": "2025-05-06",
+  "supplier": {
+    "name": "Tingis Logistique SARL",
+    "ice": "831727889579868",
+    "if": "72774348",
+    "rc": "734714",
+    "patente": null,
+    "address": "60 Rue des Orangers",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 4,
+      "unit_price_ht": 4205.0,
+      "total_ht": 16820.0
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 17,
+      "unit_price_ht": 240.0,
+      "total_ht": 4080.0
+    }
+  ],
+  "total_ht": 20900.0,
+  "tva_rate": 20,
+  "total_tva": 4180.0,
+  "total_ttc": 25080.0,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.21,
+    "blur": 0.77,
+    "noise": 6.89,
+    "contrast": 1.05,
+    "brightness": 0.99,
+    "shadow": 0.08,
+    "quality": 84,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

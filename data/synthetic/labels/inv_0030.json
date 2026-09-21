@@ -1,0 +1,64 @@
+{
+  "id": "inv_0030",
+  "invoice_number": "FAC/2025/00302",
+  "invoice_date": "2025-07-16",
+  "due_date": "2025-08-15",
+  "supplier": {
+    "name": "Tafilalet Conseil SNC",
+    "ice": "889373467065627",
+    "if": "29806990",
+    "rc": "162720",
+    "patente": null,
+    "address": "72 Rue des Orangers",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 10,
+      "unit_price_ht": 233.81,
+      "total_ht": 2338.1
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 3,
+      "unit_price_ht": 1365.0,
+      "total_ht": 4095.0
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 8575.0,
+      "total_ht": 17150.0
+    }
+  ],
+  "total_ht": 23583.1,
+  "tva_rate": 20,
+  "total_tva": 4716.62,
+  "total_ttc": 28299.72,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-08-15",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 2.07,
+    "blur": 0.96,
+    "noise": 10.97,
+    "contrast": 0.89,
+    "brightness": 0.96,
+    "shadow": 0.3,
+    "quality": 46,
+    "gray": false,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

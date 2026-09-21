@@ -1,0 +1,58 @@
+{
+  "id": "inv_0013",
+  "invoice_number": "202600109",
+  "invoice_date": "2026-07-16",
+  "due_date": "2026-08-30",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 8455.0,
+      "total_ht": 16910.0
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 3,
+      "unit_price_ht": 7450.0,
+      "total_ht": 22350.0
+    }
+  ],
+  "total_ht": 39260.0,
+  "tva_rate": 20,
+  "total_tva": 7852.0,
+  "total_ttc": 47112.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-09-12",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.0,
+    "blur": 1.12,
+    "noise": 15.06,
+    "contrast": 0.87,
+    "brightness": 1.01,
+    "shadow": 0.19,
+    "quality": 35,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

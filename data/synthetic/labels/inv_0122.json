@@ -1,0 +1,76 @@
+{
+  "id": "inv_0122",
+  "invoice_number": "FAC/2025/00197",
+  "invoice_date": "2025-08-04",
+  "due_date": "2025-10-03",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 52,
+      "unit_price_ht": 90.0,
+      "total_ht": 4680.0
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 2,
+      "unit_price_ht": 4150.0,
+      "total_ht": 8300.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 1,
+      "unit_price_ht": 890.0,
+      "total_ht": 890.0
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 15,
+      "unit_price_ht": 679.82,
+      "total_ht": 10197.3
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 3,
+      "unit_price_ht": 3232.95,
+      "total_ht": 9698.85
+    }
+  ],
+  "total_ht": 33766.15,
+  "tva_rate": 20,
+  "total_tva": 6753.23,
+  "total_ttc": 40519.38,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-08-26",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.22,
+    "blur": 0.41,
+    "noise": 5.55,
+    "contrast": 0.98,
+    "brightness": 1.01,
+    "shadow": 0.04,
+    "quality": 55,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

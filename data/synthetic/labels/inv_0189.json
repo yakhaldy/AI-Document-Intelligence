@@ -1,0 +1,82 @@
+{
+  "id": "inv_0189",
+  "invoice_number": "0184/2025",
+  "invoice_date": "2025-05-31",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 7,
+      "unit_price_ht": 621.87,
+      "total_ht": 4353.09
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 3,
+      "unit_price_ht": 1285.0,
+      "total_ht": 3855.0
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 3,
+      "unit_price_ht": 3990.39,
+      "total_ht": 11971.17
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 19,
+      "unit_price_ht": 738.79,
+      "total_ht": 14037.01
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 10,
+      "unit_price_ht": 669.6,
+      "total_ht": 6696.0
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 32,
+      "unit_price_ht": 53.5,
+      "total_ht": 1712.0
+    }
+  ],
+  "total_ht": 42624.27,
+  "tva_rate": 20,
+  "total_tva": 8524.85,
+  "total_ttc": 51149.12,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.58,
+    "blur": 1.17,
+    "noise": 14.08,
+    "contrast": 0.92,
+    "brightness": 1.03,
+    "shadow": 0.16,
+    "quality": 52,
+    "gray": false,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

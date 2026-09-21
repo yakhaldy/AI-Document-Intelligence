@@ -1,0 +1,58 @@
+{
+  "id": "inv_0031",
+  "invoice_number": "FAC/2025/00042",
+  "invoice_date": "2025-02-13",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 3,
+      "unit_price_ht": 3584.14,
+      "total_ht": 10752.42
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 4,
+      "unit_price_ht": 14240.0,
+      "total_ht": 56960.0
+    }
+  ],
+  "total_ht": 67712.42,
+  "tva_rate": 20,
+  "total_tva": 13542.48,
+  "total_ttc": 81254.9,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-02-21",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -1.09,
+    "blur": 0.61,
+    "noise": 7.52,
+    "contrast": 0.95,
+    "brightness": 1.02,
+    "shadow": 0.05,
+    "quality": 75,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

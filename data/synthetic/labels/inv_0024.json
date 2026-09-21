@@ -1,0 +1,76 @@
+{
+  "id": "inv_0024",
+  "invoice_number": "FAC/2026/00149",
+  "invoice_date": "2026-05-10",
+  "due_date": "2026-06-09",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 4,
+      "unit_price_ht": 1800.0,
+      "total_ht": 7200.0
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 4,
+      "unit_price_ht": 4052.9,
+      "total_ht": 16211.6
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 16,
+      "unit_price_ht": 561.25,
+      "total_ht": 8980.0
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 4,
+      "unit_price_ht": 13080.0,
+      "total_ht": 52320.0
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 2,
+      "unit_price_ht": 1495.0,
+      "total_ht": 2990.0
+    }
+  ],
+  "total_ht": 87701.6,
+  "tva_rate": 20,
+  "total_tva": 17540.32,
+  "total_ttc": 105241.92,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-06-24",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.08,
+    "blur": 1.04,
+    "noise": 16.09,
+    "contrast": 0.85,
+    "brightness": 0.92,
+    "shadow": 0.19,
+    "quality": 38,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

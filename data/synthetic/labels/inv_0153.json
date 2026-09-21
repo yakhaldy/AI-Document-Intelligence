@@ -1,0 +1,58 @@
+{
+  "id": "inv_0153",
+  "invoice_number": "FAC/2026/00203",
+  "invoice_date": "2026-08-19",
+  "due_date": "2026-10-18",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 3,
+      "unit_price_ht": 625.0,
+      "total_ht": 1875.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 2,
+      "unit_price_ht": 1462.73,
+      "total_ht": 2925.46
+    }
+  ],
+  "total_ht": 4800.46,
+  "tva_rate": 20,
+  "total_tva": 960.09,
+  "total_ttc": 5760.55,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-11-06",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 1.82,
+    "blur": 0.84,
+    "noise": 12.84,
+    "contrast": 0.78,
+    "brightness": 0.98,
+    "shadow": 0.17,
+    "quality": 50,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "inv_0156",
+  "invoice_number": "FAC/2025/00082",
+  "invoice_date": "2025-02-02",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 1,
+      "unit_price_ht": 14240.0,
+      "total_ht": 14240.0
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 8359.29,
+      "total_ht": 8359.29
+    }
+  ],
+  "total_ht": 22599.29,
+  "tva_rate": 20,
+  "total_tva": 4519.86,
+  "total_ttc": 27119.15,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-02-17",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.73,
+    "blur": 0.48,
+    "noise": 7.64,
+    "contrast": 0.91,
+    "brightness": 1.04,
+    "shadow": 0.02,
+    "quality": 70,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

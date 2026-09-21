@@ -1,0 +1,58 @@
+{
+  "id": "inv_0123",
+  "invoice_number": "202500022",
+  "invoice_date": "2025-03-06",
+  "due_date": "2025-04-05",
+  "supplier": {
+    "name": "Tingis Logistique SARL",
+    "ice": "831727889579868",
+    "if": "72774348",
+    "rc": "734714",
+    "patente": null,
+    "address": "60 Rue des Orangers",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 3,
+      "unit_price_ht": 7470.0,
+      "total_ht": 22410.0
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 10,
+      "unit_price_ht": 240.0,
+      "total_ht": 2400.0
+    }
+  ],
+  "total_ht": 24810.0,
+  "tva_rate": 20,
+  "total_tva": 4962.0,
+  "total_ttc": 29772.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-03",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -3.28,
+    "blur": 0.89,
+    "noise": 11.76,
+    "contrast": 0.9,
+    "brightness": 1.02,
+    "shadow": 0.28,
+    "quality": 44,
+    "gray": false,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

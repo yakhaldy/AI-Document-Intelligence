@@ -1,0 +1,64 @@
+{
+  "id": "inv_0183",
+  "invoice_number": "F2025-0237",
+  "invoice_date": "2025-11-25",
+  "due_date": "2025-12-25",
+  "supplier": {
+    "name": "Doukkala Hygiène SNC",
+    "ice": "109324808613171",
+    "if": "27484677",
+    "rc": "378263",
+    "patente": null,
+    "address": "69 Bd Zerktouni",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 15,
+      "unit_price_ht": 770.0,
+      "total_ht": 11550.0
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1463.21,
+      "total_ht": 1463.21
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 3,
+      "unit_price_ht": 9345.0,
+      "total_ht": 28035.0
+    }
+  ],
+  "total_ht": 41048.21,
+  "tva_rate": 20,
+  "total_tva": 8209.64,
+  "total_ttc": 49257.85,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-11-25",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -1.19,
+    "blur": 0.57,
+    "noise": 7.3,
+    "contrast": 0.95,
+    "brightness": 1.04,
+    "shadow": 0.08,
+    "quality": 73,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

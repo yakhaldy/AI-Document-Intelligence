@@ -1,0 +1,52 @@
+{
+  "id": "inv_0186",
+  "invoice_number": "202600132",
+  "invoice_date": "2026-04-10",
+  "due_date": "2026-05-25",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 4,
+      "unit_price_ht": 8924.55,
+      "total_ht": 35698.2
+    }
+  ],
+  "total_ht": 35698.2,
+  "tva_rate": 20,
+  "total_tva": 7139.64,
+  "total_ttc": 42837.84,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -1.52,
+    "blur": 1.01,
+    "noise": 14.6,
+    "contrast": 0.85,
+    "brightness": 0.96,
+    "shadow": 0.26,
+    "quality": 38,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

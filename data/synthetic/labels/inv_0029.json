@@ -1,0 +1,70 @@
+{
+  "id": "inv_0029",
+  "invoice_number": "F2025-0243",
+  "invoice_date": "2025-01-20",
+  "due_date": "2025-03-21",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 4,
+      "unit_price_ht": 4492.04,
+      "total_ht": 17968.16
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 4,
+      "unit_price_ht": 6337.07,
+      "total_ht": 25348.28
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 2,
+      "unit_price_ht": 895.0,
+      "total_ht": 1790.0
+    },
+    {
+      "description": "Transport de marchandises Casablanca-Rabat",
+      "quantity": 2,
+      "unit_price_ht": 1408.67,
+      "total_ht": 2817.34
+    }
+  ],
+  "total_ht": 47923.78,
+  "tva_rate": 20,
+  "total_tva": 9584.76,
+  "total_ttc": 57508.54,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-03-22",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.98,
+    "blur": 0.76,
+    "noise": 6.05,
+    "contrast": 0.97,
+    "brightness": 1.03,
+    "shadow": 0.07,
+    "quality": 75,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

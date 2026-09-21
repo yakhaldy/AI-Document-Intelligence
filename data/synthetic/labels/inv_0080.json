@@ -1,0 +1,58 @@
+{
+  "id": "inv_0080",
+  "invoice_number": "FAC/2026/00061",
+  "invoice_date": "2026-02-15",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 1,
+      "unit_price_ht": 4772.93,
+      "total_ht": 4772.93
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 1,
+      "unit_price_ht": 3584.14,
+      "total_ht": 3584.14
+    }
+  ],
+  "total_ht": 8357.07,
+  "tva_rate": 7,
+  "total_tva": 584.99,
+  "total_ttc": 8942.06,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-03-07",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.24,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

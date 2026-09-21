@@ -1,0 +1,76 @@
+{
+  "id": "inv_0142",
+  "invoice_number": "FA-000156",
+  "invoice_date": "2025-01-13",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 2,
+      "unit_price_ht": 1065.0,
+      "total_ht": 2130.0
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 3,
+      "unit_price_ht": 1218.1,
+      "total_ht": 3654.3
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 8,
+      "unit_price_ht": 561.16,
+      "total_ht": 4489.28
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 3,
+      "unit_price_ht": 1700.0,
+      "total_ht": 5100.0
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 4,
+      "unit_price_ht": 1536.8,
+      "total_ht": 6147.2
+    }
+  ],
+  "total_ht": 21520.78,
+  "tva_rate": 7,
+  "total_tva": 1506.45,
+  "total_ttc": 23027.23,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-01-18",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.6,
+    "blur": 0.49,
+    "noise": 9.13,
+    "contrast": 0.96,
+    "brightness": 0.97,
+    "shadow": 0.01,
+    "quality": 73,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "inv_0119",
+  "invoice_number": "0174/2025",
+  "invoice_date": "2025-07-11",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 6,
+      "unit_price_ht": 305.0,
+      "total_ht": 1830.0
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 3,
+      "unit_price_ht": 1285.0,
+      "total_ht": 3855.0
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 5,
+      "unit_price_ht": 53.5,
+      "total_ht": 267.5
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 11,
+      "unit_price_ht": 669.6,
+      "total_ht": 7365.6
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 2726.48,
+      "total_ht": 10905.92
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 5,
+      "unit_price_ht": 621.87,
+      "total_ht": 3109.35
+    },
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 1,
+      "unit_price_ht": 3990.39,
+      "total_ht": 3990.39
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 5,
+      "unit_price_ht": 738.79,
+      "total_ht": 3693.95
+    }
+  ],
+  "total_ht": 35017.71,
+  "tva_rate": 14,
+  "total_tva": 4902.48,
+  "total_ttc": 39920.19,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-07-31",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.03,
+    "blur": 0.59,
+    "noise": 6.15,
+    "contrast": 1.06,
+    "brightness": 0.98,
+    "shadow": 0.02,
+    "quality": 60,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

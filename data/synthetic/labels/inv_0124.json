@@ -1,0 +1,58 @@
+{
+  "id": "inv_0124",
+  "invoice_number": "FAC/2025/00167",
+  "invoice_date": "2025-01-12",
+  "due_date": "2025-02-11",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 19,
+      "unit_price_ht": 561.25,
+      "total_ht": 10663.75
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 4,
+      "unit_price_ht": 1266.43,
+      "total_ht": 5065.72
+    }
+  ],
+  "total_ht": 15729.47,
+  "tva_rate": 20,
+  "total_tva": 3145.89,
+  "total_ttc": 18875.36,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.74,
+    "blur": 0.75,
+    "noise": 6.06,
+    "contrast": 0.98,
+    "brightness": 1.01,
+    "shadow": 0.05,
+    "quality": 60,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

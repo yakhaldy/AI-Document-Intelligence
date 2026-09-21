@@ -1,0 +1,52 @@
+{
+  "id": "inv_0190",
+  "invoice_number": "FA-000162",
+  "invoice_date": "2025-04-23",
+  "due_date": null,
+  "supplier": {
+    "name": "Maghreb Electro SNC",
+    "ice": "783777014363495",
+    "if": "78856855",
+    "rc": "744431",
+    "patente": "35182337",
+    "address": "71 Bd Abdelmoumen",
+    "postal_code": "40000",
+    "city": "Marrakech"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 4,
+      "unit_price_ht": 13580.67,
+      "total_ht": 54322.68
+    }
+  ],
+  "total_ht": 54322.68,
+  "tva_rate": 20,
+  "total_tva": 10864.54,
+  "total_ttc": 65187.22,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-05-03",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.19,
+    "blur": 0.41,
+    "noise": 5.04,
+    "contrast": 0.93,
+    "brightness": 1.01,
+    "shadow": 0.08,
+    "quality": 66,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

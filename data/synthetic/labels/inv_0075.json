@@ -1,0 +1,76 @@
+{
+  "id": "inv_0075",
+  "invoice_number": "FAC/2026/00055",
+  "invoice_date": "2026-06-13",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Palette eau minérale",
+      "quantity": 3,
+      "unit_price_ht": 305.95,
+      "total_ht": 917.85
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 4,
+      "unit_price_ht": 14240.0,
+      "total_ht": 56960.0
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 8359.29,
+      "total_ht": 8359.29
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 3,
+      "unit_price_ht": 3584.14,
+      "total_ht": 10752.42
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 2,
+      "unit_price_ht": 4772.93,
+      "total_ht": 9545.86
+    }
+  ],
+  "total_ht": 86535.42,
+  "tva_rate": 20,
+  "total_tva": 17307.08,
+  "total_ttc": 103842.5,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-07-02",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 1.42,
+    "blur": 0.8,
+    "noise": 8.66,
+    "contrast": 1.05,
+    "brightness": 1.0,
+    "shadow": 0.08,
+    "quality": 59,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

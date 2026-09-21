@@ -1,0 +1,58 @@
+{
+  "id": "inv_0046",
+  "invoice_number": "FAC/2025/00185",
+  "invoice_date": "2025-07-03",
+  "due_date": "2025-09-01",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 7,
+      "unit_price_ht": 626.92,
+      "total_ht": 4388.44
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 44,
+      "unit_price_ht": 90.0,
+      "total_ht": 3960.0
+    }
+  ],
+  "total_ht": 8348.44,
+  "tva_rate": 20,
+  "total_tva": 1669.69,
+  "total_ttc": 10018.13,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.31,
+    "blur": 0.49,
+    "noise": 6.44,
+    "contrast": 1.01,
+    "brightness": 1.05,
+    "shadow": 0.02,
+    "quality": 76,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

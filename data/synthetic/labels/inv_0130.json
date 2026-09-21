@@ -1,0 +1,58 @@
+{
+  "id": "inv_0130",
+  "invoice_number": "0179/2026",
+  "invoice_date": "2026-03-01",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 4,
+      "unit_price_ht": 3990.39,
+      "total_ht": 15961.56
+    },
+    {
+      "description": "Installation et mise en service",
+      "quantity": 16,
+      "unit_price_ht": 738.79,
+      "total_ht": 11820.64
+    }
+  ],
+  "total_ht": 27782.2,
+  "tva_rate": 20,
+  "total_tva": 5556.44,
+  "total_ttc": 33338.64,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-03-14",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.04,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

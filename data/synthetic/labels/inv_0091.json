@@ -1,0 +1,58 @@
+{
+  "id": "inv_0091",
+  "invoice_number": "0165/2025",
+  "invoice_date": "2025-03-25",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Services SARL",
+    "ice": "241904966319314",
+    "if": "91905865",
+    "rc": "185067",
+    "patente": null,
+    "address": "167 Rue Al Massira",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 13,
+      "unit_price_ht": 621.87,
+      "total_ht": 8084.31
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 16,
+      "unit_price_ht": 669.6,
+      "total_ht": 10713.6
+    }
+  ],
+  "total_ht": 18797.91,
+  "tva_rate": 20,
+  "total_tva": 3759.58,
+  "total_ttc": 22557.49,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.03,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

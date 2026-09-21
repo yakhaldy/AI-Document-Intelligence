@@ -1,0 +1,64 @@
+{
+  "id": "inv_0022",
+  "invoice_number": "FAC/2026/00184",
+  "invoice_date": "2026-06-15",
+  "due_date": "2026-08-14",
+  "supplier": {
+    "name": "Maghreb Distribution SARL AU",
+    "ice": "332181960013389",
+    "if": "08386379",
+    "rc": "402654",
+    "patente": "23511615",
+    "address": "217 Avenue Hassan II",
+    "postal_code": "12000",
+    "city": "Témara"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 8,
+      "unit_price_ht": 626.92,
+      "total_ht": 5015.36
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 27,
+      "unit_price_ht": 90.0,
+      "total_ht": 2430.0
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 3,
+      "unit_price_ht": 4150.0,
+      "total_ht": 12450.0
+    }
+  ],
+  "total_ht": 19895.36,
+  "tva_rate": 10,
+  "total_tva": 1989.54,
+  "total_ttc": 21884.9,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-08-24",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.34,
+    "blur": 0.35,
+    "noise": 7.85,
+    "contrast": 1.02,
+    "brightness": 1.01,
+    "shadow": 0.02,
+    "quality": 74,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

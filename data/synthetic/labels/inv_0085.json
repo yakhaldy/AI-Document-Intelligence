@@ -1,0 +1,64 @@
+{
+  "id": "inv_0085",
+  "invoice_number": "FA-000059",
+  "invoice_date": "2025-04-03",
+  "due_date": "2025-04-18",
+  "supplier": {
+    "name": "Souss Informatique SNC",
+    "ice": "564823662994680",
+    "if": "44369957",
+    "rc": "773872",
+    "patente": "14895134",
+    "address": "58 Bd Mohammed VI",
+    "postal_code": "14000",
+    "city": "Kénitra"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 4,
+      "unit_price_ht": 1020.0,
+      "total_ht": 4080.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 1,
+      "unit_price_ht": 801.91,
+      "total_ht": 801.91
+    },
+    {
+      "description": "Ramette papier A4 80g",
+      "quantity": 26,
+      "unit_price_ht": 30.0,
+      "total_ht": 780.0
+    }
+  ],
+  "total_ht": 5661.91,
+  "tva_rate": 14,
+  "total_tva": 792.67,
+  "total_ttc": 6454.58,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-11",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.18,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

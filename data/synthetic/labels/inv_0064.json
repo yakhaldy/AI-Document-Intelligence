@@ -1,0 +1,64 @@
+{
+  "id": "inv_0064",
+  "invoice_number": "FA-000094",
+  "invoice_date": "2026-05-17",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Négoce SA",
+    "ice": "473829973763116",
+    "if": "56670106",
+    "rc": "513338",
+    "patente": null,
+    "address": "114 Rue Moulay Youssef",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 3,
+      "unit_price_ht": 855.0,
+      "total_ht": 2565.0
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 1,
+      "unit_price_ht": 2795.0,
+      "total_ht": 2795.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 13,
+      "unit_price_ht": 414.75,
+      "total_ht": 5391.75
+    }
+  ],
+  "total_ht": 10751.75,
+  "tva_rate": 20,
+  "total_tva": 2150.35,
+  "total_ttc": 12902.1,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-05-28",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.25,
+    "blur": 0.73,
+    "noise": 9.08,
+    "contrast": 0.92,
+    "brightness": 1.05,
+    "shadow": 0.06,
+    "quality": 77,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

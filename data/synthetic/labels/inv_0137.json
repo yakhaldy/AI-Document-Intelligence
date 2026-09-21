@@ -1,0 +1,82 @@
+{
+  "id": "inv_0137",
+  "invoice_number": "F2025-0178",
+  "invoice_date": "2025-02-28",
+  "due_date": "2025-04-29",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Installation et mise en service",
+      "quantity": 20,
+      "unit_price_ht": 945.0,
+      "total_ht": 18900.0
+    },
+    {
+      "description": "Hotte aspirante inox",
+      "quantity": 2,
+      "unit_price_ht": 2826.15,
+      "total_ht": 5652.3
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 20,
+      "unit_price_ht": 710.71,
+      "total_ht": 14214.2
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 2,
+      "unit_price_ht": 6224.63,
+      "total_ht": 12449.26
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 2,
+      "unit_price_ht": 990.97,
+      "total_ht": 1981.94
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 3,
+      "unit_price_ht": 1365.0,
+      "total_ht": 4095.0
+    }
+  ],
+  "total_ht": 57292.7,
+  "tva_rate": 20,
+  "total_tva": 11458.54,
+  "total_ttc": 68751.24,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-03-20",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.3,
+    "blur": 0.63,
+    "noise": 6.43,
+    "contrast": 0.94,
+    "brightness": 0.95,
+    "shadow": 0.07,
+    "quality": 84,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

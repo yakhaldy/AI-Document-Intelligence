@@ -1,0 +1,52 @@
+{
+  "id": "inv_0159",
+  "invoice_number": "F2025-0181",
+  "invoice_date": "2025-02-05",
+  "due_date": "2025-04-06",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 2,
+      "unit_price_ht": 3685.0,
+      "total_ht": 7370.0
+    }
+  ],
+  "total_ht": 7370.0,
+  "tva_rate": 7,
+  "total_tva": 515.9,
+  "total_ttc": 7885.9,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-03-15",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.56,
+    "blur": 0.69,
+    "noise": 9.66,
+    "contrast": 1.06,
+    "brightness": 1.04,
+    "shadow": 0.05,
+    "quality": 73,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

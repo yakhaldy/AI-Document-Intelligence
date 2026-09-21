@@ -1,0 +1,58 @@
+{
+  "id": "inv_0057",
+  "invoice_number": "FAC/2025/00094",
+  "invoice_date": "2025-11-04",
+  "due_date": "2025-11-19",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 1,
+      "unit_price_ht": 1214.13,
+      "total_ht": 1214.13
+    },
+    {
+      "description": "Maintenance climatisation - forfait",
+      "quantity": 2,
+      "unit_price_ht": 1000.0,
+      "total_ht": 2000.0
+    }
+  ],
+  "total_ht": 3214.13,
+  "tva_rate": 14,
+  "total_tva": 449.98,
+  "total_ttc": 3664.11,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-12-07",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.04,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

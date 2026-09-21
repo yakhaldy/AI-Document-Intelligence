@@ -1,0 +1,76 @@
+{
+  "id": "inv_0199",
+  "invoice_number": "FA-000166",
+  "invoice_date": "2025-10-11",
+  "due_date": null,
+  "supplier": {
+    "name": "Doukkala Négoce SARL",
+    "ice": "229413186999386",
+    "if": "77496499",
+    "rc": "091334",
+    "patente": "12328120",
+    "address": "105 Bd Anfa",
+    "postal_code": "28800",
+    "city": "Mohammedia"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 6,
+      "unit_price_ht": 519.19,
+      "total_ht": 3115.14
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 15,
+      "unit_price_ht": 925.0,
+      "total_ht": 13875.0
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1530.0,
+      "total_ht": 1530.0
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 4,
+      "unit_price_ht": 7390.0,
+      "total_ht": 29560.0
+    },
+    {
+      "description": "Stylos à bille (boîte de 50)",
+      "quantity": 17,
+      "unit_price_ht": 90.0,
+      "total_ht": 1530.0
+    }
+  ],
+  "total_ht": 49610.14,
+  "tva_rate": 20,
+  "total_tva": 9922.03,
+  "total_ttc": 59532.17,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-10-26",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.21,
+    "blur": 0.61,
+    "noise": 4.64,
+    "contrast": 0.99,
+    "brightness": 0.98,
+    "shadow": 0.0,
+    "quality": 57,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

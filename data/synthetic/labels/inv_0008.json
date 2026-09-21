@@ -1,0 +1,58 @@
+{
+  "id": "inv_0008",
+  "invoice_number": "FAC/2025/00147",
+  "invoice_date": "2025-12-08",
+  "due_date": "2026-01-07",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 4,
+      "unit_price_ht": 13080.0,
+      "total_ht": 52320.0
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 2,
+      "unit_price_ht": 6260.0,
+      "total_ht": 12520.0
+    }
+  ],
+  "total_ht": 64840.0,
+  "tva_rate": 20,
+  "total_tva": 12968.0,
+  "total_ttc": 77808.0,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -0.37,
+    "blur": 0.7,
+    "noise": 8.88,
+    "contrast": 1.03,
+    "brightness": 1.03,
+    "shadow": 0.07,
+    "quality": 76,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

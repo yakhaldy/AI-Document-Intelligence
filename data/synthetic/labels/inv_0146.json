@@ -1,0 +1,64 @@
+{
+  "id": "inv_0146",
+  "invoice_number": "FAC/2025/00076",
+  "invoice_date": "2025-05-09",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Palette eau minérale",
+      "quantity": 13,
+      "unit_price_ht": 305.95,
+      "total_ht": 3977.35
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 1,
+      "unit_price_ht": 8359.29,
+      "total_ht": 8359.29
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 1,
+      "unit_price_ht": 4772.93,
+      "total_ht": 4772.93
+    }
+  ],
+  "total_ht": 17109.57,
+  "tva_rate": 20,
+  "total_tva": 3421.91,
+  "total_ttc": 20531.48,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -1.42,
+    "blur": 0.5,
+    "noise": 8.59,
+    "contrast": 0.92,
+    "brightness": 0.98,
+    "shadow": 0.02,
+    "quality": 75,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

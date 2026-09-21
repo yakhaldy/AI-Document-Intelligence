@@ -1,0 +1,58 @@
+{
+  "id": "inv_0018",
+  "invoice_number": "FAC/2025/00300",
+  "invoice_date": "2025-10-09",
+  "due_date": "2025-11-08",
+  "supplier": {
+    "name": "Tafilalet Conseil SNC",
+    "ice": "889373467065627",
+    "if": "29806990",
+    "rc": "162720",
+    "patente": null,
+    "address": "72 Rue des Orangers",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 12,
+      "unit_price_ht": 817.78,
+      "total_ht": 9813.36
+    },
+    {
+      "description": "Ramette papier A4 80g",
+      "quantity": 37,
+      "unit_price_ht": 30.0,
+      "total_ht": 1110.0
+    }
+  ],
+  "total_ht": 10923.36,
+  "tva_rate": 10,
+  "total_tva": 1092.34,
+  "total_ttc": 12015.7,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-10-10",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.84,
+    "blur": 0.32,
+    "noise": 4.4,
+    "contrast": 1.06,
+    "brightness": 0.99,
+    "shadow": 0.04,
+    "quality": 73,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "inv_0161",
+  "invoice_number": "F2025-0274",
+  "invoice_date": "2025-02-08",
+  "due_date": "2025-04-09",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 3,
+      "unit_price_ht": 1050.0,
+      "total_ht": 3150.0
+    },
+    {
+      "description": "Licence logiciel comptable",
+      "quantity": 3,
+      "unit_price_ht": 4492.04,
+      "total_ht": 13476.12
+    }
+  ],
+  "total_ht": 16626.12,
+  "tva_rate": 10,
+  "total_tva": 1662.61,
+  "total_ttc": 18288.73,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-02-23",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.46,
+    "blur": 0.6,
+    "noise": 4.07,
+    "contrast": 1.06,
+    "brightness": 0.99,
+    "shadow": 0.03,
+    "quality": 56,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

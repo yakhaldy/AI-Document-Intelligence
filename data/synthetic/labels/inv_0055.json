@@ -1,0 +1,70 @@
+{
+  "id": "inv_0055",
+  "invoice_number": "202500006",
+  "invoice_date": "2025-04-22",
+  "due_date": "2025-05-22",
+  "supplier": {
+    "name": "Tingis Logistique SARL",
+    "ice": "831727889579868",
+    "if": "72774348",
+    "rc": "734714",
+    "patente": null,
+    "address": "60 Rue des Orangers",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 3,
+      "unit_price_ht": 2760.43,
+      "total_ht": 8281.29
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 14,
+      "unit_price_ht": 240.0,
+      "total_ht": 3360.0
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 1,
+      "unit_price_ht": 7470.0,
+      "total_ht": 7470.0
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 1,
+      "unit_price_ht": 4205.0,
+      "total_ht": 4205.0
+    }
+  ],
+  "total_ht": 23316.29,
+  "tva_rate": 20,
+  "total_tva": 4663.26,
+  "total_ttc": 27979.55,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-06-08",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.23,
+    "blur": 0.52,
+    "noise": 6.35,
+    "contrast": 1.05,
+    "brightness": 1.01,
+    "shadow": 0.05,
+    "quality": 66,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

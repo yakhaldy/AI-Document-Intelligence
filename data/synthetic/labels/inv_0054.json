@@ -1,0 +1,64 @@
+{
+  "id": "inv_0054",
+  "invoice_number": "FA-000150",
+  "invoice_date": "2026-05-27",
+  "due_date": null,
+  "supplier": {
+    "name": "Doukkala Négoce SARL",
+    "ice": "229413186999386",
+    "if": "77496499",
+    "rc": "091334",
+    "patente": "12328120",
+    "address": "105 Bd Anfa",
+    "postal_code": "28800",
+    "city": "Mohammedia"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 2,
+      "unit_price_ht": 1716.84,
+      "total_ht": 3433.68
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 14,
+      "unit_price_ht": 925.0,
+      "total_ht": 12950.0
+    },
+    {
+      "description": "Palette eau minérale",
+      "quantity": 13,
+      "unit_price_ht": 190.0,
+      "total_ht": 2470.0
+    }
+  ],
+  "total_ht": 18853.68,
+  "tva_rate": 20,
+  "total_tva": 3770.74,
+  "total_ttc": 22624.42,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.3,
+    "blur": 0.55,
+    "noise": 9.52,
+    "contrast": 1.04,
+    "brightness": 1.0,
+    "shadow": 0.08,
+    "quality": 66,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

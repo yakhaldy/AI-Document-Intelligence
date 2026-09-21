@@ -1,0 +1,58 @@
+{
+  "id": "inv_0052",
+  "invoice_number": "FAC/2026/00303",
+  "invoice_date": "2026-04-14",
+  "due_date": "2026-05-14",
+  "supplier": {
+    "name": "Tafilalet Conseil SNC",
+    "ice": "889373467065627",
+    "if": "29806990",
+    "rc": "162720",
+    "patente": null,
+    "address": "72 Rue des Orangers",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 4,
+      "unit_price_ht": 1365.0,
+      "total_ht": 5460.0
+    },
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 11,
+      "unit_price_ht": 605.0,
+      "total_ht": 6655.0
+    }
+  ],
+  "total_ht": 12115.0,
+  "tva_rate": 10,
+  "total_tva": 1211.5,
+  "total_ttc": 13326.5,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-05-05",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.97,
+    "blur": 0.63,
+    "noise": 7.57,
+    "contrast": 0.96,
+    "brightness": 1.01,
+    "shadow": 0.07,
+    "quality": 70,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

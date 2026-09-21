@@ -1,0 +1,64 @@
+{
+  "id": "inv_0089",
+  "invoice_number": "FAC/2025/00064",
+  "invoice_date": "2025-03-17",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Palette eau minérale",
+      "quantity": 4,
+      "unit_price_ht": 305.95,
+      "total_ht": 1223.8
+    },
+    {
+      "description": "Lave-vaisselle 12 couverts",
+      "quantity": 1,
+      "unit_price_ht": 3584.14,
+      "total_ht": 3584.14
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 3,
+      "unit_price_ht": 8359.29,
+      "total_ht": 25077.87
+    }
+  ],
+  "total_ht": 29885.81,
+  "tva_rate": 20,
+  "total_tva": 5977.16,
+  "total_ttc": 35862.97,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-03-19",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -2.85,
+    "blur": 1.16,
+    "noise": 14.91,
+    "contrast": 0.85,
+    "brightness": 0.9,
+    "shadow": 0.29,
+    "quality": 40,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

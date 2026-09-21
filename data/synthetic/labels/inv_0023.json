@@ -1,0 +1,52 @@
+{
+  "id": "inv_0023",
+  "invoice_number": "FAC/2025/00087",
+  "invoice_date": "2025-01-30",
+  "due_date": "2025-02-14",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 19,
+      "unit_price_ht": 798.26,
+      "total_ht": 15166.94
+    }
+  ],
+  "total_ht": 15166.94,
+  "tva_rate": 20,
+  "total_tva": 3033.39,
+  "total_ttc": 18200.33,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-02-25",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.23,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

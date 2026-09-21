@@ -1,0 +1,58 @@
+{
+  "id": "inv_0198",
+  "invoice_number": "FA-000120",
+  "invoice_date": "2025-05-03",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Négoce SA",
+    "ice": "473829973763116",
+    "if": "56670106",
+    "rc": "513338",
+    "patente": null,
+    "address": "114 Rue Moulay Youssef",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 19,
+      "unit_price_ht": 855.0,
+      "total_ht": 16245.0
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 6,
+      "unit_price_ht": 414.75,
+      "total_ht": 2488.5
+    }
+  ],
+  "total_ht": 18733.5,
+  "tva_rate": 10,
+  "total_tva": 1873.35,
+  "total_ttc": 20606.85,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-05-11",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -1.27,
+    "blur": 0.53,
+    "noise": 9.97,
+    "contrast": 1.05,
+    "brightness": 1.02,
+    "shadow": 0.07,
+    "quality": 79,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

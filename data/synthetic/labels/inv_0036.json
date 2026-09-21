@@ -1,0 +1,64 @@
+{
+  "id": "inv_0036",
+  "invoice_number": "FAC/2025/00156",
+  "invoice_date": "2025-10-30",
+  "due_date": "2025-11-29",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Formation bureautique - journée",
+      "quantity": 2,
+      "unit_price_ht": 4052.9,
+      "total_ht": 8105.8
+    },
+    {
+      "description": "Bureau 140 cm",
+      "quantity": 4,
+      "unit_price_ht": 1495.0,
+      "total_ht": 5980.0
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 3,
+      "unit_price_ht": 1266.43,
+      "total_ht": 3799.29
+    }
+  ],
+  "total_ht": 17885.09,
+  "tva_rate": 20,
+  "total_tva": 3577.02,
+  "total_ttc": 21462.11,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-11-29",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 2.28,
+    "blur": 1.26,
+    "noise": 15.44,
+    "contrast": 0.87,
+    "brightness": 1.02,
+    "shadow": 0.23,
+    "quality": 51,
+    "gray": false,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

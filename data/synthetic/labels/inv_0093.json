@@ -1,0 +1,58 @@
+{
+  "id": "inv_0093",
+  "invoice_number": "F2026-0225",
+  "invoice_date": "2026-05-30",
+  "due_date": "2026-06-29",
+  "supplier": {
+    "name": "Doukkala Hygiène SNC",
+    "ice": "109324808613171",
+    "if": "27484677",
+    "rc": "378263",
+    "patente": null,
+    "address": "69 Bd Zerktouni",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 2,
+      "unit_price_ht": 3095.0,
+      "total_ht": 6190.0
+    },
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 2,
+      "unit_price_ht": 8993.3,
+      "total_ht": 17986.6
+    }
+  ],
+  "total_ht": 24176.6,
+  "tva_rate": 10,
+  "total_tva": 2417.66,
+  "total_ttc": 26594.26,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-06-26",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -0.89,
+    "blur": 0.71,
+    "noise": 4.89,
+    "contrast": 1.02,
+    "brightness": 0.98,
+    "shadow": 0.07,
+    "quality": 80,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

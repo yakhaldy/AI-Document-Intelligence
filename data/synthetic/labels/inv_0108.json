@@ -1,0 +1,58 @@
+{
+  "id": "inv_0108",
+  "invoice_number": "FAC/2026/00165",
+  "invoice_date": "2026-04-21",
+  "due_date": "2026-05-21",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 1,
+      "unit_price_ht": 6260.0,
+      "total_ht": 6260.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 3,
+      "unit_price_ht": 1481.93,
+      "total_ht": 4445.79
+    }
+  ],
+  "total_ht": 10705.79,
+  "tva_rate": 20,
+  "total_tva": 2141.16,
+  "total_ttc": 12846.95,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-05-18",
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.15,
+    "blur": 0.0,
+    "noise": 2.0,
+    "contrast": 1.0,
+    "brightness": 1.0,
+    "shadow": 0.0,
+    "quality": 90,
+    "gray": false,
+    "kind": "clean"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "inv_0192",
+  "invoice_number": "FAC/2025/00113",
+  "invoice_date": "2025-07-10",
+  "due_date": "2025-07-25",
+  "supplier": {
+    "name": "Souss Matériaux SARL",
+    "ice": "841241182449353",
+    "if": "48740164",
+    "rc": "005242",
+    "patente": null,
+    "address": "140 Bd Zerktouni",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 3140.0,
+      "total_ht": 12560.0
+    }
+  ],
+  "total_ht": 12560.0,
+  "tva_rate": 10,
+  "total_tva": 1256.0,
+  "total_ttc": 13816.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-08-11",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.53,
+    "blur": 0.82,
+    "noise": 10.3,
+    "contrast": 0.85,
+    "brightness": 0.96,
+    "shadow": 0.24,
+    "quality": 37,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

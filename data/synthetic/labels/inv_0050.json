@@ -1,0 +1,58 @@
+{
+  "id": "inv_0050",
+  "invoice_number": "F2026-0168",
+  "invoice_date": "2026-08-23",
+  "due_date": "2026-10-22",
+  "supplier": {
+    "name": "Sahara Hygiène SNC",
+    "ice": "025634216073375",
+    "if": "43303654",
+    "rc": "145868",
+    "patente": null,
+    "address": "28 Avenue des FAR",
+    "postal_code": "93000",
+    "city": "Tétouan"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 3,
+      "unit_price_ht": 1365.0,
+      "total_ht": 4095.0
+    },
+    {
+      "description": "Carburant - carte prépayée",
+      "quantity": 2,
+      "unit_price_ht": 3685.0,
+      "total_ht": 7370.0
+    }
+  ],
+  "total_ht": 11465.0,
+  "tva_rate": 20,
+  "total_tva": 2293.0,
+  "total_ttc": 13758.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-09-11",
+  "payment_status_visible": true,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -1.04,
+    "blur": 0.49,
+    "noise": 6.16,
+    "contrast": 0.92,
+    "brightness": 1.04,
+    "shadow": 0.04,
+    "quality": 79,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

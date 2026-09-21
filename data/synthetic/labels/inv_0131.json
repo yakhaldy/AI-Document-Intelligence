@@ -1,0 +1,52 @@
+{
+  "id": "inv_0131",
+  "invoice_number": "FAC/2026/00074",
+  "invoice_date": "2026-08-10",
+  "due_date": null,
+  "supplier": {
+    "name": "Tingis Équipement SA",
+    "ice": "814893252880957",
+    "if": "01543039",
+    "rc": "117182",
+    "patente": "27824896",
+    "address": "55 Rue Moulay Youssef",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 3,
+      "unit_price_ht": 8359.29,
+      "total_ht": 25077.87
+    }
+  ],
+  "total_ht": 25077.87,
+  "tva_rate": 14,
+  "total_tva": 3510.9,
+  "total_ttc": 28588.77,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-08-22",
+  "payment_status_visible": false,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": -1.44,
+    "blur": 0.66,
+    "noise": 7.97,
+    "contrast": 0.96,
+    "brightness": 0.96,
+    "shadow": 0.04,
+    "quality": 70,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

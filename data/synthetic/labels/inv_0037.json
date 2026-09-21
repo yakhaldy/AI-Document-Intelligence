@@ -1,0 +1,82 @@
+{
+  "id": "inv_0037",
+  "invoice_number": "F2025-0223",
+  "invoice_date": "2025-03-05",
+  "due_date": "2025-04-04",
+  "supplier": {
+    "name": "Doukkala Hygiène SNC",
+    "ice": "109324808613171",
+    "if": "27484677",
+    "rc": "378263",
+    "patente": null,
+    "address": "69 Bd Zerktouni",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 2,
+      "unit_price_ht": 8993.3,
+      "total_ht": 17986.6
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 4,
+      "unit_price_ht": 1463.21,
+      "total_ht": 5852.84
+    },
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 3,
+      "unit_price_ht": 770.0,
+      "total_ht": 2310.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 3095.0,
+      "total_ht": 12380.0
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 1,
+      "unit_price_ht": 9345.0,
+      "total_ht": 9345.0
+    },
+    {
+      "description": "Gants et EPI - lot",
+      "quantity": 15,
+      "unit_price_ht": 540.0,
+      "total_ht": 8100.0
+    }
+  ],
+  "total_ht": 55974.44,
+  "tva_rate": 20,
+  "total_tva": 11194.89,
+  "total_ttc": 67169.33,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-04-10",
+  "payment_status_visible": true,
+  "template": "minimal",
+  "scan_profile": {
+    "angle": 0.92,
+    "blur": 0.66,
+    "noise": 6.38,
+    "contrast": 1.06,
+    "brightness": 1.02,
+    "shadow": 0.06,
+    "quality": 56,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

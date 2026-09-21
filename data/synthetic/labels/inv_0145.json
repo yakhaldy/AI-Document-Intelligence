@@ -1,0 +1,70 @@
+{
+  "id": "inv_0145",
+  "invoice_number": "FAC/2025/00174",
+  "invoice_date": "2025-05-29",
+  "due_date": "2025-06-28",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": null,
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 1481.93,
+      "total_ht": 5927.72
+    },
+    {
+      "description": "Audit de sécurité applicative - forfait",
+      "quantity": 1,
+      "unit_price_ht": 13080.0,
+      "total_ht": 13080.0
+    },
+    {
+      "description": "Nettoyage des locaux - mensuel",
+      "quantity": 1,
+      "unit_price_ht": 1800.0,
+      "total_ht": 1800.0
+    },
+    {
+      "description": "Hébergement web annuel",
+      "quantity": 2,
+      "unit_price_ht": 1266.43,
+      "total_ht": 2532.86
+    }
+  ],
+  "total_ht": 23340.58,
+  "tva_rate": 20,
+  "total_tva": 4668.12,
+  "total_ttc": 28008.7,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-07-09",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.43,
+    "blur": 0.44,
+    "noise": 6.67,
+    "contrast": 1.07,
+    "brightness": 0.99,
+    "shadow": 0.06,
+    "quality": 85,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

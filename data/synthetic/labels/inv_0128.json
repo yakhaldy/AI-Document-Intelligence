@@ -1,0 +1,82 @@
+{
+  "id": "inv_0128",
+  "invoice_number": "FAC/2026/00311",
+  "invoice_date": "2026-06-11",
+  "due_date": "2026-07-11",
+  "supplier": {
+    "name": "Tafilalet Conseil SNC",
+    "ice": "889373467065627",
+    "if": "29806990",
+    "rc": "162720",
+    "patente": null,
+    "address": "72 Rue des Orangers",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 1,
+      "unit_price_ht": 8575.0,
+      "total_ht": 8575.0
+    },
+    {
+      "description": "Cartouche toner HP 305A",
+      "quantity": 8,
+      "unit_price_ht": 817.78,
+      "total_ht": 6542.24
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 16,
+      "unit_price_ht": 233.81,
+      "total_ht": 3740.96
+    },
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 2,
+      "unit_price_ht": 1365.0,
+      "total_ht": 2730.0
+    },
+    {
+      "description": "Ramette papier A4 80g",
+      "quantity": 9,
+      "unit_price_ht": 30.0,
+      "total_ht": 270.0
+    },
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 9,
+      "unit_price_ht": 605.0,
+      "total_ht": 5445.0
+    }
+  ],
+  "total_ht": 27303.2,
+  "tva_rate": 20,
+  "total_tva": 5460.64,
+  "total_ttc": 32763.84,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-06-24",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": -0.34,
+    "blur": 0.76,
+    "noise": 9.29,
+    "contrast": 0.91,
+    "brightness": 1.01,
+    "shadow": 0.01,
+    "quality": 85,
+    "gray": false,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "inv_0006",
+  "invoice_number": "F2026-0236",
+  "invoice_date": "2026-03-29",
+  "due_date": "2026-05-28",
+  "supplier": {
+    "name": "Oum Errabia Informatique SARL",
+    "ice": "928327648350305",
+    "if": "64139537",
+    "rc": "672423",
+    "patente": null,
+    "address": "57 Rue Ibn Sina",
+    "postal_code": "62000",
+    "city": "Nador"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Chaise de bureau ergonomique",
+      "quantity": 1,
+      "unit_price_ht": 1050.0,
+      "total_ht": 1050.0
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 3,
+      "unit_price_ht": 2040.0,
+      "total_ht": 6120.0
+    },
+    {
+      "description": "Écran 24 pouces",
+      "quantity": 4,
+      "unit_price_ht": 1676.58,
+      "total_ht": 6706.32
+    }
+  ],
+  "total_ht": 13876.32,
+  "tva_rate": 20,
+  "total_tva": 2775.26,
+  "total_ttc": 16651.58,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2026-05-04",
+  "payment_status_visible": true,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 2.49,
+    "blur": 1.17,
+    "noise": 14.06,
+    "contrast": 0.84,
+    "brightness": 0.98,
+    "shadow": 0.27,
+    "quality": 36,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

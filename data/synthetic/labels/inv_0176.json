@@ -1,0 +1,70 @@
+{
+  "id": "inv_0176",
+  "invoice_number": "202600127",
+  "invoice_date": "2026-08-15",
+  "due_date": "2026-09-29",
+  "supplier": {
+    "name": "Bouregreg Import Export SARL AU",
+    "ice": "887719065940139",
+    "if": "90490278",
+    "rc": "742967",
+    "patente": null,
+    "address": "85 Rue des Orangers",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": "736576615654527",
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Réfrigérateur professionnel inox",
+      "quantity": 2,
+      "unit_price_ht": 8924.55,
+      "total_ht": 17849.1
+    },
+    {
+      "description": "Ordinateur portable 15,6 pouces",
+      "quantity": 2,
+      "unit_price_ht": 8455.0,
+      "total_ht": 16910.0
+    },
+    {
+      "description": "Câble réseau RJ45 Cat6 (bobine)",
+      "quantity": 10,
+      "unit_price_ht": 766.04,
+      "total_ht": 7660.4
+    },
+    {
+      "description": "Fournitures diverses de bureau",
+      "quantity": 20,
+      "unit_price_ht": 450.0,
+      "total_ht": 9000.0
+    }
+  ],
+  "total_ht": 51419.5,
+  "tva_rate": 20,
+  "total_tva": 10283.9,
+  "total_ttc": 61703.4,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": 0.19,
+    "blur": 0.78,
+    "noise": 8.5,
+    "contrast": 0.97,
+    "brightness": 0.95,
+    "shadow": 0.08,
+    "quality": 65,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}

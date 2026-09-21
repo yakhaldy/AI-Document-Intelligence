@@ -1,0 +1,64 @@
+{
+  "id": "inv_0083",
+  "invoice_number": "FAC/2025/00164",
+  "invoice_date": "2025-01-27",
+  "due_date": "2025-02-26",
+  "supplier": {
+    "name": "Tafilalet Équipement SNC",
+    "ice": "468723430980500",
+    "if": "97882081",
+    "rc": "219136",
+    "patente": "19399091",
+    "address": "108 Rue Al Qods",
+    "postal_code": "30000",
+    "city": "Fès"
+  },
+  "customer": {
+    "name": "Ifrane Electro SNC",
+    "ice": null,
+    "address": "91 Avenue Mohammed V",
+    "postal_code": "50000",
+    "city": "Meknès"
+  },
+  "lines": [
+    {
+      "description": "Impression flyers A5 (1000 ex.)",
+      "quantity": 2,
+      "unit_price_ht": 561.25,
+      "total_ht": 1122.5
+    },
+    {
+      "description": "Pièces détachées - lot",
+      "quantity": 4,
+      "unit_price_ht": 1481.93,
+      "total_ht": 5927.72
+    },
+    {
+      "description": "Four électrique encastrable",
+      "quantity": 3,
+      "unit_price_ht": 6260.0,
+      "total_ht": 18780.0
+    }
+  ],
+  "total_ht": 25830.22,
+  "tva_rate": 20,
+  "total_tva": 5166.04,
+  "total_ttc": 30996.26,
+  "currency": "MAD",
+  "payment_status": "unpaid",
+  "paid_date": null,
+  "payment_status_visible": false,
+  "template": "modern",
+  "scan_profile": {
+    "angle": -2.8,
+    "blur": 1.19,
+    "noise": 12.13,
+    "contrast": 0.91,
+    "brightness": 1.04,
+    "shadow": 0.16,
+    "quality": 42,
+    "gray": true,
+    "kind": "bad"
+  },
+  "language": "fr"
+}

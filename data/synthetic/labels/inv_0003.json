@@ -1,0 +1,52 @@
+{
+  "id": "inv_0003",
+  "invoice_number": "FA-000089",
+  "invoice_date": "2025-03-15",
+  "due_date": null,
+  "supplier": {
+    "name": "Rif Négoce SA",
+    "ice": "473829973763116",
+    "if": "56670106",
+    "rc": "513338",
+    "patente": null,
+    "address": "114 Rue Moulay Youssef",
+    "postal_code": "24000",
+    "city": "El Jadida"
+  },
+  "customer": {
+    "name": "Tingis Electro SA",
+    "ice": "731585149368998",
+    "address": "117 Avenue Hassan II",
+    "postal_code": "11000",
+    "city": "Salé"
+  },
+  "lines": [
+    {
+      "description": "Location de véhicule utilitaire - jour",
+      "quantity": 1,
+      "unit_price_ht": 855.0,
+      "total_ht": 855.0
+    }
+  ],
+  "total_ht": 855.0,
+  "tva_rate": 20,
+  "total_tva": 171.0,
+  "total_ttc": 1026.0,
+  "currency": "MAD",
+  "payment_status": "paid",
+  "paid_date": "2025-03-25",
+  "payment_status_visible": false,
+  "template": "classic",
+  "scan_profile": {
+    "angle": 0.63,
+    "blur": 0.51,
+    "noise": 4.69,
+    "contrast": 0.9,
+    "brightness": 0.98,
+    "shadow": 0.08,
+    "quality": 74,
+    "gray": true,
+    "kind": "scan"
+  },
+  "language": "fr"
+}
