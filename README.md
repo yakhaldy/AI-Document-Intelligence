@@ -186,15 +186,15 @@ suivante avant que l'étape courante ait ses métriques écrites dans
 
 ### Étape 0 — Données (déjà fait)
 - [x] Générateur de factures synthétiques marocaines (`generate_invoices.py`)
-- [] 200 factures : PDF propre + image scannée + JSON de vérité terrain
-- [] Split dev/test par fournisseur (pas de fuite de mise en page)
+- [x] 200 factures : PDF propre + image scannée + JSON de vérité terrain
+- [x] Split dev/test par fournisseur (pas de fuite de mise en page)
 - [ ] Ajouter 50-100 documents publics (FATURA, ReceiptSense) pour tester la
       robustesse hors distribution — vérifier chaque licence avant usage
 - [ ] Ajouter quelques documents réels anonymisés si disponibles
 
 ### Étape 1 — OCR baseline
-- [ ] Tesseract sur les 200 images (`--lang fra` puis `--lang fra+ara` sur un
-      sous-ensemble bilingue)
+- [ ] Tesseract sur les 200 images (`--lang fra`) — arabe hors scope pour le
+      moment
 - [ ] Calculer le CER (character error rate) contre le texte de référence
 - [ ] Tester PaddleOCR sur le même jeu, comparer
 - [ ] Livrable : tableau CER par profil de scan (clean/scan/bad) et par outil
