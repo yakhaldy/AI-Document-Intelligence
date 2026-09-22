@@ -13,6 +13,10 @@ dependencies = [
     "python-dotenv>=1.0",
     "scikit-learn>=1.4",
     "typesafe-sdk>=0.7.1",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.1",
+    "pgvector>=0.3",
+    "alembic>=1.13",
 ]
 
 [project.optional-dependencies]
@@ -39,4 +43,5 @@ paddleocr = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["src", "."]
+include = ["src*", "db*"]
