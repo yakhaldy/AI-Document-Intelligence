@@ -1,0 +1,1208 @@
+{
+  "vector": [
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6439497470855713,
+      "total_latency": 4.476797819137573,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00300. Je ne peux donc pas fournir le montant total HT de cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5589959621429443,
+      "total_latency": 4.056797027587891,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-07-18."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6403939723968506,
+      "total_latency": 4.725136995315552,
+      "answer": "Je ne dispose pas d'informations concernant le montant total TTC de la facture FAC/2025/00304 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.640932321548462,
+      "total_latency": 5.349436044692993,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, y compris son montant total TTC."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5624723434448242,
+      "total_latency": 3.6141161918640137,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00296, donc je ne peux pas répondre à la question concernant le montant total HT de cette facture."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6393840312957764,
+      "total_latency": 3.7646069526672363,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-03-15 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5808219909667969,
+      "total_latency": 2.995130777359009,
+      "answer": "Je ne dispose pas d'informations concernant le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5469727516174316,
+      "total_latency": 3.815739870071411,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000089 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5762848854064941,
+      "total_latency": 3.0684049129486084,
+      "answer": "La date d'échéance de la facture rig n'est pas fournie dans les extraits."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.7361941337585449,
+      "total_latency": 5.18161940574646,
+      "answer": "Le montant total HT de la facture FAC/2026/00315 est de 881,79."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6832530498504639,
+      "total_latency": 3.141187906265259,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2025/00309 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.604327917098999,
+      "total_latency": 2.9222819805145264,
+      "answer": "Je ne dispose pas d'informations concernant le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-03-05 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.7544269561767578,
+      "total_latency": 3.6090011596679688,
+      "answer": "Le montant total HT de la facture FA-000116 est de 881,79."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5744791030883789,
+      "total_latency": 2.4672610759735107,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00309 ni sur son fournisseur."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5627961158752441,
+      "total_latency": 3.6119039058685303,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le montant total TTC de la facture rig. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.0320391654968262,
+      "total_latency": 3.3857290744781494,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur de la facture FAC/2026/00299."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6648261547088623,
+      "total_latency": 4.046644926071167,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-04-07."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6459918022155762,
+      "total_latency": 4.74158787727356,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur Doukkala Hygiène SNC ni sur une facture datée du 2026-05-18. Je ne peux donc pas répondre à votre question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6102652549743652,
+      "total_latency": 2.7333202362060547,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FA-000108 ni sur son fournisseur."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5555229187011719,
+      "total_latency": 5.930901050567627,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2025/00300 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6506547927856445,
+      "total_latency": 4.6536335945129395,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00296."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6029088497161865,
+      "total_latency": 3.445739984512329,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00311 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.47467494010925293,
+      "total_latency": 3.0597140789031982,
+      "answer": "La date d'échéance de la facture rig n'est pas fournie dans les extraits."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6209850311279297,
+      "total_latency": 2.9666850566864014,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le montant total HT de la facture rig. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6564040184020996,
+      "total_latency": 10.256058931350708,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5866780281066895,
+      "total_latency": 3.6278769969940186,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur de la facture FAC/2025/00296."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.49067211151123047,
+      "total_latency": 3.344383955001831,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, donc je ne peux pas répondre à la question concernant le montant total TTC de cette facture."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.8231170177459717,
+      "total_latency": 3.106804132461548,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5306451320648193,
+      "total_latency": 7.758998155593872,
+      "answer": "Le fournisseur de la facture rig est Rif Services SARL."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6101293563842773,
+      "total_latency": 3.3596580028533936,
+      "answer": "Je ne dispose pas d'informations concernant le montant total HT de la facture FAC/2025/00309. Les extraits fournis ne mentionnent pas cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.7419812679290771,
+      "total_latency": 3.684465169906616,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le montant total HT de la facture rig. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.9481620788574219,
+      "total_latency": 4.608266830444336,
+      "answer": "La date d'échéance de la facture rig n'est pas fournie dans les extraits."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6434121131896973,
+      "total_latency": 3.259984254837036,
+      "answer": "Les extraits fournis ne contiennent pas d'information sur la date d'échéance de la facture FAC/2026/00306."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.8522288799285889,
+      "total_latency": 3.405507802963257,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.630133867263794,
+      "total_latency": 2.9181478023529053,
+      "answer": "Je ne dispose pas d'informations concernant le montant total HT de la facture FAC/2025/00304. Les extraits fournis ne mentionnent pas cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5754420757293701,
+      "total_latency": 3.729264974594116,
+      "answer": "Je ne dispose pas d'informations concernant le montant total HT de la facture FAC/2026/00313 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6428170204162598,
+      "total_latency": 3.541764974594116,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.7292590141296387,
+      "total_latency": 2.6556012630462646,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2026-03-12."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6039760112762451,
+      "total_latency": 7.388215065002441,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.672835111618042,
+      "total_latency": 4.27582311630249,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur Doukkala Hygiène SNC ni sur une facture datée du 2025-06-27. Je ne peux donc pas répondre à votre question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.02947998046875,
+      "total_latency": 6.7901551723480225,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00313 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6665821075439453,
+      "total_latency": 2.4399681091308594,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000120 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6743330955505371,
+      "total_latency": 5.26524019241333,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000108 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.041949987411499,
+      "total_latency": 3.246840000152588,
+      "answer": "Je ne dispose pas d'informations concernant le montant total TTC de la facture FAC/2026/00306 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6719868183135986,
+      "total_latency": 2.5679869651794434,
+      "answer": "Le montant total HT de la facture FA-000108 est de 881,79."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6195268630981445,
+      "total_latency": 4.939038991928101,
+      "answer": "Le montant total HT de la facture FA-000116 est de 881,79."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5766711235046387,
+      "total_latency": 6.813007831573486,
+      "answer": "La date d'échéance de la facture rig n'est pas fournie dans les extraits."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.543086051940918,
+      "total_latency": 3.9166152477264404,
+      "answer": "Je ne dispose pas d'informations sur le fournisseur de la facture FAC/2025/00304 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5288641452789307,
+      "total_latency": 4.705703973770142,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000120 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6670279502868652,
+      "total_latency": 5.740540266036987,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-26 dans les extraits fournis."
+    }
+  ],
+  "hybrid": [
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5922708511352539,
+      "total_latency": 2.394735813140869,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00300, donc je ne peux pas répondre à la question concernant le montant total HT de cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6215250492095947,
+      "total_latency": 9.505553960800171,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-07-18 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6475987434387207,
+      "total_latency": 2.6449499130249023,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00304, donc je ne peux pas répondre à votre question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5692641735076904,
+      "total_latency": 3.4973461627960205,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, donc je ne peux pas répondre à votre question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.9580440521240234,
+      "total_latency": 3.6019790172576904,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00296, donc je ne peux pas répondre à la question concernant le montant total HT de cette facture."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.1684272289276123,
+      "total_latency": 4.815864086151123,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-03-15 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5638289451599121,
+      "total_latency": 4.582429885864258,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.554872989654541,
+      "total_latency": 3.38257098197937,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000089 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.855201005935669,
+      "total_latency": 3.6158447265625,
+      "answer": "La date d'échéance de la facture rig n'est pas spécifiée dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6182219982147217,
+      "total_latency": 2.835012912750244,
+      "answer": "Je ne dispose pas d'informations sur le montant total HT de la facture FAC/2026/00315 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6514286994934082,
+      "total_latency": 2.456169843673706,
+      "answer": "Je ne dispose pas d'informations sur la date d'échéance de la facture FAC/2025/00309 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5328731536865234,
+      "total_latency": 2.859452962875366,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-03-05 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5451109409332275,
+      "total_latency": 4.409955978393555,
+      "answer": "Je ne peux pas fournir le montant total HT de la facture FA-000116 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6504218578338623,
+      "total_latency": 3.6467080116271973,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur de la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5822370052337646,
+      "total_latency": 3.628376007080078,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le montant total TTC de la facture rig."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6492247581481934,
+      "total_latency": 5.221674919128418,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, donc je ne peux pas répondre à la question sur le fournisseur de cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6513361930847168,
+      "total_latency": 4.940747022628784,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-04-07 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6872000694274902,
+      "total_latency": 3.8672051429748535,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2026-05-18 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6282000541687012,
+      "total_latency": 2.921156167984009,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FA-000108 ni sur son fournisseur."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5947279930114746,
+      "total_latency": 3.116140127182007,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2025/00300 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6535348892211914,
+      "total_latency": 2.497283697128296,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00296."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.612515926361084,
+      "total_latency": 3.4416608810424805,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00311 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5768640041351318,
+      "total_latency": 3.6144378185272217,
+      "answer": "La date d'échéance de la facture rig n'est pas spécifiée dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.1317088603973389,
+      "total_latency": 5.346352815628052,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le montant total HT de la facture rig. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6293449401855469,
+      "total_latency": 5.58275294303894,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6204550266265869,
+      "total_latency": 2.9700241088867188,
+      "answer": "Je ne dispose pas d'informations concernant le fournisseur de la facture FAC/2025/00296 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5689101219177246,
+      "total_latency": 3.480440139770508,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, donc je ne peux pas répondre à votre question."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6849660873413086,
+      "total_latency": 4.28889799118042,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6666901111602783,
+      "total_latency": 2.483241319656372,
+      "answer": "Le fournisseur de la facture rig est Rif Services SARL."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5440287590026855,
+      "total_latency": 4.697415828704834,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00309, donc je ne peux pas répondre à la question concernant le montant total HT de cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6468799114227295,
+      "total_latency": 3.6205239295959473,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le montant total HT de la facture rig. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.7492899894714355,
+      "total_latency": 3.698446035385132,
+      "answer": "La date d'échéance de la facture rig n'est pas spécifiée dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6018011569976807,
+      "total_latency": 4.459150075912476,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00306 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.8552989959716797,
+      "total_latency": 2.8426597118377686,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5758459568023682,
+      "total_latency": 3.9632370471954346,
+      "answer": "Je ne dispose pas d'informations concernant le montant total HT de la facture FAC/2025/00304 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6020050048828125,
+      "total_latency": 3.6716690063476562,
+      "answer": "Je ne dispose pas d'informations sur le montant total HT de la facture FAC/2026/00313 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6125302314758301,
+      "total_latency": 4.2848451137542725,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.9297962188720703,
+      "total_latency": 3.4635980129241943,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2026-03-12 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6916532516479492,
+      "total_latency": 3.171006202697754,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6690490245819092,
+      "total_latency": 3.3496038913726807,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5666830539703369,
+      "total_latency": 2.5075900554656982,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00313 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5583066940307617,
+      "total_latency": 2.9092187881469727,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000120 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6341259479522705,
+      "total_latency": 2.5969250202178955,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000108 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6320509910583496,
+      "total_latency": 3.0874760150909424,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00306, donc je ne peux pas répondre à la question concernant le montant total TTC de cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5466160774230957,
+      "total_latency": 2.734342098236084,
+      "answer": "Je ne peux pas fournir le montant total HT de la facture FA-000108 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6409530639648438,
+      "total_latency": 4.596249103546143,
+      "answer": "Je ne peux pas fournir le montant total HT de la facture FA-000116 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5824601650238037,
+      "total_latency": 4.624943017959595,
+      "answer": "La date d'échéance de la facture rig n'est pas spécifiquement mentionnée dans les extraits fournis. Les dates d'échéance présentes sont 07/09/2026, 16/02/2026 et 30/08/2026, mais il n'est pas précisé à quelle facture elles se rapportent."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.5951268672943115,
+      "total_latency": 3.2557218074798584,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00304, y compris le nom du fournisseur. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6872949600219727,
+      "total_latency": 3.7878458499908447,
+      "answer": "Je ne peux pas fournir le montant total TTC de la facture FA-000120 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 0.6189441680908203,
+      "total_latency": 4.302304029464722,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-26 dans les extraits fournis."
+    }
+  ],
+  "hybrid_rerank": [
+    {
+      "recall_hit": true,
+      "faithfulness": 0,
+      "answer_relevancy": 1,
+      "retrieval_latency": 3.122675895690918,
+      "total_latency": 6.4511048793792725,
+      "answer": "Le montant total HT de la facture FAC/2025/00300 est de 24000."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.3515098094940186,
+      "total_latency": 5.823923826217651,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-07-18 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.646738052368164,
+      "total_latency": 5.228163242340088,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00304, donc je ne peux pas répondre à la question concernant le montant total TTC de cette facture."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.411364793777466,
+      "total_latency": 5.397938966751099,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, donc je ne peux pas répondre à votre question."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.0769331455230713,
+      "total_latency": 5.663851976394653,
+      "answer": "Je ne dispose pas d'informations sur le montant total HT de la facture FAC/2025/00296 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.9357540607452393,
+      "total_latency": 12.7450852394104,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-03-15 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6914680004119873,
+      "total_latency": 4.662894010543823,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.841831922531128,
+      "total_latency": 4.571272850036621,
+      "answer": "Les extraits fournis ne contiennent pas d'informations spécifiques sur le montant total TTC de la facture FA-000089. Je ne peux donc pas répondre à cette question."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 0,
+      "answer_relevancy": 1,
+      "retrieval_latency": 4.544930934906006,
+      "total_latency": 6.835755825042725,
+      "answer": "La date d'échéance de la facture rig n'est pas spécifiée dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.2001757621765137,
+      "total_latency": 4.347672700881958,
+      "answer": "Le montant total HT de la facture FAC/2026/00315 est de 881,79."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.4717659950256348,
+      "total_latency": 5.644650936126709,
+      "answer": "La date d'échéance de la facture FAC/2025/00309 est le 06/10/2025."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.8984026908874512,
+      "total_latency": 3.9954168796539307,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-03-05 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.659428119659424,
+      "total_latency": 6.068288087844849,
+      "answer": "Le montant total HT de la facture FA-000116 est de 881,79."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.7143728733062744,
+      "total_latency": 3.4731388092041016,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur de la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.641853094100952,
+      "total_latency": 12.022928953170776,
+      "answer": "Le montant total TTC de la facture rig est de 61,703.40 Dhs."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.8045969009399414,
+      "total_latency": 7.787443161010742,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2026/00299, y compris le nom du fournisseur. Je ne peux pas répondre à cette question."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.8003759384155273,
+      "total_latency": 4.644939184188843,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-04-07."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.8287339210510254,
+      "total_latency": 10.208199977874756,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2026-05-18 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.082993268966675,
+      "total_latency": 10.61504316329956,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le fournisseur de la facture FA-000108."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 0,
+      "answer_relevancy": 1,
+      "retrieval_latency": 3.238359212875366,
+      "total_latency": 5.800624132156372,
+      "answer": "Je ne dispose pas d'informations sur la date d'échéance de la facture FAC/2025/00300 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.148458957672119,
+      "total_latency": 6.141265153884888,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00296."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.5036029815673828,
+      "total_latency": 8.44070291519165,
+      "answer": "La date d'échéance de la facture FAC/2026/00311 est le 16/02/2026."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6970210075378418,
+      "total_latency": 5.3837950229644775,
+      "answer": "Je ne peux pas déterminer la date d'échéance de la facture rig à partir des extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.4581878185272217,
+      "total_latency": 5.731632947921753,
+      "answer": "Je ne peux pas fournir le montant total HT de la facture rig car les extraits ne contiennent pas d'informations spécifiques sur les montants."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.9713239669799805,
+      "total_latency": 5.863476991653442,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.386108875274658,
+      "total_latency": 5.4743921756744385,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00296, y compris le nom du fournisseur."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.640069007873535,
+      "total_latency": 5.688225984573364,
+      "answer": "Je ne dispose pas d'informations concernant le montant total TTC de la facture FAC/2026/00299 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.4602599143981934,
+      "total_latency": 6.63032078742981,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.8253819942474365,
+      "total_latency": 8.299841165542603,
+      "answer": "Le fournisseur de la facture rig est Rif Services SARL."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.0606658458709717,
+      "total_latency": 4.527102947235107,
+      "answer": "Je ne dispose pas d'informations concernant le montant total HT de la facture FAC/2025/00309 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.4325709342956543,
+      "total_latency": 5.914244890213013,
+      "answer": "Je ne peux pas fournir le montant total HT de la facture rig car les extraits ne contiennent pas d'informations spécifiques sur les montants."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 10.905240774154663,
+      "total_latency": 14.029064893722534,
+      "answer": "Je ne peux pas déterminer la date d'échéance de la facture rig à partir des extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.262960195541382,
+      "total_latency": 5.052495241165161,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00306 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.7036690711975098,
+      "total_latency": 4.0585033893585205,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.0479981899261475,
+      "total_latency": 5.837795257568359,
+      "answer": "Je ne dispose pas d'informations concernant le montant total HT de la facture FAC/2025/00304 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.9454209804534912,
+      "total_latency": 4.314439296722412,
+      "answer": "Je ne dispose pas d'informations sur le montant total HT de la facture FAC/2026/00313 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6240730285644531,
+      "total_latency": 4.557862997055054,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.082642078399658,
+      "total_latency": 5.631831884384155,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2026-03-12 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 8.078641176223755,
+      "total_latency": 11.095017910003662,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur le taux de TVA appliqué sur la facture FAC/2025/00309."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.765133857727051,
+      "total_latency": 5.459382057189941,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6655848026275635,
+      "total_latency": 4.2662270069122314,
+      "answer": "Je ne dispose pas d'informations concernant la date d'échéance de la facture FAC/2026/00313 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.7136077880859375,
+      "total_latency": 4.81516695022583,
+      "answer": "Je ne dispose pas d'informations sur le montant total TTC de la facture FA-000120 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.8422410488128662,
+      "total_latency": 4.233615875244141,
+      "answer": "Je ne dispose pas d'informations sur le montant total TTC de la facture FA-000108 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.0107967853546143,
+      "total_latency": 4.108836889266968,
+      "answer": "Je ne dispose pas d'informations sur le montant total TTC de la facture FAC/2026/00306 dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6391990184783936,
+      "total_latency": 4.740586996078491,
+      "answer": "Le montant total HT de la facture FA-000108 n'est pas spécifié dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 2.9656341075897217,
+      "total_latency": 5.860159158706665,
+      "answer": "Je ne peux pas fournir le montant total HT de la facture FA-000116 car les extraits ne contiennent pas cette information."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 0,
+      "answer_relevancy": 1,
+      "retrieval_latency": 17.234086990356445,
+      "total_latency": 19.967001914978027,
+      "answer": "La date d'échéance de la facture rig n'est pas spécifiée dans les extraits fournis."
+    },
+    {
+      "recall_hit": false,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.9455270767211914,
+      "total_latency": 4.505542993545532,
+      "answer": "Les extraits fournis ne contiennent pas d'informations sur la facture FAC/2025/00304 ni sur son fournisseur."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.741204023361206,
+      "total_latency": 4.689610242843628,
+      "answer": "Je ne dispose pas d'informations sur le montant total TTC de la facture FA-000120 dans les extraits fournis."
+    },
+    {
+      "recall_hit": true,
+      "faithfulness": 1,
+      "answer_relevancy": 1,
+      "retrieval_latency": 1.6724369525909424,
+      "total_latency": 5.339845895767212,
+      "answer": "Je ne dispose pas d'informations sur le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-26 dans les extraits fournis."
+    }
+  ]
+}

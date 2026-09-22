@@ -293,11 +293,27 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       duplication pour compléter dès que le quota est reconstitué
 
 ### Étape 5 — RAG
-- [ ] Recherche hybride (BM25 + vecteurs) + reranker
-- [ ] Génération de réponse avec citation de page
-- [ ] Jeu de 50 questions/réponses de référence écrites à la main
-- [ ] Évaluation RAGAS : faithfulness, answer relevancy, recall@k
-- [ ] Livrable : tableau comparant vecteur seul vs hybride vs hybride+rerank
+- [x] Recherche hybride (BM25 + vecteurs) + reranker
+      → `src/rag/{vector_search,bm25_search,hybrid_search,reranker}.py` —
+      fusion par Reciprocal Rank Fusion, reranker LLM (OpenRouter, un seul
+      appel ; pas de cross-encoder local, torch indisponible pour Python 3.14)
+- [x] Génération de réponse avec citation de page
+      → `src/rag/generate.py` — cite document_id + page_number, refuse de
+      répondre si l'info n'est pas dans le contexte, ne calcule jamais un
+      montant (délégué à l'agent SQL, Étape 6)
+- [x] Jeu de 50 questions/réponses de référence écrites à la main
+      → `docs/eval/rag_qa_dataset.json` — gabarits écrits à la main, faits
+      tirés de la DB (pas inventés). Un bug de propagation du nom fournisseur
+      trouvé et corrigé au passage (voir Étape 4/5 commits)
+- [x] Évaluation RAGAS : faithfulness, answer relevancy, recall@k
+      → **`ragas` abandonné** : dépendance interne cassée
+      (`langchain_community.chat_models.vertexai`, supprimée des versions
+      récentes). Implémentation maison (`src/rag/metrics.py`, LLM-juge
+      OpenRouter), documentée comme telle
+- [x] Livrable : tableau comparant vecteur seul vs hybride vs hybride+rerank
+      → `docs/eval/2026-09-22-rag-comparison.md` — **hybride+rerank retenu**
+      (recall@5 : 0.44 vs 0.26 hybride vs 0.18 vecteur seul), au prix d'une
+      latence ~4× plus élevée sur le retrieval
 
 ### Étape 6 — Agent et outils
 - [ ] Outil `search_documents` (RAG)
@@ -349,7 +365,7 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
 | OCR | CER (clean / scan / bad) | Tesseract 0.22/0.24/0.52 — PaddleOCR 0.23/0.30/0.46 (voir limite méthodologique dans le rapport) |
 | Extraction | F1 par champ | LLM 0.88–1.00 selon champ, regex 0.00–0.99 (voir Étape 2) |
 | Classification | accuracy, coût/doc | 100% (5 méthodes) — voir limite méthodologique, Étape 3 |
-| RAG | recall@5, faithfulness | à mesurer |
+| RAG | recall@5, faithfulness | recall@5 : 0.18 (vecteur) / 0.26 (hybride) / 0.44 (hybride+rerank) — faithfulness ≥0.92 partout |
 | Agent | taux de bon choix d'outil | à mesurer |
 | Coût | $/requête moyen | à mesurer |
 | Latence | p50 / p95 | à mesurer |
