@@ -1,0 +1,17 @@
+RAPPORT D'INCIDENT
+
+Rédigé par : Amina Lahlou
+Date : 24 mars 2024
+Société : Zagora Informatique SA
+
+1. Contexte
+Le présent rapport documente un incident survenu le 24 mars 2024 au sein du département Commercial de Zagora Informatique SA.
+
+2. Description de l'incident
+L'incident a entraîné une interruption partielle de l'activité pendant plusieurs heures, sans conséquence sur la sécurité du personnel.
+
+3. Actions correctives
+Une intervention a été menée par l'équipe technique afin de rétablir le fonctionnement normal ; 5 mesures correctives ont été engagées.
+
+4. Conclusion
+Un suivi renforcé du département Informatique est mis en place pour prévenir la récurrence de ce type d'incident.

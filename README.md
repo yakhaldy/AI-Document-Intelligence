@@ -90,7 +90,7 @@ approprié (SQL, calculatrice) et se contente de formuler la réponse.
 | API | FastAPI | REST, auth JWT simple |
 | OCR | Tesseract (baseline) puis PaddleOCR | comparer les deux, mesurer le CER |
 | Extraction | LLM (prompt structuré → JSON) + regex de secours pour ICE/IF/RC/TVA | ne pas tout confier au LLM |
-| Classification | TF-IDF + LogisticRegression **et** LLM zero-shot | comparer, garder le meilleur rapport coût/précision |
+| Classification | TF-IDF + LogisticRegression **et** LLM zero-shot **et** Jev (TypeSafe System One) | comparer, garder le meilleur rapport coût/précision |
 | RAG | embeddings multilingues (type BGE-M3 / multilingual-e5) + BM25 hybride + reranker | chunking par section, pas par nombre de caractères fixe |
 | Vector DB | ChromaDB (dev) → Qdrant (prod) | |
 | Base relationnelle | PostgreSQL | champs extraits + statut de paiement |
@@ -252,11 +252,21 @@ quand le LLM ne trouve rien) n'apporte qu'un gain marginal — attendu, vu que
 le LLM est déjà très bon sur ce jeu de données propre en structure.
 
 ### Étape 3 — Classification de documents
-- [ ] Baseline TF-IDF + LogisticRegression
-- [ ] LLM zero-shot puis few-shot
-- [ ] Comparer précision, latence, coût par document
-- [ ] Garder la méthode la plus adaptée (probablement TF-IDF pour ce cas,
+- [x] Baseline TF-IDF + LogisticRegression
+- [x] LLM zero-shot puis few-shot (+ Jev/TypeSafe System One zero-shot et few-shot)
+- [x] Comparer précision, latence, coût par document
+- [x] Garder la méthode la plus adaptée (probablement TF-IDF pour ce cas,
       documenter pourquoi)
+      → `docs/eval/2026-09-22-classification-baseline.md` — **TF-IDF retenu**
+      (même accuracy que LLM/Jev, gratuit, quasi instantané)
+
+⚠️ Aucun contrat/rapport réel n'existait dans le projet (`data/public/` et
+`data/real_anonymized/` vides, Étape 0 non complétée). Débloqué avec
+`generate_docs.py` : 60 contrats + 60 rapports synthétiques en texte brut
+(pas de rendu PDF/scan). **Les 5 méthodes obtiennent 100% d'accuracy** — le
+vocabulaire des 3 classes synthétiques est trop disjoint pour être un test
+discriminant réel ; voir la limite méthodologique détaillée dans le rapport.
+Un vrai test attend les documents publics/réels de l'Étape 0.
 
 ### Étape 4 — Stockage
 - [ ] Schéma PostgreSQL (section 3) + migrations (Alembic)
@@ -319,7 +329,7 @@ le LLM est déjà très bon sur ce jeu de données propre en structure.
 |---|---|---|
 | OCR | CER (clean / scan / bad) | Tesseract 0.22/0.24/0.52 — PaddleOCR 0.23/0.30/0.46 (voir limite méthodologique dans le rapport) |
 | Extraction | F1 par champ | LLM 0.88–1.00 selon champ, regex 0.00–0.99 (voir Étape 2) |
-| Classification | accuracy, coût/doc | à mesurer |
+| Classification | accuracy, coût/doc | 100% (5 méthodes) — voir limite méthodologique, Étape 3 |
 | RAG | recall@5, faithfulness | à mesurer |
 | Agent | taux de bon choix d'outil | à mesurer |
 | Coût | $/requête moyen | à mesurer |

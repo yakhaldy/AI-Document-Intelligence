@@ -1,0 +1,61 @@
+id,doc_type,template,split
+ctr_0001,contrat,Contrat de sous-traitance,dev
+ctr_0002,contrat,Contrat de prestation de services,dev
+ctr_0003,contrat,Contrat de partenariat commercial,dev
+ctr_0004,contrat,Contrat de sous-traitance,dev
+ctr_0005,contrat,Contrat de sous-traitance,dev
+ctr_0006,contrat,Contrat de vente,dev
+ctr_0007,contrat,Contrat de sous-traitance,dev
+ctr_0008,contrat,Contrat de sous-traitance,test
+ctr_0009,contrat,Contrat de bail commercial,dev
+ctr_0010,contrat,Contrat de vente,dev
+ctr_0011,contrat,Contrat de prestation de services,dev
+ctr_0012,contrat,Contrat de prestation de services,dev
+ctr_0013,contrat,Contrat de prestation de services,dev
+ctr_0014,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0015,contrat,Contrat de partenariat commercial,dev
+ctr_0016,contrat,Contrat de prestation de services,dev
+ctr_0017,contrat,Contrat de bail commercial,dev
+ctr_0018,contrat,Contrat de prestation de services,test
+ctr_0019,contrat,Contrat de partenariat commercial,dev
+ctr_0020,contrat,Contrat de vente,test
+ctr_0021,contrat,Contrat de vente,dev
+ctr_0022,contrat,Contrat de sous-traitance,dev
+ctr_0023,contrat,Contrat de vente,dev
+ctr_0024,contrat,Contrat de partenariat commercial,dev
+ctr_0025,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0026,contrat,Contrat de partenariat commercial,dev
+ctr_0027,contrat,Contrat de sous-traitance,dev
+ctr_0028,contrat,Contrat de partenariat commercial,dev
+ctr_0029,contrat,Contrat de sous-traitance,test
+ctr_0030,contrat,Contrat de travail à durée indéterminée,test
+ctr_0031,contrat,Contrat de vente,dev
+ctr_0032,contrat,Contrat de bail commercial,test
+ctr_0033,contrat,Contrat de sous-traitance,dev
+ctr_0034,contrat,Contrat de vente,dev
+ctr_0035,contrat,Contrat de partenariat commercial,dev
+ctr_0036,contrat,Contrat de vente,dev
+ctr_0037,contrat,Contrat de prestation de services,test
+ctr_0038,contrat,Contrat de sous-traitance,dev
+ctr_0039,contrat,Contrat de bail commercial,test
+ctr_0040,contrat,Contrat de vente,dev
+ctr_0041,contrat,Contrat de sous-traitance,dev
+ctr_0042,contrat,Contrat de prestation de services,dev
+ctr_0043,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0044,contrat,Contrat de partenariat commercial,dev
+ctr_0045,contrat,Contrat de prestation de services,dev
+ctr_0046,contrat,Contrat de sous-traitance,test
+ctr_0047,contrat,Contrat de partenariat commercial,dev
+ctr_0048,contrat,Contrat de prestation de services,test
+ctr_0049,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0050,contrat,Contrat de sous-traitance,dev
+ctr_0051,contrat,Contrat de sous-traitance,dev
+ctr_0052,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0053,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0054,contrat,Contrat de vente,test
+ctr_0055,contrat,Contrat de partenariat commercial,dev
+ctr_0056,contrat,Contrat de vente,test
+ctr_0057,contrat,Contrat de travail à durée indéterminée,dev
+ctr_0058,contrat,Contrat de vente,test
+ctr_0059,contrat,Contrat de vente,dev
+ctr_0060,contrat,Contrat de partenariat commercial,dev

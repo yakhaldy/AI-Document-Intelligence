@@ -1,0 +1,17 @@
+RAPPORT D'AUDIT INTERNE
+
+Rédigé par : Omar Fassi
+Date : 27 mai 2024
+Société : Chaouia Cuisine Pro SARL AU
+
+1. Contexte
+Le présent audit a été mené au sein du département Informatique de Chaouia Cuisine Pro SARL AU dans le cadre du programme annuel de contrôle interne.
+
+2. Constats
+L'audit a permis d'identifier 2 points de non-conformité concernant les procédures du service Comptabilité, principalement liés à un défaut de traçabilité documentaire.
+
+3. Recommandations
+Il est recommandé de renforcer les contrôles de premier niveau et de formaliser les procédures actuellement appliquées de manière informelle.
+
+4. Conclusion
+Sous réserve de la mise en œuvre des recommandations ci-dessus, le dispositif de contrôle interne du département Commercial peut être jugé globalement satisfaisant.

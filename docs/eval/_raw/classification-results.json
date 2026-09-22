@@ -1,0 +1,241 @@
+{
+  "tfidf_logreg": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "facture": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 68
+      },
+      "contrat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 13
+      },
+      "rapport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 16
+      }
+    },
+    "confusion_matrix": {
+      "facture": {
+        "facture": 68,
+        "contrat": 0,
+        "rapport": 0
+      },
+      "contrat": {
+        "facture": 0,
+        "contrat": 13,
+        "rapport": 0
+      },
+      "rapport": {
+        "facture": 0,
+        "contrat": 0,
+        "rapport": 16
+      }
+    },
+    "n": 97,
+    "latency_mean": 0.00022022502938496698,
+    "latency_median": 0.00022022502938496698,
+    "cost_usd_total": 0.0,
+    "cost_usd_mean": 0.0,
+    "n_evaluated": 97
+  },
+  "llm_zero_shot": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "facture": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "contrat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 13
+      },
+      "rapport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 16
+      }
+    },
+    "confusion_matrix": {
+      "facture": {
+        "facture": 15,
+        "contrat": 0,
+        "rapport": 0
+      },
+      "contrat": {
+        "facture": 0,
+        "contrat": 13,
+        "rapport": 0
+      },
+      "rapport": {
+        "facture": 0,
+        "contrat": 0,
+        "rapport": 16
+      }
+    },
+    "n": 44,
+    "latency_mean": 1.8025342226028442,
+    "latency_median": 1.4844989776611328,
+    "cost_usd_total": 0.00335505,
+    "cost_usd_mean": 7.625113636363636e-05,
+    "n_evaluated": 44,
+    "failures": []
+  },
+  "llm_few_shot": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "facture": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "contrat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 13
+      },
+      "rapport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 16
+      }
+    },
+    "confusion_matrix": {
+      "facture": {
+        "facture": 15,
+        "contrat": 0,
+        "rapport": 0
+      },
+      "contrat": {
+        "facture": 0,
+        "contrat": 13,
+        "rapport": 0
+      },
+      "rapport": {
+        "facture": 0,
+        "contrat": 0,
+        "rapport": 16
+      }
+    },
+    "n": 44,
+    "latency_mean": 1.8198885646733372,
+    "latency_median": 1.5336928367614746,
+    "cost_usd_total": 0.00806085,
+    "cost_usd_mean": 0.00018320113636363636,
+    "n_evaluated": 44,
+    "failures": []
+  },
+  "jev_zero_shot": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "facture": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "contrat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 13
+      },
+      "rapport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 16
+      }
+    },
+    "confusion_matrix": {
+      "facture": {
+        "facture": 15,
+        "contrat": 0,
+        "rapport": 0
+      },
+      "contrat": {
+        "facture": 0,
+        "contrat": 13,
+        "rapport": 0
+      },
+      "rapport": {
+        "facture": 0,
+        "contrat": 0,
+        "rapport": 16
+      }
+    },
+    "n": 44,
+    "latency_mean": 0.3073583353649486,
+    "latency_median": 0.287280797958374,
+    "cost_usd_total": null,
+    "cost_usd_mean": null,
+    "n_evaluated": 44,
+    "failures": []
+  },
+  "jev_few_shot": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "facture": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "contrat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 13
+      },
+      "rapport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 16
+      }
+    },
+    "confusion_matrix": {
+      "facture": {
+        "facture": 15,
+        "contrat": 0,
+        "rapport": 0
+      },
+      "contrat": {
+        "facture": 0,
+        "contrat": 13,
+        "rapport": 0
+      },
+      "rapport": {
+        "facture": 0,
+        "contrat": 0,
+        "rapport": 16
+      }
+    },
+    "n": 44,
+    "latency_mean": 0.2970351901921359,
+    "latency_median": 0.28461217880249023,
+    "cost_usd_total": null,
+    "cost_usd_mean": null,
+    "n_evaluated": 44,
+    "failures": []
+  }
+}

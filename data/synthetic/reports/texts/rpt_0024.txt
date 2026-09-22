@@ -1,0 +1,17 @@
+RAPPORT D'AUDIT INTERNE
+
+Rédigé par : Sara Idrissi
+Date : 22 juin 2025
+Société : Maghreb Froid SNC
+
+1. Contexte
+Le présent audit a été mené au sein du département Qualité de Maghreb Froid SNC dans le cadre du programme annuel de contrôle interne.
+
+2. Constats
+L'audit a permis d'identifier 3 points de non-conformité concernant les procédures du service Informatique, principalement liés à un défaut de traçabilité documentaire.
+
+3. Recommandations
+Il est recommandé de renforcer les contrôles de premier niveau et de formaliser les procédures actuellement appliquées de manière informelle.
+
+4. Conclusion
+Sous réserve de la mise en œuvre des recommandations ci-dessus, le dispositif de contrôle interne du département Commercial peut être jugé globalement satisfaisant.
