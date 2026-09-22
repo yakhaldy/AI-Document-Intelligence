@@ -3,10 +3,21 @@ name = "ai-document-intelligence"
 version = "0.1.0"
 description = "OCR, extraction, RAG et agent SQL pour factures marocaines"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pytesseract>=0.3.10",
+    "pypdfium2>=4.30",
+    "pillow>=10.0",
+    "numpy>=1.26",
+    "jiwer>=3.0",
+]
 
 [project.optional-dependencies]
-dev = []
+dev = [
+    "pytest>=8.0",
+]
+synthetic-data = [
+    "reportlab>=4.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
