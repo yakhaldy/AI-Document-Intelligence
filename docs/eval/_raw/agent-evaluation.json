@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Quel est le montant total des factures impayées ?",
+    "expected_tool": "total_by_payment_status",
+    "tools_called": [
+      "total_by_payment_status"
+    ],
+    "tool_ok": true,
+    "answer": "Le montant total des factures impayées est de 1 542 744,82 MAD.",
+    "answer_ok": true
+  },
+  {
+    "question": "Quel est le montant total des factures payées ?",
+    "expected_tool": "total_by_payment_status",
+    "tools_called": [
+      "total_by_payment_status"
+    ],
+    "tool_ok": true,
+    "answer": "Le montant total des factures payées est de 4 634 305,27 MAD.",
+    "answer_ok": true
+  },
+  {
+    "question": "Combien de factures sont impayées ?",
+    "expected_tool": "count_by_payment_status",
+    "tools_called": [
+      "count_by_payment_status"
+    ],
+    "tool_ok": true,
+    "answer": "Il y a 40 factures impayées.",
+    "answer_ok": true
+  },
+  {
+    "question": "Quels sont les 2 fournisseurs auxquels on doit le plus au total ?",
+    "expected_tool": "top_suppliers_by_total",
+    "tools_called": [
+      "top_suppliers_by_total"
+    ],
+    "tool_ok": true,
+    "answer": "Les deux fournisseurs auxquels on doit le plus au total sont :\n\n1. **Doukkala Hygiène SNC** : 545 901,09 MAD\n2. **Tafilalet Conseil SNC** : 481 365,11 MAD",
+    "answer_ok": true
+  },
+  {
+    "question": "Quel est le montant TTC de la facture FA-000089 ?",
+    "expected_tool": "invoice_lookup",
+    "tools_called": [
+      "invoice_lookup"
+    ],
+    "tool_ok": true,
+    "answer": "Le montant TTC de la facture FA-000089 est de 1026 MAD.",
+    "answer_ok": true
+  },
+  {
+    "question": "Combien font 43302.70 plus 1026.00 plus 8138.87 ?",
+    "expected_tool": "calculate",
+    "tools_called": [
+      "calculate"
+    ],
+    "tool_ok": true,
+    "answer": "La somme de 43302.70, 1026.00 et 8138.87 est de 52467.57.",
+    "answer_ok": true
+  },
+  {
+    "question": "Quelle est l'adresse du fournisseur sur la facture FAC/2025/00291 ?",
+    "expected_tool": "search_documents",
+    "tools_called": [
+      "invoice_lookup"
+    ],
+    "tool_ok": false,
+    "answer": "L'adresse du fournisseur \"Tafilalet Conseil SNC\" sur la facture FAC/2025/00291 n'est pas spécifiée dans les informations disponibles.",
+    "answer_ok": true
+  }
+]

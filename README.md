@@ -316,13 +316,35 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       latence ~4× plus élevée sur le retrieval
 
 ### Étape 6 — Agent et outils
-- [ ] Outil `search_documents` (RAG)
-- [ ] Outil `query_sql` (lecture seule, requêtes pré-validées ou générées
+- [x] Outil `search_documents` (RAG)
+      → `src/agent/search_documents.py`, appelle le pipeline hybride+rerank
+      retenu à l'Étape 5
+- [x] Outil `query_sql` (lecture seule, requêtes pré-validées ou générées
       puis vérifiées)
-- [ ] Outil `calculate` (arithmétique exacte, jamais via le LLM)
-- [ ] Tests : le bon outil est-il choisi ? le résultat est-il correct ?
-- [ ] Tests d'attaque : injection de prompt dans un document, tentative
+      → `src/agent/query_sql.py` — templates paramétrés pré-validés
+      uniquement (pas de SQL libre généré par le LLM : zéro surface
+      d'injection SQL). Exécuté via le rôle PostgreSQL `rag_agent`, SELECT
+      seul sur la vue `v_invoices` (voir migration Étape 6, vérifié
+      empiriquement : `permission denied` sur les tables de base et en
+      écriture). `tenant_id` n'est **pas** un paramètre exposé au LLM —
+      injecté côté serveur, jamais contrôlable depuis l'entrée utilisateur
+- [x] Outil `calculate` (arithmétique exacte, jamais via le LLM)
+      → `src/agent/calculate.py` — évaluateur `ast` restreint (+ - * /),
+      jamais `eval()` ; testé contre l'exécution de code arbitraire
+- [x] Tests : le bon outil est-il choisi ? le résultat est-il correct ?
+      → `docs/eval/2026-09-22-agent-tool-selection.md` — **86% bon outil,
+      100% réponse correcte** sur 7 questions (le seul cas raté : l'agent a
+      tenté `invoice_lookup` au lieu de `search_documents` pour une adresse
+      non présente en base — échec **sûr**, réponse "non spécifié" plutôt
+      qu'une hallucination)
+- [x] Tests d'attaque : injection de prompt dans un document, tentative
       d'accès hors tenant — documenter les résultats
+      → `docs/eval/2026-09-22-agent-security-tests.md` — **les deux tests
+      passent** : l'instruction injectée dans un document n'est pas suivie ;
+      un second tenant de test créé pour l'occasion reste invisible (accès
+      direct à l'outil ET question explicite à l'agent), défense
+      structurelle (paramètre absent du schéma), pas seulement
+      comportementale
 
 ### Étape 7 — API et frontend
 - [ ] FastAPI : endpoints upload, liste documents, chat
@@ -366,7 +388,7 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
 | Extraction | F1 par champ | LLM 0.88–1.00 selon champ, regex 0.00–0.99 (voir Étape 2) |
 | Classification | accuracy, coût/doc | 100% (5 méthodes) — voir limite méthodologique, Étape 3 |
 | RAG | recall@5, faithfulness | recall@5 : 0.18 (vecteur) / 0.26 (hybride) / 0.44 (hybride+rerank) — faithfulness ≥0.92 partout |
-| Agent | taux de bon choix d'outil | à mesurer |
+| Agent | taux de bon choix d'outil | 86% bon outil, 100% réponse correcte (7 questions) |
 | Coût | $/requête moyen | à mesurer |
 | Latence | p50 / p95 | à mesurer |
 
