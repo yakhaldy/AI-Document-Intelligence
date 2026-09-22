@@ -99,6 +99,22 @@ class DocumentChunk(Base):
     document = relationship("Document", back_populates="chunks")
 
 
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True)
+    username = Column(Text, nullable=False, unique=True)
+    password_hash = Column(Text, nullable=False)
+    role = Column(Text, CheckConstraint("role IN ('admin','user')"), server_default="user", nullable=False)
+    status = Column(
+        Text,
+        CheckConstraint("status IN ('pending','approved','rejected')"),
+        server_default="pending",
+        nullable=False,
+    )
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 def default_tenant_id() -> uuid.UUID:
     """Fixed tenant for this single-tenant portfolio dataset."""
     return uuid.UUID("00000000-0000-0000-0000-000000000001")

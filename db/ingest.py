@@ -75,18 +75,24 @@ def already_ingested(session: Session, tenant_id, file_path: str) -> bool:
     return existing is not None
 
 
-def ingest_invoice(session: Session, tenant_id, inv_id: str, ocr_text: str, pdf_path: Path) -> Invoice | None:
+def ingest_invoice(
+    session: Session, tenant_id, inv_id: str, ocr_text: str, pdf_path: Path
+) -> tuple[Invoice | None, bool]:
+    """Returns (invoice, used_regex_fallback). invoice is None if this
+    file_path was already ingested for this tenant (idempotent)."""
     file_path = str(pdf_path)
     if already_ingested(session, tenant_id, file_path):
-        return None
+        return None, False
 
     regex_pred = extract_with_regex(ocr_text)
+    used_regex_fallback = False
     try:
         llm_pred = extract_with_llm(ocr_text)
     except RuntimeError as exc:
         print(f"  {inv_id}: extraction LLM en échec ({exc}), regex seul utilisé")
         llm_pred = dict(regex_pred)
         llm_pred.setdefault("supplier_name", None)
+        used_regex_fallback = True
     fields = combine(llm_pred, regex_pred)
 
     document = Document(tenant_id=tenant_id, file_path=file_path, doc_type="invoice")
@@ -109,7 +115,7 @@ def ingest_invoice(session: Session, tenant_id, inv_id: str, ocr_text: str, pdf_
     )
     session.add(invoice)
     session.flush()
-    return invoice
+    return invoice, used_regex_fallback
 
 
 def main():
@@ -138,7 +144,7 @@ def main():
     with Session(engine) as session:
         for i, r in enumerate(ocr_results):
             pdf_path = data_dir / "pdf" / f"{r['id']}.pdf"
-            invoice = ingest_invoice(session, tenant_id, r["id"], r["hypothesis"], pdf_path)
+            invoice, _used_fallback = ingest_invoice(session, tenant_id, r["id"], r["hypothesis"], pdf_path)
             if invoice is None:
                 skipped += 1
             else:
