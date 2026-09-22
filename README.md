@@ -255,18 +255,27 @@ le LLM est déjà très bon sur ce jeu de données propre en structure.
 - [x] Baseline TF-IDF + LogisticRegression
 - [x] LLM zero-shot puis few-shot (+ Jev/TypeSafe System One zero-shot et few-shot)
 - [x] Comparer précision, latence, coût par document
-- [x] Garder la méthode la plus adaptée (probablement TF-IDF pour ce cas,
-      documenter pourquoi)
-      → `docs/eval/2026-09-22-classification-baseline.md` — **TF-IDF retenu**
-      (même accuracy que LLM/Jev, gratuit, quasi instantané)
+- [x] Garder la méthode la plus adaptée
+      → `docs/eval/2026-09-22-classification-baseline.md` — **Jev retenu**
+      (choix produit, voir justification ci-dessous)
 
 ⚠️ Aucun contrat/rapport réel n'existait dans le projet (`data/public/` et
 `data/real_anonymized/` vides, Étape 0 non complétée). Débloqué avec
 `generate_docs.py` : 60 contrats + 60 rapports synthétiques en texte brut
-(pas de rendu PDF/scan). **Les 5 méthodes obtiennent 100% d'accuracy** — le
-vocabulaire des 3 classes synthétiques est trop disjoint pour être un test
-discriminant réel ; voir la limite méthodologique détaillée dans le rapport.
-Un vrai test attend les documents publics/réels de l'Étape 0.
+(pas de rendu PDF/scan). **Les 5 méthodes obtiennent 100% d'accuracy** sur ce
+jeu — le vocabulaire des 3 classes synthétiques est trop disjoint pour être
+un test discriminant réel ; voir la limite méthodologique détaillée dans le
+rapport. Un vrai test attend les documents publics/réels de l'Étape 0.
+
+**Pourquoi Jev plutôt que TF-IDF malgré un score identique ici** : sur ce
+jeu synthétique (vocabulaire trivialement disjoint entre classes), TF-IDF
+gagne sur le coût/la latence, mais c'est un modèle bag-of-words qui risque
+de moins bien généraliser à de vrais documents (vocabulaire administratif
+qui se recoupe davantage entre facture/contrat/rapport dans la réalité).
+Jev reste peu coûteux et rapide (~$0.0001/doc de cet ordre de grandeur côté
+LLM comparable, latence 0.3s) tout en étant un modèle de décision entraîné
+plus robuste hors distribution. À reconfirmer avec de vraies données
+(Étape 0) avant de trancher définitivement.
 
 ### Étape 4 — Stockage
 - [ ] Schéma PostgreSQL (section 3) + migrations (Alembic)

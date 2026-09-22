@@ -22,10 +22,20 @@ il faudrait de vrais contrats/rapports marocains (cf. Étape 0 : FATURA,
 ReceiptSense, documents réels anonymisés — non encore intégrés), où le
 vocabulaire administratif/financier se recoupe davantage entre les classes.
 
-Ceci dit, à accuracy égale, le choix reste clair sur le **coût et la
-latence** : TF-IDF+LogReg est gratuit et quasi instantané, contre
-~$0.00008–0.0002/doc et 0.3–1.8s pour LLM/Jev. Conforme à l'hypothèse du
-README ("probablement TF-IDF pour ce cas").
+À accuracy égale, TF-IDF+LogReg gagne sur le **coût et la latence bruts**
+(gratuit et quasi instantané, contre ~$0.00008–0.0002/doc et 0.3–1.8s pour
+LLM/Jev) — c'était l'hypothèse de départ du README.
+
+## Décision : Jev retenu
+
+Choix produit fait malgré ce coût légèrement supérieur : TF-IDF+LogReg est
+un modèle bag-of-words entraîné sur un vocabulaire synthétique trivialement
+disjoint — rien ne garantit qu'il généralise aussi bien à de vrais documents
+où facture/contrat/rapport partagent davantage de vocabulaire administratif
+et financier. Jev reste peu coûteux et rapide (0.3s de latence, moins cher
+qu'un LLM généraliste équivalent) tout en étant un modèle de décision
+entraîné, présumé plus robuste hors distribution. À reconfirmer une fois de
+vraies données disponibles (Étape 0).
 
 | Méthode | N | Accuracy | Macro F1 | Latence moy. (s) | Latence médiane (s) | Coût total ($) | Coût moy./doc ($) |
 |---|---|---|---|---|---|---|---|
