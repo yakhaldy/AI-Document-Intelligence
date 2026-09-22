@@ -278,9 +278,19 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
 (Étape 0) avant de trancher définitivement.
 
 ### Étape 4 — Stockage
-- [ ] Schéma PostgreSQL (section 3) + migrations (Alembic)
-- [ ] Script d'ingestion : image → OCR → extraction → insertion DB
-- [ ] Chunking des documents par section + indexation vectorielle
+- [x] Schéma PostgreSQL (section 3) + migrations (Alembic)
+      → `docker-compose.yml` (pgvector/pgvector:pg16), `db/models.py`,
+      `db/migrations/` — appliqué et vérifié (6 tables, CHECK constraints,
+      `embedding vector(1024)`)
+- [x] Script d'ingestion : image → OCR → extraction → insertion DB
+      → `db/ingest.py` — 200/200 factures ingérées (9 en repli regex seul,
+      LLM indisponible ponctuellement)
+- [x] Chunking des documents par section + indexation vectorielle
+      → `src/rag/chunking.py` + `src/rag/embeddings.py` + `db/index_chunks.py`
+      — **85/200 documents indexés (995 chunks)**, le reste bloqué par le
+      quota gratuit de l'API d'embedding (voir détail et limites connues
+      dans `docs/eval/2026-09-22-stockage.md`) ; script ré-exécutable sans
+      duplication pour compléter dès que le quota est reconstitué
 
 ### Étape 5 — RAG
 - [ ] Recherche hybride (BM25 + vecteurs) + reranker

@@ -36,7 +36,11 @@ def index_document(session: Session, document: Document, text: str) -> int:
     chunks = chunk_by_section(text)
     if not chunks:
         return 0
-    vectors = embed_batch(chunks)
+    try:
+        vectors = embed_batch(chunks)
+    except RuntimeError as exc:
+        print(f"  document {document.id}: embedding en échec ({exc}), ignoré pour cette passe")
+        return 0
     for content, vector in zip(chunks, vectors):
         session.add(DocumentChunk(document_id=document.id, content=content, embedding=vector))
     return len(chunks)
