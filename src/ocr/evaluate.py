@@ -53,6 +53,7 @@ def evaluate(data_dir: Path, engine: str, lang: str):
             "split": row["split"],
             "scan_profile": label["scan_profile"]["kind"],
             "cer": cer,
+            "hypothesis": hypothesis,
         })
     return results
 

@@ -222,12 +222,34 @@ suivante avant que l'étape courante ait ses métriques écrites dans
       → `docs/eval/2026-09-22-ocr-comparison.md`
 
 ### Étape 2 — Extraction de champs
-- [ ] Prompt LLM structuré : texte OCR → JSON (schéma fixe : numéro, date,
+- [x] Prompt LLM structuré : texte OCR → JSON (schéma fixe : numéro, date,
       fournisseur, ICE, montants...)
-- [ ] Extraction de secours par regex pour les champs à format fixe (ICE 15
+- [x] Extraction de secours par regex pour les champs à format fixe (ICE 15
       chiffres, dates, montants)
-- [ ] Comparer champ par champ avec le label (exact match + F1)
-- [ ] Livrable : precision/recall par champ, dans un tableau README
+- [x] Comparer champ par champ avec le label (exact match + F1)
+- [x] Livrable : precision/recall par champ, dans un tableau README
+      → `docs/eval/2026-09-22-extraction-baseline.md`
+
+| Champ | Regex F1 | LLM F1 | Combiné F1 |
+|---|---|---|---|
+| invoice_number | 0.29 | 0.95 | 0.94 |
+| invoice_date | 0.81 | 0.97 | 0.98 |
+| due_date | 0.99 | 1.00 | 1.00 |
+| supplier_name | 0.00 | 0.91 | 0.91 |
+| supplier_ice | 0.84 | 0.88 | 0.87 |
+| supplier_if | 0.77 | 0.88 | 0.88 |
+| supplier_rc | 0.89 | 0.94 | 0.95 |
+| total_ht | 0.59 | 0.95 | 0.95 |
+| tva_rate | 0.95 | 0.95 | 0.95 |
+| total_tva | 0.63 | 0.95 | 0.95 |
+| total_ttc | 0.51 | 0.95 | 0.94 |
+
+Mesuré sur les 68 factures du split `test` (jamais utilisées pour ajuster le
+code), à partir de la sortie OCR Tesseract (bruitée, pas du texte propre).
+Le LLM (Gemini) domine largement le regex seul (`supplier_name` : le regex ne
+l'essaie même pas). Le combiné (LLM + regex en filet de secours, uniquement
+quand le LLM ne trouve rien) n'apporte qu'un gain marginal — attendu, vu que
+le LLM est déjà très bon sur ce jeu de données propre en structure.
 
 ### Étape 3 — Classification de documents
 - [ ] Baseline TF-IDF + LogisticRegression
@@ -296,7 +318,7 @@ suivante avant que l'étape courante ait ses métriques écrites dans
 | Étape | Métrique | Résultat |
 |---|---|---|
 | OCR | CER (clean / scan / bad) | Tesseract 0.22/0.24/0.52 — PaddleOCR 0.23/0.30/0.46 (voir limite méthodologique dans le rapport) |
-| Extraction | F1 par champ | à mesurer |
+| Extraction | F1 par champ | LLM 0.88–1.00 selon champ, regex 0.00–0.99 (voir Étape 2) |
 | Classification | accuracy, coût/doc | à mesurer |
 | RAG | recall@5, faithfulness | à mesurer |
 | Agent | taux de bon choix d'outil | à mesurer |

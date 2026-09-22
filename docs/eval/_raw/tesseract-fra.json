@@ -3,1200 +3,1400 @@
     "id": "inv_0001",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.05363984674329502
+    "cer": 0.05363984674329502,
+    "hypothesis": "FACTURE FAC/2025/00082\n\nDate: 23 février 2025\nÀ payer avant le: 10 mars 2025\n\nFacturé à:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nLibellé Qte Prix unitaire HT Total HT\nPièces détachées - lot 1 3 140,00 3 140,00\nImpression flyers A5 (1000 ex.) 3 1 214,13 3 642,39\nSous-total HT 6 782,39 MAD\nTVA 20% 1 356,48 MAD\nMontant TIC 8 138,87 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal : 48740164\nR.C. : 005242 Meknès\n"
   },
   {
     "id": "inv_0002",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.31563845050215206
+    "cer": 0.31563845050215206,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\nJinie see Drae N° : FAC/2025/00291\n\nICE N° : 889373467065627 Date : 08/01/2025\n\nIdentifiant fiscal : 29806990 À e\nN° RC : 162720 El Jadida À payer avant le : 07/02/2025\n\nFacturé à\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n\n50000 Meknès\nLibellé Qte Total HT\nOrdinateur portable 15,6 pouces | 3 8 575,00 | 25 725,00\nCartouche toner HP 305A | 11 817,78 | 8 995,58\nChaise de bureau ergonomique | 1 1 365,00 | 1 365,00\nMontant HT 36 085,58 Dhs\nTVA 20% 7217,12 Dhs\nNet à payer TTC 43 302,70 Dhs\n\nPaiement par virement ou chèque\nTafñlalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0003",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2757352941176471
+    "cer": 0.2757352941176471,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000089\nN° ICE : 473829973763116 Date : 15 mars 2025\nLF. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\nTingis Electro SA\n\n117 Avenue Hassan Il\n11000 Salé\n\nN° ICE : 731585149368998\n\nDescription Quantité Prix unitaire HT Total HT\nLocation de véhicule utilitaire - jour | 1 855,00 | 855,00\nTotal HT 855,00 Dhs\nTVA (20 %) 171,00 Dhs\nNet à payer TTC 1 026,00 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473829973763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0004",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.25443786982248523
+    "cer": 0.25443786982248523,
+    "hypothesis": "Facture F2025-0215\n\nDate: 01/04/2025\nÀ payer avant le: 01/05/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nN° ICE : 731585149368998\n\nDescription\n\nRéfrigérateur professionnel inox\n\nPièces détachées - lot\n\nQuantité Prix unitaire HT Montant HT\n4 8 993,30 35 973,20\n\n1 3 095,00 3 095,00\n\nTotal HT 39 068,20 MAD\nTVA 20% 7 813,64 MAD\nMontant TTC 46 881,84 MAD\n\nDoukkala Hygiène SNC\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | 1.F. : 27484677\n\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0005",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.034482758620689655
+    "cer": 0.034482758620689655,
+    "hypothesis": "Facture FAC/2025/00033\nDate: 16 avril 2025\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nRéfrigérateur professionnel inox 2 8 359,29 16 718,58\nLicence logiciel comptable 1 4 772,93 4 772,93\nLave-vaisselle 12 couverts 2 3 584,14 7 168,28\nSous-total HT 28 659,79 DH\nTVA 7% 2 006,19 DH\nTotal TTC 30 665,98 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | 1.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0006",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.4023494860499266
+    "cer": 0.4023494860499266,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue ibn Sina - 62000 Nador Rét : F2026-0236\n29/03/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLE, : 64139507 417 Avenue Hassan Îl\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585140368096\nÀ payer avant le : 28/05/2026\n\nLiberté Montant HT\n\nChaise de bureau ergonomique 1.050,00\nPièces détachées - lot 3 2.,040.00 6,120.00\nÉcran 24 pouces 4 167658 6,706.32\nTotal HT 13.876.32 MAD\nTVA 20% 2.775,26 MAD\nNet à payer TTC 16,651.58 MAD\n\nPasersot par iremnt ou Ehéque\naus Envie retirhatiqueé SANS, - ICE Re LT TAETELSE - LE ares T -N' RC: HT222 ONE\n"
   },
   {
     "id": "inv_0007",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2718676122931442
+    "cer": 0.2718676122931442,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\n72 Rue des Orangers\n\n24000 El Jadida N° : FAC/2025/00295\nICE N° : 889373467065627 Date : 26/11/2025\nIdentifiant fiscal : 29806990 .\nN° RC 2102720 El ladite À payer avant le : 26/12/2025\nFacturé à\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nLibellé Qte Prix unitaire HT Total HT\nOrdinateur portable 15,6 pouces | 2 8 575,00 | 17 150,00\neste _ Re aEre Er HR ESP EEEE\nLocation de véhicule utilitaire - jour 2| 605,00 1 210,00\nRamette papier A4 80g | 20 | 30,00 600,00\nFournitures diverses de bureau 15 | 233,81 3 507,15\nCartouche toner HP 305A 15 | 817,78 12 266,70\nChaise de bureau ergonomique | 2 | 1 365,00 2 730,00\nMontant HT 37 463,85 Dhs\nTVA 20% 7 492,77 Dhs\nNet à payer TTC 44 956,62 Dhs\n\nPaiement par virement ou chèque\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0008",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.31875881523272215
+    "cer": 0.31875881523272215,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue AI Qods - 30000 Fès N° : FAC/2025/00147\n8 décembre 2025\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Ifrane Electro SNC\nIdentifiant fiscal : 97882081 91 Avenue Mohammed V\nR.C. : 219136 Fès 50000 Meknès\n\nTaxe professionnelle : 19399091 Échéance : 7 janvier 2026\n\nDescription Qte PU HT Total HT\nAudit de sécurité applicative - forfait 4 13080,00 52320,00\nFour électrique encastrable 2 6260,00 12520,00\nSous-total HT 64840,00 MAD\nTVA (20 %) 12968,00 MAD\nNet à payer TTC 77808,00 MAD\n\nPaiement par virement ou chèque\nTafilalet Équipement SNC - N° ICE : 468723430980500 - identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0009",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.47686832740213525
+    "cer": 0.47686832740213525,
+    "hypothesis": "Rif Services SARL\n\n167 Rue Al Massira - 93000 Tétouan\n\nEmetteur\n\nN° ICE : 241904966319314\nIdentifiant fiscai : 01905865\nN°RC : 185067 Tétouan\n\nDésignation\n\nInstallation et mise en service\n\nFACTURE\n\nN° 0145/2026\n05/06/2026\n\nFacturé à\n\nTingis Electro SA\n\n117 Avenue Hassan |\n11000 Salé\n\nN'ICE : 731585140368008\n\nQuantité PUHT Total HT\n\n10 738,79 7387,90\nTotai HT 7387,90 MAD\nTVA (20 %) 1477,58 MAD\nTotal TTC 8865,48 MAD\n\nPaiement à réception\n\nRA Services SARL : NICE : 24 1a04deentgn ta Heñtiant tscai : 9 105008 - »}° RC : 186087 réuan\n"
   },
   {
     "id": "inv_0010",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.05103969754253308
+    "cer": 0.05103969754253308,
+    "hypothesis": "Facture F2026-0217\n\nDate: 21/01/2026\nÀ payer avant le: 20/02/2026\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Montant HT\nRéfrigérateur professionnel inox 2 8 993,30 17 986,60\nAudit de sécurité applicative - forfait 4 9 345,00 37 380,00\nTotal HT 55 366,60 MAD\nTVA 20% 11 073,32 MAD\nMontant TTC 66 439,92 MAD\n\nDoukkala Hygiène SNC\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0011",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.12213740458015267
+    "cer": 0.12213740458015267,
+    "hypothesis": "FACTURE FAC/2026/00085\n\nDate: 18 avril 2026\nÀ payer avant le: 3 mai 2026\n\nFacturé à:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Qte Prix unitaire HT Total HT\nPièces détachées - lot 2 3 140,00 6 280,00\nCartouche toner HP 305A 9 798,26 7 184,34\nInstallation ét mise en service 2 392,51 785,02\nImpression flyers A5 (1000 ex.) 4 1 214,13 4 856,52\nMaintenance climatisation - forfait 3 1 000,00 3 000,00\n\nSous-total HT\nTVA 20%\n\nMontant TTC\n\n22 105,88 MAD\n4 421,18 MAD\n26 527,06 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\n1CE : 841241182449353 | Identifiant fiscal :\n\nR.C. : 005242 Meknès\n\n48740164\n"
   },
   {
     "id": "inv_0012",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.1329394387001477
+    "cer": 0.1329394387001477,
+    "hypothesis": "FACTURE FAC/2026/00086\n\nDate: 1 mars 2026\nÀ payer avant le: 16 mars 2026\n\nFacturé à:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nLibellé Qte Prix unitaire HT Total HT\nPièces détachées - lot 3 3 140,00 9 420,00\nMaintenance climatisation - forfait 2 1 000,00 2 000,00\nFournitures diverses de bureau z 625,00 625,00\nInstallation et mise en service 11 392,51 4 317,61\nImpression flyers AS (1000 ex.) 1 1 214,13 1 214,13\n\nSous-total HT\nTVA 10%\nMontant TTC\n\n17 576,74 MAD\n1 757,67 MAD\n19 334,41 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal :\n\nR.C. : 005242 Meknès\n\n48740164\n"
   },
   {
     "id": "inv_0013",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.6402349486049926
+    "cer": 0.6402349486049926,
+    "hypothesis": "Bouregreg Import Export SARL AU\n\n#5 Rue des Orangers - 30000 Fês\n\nVendeur\nN° ICE : 887719065940 139\nIdentifiant fucal : D0490278\nRC : 742967 Fès\n\nDexeript\n\n]\nOrdinateur portable 15.6 pouces\n\nLave-vaisselle 12 couverts\n\nFACTURE\n\nRéf : 202600109\n\n16/07/2026\n\nDestinataire\n\nIfrane Electro SNC\n95 Avenue Mohamuned V\nS0000 Mcknés\n\nN'ICE\n\nTI6S 716615654527\n\nDate d'échéance : 30/08/2026\n\nQuantité WE Fatal HT\n8455.00 16,910.00\n3 7450.00 22.350,00\n\nMontant HT 39,260.00 Dhs\n7,852.00 Dhs\n\n47,112.00 Dhs\n\nFVA (20%)\nTotal TTC\n"
   },
   {
     "id": "inv_0014",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.1435349940688019
+    "cer": 0.1435349940688019,
+    "hypothesis": "Tafilalet Conseil SNC\n\n72 Rue des Orangers\n24000 El Jadida\n\nICE N° : 889373467065627\nIdentifiant fiscal : 29806990\nN° RC : 162720 El Jadida\n\nFACTURE\n\nN° : FAC/2025/00296\n\nDate : 11/07/2025\n\nÀ payer avant le : 10/08/2025\n\nFacturé à\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nLibellé Qte Prix unitaire HT Total HT\nChaise de bureau ergonomique 4 1 365,00 5 460,00\n| Location de véhicule utiitaire - jour : 3 12 : Fe 605,00 | 7 260,00\nFournitures diverses de bureau 9 233,81 2 104,29\nOrdinateur portable 15,6 pouces 1 | 8 575,00 8 575,00\nCartouche toner. HP 305A = 12 [ s 817,78 9 et 336\nRamette papier A4 80g 55 | 30,00 1 650,00\nMontant HT 34 862,65 Dhs\nTVA 20% 6 972,53 Dhs\nNet à payer TTC 41 835,18 Dhs\n\nPaiement par virement ou chèque\n\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 20806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0015",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.061855670103092786
+    "cer": 0.061855670103092786,
+    "hypothesis": "FACTURE FA-000132\nDate: 06/07/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nICE N° : 731585149368998\n\nDésignation Quantité P.U. HT Total HT\nHébergement web annuel 3 2 348,25 7 044,75\nPièces détachées - lot 2 1 337,03 2 674,06\nMontant HT 9 718,81 MAD\nTVA 20% 1 943,76 MAD\nTotal TTC 11 662,57 MAD\n\nMaghreb Electro SNC\n\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | 1F\n\n78856855\n\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0016",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2549019607843137
+    "cer": 0.2549019607843137,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétoi N° 0146/2025\n\n07/10/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Tingis Electro SA\nIdentifiant fiscal : 91905865 117 Avenue Hassan Il\nN° RC : 185067 Tétouan 11000 Salé\n\nN° ICE : 731585149368998\n\nignation PU HT tal HT\nImpression flyers A5 (1000 ex.) 13 669,60 8704,80\nChaise de bureau ergonomique 3 1285,00 3855,00\nInstallation et mise en service 6 738,79 4432,74\nFormation bureautique - journée 4 3990,39 15961,56\nTotal HT 32954,10 MAD\n\nTVA (20 %) 6590,82 MAD\n\nTotal TTC 39544,92 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0017",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.29310344827586204
+    "cer": 0.29310344827586204,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\n72 Rue des Orangers (és\n24000 El Jadida N° : FAC/2026/00299\nICE N° : 889373467065627 Date : 13/07/2026\n\nIdentifiant fiscal : 29806990 = :\nN° RC : 162720 El Jadida À payer avant le : 12/08/2026\n\nFacturé à\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nLibellé Qte Total HT\nLocation de véhicule utilitaire - jour 10 6 050,00\n| Cartouche toner HP 305A | 8 177.80 |\nChaise de bureau ergonomique 4 1 365,00 5 460,00\nRamette papier A4 80g 43 30,00 1 290,00\nMontant HT 20 977,80 Dhs\nTVA 20% 4 195,56 Dhs\nNet à payer TTC 25 173,36 Dhs\n\nPaiement par virement ou chèque\nTafñlalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0018",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3395638629283489
+    "cer": 0.3395638629283489,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\n72 Rue des Orangers\n\n24000 El Jadida N° : FAC/2025/00300\n\nICE N° : 889373467065627 Date : 09/10/2025\n\nIdentifiant fiscal : 29806990 À 5\n\nN° RC : 162720 EI Jadida À payer avant le : 08/11/2025\nFacturé à\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nLibellé\n\nTotal HT\n\nCartouche toner HP 305A\n\n817,78 | 9 813,36\n\nRamette papier A4 80g | 37 |\n\n30,00 | 1 110,00 |\nMontant HT 10 923,36 Dhs\nTVA 10% 1 092,34 Dhs\nNet à payer TTC 12 015,70 Dhs\n\nPaiement par virement ou chèque\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0019",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.21339950372208435
+    "cer": 0.21339950372208435,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0149/2026\n15/01/2026\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Tingis Electro SA\nIdentifiant fiscal : 91905865 117 Avenue Hassan Il\nN° RC : 185067 Tétouan 11000 Salé\n\nN° ICE : 731585149368998\n\nDésignation Quai PUHT Total HT\nFournitures diverses de bureau 11 305,00 3355,00\nCâble réseau RJ45 Cat6 (bobine) 9 621,87 5596,83\nFormation bureautique - journée 2 3990,39 7980,78\nImpression flyers A5 (1000 ex.) 4 669,60 2678,40\nPièces détachées - lot 1 2726,48 2726,48\nInstallation et mise en service 6 738,79 4432,74\n\nTotal HT 26770,23 MAD\n\nTVA (20 %) 5354,05 MAD\n\nTotal TTC 32124,28 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0020",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.09660107334525939
+    "cer": 0.09660107334525939,
+    "hypothesis": "Facture FAC/2025/00036\nDate: 31 mars 2025\n\nClient:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qté P.U. HT Montant HT\nPalette eau minérale 6 305,95 1 835,70\nLave-vaisselle 12 couverts 3 3 584,14 10 752,42\nRéfrigérateur professionnel inox 2 8 359,29 16 718,58\nLicence logiciel comptable £ 4 772,93 4 772,93\n\nSous-total HT\nTVA 7%\nTotal TIC\n\n34 079,63 DH\n2 385,57 DH\n36 465,20 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0021",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.36813186813186816
+    "cer": 0.36813186813186816,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed VI - 14000 Kénitra Réf : FA-000056\n30/03/2025\n\nFournisseur Destinataire\n\nN° ICE : 564823662994680 Ifrane Electro SNC\n\nIF : 44369957 91 Avenue Mohammed V\nR.C. : 773872 Kénitra 50000 Meknès\n\nPatente : 14895134 N° ICE : 736576615654527\n\nÀ payer avant le : 14/04/2025\n\nDescription Qte HT Montant HT\nChaise de bureau ergonomique 14 881,79 12 345,06\nCarburant - carte prépayée 4 1 020,00 4 080,00\nHébergement web annuel 4 1 944,53 1 944,53\nMontant HT 18 369,59 DH\nTVA (20 %) 3 673,92 DH\nMontant TTC 22 043,51 DH\n\nPaiement par vi nt ou chi\n\n4369957 - R.C. : 773872 Kénitra - Pa\n\nSouss Informatique SNC - N° ICE : 56482\n\n"
   },
   {
     "id": "inv_0022",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.426812585499316
+    "cer": 0.426812585499316,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n\n217 Avenue Hassan II\n\n12000 Témara N° FAC/2026/00184\nICE : 332181960013389 Date : 15/06/2026\n\nLF. : 08386379 'éché ‘\nRC : 402654 Témara Date d'échéance : 14/08/2026\n\nTaxe professionnelle : 23511615\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nDescription Total HT\n\n| Cartouche toner HP 305A 8 6262 | 5,015.36\n| Stylos à bille (boite de 50) RE me | a | ; = 9000 | | 243000\nPRES =. | el | 415000 | | 1245000\nMontant HT 19,895.36 MAD\n\nTVA 10% 1,989.54 MAD\n\nTotal TTC 21,884.90 MAD\n\nPaiement par virement ou chèque\n\nMaghreb Distribution SARL AU - ICE : 332181960013389 - L.F. : 08386379 - RC : 402654 Témara - Taxe professionnel\n"
   },
   {
     "id": "inv_0023",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.1314655172413793
+    "cer": 0.1314655172413793,
+    "hypothesis": "FACTURE FAC/2025/00087\n\nDate: 30 janvier 2025\nÀ payer avant le: 14 février 2025\n\nFacturé à:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nLibellé\n\nQte Prix unitaire HT Total HT\n\nCartouche toner HP 305A\n\n19 798,26 15 166,94\n\nSous-total HT\n\nTVA 20%\n\n15 166,94 MAD\n3 033,39 MAD\n\nMontant TTC 18 200,33 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal\nR.C. : 005242 Meknès\n\n: 48740164\n"
   },
   {
     "id": "inv_0024",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.35335689045936397
+    "cer": 0.35335689045936397,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue Ai Qods - 30000 Fès N°: FAC/2026/00 149\n\n10 mai 2026\n\nÉmetteur Facturé à\n\nN' ICE : 468723430080500 Tingis Electro SA\nIdentifiant fiscal : 97852081 117 Avenue Hassan If\nRC, : 219136 Fès 11000 Saié\n\nTaxe professionnelle : 19399091 Échéance : 9 juin 2026\n\nion Qte PU HT Total HT\nNettoyage des locaux - mensuel 4 1800.06 7200,00\nFormation bureautique - journée 4 4052,90 16211,60\nImpression flyers A5 (1000 ex.) 16 561,25 8980.00\nAudit de sécurité applicative - forfait 4 13080,00 5232000\nBureau 140 cm 2 1495,00 2990.00\nSous-totai HT 87701,60 MAD\n\nTVA (20 %) 17540,32 MAD\n\nNet à payer TTC 105241,92 MAD\n\nPaiement pat yesrent ou rhèque\nTféant Faponent SNS : N° ICE | 462345088080  \\tenaiiant Local: PAL2OS 1 à & LS : 240498 Fa » Tone Drcheesonnnie : 1532601\n\n"
   },
   {
     "id": "inv_0025",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.10108864696734059
+    "cer": 0.10108864696734059,
+    "hypothesis": "Facture FAC/2025/00039\nDate: 21 février 2025\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nLicence logiciel comptable à 4 772,93 14 318,79\nAudit de sécurité applicative - forfait 2 14 240,00 28 480,00\nPalette eau minérale 6 305,95 1 835,70\nLave-vaisselle 12 couverts 4 3 584,14 14 336,56\nRéfrigérateur professionnel inox 4 8 359,29 33 437,16\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n92 408,21 DH\n18 481,64 DH\n110 889,85 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0026",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.3342776203966006
+    "cer": 0.3342776203966006,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue AI Qods - 30000 Fès N° : FAC/2025/00153\n\n21 avril 2025\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Ifrane Electro SNC\nIdentifiant fiscal : 97882081 91 Avenue Mohammed V\nR.C. : 219136 Fès 50000 Meknès\n\nTaxe professionnelle : 19399091 Échéance : 21 mai 2025\n\nDes Qte PU HT otal HT\nNettoyage des locaux - mensuel 3 1800,00 5400,00\nAudit de sécurité applicative - forfait 4 13080,00 52320,00\nSous-total HT 57720,00 MAD\nTVA (20 %) 11544,00 MAD\nNet à payer TTC 69264,00 MAD\n\nPaiement par virement ou chèque\nTafllalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - RC. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0027",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.21157894736842106
+    "cer": 0.21157894736842106,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0239\n18/01/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLF. : 64139537 117 Avenue Hassan Il\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 19/03/2026\n\nLibellé Qté LAVAL LE Montant HT\nMaintenance climatisation - forfait 1 1,620.00 1,620.00\nLicence logiciel comptable 2 4,492.04 8,984.08\nOrdinateur portable 15,6 pouces 3 6,337.07 19,011.21\nTransport de marchandises Casablanca-Rabat 4 1,408.67 5,634.68\nCartouche toner HP 305A 17 895.00 15,215.00\nPièces détachées - lot 4 2,040.00 8,160.00\nChaise de bureau ergonomique 2 1,050.00 2,100.00\nÉcran 24 pouces 2 1,676.58 3,353.16\n\nTotal HT 64,078.13 MAD\n\nTVA 20% 12,815.63 MAD\n\nNet à payer TTC 76,893.76 MAD\n\nPaiement par virement ou chèque\nOum Errabia informatique SARL - ICE N° 928327648350305 - LF. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0028",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.087527352297593
+    "cer": 0.087527352297593,
+    "hypothesis": "FACTURE FAC/2026/00090\n\nDate: 3 mars 2026\nÀ payer avant le: 18 mars 2026\n\nFacturé à:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nLibellé\n\nQte Prix unitaire HT Total HT\n\nPièces détachées - lot\n\n4 3 140,00 12 560,00\n\nSous-total HT 12 560,00 MAD\nTVA 20% 2 512,00 MAD\nMontant TTC 15 072,00 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 641241182449353 | Identifiant fiscal :\n\nR.C. : 005242 Meknès\n\n48740164\n"
   },
   {
     "id": "inv_0029",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.25398936170212766
+    "cer": 0.25398936170212766,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2025-0243\n20/01/2025\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Ifrane Electro SNC\nLF.: 64139537 91 Avenue Mohammed V\nN° RC : 672423 Nador 50000 Meknès\n\nICE N° : 736576615654527\nÀ payer avant le : 21/03/2025\n\nbellé Qté P.U. HT Montant HT\n\nLicence logiciel comptable 4 4,492.04 17,968.16\nOrdinateur portable 15,6 pouces 4 6,337.07 25,348.28\nCartouche toner HP 305A 2 895.00 1,790.00\nTransport de marchandises Casablanca-Rabat 2 1,408.67 2,817.34\nTotal HT 47,923.78 MAD\nTVA 20% 9,584.76 MAD\nNet à payer TTC 57,508.54 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648360305 - LF. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0030",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.4410112359550562
+    "cer": 0.4410112359550562,
+    "hypothesis": "Tafilalet Conseil SNC\n\n72 Rue des Orangers\n24000 El Jadida\n\nICE N° : 889373467065627\nIdentifiant fiscal : 29806990\nN° RC : 162720 El Jadida\n\nLibellé\n\nFournitures diverses de bureau\n\nChaise de bureau ergonomique\n\nOrdinateur portable 15,6 pouces\n\nFACTURE\n\nN° : FAC/2025/00302\n\nDate : 16/07/2025\nÀ payer avant le : 15/08/2025\n\nFacturé à\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nQte Prix unitaire HT\n\nTotal HT\n\n2 338,10\n\n3 1 365,00 4 095,00\n\n2 8 575,00 | 17 150,00\nMontant HT 23 583,10 Dhs\nTVA 20% 4 716,62 Dhs\nNet à payer TTC 28 299,72 Dhs\n\nPaiement par virement ou chéque\n\nafisiet Conseil SNC - ICE N° : 889373467065827 identifiant fiscal : 29806900 - N° RC : 162720 EI Jadida\n"
   },
   {
     "id": "inv_0031",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.10743801652892562
+    "cer": 0.10743801652892562,
+    "hypothesis": "Facture FAC/2025/00042\nDate: 13 février 2025\n\nClient:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qté P.U. HT Montant HT\nLave-vaisselle 12 couverts 3 3 584,14 10 752,42\nAudit de sécurité applicative - forfait 4 14 240,00 56 960,00\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n67 712,42 DH\n13 542,48 DH\n81 254,90 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0032",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3270223752151463
+    "cer": 0.3270223752151463,
+    "hypothesis": "Sahara Hygiène SNC FACTURE\n\n28 Avenue des FAR\n\n93000 Tétouan N° : F2026-0162\nICE : 025634216073375 Date : 29/04/2026\nIF : 43303654\n\nN° RC : 145868 Tétouan Échéance : 28/06/2026\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan |l\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Total HT\n\nHotte aspirante inox | | 2826,15 |\n\nCarburant - carte prépayée 4 3685,00 14740,00\nMontant HT 20392,30 DH\nTVA (20 %) 4078,46 DH\nNet à payer TTC 24470,76 DH\n\nPaiement par virement ou chèque\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0033",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.03805496828752643
+    "cer": 0.03805496828752643,
+    "hypothesis": "FACTURE FA-000136\nDate: 29/06/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE N° : 736576615654527\n\nDésignation\n\nQuantité P.U. HT Total HT\nPièces détachées - lot 4 1 337,03 5 348,12\nGants et EPI - lot 16 561,16 8 978,56\n\nMontant HT 14 326,68 MAD\nTVA 20% 2 865,34 MAD\nTotal TTC 17 192,02 MAD\n\nMaghreb Electro SNC\n\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | IF : 78856855\n\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0034",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.04727793696275072
+    "cer": 0.04727793696275072,
+    "hypothesis": "Facture F2025-0221\n\nDate: 19/10/2025\nÀ payer avant le: 18/11/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan IT\n11000 Salé\n\nN° ICE : 731585149368998\n\nDescription Quantité Prix unitaire HT Montant HT\nAudit de sécurité applicative - forfait 2 345,00 18 690,00\nPièces détachées - lot si 095,00 3 095,00\nRéfrigérateur professionnel inox 3 993,30 26 979,90\nImpression flyers A5 (1000 ex.) 6 770,00 4 620,00\nChaise de bureau ergonomique 4 463,21 5 852,84\nGants et EPI - lot 9 540,00 4 860,00\n\nTotal HT 64 097,74 MAD\n\nTVA 20% 12 819,55 MAD\n\nMontant TTC\n\n76 917,29 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0035",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.12045889101338432
+    "cer": 0.12045889101338432,
+    "hypothesis": "Facture FAC/2026/00045\nDate: 4 mai 2026\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nPalette eau minérale 8 305,95 2 447,60\nLave-vaisselle 12 couverts 4 3 584,14 14 336,56\nRéfrigérateur professionnel inox 3 8 359,29 25 077,87\n\nSous-total HT\nTVA 7%\n\nTotal TTC\n\n41 862,03 DH\n2 930,34 DH\n44 792,37 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0036",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.6052269601100413
+    "cer": 0.6052269601100413,
+    "hypothesis": "Tafilalet Équ\n\n108 Rue Al OQods - I Fées\n\nÉmetteur\n\nN° ICE : 468723430980500\nidentifiant fiscal : 97882081\nRC. :219136 Fès\n\nTaxe professionnel : 19399091\n\nDescription\n\nFormation bureautique - journée\nBureau 140 cm\nHébergement web annuel\n\nfinit Équiperent SNC - N° CE :\n\nipement SNC\n\nFACTURE\n\nFAC/2025/00156\n\ne 2025\n\nN\n\nFacturé à\n\nMrane Electro SNC\n\n91 Avenue Mohammed V\n\n50000 Meknes\nÉchéance : 29 novembre 2025\n\nQte PU HT Total HT\n2 4052.90 8105.80\n4 1495,00 5980.00\n3 1266,43 379929\nSous-total HT 17885.,09 MAD\nTVA (20 %) 3577,02 MAD\nNet à payer TTC 21462,11 MAD\nPæerent par virement où ChÉGE\n\nabRT254S00N0É00 - aotihant fscas | F7E2DE! - RC. | 219136 Fes - Tase profmesannele 12390081\n"
   },
   {
     "id": "inv_0037",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.043478260869565216
+    "cer": 0.043478260869565216,
+    "hypothesis": "Facture F2025-0223\n\nDate: 05/03/2025\nÀ payer avant le: 04/04/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Montant HT\nRéfrigérateur professionnel inox 2 8 993,30 17 986,60\nChaise de bureau ergonomique 4 1 463,21 5 852,84\nImpression flyers A5 (1000 ex.) 3 770,00 2 310,00\nPièces détachées - lot 4 3 095,00 12 380,00\nAudit de sécurité applicative - forfait 1 9 345,00 9 345,00\nGants et EPI - lot 15 540,00 8 100,00\n\nTotal HT 55 974,44 MAD\n\nTVA 20% 11 194,89 MAD\n\nMontant TTC 67 169,33 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0038",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.445578231292517
+    "cer": 0.445578231292517,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sins - 02000 Nüdor Réf: F2025-0247\n\n1263/2028\n\nFacturé à\n\n1305 Wrane Electro SNC\n\n#1 Avenue Monammed Y\n50000 Meknès\n\nICE N° : 736876615854527\n\nÀ payer avant le : 11/08/2025\n\nLibetté (7) PU. HT Montant HT\nÉcran 24 pouces 4 1.676.58 6.708 32\nTotei HT 6,706.32 MAD\nTVA 20% 1,341.26 MAD\nNot à payer TTC 8,047.58 MAD\n\nPasmment par vosment su chécue\n\nLaos restes Thomann HA <ICH NT | RSS PRARTEURS : LE: BASBBNNT - IT BE ÉFIUZE Mndir\n"
   },
   {
     "id": "inv_0039",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.20105263157894737
+    "cer": 0.20105263157894737,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0251\n05/07/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Ifrane Electro SNC\nLF.: 64139537 91 Avenue Mohammed V\nN° RC : 672423 Nador 50000 Meknès\n\nICE N° : 736576615654527\nÀ payer avant le : 03/09/2026\n\nLibellé Qté P.U. HT Montant HT\nPièces détachées - lot 4 2,040.00 8,160.00\nMaintenance climatisation - forfait 2 1,620.00 3,240.00\nOrdinateur portable 15,6 pouces 2 6,337.07 12,674.14\nChaise de bureau ergonomique 4 1,050.00 4,200.00\nÉcran 24 pouces 3 1,676.58 5,029.74\nLicence logiciel comptable 2 4,492.04 8,984.08\nTransport de marchandises Casablanca-Rabat 3 1,408.67 4,226.01\nCartouche toner HP 305A 7 895.00 6,265.00\n\nTotal HT 52,778.97 MAD\n\nTVA 14% 7,389.06 MAD\n\nNet à payer TTC 60,168.03 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - LF. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0040",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.7046818727490997
+    "cer": 0.7046818727490997,
+    "hypothesis": "greg Import Export SARI\n\n06 }\n\nVendeur\nN'ICE : R87710068000139\nKentifians fiscal : 490278\nRC: 742967 Fès\n\nDescription\n\nFournitures diverses de bureau\nAudit de sécurité appiscstive - forfait\nCartouche toner HP 305A\n\nCâble réseau RMS Cat fhobioe)\n\nRéfrigérateur professionnel inox\n\nOnantité PU Mr\n\nDestiastaire\n\nIfrane Electro SNC\n\n91 Avenue Mohammed Ÿ\n6600 Meknès\n\nN'ICE 736861654527\n\nDate d'échéance : 23/18/2028\n\nFoto HT\n\n$ 450.00 225006\n\n3 11.660,00 M,90.00\n\n# 62503 5.000 24\n\n19 766.04 1455476\n\n3 sou ss 26.773.685\nMontant HT SSSR ES Dhs\nTVA G0%) 16,711.73 Dhs\nTotal TTC 100,270.38 Dhs\n\nParcmeni pa vince es ét\nMens lp Eapout MAIRL AË NP ICE < GT SONORE 39 + Vent due MALE » MC : SEMT Fès:\n"
   },
   {
     "id": "inv_0041",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.06430155210643015
+    "cer": 0.06430155210643015,
+    "hypothesis": "FACTURE FA-000140\nDate: 14/03/2026\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE N° : 736576615654527\n\nDésignation Quantité P.U. ET Total HT\nNettoyage des locaux - mensuel 4 1 536,80 6 147,20\nMontant HT 6 147,20 MAD\nTVA 20% 1 229,44 MAD\nTotal TTC 7 376,64 MAD\n\nMaghreb Electro SNC\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | IF : 78856855\n\nN° RC : 744431 Marrakech | Patente\n\n35182337\n"
   },
   {
     "id": "inv_0042",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.33098591549295775
+    "cer": 0.33098591549295775,
+    "hypothesis": "Sahara Hygiène SNC FACTURE\n\n28 Avenue des FAR\n\n93000 Tétouan N° : F2026-0164\nICE : 025634216073375 Date : 25/07/2026\nIF : 43303654 à .\n\nN° RC : 145868 Tétouan Échéance : 23/09/2026\n\nDestinataire\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368098\n\nLibellé Total HT\n\nGanis et EPI - lot | 3 | 710,71 | 2132,13\nFour électrique encastrable E Se EE 4 F ; 6224,63 ] 24898,52\nÉcran 24 pouces 3 | 1365,00 | 4095,00\n\n| Bureau 140 cm | 3 | 990,97 | 2972,91\nInstallation et mise en service QE AE ; 18 | RES 945,00 | 17010,00\nMontant HT 51108,56 DH\n\nTVA (20 %) 10221,71 DH\n\nNet à payer TTC 61330,27 DH\n\nPaiement par virement ou chèque\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0043",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.4008810572687225
+    "cer": 0.4008810572687225,
+    "hypothesis": "Tafilalet Équipeme\n\n108 Rue Al Qods - 30000 Fès\n\nÉmetteur\n\nN° ICE : 468723430980500\nIdentifiant fiscal : 97882081\n\nRC. : 219136 Fès\n\nTaxe professionnelle : 19399091\n\nDescripti\n\nHébergement web annuel\n\nBureau 140 cm\n\nFACTURE\n\nN° : FAC/2025/00158\n5 août 2025\n\nFacturé à\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nÉchéance : 4 septembre 2025\n\nQte PU HT Total HT\n2 1266,43 2532,86\n\n4 1495,00 5980,00\nSous-total HT 8512,86 MAD\nTVA (14 %) 1191,80 MAD\nNet à payer TTC 9704,66 MAD\n\nPaiement par virement ou chèque\n\nTafilalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0044",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.2884902840059791
+    "cer": 0.2884902840059791,
+    "hypothesis": "FACTURE FAC/2026/00093\n\nDate: 15 janvier 2026\nÀ payer avant le: 30 janvier 2026\n\nFacturé à:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nLibellé Qte Prix unitaire HT Total HT\nImpression flyers A5 (1000 ex.) 1 214,13 1 214,13\nPièces détachées - lot 3 140,00 9 420,00\nFournitures diverses de bureau 18 625,00 11 250,00\nMaintenance climatisation - forfait 4 000,00 4 000,00\nCartouche toner HP 305A 10 798,26 7 982,60\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 641241182449353 | Identifiant fiscal :\n\nR.C. : 005242 Meknès\n\n48740164\n\nSous-total HT\nTVA 20%\nMontant TTC\n\n33 866,73 MAD\n6 773,35 MAD\n40 640,08 MAD\n"
   },
   {
     "id": "inv_0045",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.03234501347708895
+    "cer": 0.03234501347708895,
+    "hypothesis": "FACTURE FA-000142\nDate: 23/06/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nICE N° : 731585149368998\n\nDésignation Quantité P.U. HT Total HT\nHébergement web annuel 4 2 348,25 9 393,00\nBureau 140 cm 2 1 065,00 2 130,00\nÉcran 24 pouces 2 1 700,00 3 400,00\nPièces détachées - lot 3 1 337,03 1 337,03\nNettoyage des locaux - mensuel 2 1 536,80 3 073,60\nRéfrigérateur professionnel inox z 13 580,67 13 580,67\nCarburant - carte prépayée 2 1 218,10 2 436,20\nGants et EPI - lot 17 561,16 9 539,72\n\nMontant HT 44 890,22 MAD\n\nTVA 20% 8 978,04 MAD\n\nTotal TTC 53 868,26 MAD\n\nMaghreb Electro SNC\n71 Bd Abdelmoumen, 40000 Marrakech\nICE N° : 783777014363495 | IF : 78856855\n\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0046",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4452773613193403
+    "cer": 0.4452773613193403,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n217 Avenue Hassan II\n\nD en N° FAC/2025/00185\nICE : 332181960013389 Date : 03/07/2025\nLF.: 08386379 l'éché e 2025\nRC : 402654 Témara Date d'échéance : 01/09/2025\n\nTaxe professionnelle : 23511615\n\nDestinataire\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nCartouche toner HP 305A 7 626.92 4,388.44\n\nStylos à bille (boîte de 50) 44 90.00 3,960.00\n\nMontant HT 8,348.44 MAD\nTVA 20% 1,669.69 MAD\nTotal TTC 10,018.13 MAD\n\nement par virement ou chèque\n\nMaghreb Distribution SARL AU - ICE\n\n402654 Témara - Taxe professionnelle : 23511615\n"
   },
   {
     "id": "inv_0047",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.39228723404255317
+    "cer": 0.39228723404255317,
+    "hypothesis": "Rif Services SAR FACTURE\n\nre N° 0153/2025\n06/04/2025\n\nEmetteur Facture à\n\nN° ICE : 241904068319314 Ifrane Electro SNC\nIdentihant fiscal 91905885 91 Avenue Mohammes\nN° RC : 185067 Tétousr 50000 Meunés\n\nN'ICE : 736576615654527\n\nDésignation PUHT Total HT\nImpression fiyers AS (1000 ex } 6 669.60 4017.60\nCâbie réseau RJ45 CatS (bobine) 3 62187 1665.61\nChasse de bureau ergonomique « 1285,00 5140.00\nStytos à bille (bohe de 50) 59 53,50 3156.50\nFormation bureautique - umée 4 3990.39 15961,56\nTotal HT 30141,27 MAD\n\nTVA (20 %) 6028,25 MAD\n\nTotal TTC 36169,52 MAD\n\nPasment à récephon\nF4 Sarvionn SAR, - N° ICE PHARE TE 18 kde Ra EHPOSS : N° RC: WSOET Tétoige\n"
   },
   {
     "id": "inv_0048",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.22545454545454546
+    "cer": 0.22545454545454546,
+    "hypothesis": "FACTURE\n\n167 Rue AI Massira - 93000 Tétouan N° 0156/2025\n\nRif Services SARL\n\nÉmetteur\n\nN° ICE : 241904966319314\nIdentifiant fiscal : 91905865\nN° RC : 185067 Tétouan\n\nFacturé à\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès:\n\nN° ICE : 736576615654527\n\n03/07/2025\n\ngnati PU HT Total HT\nChaise de bureau ergonomique 2 1285,00 2570,00\nTotal HT 2570,00 MAD\n\nTVA (20 %) 514,00 MAD\n\nTotal TTC 3084,00 MAD\n\nPaiement à réception\n\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0049",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.5577395577395577
+    "cer": 0.5577395577395577,
+    "hypothesis": "Facture FAC/2026/00048\nDate: 28 mai 2026\n\nà\nClient:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed Y\n\n50000 Mexnés\n\nICE : 736576615654527\n\nDescription Qté PU. #7 Montant HT\n———————— —\nPalette eau minérale F : 14 3 308,98 + 4283,30\n\n"
   },
   {
     "id": "inv_0050",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3633276740237691
+    "cer": 0.3633276740237691,
+    "hypothesis": "Sahara Hygiène SNC FACTURE\n\n28 Avenue des FAR\n\n23000 Tétouan N° : F2026-0168\nICE : 025634216073375 Date : 23/08/2026\nIF : 43303654 $ :\n\nN° RC : 145868 Tétouan Échéance : 22/10/2026\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nLibellé Qte PU HT al HT\n| Écran 24 pouces 3 1365,00 4095,00 |\nRe en) 737000 |\nMontant HT 11465,00 DH\nTVA (20 %) 2293,00 DH\nNet à payer TTC 13758,00 DH\n\nPaiement par virement ou chèque\nSahara Hygiène SNC - ICE : 025634216073375 - IF 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0051",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.20378151260504201
+    "cer": 0.20378151260504201,
+    "hypothesis": "Oum Errabia Informatique SAR Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0255\n18/03/2026\n\nFournisseur Facturé à\nICE N° : 928327648350305 Ifrane Electro SNC\nLF. : 64139537 91 Avenue Mohammed V\nN° RC : 672423 Nador 50000 Meknès\n\nICE N° : 736576615654527\nÀ payer avant le : 17/05/2026\n\nLibellé Qté P.U.HT Montant HT\nLicence logiciel comptable 4 4,492.04 17,968.16\nChaise de bureau ergonomique 1 1,050.00 1,050.00\nTransport de marchandises Casablanca-Rabat 3 1,408.67 4,226.01\nMaintenance climatisation - forfait 4 1,620.00 6,480.00\nPièces détachées - lot 4 2,040.00 8,160.00\nCartouche toner HP 305A 3 895.00 2,685.00\nÉcran 24 pouces 2 1,676.58 3,353.16\nOrdinateur portable 15,6 pouces Pa 6,337.07 12,674.14\n\nTotal HT 56,596.47 MAD\n\nTVA 20% 11,319.29 MAD\n\nNet à payer TTC 67,915.76 MAD\n\nPaiement par virement ou chèque\nOum Errabla Informatique SARL - ICE N° : 928327648360305 - L.F. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0052",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3109118086696562
+    "cer": 0.3109118086696562,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\n72 Rue des O\nLe pen ooe N° : FAC/2026/00303\n\nICE N° : 889373467065627 Date : 14/04/2026\n\nIdentifiant fiscal : 29806990 ;\nN° RC : 162720 El Jadida À payer avant le : 14/05/2026\n\nFacturé à\nIfrane Electro SNC\n91 Avenue Mohammed V\n\n50000 Meknès\nLibellé Qte Total HT\n| Chaise de bureau ergonomique 4 1 365,00 5 460,00\n| Location de véhicule utilitaire - jour 11 605,00 6 655,00 |\nMontant HT 12 115,00 Dhs\nTVA 10% 1 211,50 Dhs\nNet à payer TTC 13 326,50 Dhs\n\nPaiement par virement ou chèque\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 EI Jadida\n"
   },
   {
     "id": "inv_0053",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3796875
+    "cer": 0.3796875,
+    "hypothesis": "Sahara Hygiène SNC FACTURE\n\n28 Avenue des FAR\n\n93000 Tétouan N° : F2025-0172\n\nICE : 025634216073375 Date : 26/10/2025\n\nIF : 43303654\n\nN° RC : 145868 Tétouan Échéance : 25/12/2025\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Qte PU HT Total HT\n| Four électrique encastrable | a 6224,63 24898,52 |\n| Installation € et mise en service = UE [ $ 12 | e ; 94500 | RSR 11340,00 |\n| Écran 24 pouces ee À SE | : : Li] s ee 1365, 5,00 | | ; 1265.00 |\n\nMontant HT 37603,52 DH\n\nTVA (14 %) 5264,49 DH\n\nNet à payer TTC 42868,01 DH\n\nPaiement par virement ou chèque\nSahara Hygiène SNC - ICE 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0054",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.27300613496932513
+    "cer": 0.27300613496932513,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n28800 Mohammedia N° FA-000150\nICE : 229413186999386 Date : 27/05/2026\nLF. : 77496409\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Total HT\nHébergement web annuel 2 1716,84 3 433,68\nCartouche toner HP 305A à 14 925,00 Es 12 950,00\nPalette eau minérale 13 190,00 2 470,00\nSous-total HT 18 853,68 DH\nTVA 20% 3 770,74 DH\nNet à payer TTC 22 624,42 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE : 220413186999386 - L.F. : 77496499 - RC : 091334 Mohammedia - Patente : 12328120\n"
   },
   {
     "id": "inv_0055",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.07588532883642496
+    "cer": 0.07588532883642496,
+    "hypothesis": "FACTURE 202500006\n\nDate: 22/04/2025\nÀ payer avant le: 22/05/2025\n\nDestinataire:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qte PU HT Montant HT\nNettoyage des locaux - mensuel 3 760,43 8 281,29\nPalette eau minérale 14 240,00 3 360,00\nOrdinateur portable 15,6 pouces 1 470,00 7 470,00\nFour électrique encastrable 1 205,00 4 205,00\nTotal HT 23 316,29 MAD\nTVA 20% 4 663,26 MAD\nTotal TIC 27 979,55 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal :\n\nRC : 734714 Meknès\n\n72774348\n"
   },
   {
     "id": "inv_0056",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2826747720364742
+    "cer": 0.2826747720364742,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0256\n02/03/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLF.: 64139537 117 Avenue Hassan ||\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 01/05/2026\n\nLibellé Qté P.U. HT Montant HT\nPièces détachées - lot 3 2,040.00 6,120.00\nTransport de marchandises Casablanca-Rabat 3 1,408.67 4,226.01\nTotal HT 10,346.01 MAD\nTVA 20% 2,069.20 MAD\nNet à payer TTC 12,415.21 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - L.F. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0057",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.055865921787709494
+    "cer": 0.055865921787709494,
+    "hypothesis": "FACTURE FAC/2025/00094\n\nDate: 4 novembre 2025\nÀ payer avant le: 19 novembre 2025\n\nFacturé à:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nLibellé Qte Prix unitaire HT Total HT\nImpression flyers A5 (1000 ex.) 54 1 214,13 1 214,13\nMaintenance climatisation - forfait 2 1 000,00 2 000,00\nSous-total HT 3 214,13 MAD\nTVA 14% 449,98 MAD\nMontant TIC 3 664,11 MAD\n\nSouss Matériaux SARL\n\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal : 48740164\nR.C. : 005242 Meknès\n"
   },
   {
     "id": "inv_0058",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.5699248120300752
+    "cer": 0.5699248120300752,
+    "hypothesis": "Souss Informatique SNC\n\n58 Bd Mohammed VI - 14000 Kénitra\n\nFournisseur\n\nN° ICE : 564823662994680\nIF : 44369957\n\nRC. : 773872 Kénitra\nPatente : 14895134\n\nChaise de bureau ergonomique\n\nCarburant - carte prépayée\n\nFacture\n\nDestinataire\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nÀ payer avant le : 06/03/2026\n\nQte P.U. HT\n\n1 881,79\n\n2 1 020,00\nMontant HT\nTVA (20 %)\n\nMontant TTC\n\nRéf : FA-000058\n\n19/02/2026\n\nMontant HT\n881,79\n\n2 040,00\n\n2 921,79 DH\n584,36 DH\n3 506,15 DH\n"
   },
   {
     "id": "inv_0059",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.2724014336917563
+    "cer": 0.2724014336917563,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue AI Qods - 30000 Fès N° : FAC/2026/00161\n25 juin 2026\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Tingis Electro SA\nIdentifiant fiscal : 97882081 117 Avenue Hassan Il\nR.C. : 219136 Fès 11000 Salé\n\nTaxe professionnelle : 19399091 Échéance : 25 juillet 2026\n\nDescription Qte PU HT Total HT\nPièces détachées - lot 4 1481,93 5927,72\nNettoyage des locaux - mensuel 2 1800,00 3600,00\nImpression flyers A5 (1000 ex.) 10 561,25 5612,50\nFour électrique encastrable À 6260,00 6260,00\nHébergement web annuel Fe 1266,43 2532,86\nSous-total HT 23933,08 MAD\nTVA (20 %) 4786,62 MAD\nNet à payer TTC 28719,70 MAD\n\nPaiement par virement ou chèque\nTaflalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - RC. : 219136 Fès - Taxe professionnelle : 19390091\n"
   },
   {
     "id": "inv_0060",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.10993657505285412
+    "cer": 0.10993657505285412,
+    "hypothesis": "Facture FAC/2026/00051\nDate: 17 mai 2026\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nRéfrigérateur professionnel inox 4 8 359,29 33 437,16\nLave-vaisselle 12 couverts + 3 584,14 3 584,14\n\nSous-total HT\nTVA 10%\nTotal TTC\n\n37 021,30 DH\n3 702,13 DH\n40 723,43 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0061",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.10311284046692606
+    "cer": 0.10311284046692606,
+    "hypothesis": "Facture FAC/2026/00052\nDate: 2 août 2026\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nLave-vaisselle 12 couverts 2 3 584,14 7 168,28\nPalette eau minérale 18 305,95 5 507,10\nRéfrigérateur professionnel inox 3 8 359,29 25 077,87\n\nSous-total HT\nTVA 20%\n\nTotal TTC\n\n37 753,25 DH\n7 550,65 DH\n45 303,90 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0062",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.06366459627329192
+    "cer": 0.06366459627329192,
+    "hypothesis": "FACTURE 202600007\n\nDate: 10/07/2026\nÀ payer avant le: 09/08/2026\n\nDestinataire:\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qte PU HT Montant ET\nFour électrique encastrable 3 4 205,00 12 615,00\nNettoyage des locaux - mensuel 1 2 760,43 2 760,43\nInstallation et mise en service 4 1 070,00 4 280,00\nPalette eau minérale 9 240,00 2 160,00\nOrdinateur portable 15,6 pouces 3 7 470,00 22 410,00\nTotal HT 44 225,43 MAD\nTVA 10% 4 422,54 MAD\nTotal TTC 48 647,97 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\n1CE : 831727889579868 | Identifiant fiscal :\n\nRC : 734714 Meknès\n\n72774348\n"
   },
   {
     "id": "inv_0063",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2764456981664316
+    "cer": 0.2764456981664316,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000092\nN° ICE : 473829973763116 Date : 7 août 2026\nLE. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nTotal HT\n\nFournitures diverses de bureau | 10 414,75 | 4 147,50\nLocation de véhicule utilitaire - jour mn 10 : 855,00 : 8 550,00\nCartouche toner HP 305A 19 587,31 11 158,89\nLicence logiciel comptable 3 2 795,00 8 385,00\nTotal HT 32 241,39 Dhs\nTVA (7 %) 2 256,90 Dhs\nNet à payer TTC 34 498,29 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473829073763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0064",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3313161875945537
+    "cer": 0.3313161875945537,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000094\nN° ICE : 473829973763116 Date : 17 mai 2026\n1.F. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\nTingis Electro SA\n\n117 Avenue Hassan Il\n11000 Salé\n\nN° ICE : 731585149368998\n\nTotal HT\n| Location de véhicule utilitaire - jour 3 2 565,00 |\n| Licence logiciel comptable 1 Î 2 795,00 | 2 795,00 |\n| Foumitures diverses de bureau \\ | 13 | ; : 41475 | 5 39175 |\nTotal HT 10 751,75 Dhs\n\nTVA (20 %) 2 150,35 Dhs\n\nNet à payer TTC 12 902,10 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473820073763116 - 1.F. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0065",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.7548291233283804
+    "cer": 0.7548291233283804,
+    "hypothesis": "Doukkala Négoce SARL\n\n105 Bd Anfa\n\n28800 Mohammedia\n\nICE : 229413186099386\n1LF. : 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nFACTURE\nN° FA-000154\nDate : 12/08/2025\n\n"
   },
   {
     "id": "inv_0066",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.29949238578680204
+    "cer": 0.29949238578680204,
+    "hypothesis": "Sahara Hygiène SNC FACTURE\n\n28 Avenue des FAR\n\n93000 Tétouan N° : F2025-0175\nICE : 025634216073375 Date : 16/05/2025\nIF : 43303654\n\nN° RC : 145868 Tétouan Échéance : 15/07/2025\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nLibellé Qte PU HT Total HT\n\n| Écran 24 pouces | 1 1365,00 1365,00\n| |\n| Four électrique encastrable 3 6224,63 18673,89\nMontant HT 20038,89 DH\nTVA (20 %) 4007,78 DH\nNet à payer TTC 24046,67 DH\n\nPaiement par virement ou chèque\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43203654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0067",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.06408094435075885
+    "cer": 0.06408094435075885,
+    "hypothesis": "FACTURE 202500008\n\nDate: 10/01/2025\nÀ payer avant le: 09/02/2025\n\nDestinataire:\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qte PU HT Montant HT\nPalette eau minérale 16 240,00 3 840,00\nInstallation et mise en service 1 1 070,00 1 070,00\nOrdinateur portable 15,6 pouces 2 7 470,00 14 940,00\nFour électrique encastrable 4 4 205,00 16 820,00\nTotal HT 36 670,00 MAD\nTVA 20% 7 334,00 MAD\nTotal TTC 44 004,00 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal :\n\nRC : 734714 Meknès\n\n72774348\n"
   },
   {
     "id": "inv_0068",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.125
+    "cer": 0.125,
+    "hypothesis": "Facture FAC/2025/00054\n\nDate: 17 mai 2025\n\nClient:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription\n\nQté P.U. HT Montant HT\nLicence logiciel comptable 2 4 772,93 9 545,86\nPalette eau minérale 15 305,95 4 589,25\n\nSous-total HT\nTVA 20%\nTotal TIC\n\n14 135,11 DH\n2 827,02 DH\n16 962,13 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F\n\n: 01543039\n\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0069",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.445859872611465
+    "cer": 0.445859872611465,
+    "hypothesis": "Doukkala Négoce SARL\n\n105 Bd Anfa\n\n28800 Mohammedia\n\nICE : 229413186999386\nLF.: 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nellé\n\nHébergement web annuel\n\nStylos à bille (boîte de 50)\n\nFACTURE\n\nN° FA-000157\n\nDate : 11/09/2025\n\nDestinataire\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nTotal HT\n5 150,52\n\n|\n\n4 860,00\n\nSous-total HT\nTVA 14%\nNet à payer TTC\n\nPaiement à réception\n\nDoukkala Négoce SARL - ICE : 229413186909386 - L.F\n\n77496499 - RC : 091334 Mohammedia - Patente : 12328120\n\n10 010,52 DH\n1 401,47 DH\n11 411,99 DH\n"
   },
   {
     "id": "inv_0070",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2680851063829787
+    "cer": 0.2680851063829787,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue AI Massira - 93000 Tétou: N° 0157/2026\n\n25/06/2026\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nation PU HT Total HT\nInstallation et mise en service 14 738,79 10343,06\nFournitures diverses de bureau 12 305,00 3660,00\nChaise de bureau ergonomique 2 1285,00 2570,00\nCâble réseau RJ45 Cat6 (bobine) 16 621,87 9949,92\nTotal HT 26522,98 MAD\n\nTVA (7 %) 1856,61 MAD\n\nTotal TTC 28379,59 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0071",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2600574712643678
+    "cer": 0.2600574712643678,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000098\nN° ICE : 473829973763116 Date : 3 mars 2025\nLF.: 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\ne HT Total HT\n\nFournitures diverses de bureau 13 414,75 5 391,75\nLocation de véhicule utilitaire - jour 3 855,00 2 565,00\nLicence logiciel comptable 2 2 795,00 5 590,00\nCartouche toner HP 305A 9 587,31 5 285,79\nTotal HT 18 832,54 Dhs\n\nTVA (20 %) 3 766,51 Dhs\n\nNet à payer TTC 22 599,05 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473820973763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0072",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2635542168674699
+    "cer": 0.2635542168674699,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue AI Massira - 93000 Tétouan N° 0161/2025\n14/11/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignation Quai PU HT Total HT\nStylos à bille (boîte de 50) 32 53,50 1712,00\nFournitures diverses de bureau 4 305,00 1220,00\nFormation bureautique - journée 4 3990,39 15961,56\nTotal HT 18893,56 MAD\nTVA (20 %) 3778,71 MAD\nTotal TTC 22672,27 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - (dentifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0073",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3314993122420908
+    "cer": 0.3314993122420908,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n\n28800 Mohammedia N° FA-000158\nICE : 229413186999386 Date : 01/05/2025\n1.F.: 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan ||\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Quantité Prix unitaire HT Total HT\n4672,71\nCartouche toner HP 305A HE Te | se 19 | Ve 925,00 | EF 47. 575,00 |\n| Swos à bille (boite de 50) E 2 45 ae 90,00 | 4 050.00 |\nChaise de bureau ergonomique É 7e 1 = 1 530,00 | 1 =“\nSous-total HT 27 827,71 DH\nTVA 20% 5 565,54 DH\nNet à payer TTC 33 393,25 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE : 229413186999386 - L.F. : 77496499 - RC : 091334 Mohammedia - Patente : 12328120\n"
   },
   {
     "id": "inv_0074",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2636363636363636
+    "cer": 0.2636363636363636,
+    "hypothesis": "Bouregreg Import Export SARL AU FACTURE\n\n85 Rue des Orangers - 30000 Fès Réf : 202500111\n\n08/09/2025\n\nVendeur Destinataire\n\nN° ICE : 887719065940139 Ifrane Electro SNC\nIdentifiant fiscal : 90490278 91 Avenue Mohammed V\nRC : 742967 Fès 50000 Meknès\n\nN° ICE : 736576615654527\nDate d'échéance : 23/10/2025\n\nLave-vaisselle 12 couverts 2 7,450.00 14,900.00\nFournitures diverses de bureau 11 450.00 4,950.00\nAudit de sécurité applicative - forfait 2 11,660.00 23,320.00\nCartouche toner HP 305A 14 625.03 8,750.42\nRéfrigérateur professionnel inox | 8,924.55 26,773.65\nCâble réseau RJ45 Cat6 (bobine) 9 766.04 6,894.36\nMontant HT 85,588.43 Dhs\nTVA (10 %) 8,558.84 Dhs\nTotal TTC 94,147.27 Dhs\n\nPaiement par virement ou chèque\nBouregreg Import Export SARL AU - N° ICE : 887719065940139 - Identifiant fiscal : 90490278 - RC : 742967 Fès\n"
   },
   {
     "id": "inv_0075",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.04716981132075472
+    "cer": 0.04716981132075472,
+    "hypothesis": "Facture FAC/2026/00055\nDate: 13 juin 2026\n\nClient:\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nPalette eau minérale 3 305,95 917,85\nAudit de sécurité applicative - forfait 4 14 240,00 56 960,00\nRéfrigérateur professionnel inox 1 8 359,29 8 359,29\nLave-vaisselle 12 couverts 3 3 584,14 10 752,42\nLicence logiciel comptable 2 4 772,93 9 545,86\nSous-total HT 86 535,42 DH\nTVA 20% 17 307,08 DH\nTotal TTC 103 842,50 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\n1CE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0076",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4326465927099842
+    "cer": 0.4326465927099842,
+    "hypothesis": "Maghreb Distribution SARL AU\n217 Avenue Hassan II\n\n12000 Témara\n\nICE : 332181960013389\n\nLF. : 08386379\n\nRC : 402654 Témara\n\nTaxe professionnelle : 23511615\n\nDescription\n\nFournitures diverses de bureau\n\nFACTURE\n\nN° FAC/2026/00188\n\nDate : 09/07/2026\nDate d'échéance : 07/09/2026\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nMontant HT\nTVA 20%\nTotal TTC\n\nPaiement par virement ou chèque\n\nb Distribution SARL AU - ICE : 3321819600\n\n-LE\n\n08386379 - RC : 402654 Témara - Taxe profession\n\nTotal HT\n\n625.00 MAD\n125.00 MAD\n750.00 MAD\n\n23511615\n"
   },
   {
     "id": "inv_0077",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.07835051546391752
+    "cer": 0.07835051546391752,
+    "hypothesis": "FACTURE 202600012\n\nDate: 17/01/2026\nÀ payer avant le: 16/02/2026\n\nDestinataire:\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qte PU HT Montant HT\nFour électrique encastrable 2 4 205,00 8 410,00\nPalette eau minérale 13 240,00 3 120,00\nTotal AT 11 530,00 MAD\nTVA 20% 2 306,00 MAD\nTotal TIC 13 836,00 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal :\n\nRC : 734714 Meknès\n\n72774348\n"
   },
   {
     "id": "inv_0078",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.12482853223593965
+    "cer": 0.12482853223593965,
+    "hypothesis": "FACTURE FAC/2025/00097\n\nDate: 1 décembre 2025\nÀ payer avant le: 16 décembre 2025\n\nFacturé à:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Qte Prix unitaire HT Total HT\nMaintenance climatisation - forfait 2 1 000,00 2 000,00\nFournitures diverses de bureau 4 625,00 2 500,00\nImpression flyers AS (1000 ex.) 2 1 214,13 2 428,26\nInstallation et mise en service 15 392,51 5 887,65\nCartouche toner HP 305A 15 798,26 11 973,90\nPièces détachées - lot 3 3 140,00 9 420,00\n\nSous-total HT\n\nTVA 20%\n\nMontant TTC\n\n34 209,81 MAD\n6 841,96 MAD\n41 051,77 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal :\n\nR.C. : 005242 Meknès\n\n48740164\n"
   },
   {
     "id": "inv_0079",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.10124610591900311
+    "cer": 0.10124610591900311,
+    "hypothesis": "Facture FAC/2025/00058\nDate: 12 septembre 2025\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nLicence logiciel comptable 2 4 772,93 9 545,86\nPalette eau minérale i 305,95 305,95\nLave-vaisselle 12 couverts 4 3 584,14 14 336,56\nRéfrigérateur professionnel inox 4 8 359,29 33 437,16\nAudit de sécurité applicative - forfait 2 14 240,00 28 480,00\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n86 105,53 DH\n17 221,11 DH\n103 326,64 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0080",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.23739495798319327
+    "cer": 0.23739495798319327,
+    "hypothesis": "Facture FAC/2026/00061\nDate: 15 février 2026\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription\n\nLicence logiciel comptable\n\nLave-vaisselle 12 couverts\n\nQté P.U. HT Montant HT\n1 4 772,93 4 772,93\n1 3 584,14 3 584,14\nSous-total HT 8 357,07 DH\nTVA 7% 584,99 DH\nTotal TTC 8 942,06 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0081",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.21237864077669902
+    "cer": 0.21237864077669902,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n\n28800 Mohammedia N° FA-000159\nICE : 229413186099386 Date : 06/05/2025\nLF. : 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Total HT\nChaise de bureau ergonomique À 1 530,00 1 530,00\nRéfrigérateur professionnel inox 4 11 190,00 44 760,00\nStylos à bille (boîte de 50) 48 90,00 4 320,00\nHébergement web annuel 4 1716,84 6 867,36\nPalette eau minérale 6 190,00 1 140,00\nCâble réseau RJ45 Cat6 (bobine) 12 519,19 6 230,28\n\nSous-total HT 64 847,64 DH\n\nTVA 20% 12 969,53 DH\n\nNet à payer TTC 77 817,17 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE : 229413186999386 - L.F. : 77496499 - RC : 091334 Mohammedia - Patente : 12328120\n"
   },
   {
     "id": "inv_0082",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.9381294964028777
+    "cer": 0.9381294964028777,
+    "hypothesis": "Rif Négoce SA _ FACTURE\nlouer . se : - N° FA-000102\n\n"
   },
   {
     "id": "inv_0083",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.6202702702702703
+    "cer": 0.6202702702702703,
+    "hypothesis": "Tafilalet Équipement SNC\n\n108 Rue Aj Qods 30000 Fès\n\nÉmetteur\n\nN° ICE 468723430980500\nIdentifiant fiscal : 97882081\nRC : 219136 Fès\n\nTaxe professionnelle : 19399091\n\nDescription\nImpression flyers A5 (1000 ex }\nPièces détachées - jot\n\nFour électrique encastrable\n\nFACTURE\n\nN°: FAC/2025/00164\n\nFacture à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nÉchéance : 26 février 2025\n\n2 561,25\n4 1481,93\n3 6260.00\n\nSous-totai HT\n\nTVA (20 %)\n\nNet à payer TTC\n\n27 janvier 2025\n\nTotal HT\n\n1122,50\n\n5927.72\n18780.,00\n\n25830,22 MAD\n5166,04 MAD\n30996,26 MAD\n\n9138 Fès - Tue prfossionnete : 1939000\n\n"
   },
   {
     "id": "inv_0084",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2592
+    "cer": 0.2592,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n\n28800 Mohammedia N° FA-000161\nICE : 229413186909386 Date : 30/12/2025\n1.F. : 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Quantité Prix unitaire HT Total HT\n\nHébergement web annuel | 3| 1716.84 | 5 150,52\nStylos à bille (boîte de 50) | 56 | 90.00 | 5 040,00\nSous-total HT 10 190,52 DH\nTVA 20% 2 038,10 DH\nNet à payer TTC 12 228,62 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE 229413186999386 - L.F. : 77496499 - RC 091334 Mohammedia - Patente 12328120\n"
   },
   {
     "id": "inv_0085",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.47183098591549294
+    "cer": 0.47183098591549294,
+    "hypothesis": "Souss Informatique SNC\n\n58 Bd Mohammed VI - 14000 Kénitra\n\nFournisseur\n\nN° ICE : 564823662994680\nIF : 44369957\n\nR.C. : 773872 Kénitra\nPatente : 14895134\n\nDescription\nCarburant - carte prépayée\nCartouche toner HP 305A\n\nRamette papier A4 80g\n\nFacture\n\nRéf : FA-000059\n03/04/2025\n\nDestinataire\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nÀ payer avant le : 18/04/2025\n\nQte el. T Montant HT\n4 1 020,00 4 080,00\n\n1 801,91 801,91\n\n26 30,00 780,00\nMontant HT 5 661,91 DH\nTVA (14 %) 792,67 DH\nMontant TTC 6 454,58 DH\n\nPaiement par virement où chèque\n\nSouss Informatique SNC - N° ICE : 564823662994680 - IF : 44369957 - R.C. : 773872 Kénitra - Patente : 14895134\n"
   },
   {
     "id": "inv_0086",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.17348927875243664
+    "cer": 0.17348927875243664,
+    "hypothesis": "FACTURE FAC/2025/00099\n\nDate: 23 janvier 2025\nÀ payer avant le: 7 février 2025\n\nFacturé à:\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nLibellé Qte Prix unitaire HT Total HT\nImpression flyers A5 (1000 ex.) 3 1 214,13 3 642,39\nPièces détachées - lot  : 3 140,00 3 140,00\n\nSous-total HT\nTVA 20%\nMontant TTC\n\n6 782,39 MAD\n1 356,48 MAD\n8 138,87 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE :\n\nR.C.\n\n841241182449353 | Identifiant fiscal :\n: 005242 Meknès\n\n48740164\n"
   },
   {
     "id": "inv_0087",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.10236220472440945
+    "cer": 0.10236220472440945,
+    "hypothesis": "Facture FAC/2025/00063\nDate: 17 août 2025\n\nClient:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qté P.U. HT Montant HT\nLave-vaisselle 12 couverts 4 3 584,14 14 336,56\nLicence logiciel comptable 1 4 772,93 4 772,93\nPalette eau minérale 6 305,95 1 835,70\nAudit de sécurité applicative - forfait 3 14 240,00 42 720,00\nRéfrigérateur professionnel inox 2 8 359,29 16 718,58\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n80 383,77 DH\n16 076,75 DH\n96 460,52 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0088",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.35581061692969873
+    "cer": 0.35581061692969873,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed VI - 14000 Kénitra Réf : FA-000061\n\n29/09/2025\n\nFournisseur Destinataire\n\nN° ICE : 564823662994680 Ifrane Electro SNC\n\nIF : 44360057 91 Avenue Mohammed V\nRC. : 773872 Kénitra 50000 Meknès\n\nPatente : 14895134 N° ICE : 736576615654527\n\nÀ payer avant le : 14/10/2025\n\nQte PU. HT Montant HT\n\nRamette papier A4 80g 55 30,00 1 650,00\nHébergement web annuel 1 1 944,53 1 944,53\nCartouche toner HP 305A 1 801,91 801,91\nMontant HT 4 396,44 DH\n\nTVA (20 %) 879,29 DH\n\nMontant TTC 5 275,73 DH\n\nPaiement par vinsment ou chèque\nSouss Informatique SNC - N° ICE : 64822062094680 - IF : 44360057 - RC : 773872 Kénitra - Paienie : 14805134\n"
   },
   {
     "id": "inv_0089",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.8258317025440313
+    "cer": 0.8258317025440313,
+    "hypothesis": "Facture a ss\nDate: 17 mars sas\n\nClient\n\nTingis Electro sa\nLIT Avente Hassan 17\n11000 Salé Er\n\nCe Phrases nesse\n\n"
   },
   {
     "id": "inv_0090",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.1037037037037037
+    "cer": 0.1037037037037037,
+    "hypothesis": "Facture FAC/2025/00067\nDate: 14 avril 2025\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription\n\nQté P.U. HT Montant HT\nRéfrigérateur professionnel inox 3 8 359,29 25 077,87\nAudit de sécurité applicative - forfait 3 14 240,00 42 720,00\nLave-vaisselle 12 couverts 3 3 584,14 10 752,42\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n78 550,29 DH\n15 710,06 DH\n94 260,35 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.r. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0091",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2892561983471074
+    "cer": 0.2892561983471074,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0165/2025\n25/03/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Tingis Electro SA\nIdentifiant fiscal : 91905865 117 Avenue Hassan Il\nN° RC : 185067 Tétouan 11000 Salé\n\nN° ICE : 731585149368998\n\nDésignati PU HT Total HT\nCâble réseau RJ45 Cat6 (bobine) 13 621,87 8084,31\nImpression flyers A5 (1000 ex.) 16 669,60 10713,60\nTotal HT 18797,91 MAD\nTVA (20 %) 3759,58 MAD\nTotal TTC 22557,49 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0092",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.7916083916083916
+    "cer": 0.7916083916083916,
+    "hypothesis": "FACTURE FAC/2026/00101\n\npate: 14 janvier 2026\nÀ payer avant le: 29 janvier 2026\n\nFacturé à:\nlpingis Electro SA\n\n117 Avenue Hassan 11\n‘11000 Salé à\nAGE + 1315851493689\n\n"
   },
   {
     "id": "inv_0093",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.052941176470588235
+    "cer": 0.052941176470588235,
+    "hypothesis": "Facture F2026-0225\n\nDate: 30/05/2026\nÀ payer avant le: 29/06/2026\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Montant HT\nPièces détachées - lot 2 3 095,00 6 190,00\nRéfrigérateur professionnel inox 2 8 993,30 17 986,60\nTotal HT 24 176,60 MAD\nTVA 10% 2 417,66 MAD\nMontant TTC 26 594,26 MAD\n\nDoukkala Hygiène SNC\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\n\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0094",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.7328385899814471
+    "cer": 0.7328385899814471,
+    "hypothesis": "FACTURE 202600015\n\nDate: 20/07/2026\n\nÀ payer avant le: 19/08/2026\n\nDestinataire: : :\n\nTingis Electro SA : ï\n117 Avenue Hassan 11 ;\n| 11000 Salé RER\n\n| ice : 721989149368008 ie ; tue :\n\n"
   },
   {
     "id": "inv_0095",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.32208157524613223
+    "cer": 0.32208157524613223,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed V! - 14000 Kénitra Réf : FA-000063\n\n08/02/2025\n\nFournisseur Destinataire\n\nN° ICE : 564823662994680 Tingis Electro SA\n\nIF : 44360957 117 Avenue Hassan II\n\nRC. : 773872 Kénitra 11000 Salé\n\nPatente : 14895134 N° ICE : 731585149368998\n\nÀ payer avant le : 23/02/2025\n\nDescription Qte HT Montant HT\nChaise de bureau ergonomique 20 881,79 17 635,80\nCartouche toner HP 305A 13 801,91 10 424,83\nHébergement web annuel 1 1 944,53 1 944,53\nMontant HT 30 005,16 DH\nTVA (20 %) 6 001,03 DH\nMontant TTC 36 006,19 DH\n\nPaiement par virement ou chèque\nSous Informatique SNC - N° ICE : 564823662994680 IF : 44369057 - R.C. : 773872 Kénitra Patente : 14895134\n"
   },
   {
     "id": "inv_0096",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.5313807531380753
+    "cer": 0.5313807531380753,
+    "hypothesis": "Bouregreg Import Ex\n\n85 Rue des Orangers - 30000 Fès\n\nVendeur\n\nN° ICE : 887719065940139\nIdentifiant fiscal : 90490278\nRC : 742967 Fès\n\nCâble réseau RJ45 Cat6 (bobine)\nFournitures diverses de bureau\n\nLave-vaisselle 12 couverts\n\nFACTURE\n\nRéf : 202500113\n\n22/08/2025\n\nDestinataire\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDate d'échéance : 06/10/2025\n\nTotal HT\n\n9 766.04 6,894.36\n14 450.00 6,300.00\n1 7,450.00 7,450.00\nMontant HT 20,644.36 Dhs\nTVA (20 %) 4,128.87 Dhs\nTotal TTC 24,773.23 Dhs\nPaiement par virement ou chèque\n\nBouregreg Import Export SARL AU - N° ICE : 887719065940139 - Identifiant fiscal: 90490278 - RC : 742967 Fès\n"
   },
   {
     "id": "inv_0097",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.03867403314917127
+    "cer": 0.03867403314917127,
+    "hypothesis": "Facture F2025-0227\n\nDate: 27/06/2025\nÀ payer avant le: 27/07/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Montant HT\nGants et EPI - lot 1 540,00 8 100,00\nRéfrigérateur professionnel inox 1 8 993,30 8 993,30\nChaise de bureau ergonomique 3 1 463,21 4 389,63\nTotal HT 21 482,93 MAD\n\nTVA 20% 4 296,59 MAD\n\nMontant TTC\n\n25 779,52 MAD\n\nDoukkala Hygiène SNC\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\n\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0098",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.16473317865429235
+    "cer": 0.16473317865429235,
+    "hypothesis": "Facture FAC/2025/00070\nDate: 3 avril 2025\n\nClient:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription\n\nQté P.U. AT\n\nMontant HT\n\nAudit de sécurité applicative - forfait\n\n1 14 240,00\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n14 240,00\n\n14 240,00 DH\n2 848,00 DH\n17 088,00 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | 1.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0099",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2600896860986547
+    "cer": 0.2600896860986547,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue AI Massira - 93000 Tétouan N° 0167/2025\n09/01/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\njgnation Quantité PU HT Total HT\n\nCâble réseau RJ45 Cat6 (bobine) 9 621,87 5596,83\nInstallation et mise en service 14 738,79 10343,06\nImpression flyers A5 (1000 ex.) 13 669,60 8704,80\nTotal HT 24644,69 MAD\nTVA (10 %) 2464,47 MAD\nTotal TTC 27109,16 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0100",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3416666666666667
+    "cer": 0.3416666666666667,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\n72 Rue des Oi\na N° : FAC/2025/00304\nICE N° : 889373467065627 Date : 02/11/2025\nIdentifiant fiscal : 29806990 À payer avant le : 02/12/2025\n\nN° RC : 162720 El Jadida\n\nFacturé à\nTingis Electro SA\n117 Avenue Hassan Il\n\n11000 Salé\nLibellé ate Total HT\nLocation de véhicule utilitaire - jour 9 605,00 5 445,00 |\n| Chaise de bureau ergonomique 3 | 1 365,00 4 095,00 |\n| Foumitures diverses de bureau : 7 | Fe 233,81 1 636,67\n| Ramette papier A4 809 = ri | = 14 | ne 30,00 F : 420,00 |\n| Ordinateur portable 15,6 pouces ; | 2 | : 8 575,00 il 17 150,00 |\nCartouche toner HP 305A 2 817,78 1 635,56\nMontant HT 30 382,23 Dhs\nTVA 10% 3 038,22 Dhs\nNet à payer TTC 33 420,45 Dhs\n\nPaiement par virement ou chèque\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0101",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.30105263157894735
+    "cer": 0.30105263157894735,
+    "hypothesis": "Maghreb Distribution SARL AU\n\n217 Avenue Hassan Il\n12000 Témara\nICE : 332181960013389\n\nLF. : 08386379\nRC : 402654 Témara\nTaxe professionnelle : 23511615\n\nFACTURE\n\nN° FAC/2025/00190\n\nDate : 18/12/2025\nDate d'échéance : 16/02/2026\n\nDestinataire\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nTotal HT\n\nLave-vaisselle 12 couverts 1 4,150.00 4,150.00\nFournitures diverses de bureau 16 625.00 | : 10,000.00\nEnriouche toner HP30SA : ere s 6692 | 3,134.60\nCâble réseau RS Cat6 (bobine) | Ain 890.00 | 8010.00 |\n| Écran 24 pouces : | 2| 146.7 | 2,925.46\nFormation None one : ie 3 32 295 | 960885\nGantsetEPI-lot | : : | es 679.82 | 2,039.46 |\nStylos à bille (boîte de 50) ee) vw 90.00 | | 171000\n\nMontant HT\nTVA 20%\nTotal TTC\n\nPaiement par virement ou chèque\n\nMaghreb Distribution SARL AU - ICE : 332181960013389 - LF. : (\n\n41,668.37 MAD\n8,333.67 MAD\n50,002.04 MAD\n\n9 - RC : 402654 Témara - Taxe professionnelle : 23511615\n"
   },
   {
     "id": "inv_0102",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.24675324675324675
+    "cer": 0.24675324675324675,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\npress Drangers N° : FAC/2026/00306\n\nICE N° : 889373467065627 Date : 29/04/2026\n\nIdentifiant fiscal : 29806990 À :\nN° RC : 162720 El Jadida À payer avant le : 29/05/2026\n\nFacturé à\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nLibellé Qte Total HT\nLocation de véhicule utilitaire - jour 5 605,00 3 025,00\nRamette papier A4 80g I 17 30,00 510,00\nChaise de bureau ergonomique 8 1 365,00 4 095,00\nOrdinateur portable 15,6 pouces 4 8 575,00 34 300,00\nCartouche toner HP 305A | 19 817,78 15 537,82\nFournitures diverses de bureau 15 233,81 3 507,15\n\nMontant HT 60 974,97 Dhs\n\nTVA 20% 12 194,99 Dhs\n\nNet à payer TTC 73 169,96 Dhs\n\nPaiement par virement ou chèque\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0103",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.5655296229802513
+    "cer": 0.5655296229802513,
+    "hypothesis": "Rif Services SAR\n\n167 Rue AI Massira - 93000 Tétouan\n\nÉmetteur\n\nN° ICE : 241904966319314\nIdentifiant fiscal : 91905865\nN° RC : 185067 Tétouan\n\ngnation\n\nFormation bureautique - journée\n\nPaiement à réception\n\nFACTURE\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nPU HT\n3 3990,39\nTotal HT\nTVA (20 %)\nTotal TTC\n\nRif Services SARL - N° ICE : 241904963193 14 - Identifiant fiscal : 91005865 - N° RC : 185067 Tétouan\n\nN° 0168/2025\n17/11/2025\n\ntal HT\n\n11971,17\n\n11971,17 MAD\n2394,23 MAD\n14365,40 MAD\n"
   },
   {
     "id": "inv_0104",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3877551020408163
+    "cer": 0.3877551020408163,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n\n217 Avenue Hassan II\n\n12000 Témara N° FAC/2026/00192\nICE : 332181960013389 Date : 01/07/2026\nLE. : 08386379 ne\n\nRC : 402654 Témara Date d'échéance : 30/08/2026\n\nTaxe professionnelle : 23511615\n\nDestinataire\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nDescription Prix un Total HT\n\nFormation bureautique - journée | il 3232.95 | 3232.95\n| Cartouche toner HP 305A ; ES FE [Es FE a 6692 | VS 626. 9 |\nCâble ren RJ45 Cat6 (bobine) | 8 | 890.00 | £ 7120.00\n| Sis à bille (boite de 50) ; a En | Free 90.00 | 171000 |\nMontant HT 12,689.87 MAD\nTVA 20% 2,537.97 MAD\nTotal TTC 15,227.84 MAD\n\nPaiement par virement ou chèque\n\nMaghreb Distribution SARL AU - ICE : 332181960013389 - LF. : 08386379 - RC : 402654 Témara - Taxe professionnelle : 23511615\n"
   },
   {
     "id": "inv_0105",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2563380281690141
+    "cer": 0.2563380281690141,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0172/2025\n17/12/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignat PU HT Total HT\nChaise de bureau ergonomique 2 1285,00 2570,00\nFournitures diverses de bureau 8 305,00 2440,00\nFormation bureautique - journée 2 3990,39 7980,78\nStylos à bille (boîte de 50) 18 53,50 963,00\nTotal HT 13953,78 MAD\nTVA (20 %) 2790,76 MAD\nTotal TTC 16744,54 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0106",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2729439809296782
+    "cer": 0.2729439809296782,
+    "hypothesis": "Bouregreg Import Export SARL AU FACTURE\n\n85 Rue des Orangers - 30000 Fès Réf : 202500114\n\n19/02/2025\n\nVendeur Destinataire\n\nN° ICE : 887719065940139 Ifrane Electro SNC\nIdentifiant fiscal : 90490278 91 Avenue Mohammed V\nRC : 742967 Fès 50000 Meknès\n\nN° ICE : 736576615654527\nDate d'échéance : 05/04/2025\n\nPUHT\nFournitures diverses de bureau » 450.00 2,250.00\nOrdinateur portable 15,6 pouces 2 8,455.00 16,910.00\nRéfrigérateur professionnel inox 1 8,924.55 8,924.55\nLave-vaisselle 12 couverts 3 7,450.00 22,350.00\nAudit de sécurité applicative - forfait 4 11,660.00 46,640.00\nMontant HT 97,074.55 Dhs\nTVA (20 %) 19,414.91 Dhs\nTotal TTC 116,489.46 Dhs\n\nPaiement par virement ou chèque\nBouregreg Import Export SARL AU - N° ICE : 887190659401 39 - Identifiant fiscal : 90490278 - RC : 742967 Fès\n"
   },
   {
     "id": "inv_0107",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.28085106382978725
+    "cer": 0.28085106382978725,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El ere) N° FA-000104\nN° ICE : 473829973763116 Date : 27 septembre 2025\nLF. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Prix unitaire HT Total HT\n\nLocation de véhicule utilitaire - jour 18 855,00 15 390,00\n\nLicence logiciel comptable | 4 2 795,00 | 11 180,00\nCartouche toner HP 305A | 7. 587,31 | 4111,17 |\n\n| Fournitures diverses de bureau | 16 (l 414,75 | 6 636,00\n\nTotal HT 37 317,17 Dhs\n\nTVA (20 %) 7 463,43 Dhs\n\nNet à payer TTC 44 780,60 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473420073763116 - LF. : 56670106 - N° RC: 512398 E1 Jadida\n"
   },
   {
     "id": "inv_0108",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.3602941176470588
+    "cer": 0.3602941176470588,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue Al Qods - 30000 Fès N° : FAC/2026/00165\n21 avril 2026\n\nÉmetteur Facturé à\nN° ICE : 468723430980500 Tingis Electro SA\nIdentifiant fiscal : 97882081 117 Avenue Hassan ||\nR.C. : 219136 Fès 11000 Salé\nTaxe professionnelle : 19399091 Échéance : 21 mai 2026\nDescription Qte PU HT\nFour électrique encastrable 1 6260,00\nPièces détachées - lot 3 1481,93\nSous-total HT 10705,79 MAD\nTVA (20 %) 2141,16 MAD\nNet à payer TTC 12846,95 MAD\n\nPaiement par virement ou chèque\nTafñlalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0109",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4543114543114543
+    "cer": 0.4543114543114543,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n\n217 Avenue Hassan 11\n\n12000 Témar N° FAC/2025/00195\nICE : 332181960013389 Date : 24/06/2025\nLF. : 08386379 Date d'échéance : 23/08/2025\n\nRC : 402654 Témara\nTaxe professionnelle : 23511615\n\nDestinataire\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nLave- le 12 couverts 3 4,150.00 12,450.00\nCâble réseau RJ45 Cat6 (bobine) | 11 | 890.00 | 9,790.00 |\nCartouche toner HP 305A | 6 | 626.92 | 3,761.52 |\n| Formation bureautique - journée | 1 | 3,232.95 3,232.95 l\n\nMontant HT 29,234.47 MAD\n\nTVA 20% 5,846.89 MAD\n\nTotal TTC 35,081.36 MAD\n\nMaghreb Distribution SARL AU - 1C\n"
   },
   {
     "id": "inv_0110",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.723404255319149
+    "cer": 0.723404255319149,
+    "hypothesis": "Bouregreg Import Exp\n\n85 Rue des Orangers - 30000 Fès\n\nVendeur\n\nN° ICE : 887719065940139\nIdentifiant fiscal : 90490278\nRC : 742967 Fès\n\nOrdinateur portable 15,6 pouces\nCartouche toner HP 305A\nFournitures diverses de bureau\nAudit de sécurité applicative - forfait\nLave-vaisselle 12 couverts\n\nCâble réseau RJ45 Cat6 (bobine)\n\nrt SARL AU FACTURE\n\nDestinataire\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDate d'échéance : 01/06/2025\n\n3 8,455.00\n20 625.03\nll 450.00\n2 11,660.00\n4 7,450.00\n16 766.04\nMontant HT\nTVA (20 %)\nTotal TTC\n\nPaiement par virement ou chèque\n\nxt Export SARL AU - N° ICE : 887719065940139 - Identifiant fiscal : 90490278 - RC : 742967 Fès\n\nRéf: 202500118\n\n17/04/2025\n\nTotal HT\n\n25,365.00\n12,500.60\n\n450.00\n23,320.00\n29,800.00\n\n12,256.64\n\n103,692.24 Dhs\n20,738.45 Dhs\n124,430.69 Dhs\n"
   },
   {
     "id": "inv_0111",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.07727975270479134
+    "cer": 0.07727975270479134,
+    "hypothesis": "FACTURE 202600017\n\nDate: 20/03/2026\nÀ payer avant le: 19/04/2026\n\nDestinataire:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qte PU HT Montant HT\nOrdinateur portable 15,6 pouces 2 470,00 14 940,00\nInstallation et mise en service 4 070,00 4 280,00\nPalette eau minérale 16 240,00 3 840,00\nFour électrique encastrable 2 205,00 8 410,00\nNettoyage des locaux - mensuel 1 760,43 2 760,43\nTotal HT 34 230,43 MAD\nTVA 20% 6 846,09 MAD\nTotal TIC 41 076,52 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal\n\nRC : 734714 Meknès\n\n72774348\n"
   },
   {
     "id": "inv_0112",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.34794156706507307
+    "cer": 0.34794156706507307,
+    "hypothesis": "Sahara Hygiène SNC FACTURE\n\n28 Avenue des FAR\n\n93000 Tétouan N° : F2025-0176\nICE : 025634216073375 Date : 29/08/2025\nIF : 43303654\n\nN° RC : 145868 Tétouan Échéance : 28/10/2025\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368098\n\nLibellé Total HT\n\nInstallation et mise en service 11 945,00 10395,00 |\nCarburant - carte prépayée | 1 | 3685,00 | 3685,00 |\n| cran 24 pouces Te a. 126500 Sao\n| Houe aspirante inox : nd ee 1 ee 2826,15 En | 282615 |\n| Gants et EPI - lot | 4 | 710,71 2842,84 |\n| Four électrique due 3 ï ; ne Aie 4 ne : 622463 6 24898,52 |\n\nMontant HT 50107,51 DH\nTVA (20 %) 10021,50 DH\nNet à payer TTC 60129,01 DH\n\nPaiement par virement ou chèque\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0113",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2863202545068929
+    "cer": 0.2863202545068929,
+    "hypothesis": "rt SARL AU FACTURE\n\nRéf : 202600121\n11/04/2026\n\nVendeur Destinataire\n\nN° ICE : 887719065940139 Ifrane Electro SNC\nIdentifiant fiscal : 90490278 91 Avenue Mohammed V\nRC : 742967 Fès 50000 Meknès\n\nN°ICE : 736576615654527\nDate d'échéance : 26/05/2026\n\nOrdinateur portable 15,6 pouces 1 8455.00 8,455.00\nCartouche toner HP 305A 4 625.03 2,500.12\nCâble réseau RJ4S Cat6 (bobine) 8 766.04 6,128.32\nFournitures diverses de bureau 1 450.00 450.00\nLave-vaisselle 12 couverts 3 7,450.00 22,350.00\nAudit de sécurité applicative - forfait 3 11,660.00 34,980.00\nRéfrigérateur professionnel inox 3 8,924.55 26,773.65\n\nMontant HT 101,637.09 Dhs\n\nTVA (20 %) 20,327.42 Dhs\n\nTotal TTC 121,964.51 Dhs\n\nPaiement par virement ou chèque\nBouregreg Import Export SARL AU - N° ICE : 887719065940139 - Identifiant fiscal : 90490278 - RC : 742967 Fès\n"
   },
   {
     "id": "inv_0114",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.05350553505535055
+    "cer": 0.05350553505535055,
+    "hypothesis": "FACTURE FA-000145\nDate: 20/04/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nICE N° : 731585149368998\n\nDésignation Quantité P.U. HT Total HT\nRéfrigérateur professionnel inox ve 13 580,67 27 161,34\nPièces détachées - lot 4 1 337,03 5 348,12\nHébergement web annuel 2 2 348,25 4 696,50\nMontant HT 37 205,96 MAD\nTVA 20% 7 441,19 MAD\nTotal TTC 44 647,15 MAD\n\nMaghreb Electro SNC\n\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | IF : 78856855\n\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0115",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.5743034055727554
+    "cer": 0.5743034055727554,
+    "hypothesis": "FACTURE FA-000149\nDate: 21/07/2026\n\na ———————_—_— ————\"——————— ——— —  —  —\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès à\nICE N° : 736576615654527\n\nDésignation 7 Quantité Ê P.U. HT Total HAT\nCarburant - carte prépayée : 4 1 218,10 4 872,40\nNettoyage des locaux - mensuel | è 3 153680 | 4 610,40\nÉcran 24 pouces | A Ho oc 6 800,00\n\nST Rarean LU me er on does 0 4 260,00\n| Gants et EI - lot api 11 223,20\n\n"
   },
   {
     "id": "inv_0116",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.10556621880998081
+    "cer": 0.10556621880998081,
+    "hypothesis": "FACTURE FA-000151\nDate: 25/07/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE N° : 736576615654527\n\nDésignation Quantité P.U. HT Total HT\nNettoyage des locaux - mensuel 2 1 536,80 3 073,60\nHébergement web annuel 3 2 348,25 7 044,75\nBureau 140 cm 1 1 065,00 1 065,00\n\nMontant HT\nTVA 20%\nTotal TTC\n\n11 183,35 MAD\n2 236,67 MAD\n13 420,02 MAD\n\nMaghreb Electro SNC\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | 1F : 78856855\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0117",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.8402903811252269
+    "cer": 0.8402903811252269,
+    "hypothesis": "Facture FAC/2025/00072\n\nDate: 27 février 2025 Ë\n\nlfrane Electre suc\n\nF1 Avenue Mohammed v\n30000 menés\n\n"
   },
   {
     "id": "inv_0118",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.32763157894736844
+    "cer": 0.32763157894736844,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n\n28800 Mohammedia N° FA-000165\nICE : 229413186999386 Date : 18/02/2025\nLF. : 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan ||\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Total HT\n| Câble réseau RJ45 Cat6 (bobine) 1 519,19 |\n| Ordinateur portable 15,6 pouces | 3 | 7 390,00 | 22 170,00 |\nPalette eau minérale Le 7 il | 19000! 133000 |\n| Cartouche toner HP 305A ; me re 20 le Frs 925,00 | Nr 18 500,00 |\n| Chaise de bureau ‘ergonomique fe QE F 4 | ‘ £ SE 530,00 | 6 120,00 |\n\nSous-total HT 48 639,19 DH\n\nTVA 10% 4 863,92 DH\n\nNet à payer TTC 53 503,11 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE : 229413186999386 - LF. : 77496499 - RC : 091334 Mohammedia - Patente : 12328120\n"
   },
   {
     "id": "inv_0119",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.21748878923766815
+    "cer": 0.21748878923766815,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0174/2025\n11/07/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignation PUHT\nFournitures diverses de bureau 6 305,00 1830,00\nChaise de bureau ergonomique 3 1285,00 3855,00\nStylos à bille (boîte de 50) 5 53,50 267,50\nImpression flyers A5 (1000 ex.) 11 669,60 7365,60\nPièces détachées - lot 4 2726,48 10905,92\nCâble réseau RJ45 Cat6 (bobine) 5 621,87 3109,35\nFormation bureautique - journée 1 3990,39 3990,39\nInstallation et mise en service 5 738,79 3693,95\nTotal HT 35017,71 MAD\nTVA (14 %) 4902,48 MAD\nTotal TTC 39920,19 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0120",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.037698412698412696
+    "cer": 0.037698412698412696,
+    "hypothesis": "FACTURE 202600021\n\nDate: 02/03/2026\nÀ payer avant le: 01/04/2026\n\nDestinataire:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qte PU HT Montant HT\nOrdinateur portable 15,6 pouces 2 7 470,00 14 940,00\nNettoyage des locaux - mensuel 5 2 760,43 8 281,29\nTotal HT 23 221,29 MAD\nTVA 20% 4 644,26 MAD\nTotal TIC 27 865,55 MAD\n\nTingis Logistique SARL\n\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal : 72774348\nRC : 734714 Meknès\n"
   },
   {
     "id": "inv_0121",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.36288998357963875
+    "cer": 0.36288998357963875,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000108\nRUE reseeere n Date : 25 novembre 2025\nLE. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription ité Total HT\nLocation de véhicule utilitaire - jour | 18 | 855,00 | 15 390,00\nee | si 278500 | 8 385,00\nTotal HT 23 775,00 Dhs\n\nTVA (20 %) 4 755,00 Dhs\n\nNet à payer TTC 28 530,00 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473829973763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0122",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4058679706601467
+    "cer": 0.4058679706601467,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n\n217 Avenue Hassan II\n\n12000 Témara N° FAC/2025/00197\nICE : 332181960013389 Date : 04/08/2025\n\nLF. : 08386379 PR\nré : 25\nRC : 402654 Témara Date d'échéance : 03/10/20:\n\nTaxe professionnelle : 23511615\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nStylos à bille (boîte de 50) 52 | 90.00 | 4,680.00\nLave-vaisselle 12 couverts Ë | IFes 415000! 8300.00\nCâble réseau RS Caté (bobine) 1 | 890.00 ë 890.00\nGants et EPI - lot mi Te | ge 15 679.82 | 10,197.30\n\n| Formation bureauique “journée Eve = | ns 3 3 Æ 3,232.95 | he G 9,698.85\nMontant HT 33,766.15 MAD\n\nTVA 20% 6,153.23 MAD\n\nTotal TTC 40,519.38 MAD\n\nPaiement par virement ou chèque\n\nMaghreb Distribution SARL AU - ICE : 332181960013389 - 1. : 08386379 - RC : 402654 Témara - Taxe professionnelle : 23511615\n"
   },
   {
     "id": "inv_0123",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.32936507936507936
+    "cer": 0.32936507936507936,
+    "hypothesis": "FACTURE 202500022\n\nDate: 06/03/2025\nÀ payer avant le: 05/04/2025\n\nDestinataire:\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\nICE : 736576615654527\n\nDescription Qte PU HT Montant HT\nOrdinateur Portable 15,6 Pouces 3. 7 470,00 22 410,00\nPalette eau minérale 10 240,00 2 400,00\nTotal HT 24 810,00 MAD\nTVA 20% 4 962,00 Man\n\nTotal Te 29 772,00 man\n\n"
   },
   {
     "id": "inv_0124",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.6526772793053546
+    "cer": 0.6526772793053546,
+    "hypothesis": "afilalet Équipement SNC\n\n108 Rue Al Qods - 30000 Fès\n\nÉmetteur\n\nN° ICE : 468723430980500\nidentifiant fiscal : 97882081\n\nRC. : 219136 Fès\n\nTaxe professionnelle : 19399091\n\nImpression flyers A5 (1000 ex.)\n\nHébergement web annuel\n\nPaiement\n\nTafalet Équipement SNC\n\nFACTURE\n\nN° : FAC/2025/00167\n\nFacturé à\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nÉchéance : 11 février 2025\n\nQte PU HT\n19 561,25\n4 1266,43\nSous-total HT\nTVA (20 %)\nNet à payer TTC\nou chèque\n\n1-R.C. : 219136 Fés - Taxe professionnelle\n\n12 janvier 2025\n\nTotal HT\n10663,75\n\n5065,72\n15729,47 MAD\n\n3145,89 MAD\n18875,36 MAD\n\n19399091\n"
   },
   {
     "id": "inv_0125",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4166666666666667
+    "cer": 0.4166666666666667,
+    "hypothesis": "Bouregreg Import Ex TURE\n\n85 Rue des Orangers - 30000 Fès Réf : 202500122\n\n18/07/2025\n\nVendeur Destinataire\nN° ICE : 887719065940139 Tingis Electro SA\nIdentifiant fiscal : 90490278 117 Avenue Hassan II\nRC : 742967 Fès 11000 Salé\n\nN°ICE : 731585149368998\nDate d'échéance : 01/09/2025\n\nCâble réseau RJ45 Cat6 (bobine) 2 766.04 1,532.08\nCartouche toner HP 305A 18 625.03 11,250.54\nMontant HT 12,782.62 Dhs\nTVA (20 %) 2,556.52 Dhs\nTotal TTC 15,339.14 Dhs\n\nnt par Virement ou chèque\n\nant fiscal : 90490278 - RC : 742967 Fès\n\n3 Import Export SARL AU - N° ICE : 887719065040 139 - Ident\n\n"
   },
   {
     "id": "inv_0126",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.13507109004739337
+    "cer": 0.13507109004739337,
+    "hypothesis": "Tafilalet Conseil SNC\n\n72 Rue des Orangers\n24000 El Jadida\n\nICE N° : 889373467065627\nIdentifiant fiscal : 29806990\nN° RC : 162720 El Jadida\n\nFACTURE\n\nN° : FAC/2025/00309\n\nDate : 18/07/2025\nÀ payer avant le : 17/08/2025\n\nFacturé à\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nLibellé Qte Prix unitaire HT Total HT\nRamette papier A4 80g | 56 30,00 1 680,00\nChaise de bureau ergonomique | 3| 1 365,00 4 095,00\n| Fournitures diverses de bureau 14 233,81 | 3 273,34 |\nCartouche toner HP 305A | 6| 817,78 4 906,68\nLocation de véhicule utilitaire - jour | 1 | 605,00 605,00\nOrdinateur portable 15,6 pouces | 3 | 8 575,00 | 25 725,00\nMontant HT 40 285,02 Dhs\nTVA 20% 8 057,00 Dhs\nNet à payer TTC 48 342,02 Dhs\n\nPaiement par virement ou chèque\n\nTañilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0127",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.21023359288097887
+    "cer": 0.21023359288097887,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue AI Massira - 93000 Tétouan N° 0176/2025\n15/10/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\ngnation PU HT Total HT\nChaise de bureau ergonomique 2 1285,00 2570,00\nPièces détachées - lot 1 2726,48 2726,48\nInstallation et mise en service 18 738,79 13298,22\nStylos à bille (boîte de 50) 21 53,50 1123,50\nCâble réseau RJ45 Cat6 (bobine) 18 621,87 11193,66\nFormation bureautique - journée 4 3990,39 15961,56\nImpression flyers A5 (1000 ex.) 5 669,60 3348,00\nFournitures diverses de bureau 12 305,00 3660,00\nTotal HT 53881,42 MAD\n\nTVA (20 %) 10776,28 MAD\n\nTotal TTC 64657,70 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0128",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.24346793349168647
+    "cer": 0.24346793349168647,
+    "hypothesis": "Tafilalet Conseil SNC\n\n72 Rue des Orangers\n24000 El Jadida\n\nICE N° : 889373467065627\nIdentifiant fiscal : 29806990\nN° RC : 162720 El Jadida\n\nFACTURE\n\nN° : FAC/2026/00311\n\nDate : 11/06/2026\nÀ payer avant le : 11/07/2026\n\nFacturé à\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\nLibellé Qte Prix unitaire HT Total HT\n| Ordinateur portable 15,6 pouces | 1| 8 575,00\n| | Cartouche toner HP 305A | : 8 | ï 6 542,24\n| Fournitures diverses de bureau À | | 374026\n| cree us ergonomique | 2 27000 |\n| Ramette papier A4 80g : 9 | : 270,00 |\n| Location à de véhicule utltaire jour eo | 54500!\nMontant HT 27 303,20 Dhs\nTVA 20% 5 460,64 Dhs\n\nTañilalet Conseil SNC - ICE N°\n\nNet à payer TTC 32 763,84 Dhs\n\nPaiement par virement ou chèque\n889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0129",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.22142857142857142
+    "cer": 0.22142857142857142,
+    "hypothesis": "Tafilalet Équipement SNC\n\n108 Rue Al Qods - 30000 Fès\n\nÉmetteur\n\nN° ICE : 468723430980500\nIdentifiant fiscal : 97882081\nRC. : 219136 Fès\n\nTaxe professionnelle : 19389091\n\nFACTURE\n\nN° : FAC/2026/00169\n16 août 2026\n\nFacturé à\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nÉchéance : 15 septembre 2026\n\nDescription Qte PU HT Total HT\nPièces détachées - lot 4 1481,93 5927,72\nFour électrique encastrable 2 6260,00 12520,00\nNettoyage des locaux - mensuel E 1800,00 7200,00\nImpression flyers A5 (1000 ex.) 12 561,25 6735,00\nHébergement web annuel 3 1266,43 3799,29\nSous-total HT 36182,01 MAD\nTVA (20 %) 7236,40 MAD\nNet à payer TTC 43418,41 MAD\nPaiement par virement ou chèque\n\nTatiaiet Équipement SNC - N° ICE : 468723430980500 - Identfant fiscal 87882081 - RC. : 219136 Fès - Taxe professionnelie : 19390091\n"
   },
   {
     "id": "inv_0130",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.2854838709677419
+    "cer": 0.2854838709677419,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0179/2026\n01/03/2026\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignation PU HT Total HT\nFormation bureautique - journée 4 3990,39 15961,56\nInstallation et mise en service 16 738,79 11820,64\nTotal HT 27782,20 MAD\nTVA (20 %) 5556,44 MAD\nTotal TTC 33338,64 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0131",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.17136150234741784
+    "cer": 0.17136150234741784,
+    "hypothesis": "Facture FAC/2026/00074\nDate: 10 août 2026\n\nClient:\n\nIfrane Electro SNC\n31 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription\n\nQté P.U. HT\n\nMontant HT\n\nRéfrigérateur professionnel inox\n\n3 8 359,29\n\nSous-total HT\nTVA 14%\nTotal TTC\n\n25 077,87\n\n25 077,87 DH\n3 510,90 DH\n28 588,77 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0132",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.17988668555240794
+    "cer": 0.17988668555240794,
+    "hypothesis": "Rif Négoce SA\n\n114 Rue Moulay Youssef\n24000 El Jadida\n\nN° ICE : 473829973763116\nLF.: 58670106\n\nN° RC : 513338 El Jadida\n\nFACTURE\n\nN° FA-000110\nDate : 27 mai 2025\n\nFE\n| Facturé à\n| Tingis Electro SA\n117 Avenue Hassan Il\n| 11000 Salé\nFe ICE : 731585149368998\n\nQuantité Total HT\n\nFournitures diverses de bureau 20 414,75 8 295,00\nCartouche toner HP 305A 19 587,31 11 158,89\nLicence logiciel comptable 1 2 795,00 2 795,00\nLocation de véhicule utilitaire - jour 8 855,00 6 840,00\nTotal HT 29 088.89 Dhs\n\nTVA (20 %) 5 817,78 Dhs\n\nNet à payer TTC 34 906,67 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473820073763118 - LP. 6670108 « N° RC : SYIS El Jadida\n"
   },
   {
     "id": "inv_0133",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.034764826175869123
+    "cer": 0.034764826175869123,
+    "hypothesis": "FACTURE 202500026\n\nDate: 06/04/2025\nÀ payer avant le: 06/05/2025\n\nDestinataire:\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qte PU HT Montant HT\nFour électrique encastrable 4 4 205,00 16 820,00\nPalette eau minérale 17 240,00 4 080,00\nTotal HT 20 900,00 MAD\nTVA 20% 4 180,00 MAD\nTotal TTC 25 080,00 MAD\n\nTingis Logistique SARL\n\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal : 72774348\nRC : 734714 Meknès\n"
   },
   {
     "id": "inv_0134",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.13783403656821377
+    "cer": 0.13783403656821377,
+    "hypothesis": "Tafilalet Conseil SNC\n\n72 Rue des Orangers\n24000 El Jadida\n\nICE N° : 889373467065627\nIdentifiant fiscal : 29806990\n\nN° RC : 162720 El Jadida\n\nFACTURE\n\nN° : FAC/2026/00313\n\nDate : 12/03/2026\nÀ payer avant le : 11/04/2026\n\nFacturé à\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nLibellé Prix unitaire HT Total HT\nRamette papier A4 80g 23 30,00 690,00\nOrdinateur portable 15,6 pouces DATE 4 ns 8 575,00 34 300,00\nLocation de véhicule utilitaire - jour 9 605,00 5 445,00\nMontant HT 40 435,00 Dhs\nTVA 20% 8 087,00 Dhs\nNet à payer TTC 48 522,00 Dhs\n\nPaiement par virement ou chèque\n\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0135",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.4388185654008439
+    "cer": 0.4388185654008439,
+    "hypothesis": "Tafilalet Équipement SNC\n\n108 Rue Al Qods - 30000 Fès\n\nÉmetteur\n\nN° ICE : 468723430980500\nIdentifiant fiscal : 97882081\nR.C. : 219136 Fès\n\nTaxe professionnelle : 19399091\n\nDescription\nPièces détachées - lot\nHébergement web annuel\n\nBureau 140 cm\n\nFACTURE\n\nFAC/2026/00172\n2 août 2026\n\nFacturé à\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nÉchéance : 1 septembre 2026\n\nQte PU HT Total HT\n\n4 1481,93 5927,72\n4 1266,43 5065,72\n2 1495,00 2990,00\nSous-total HT 13983,44 MAD\nTVA (20 %) 2796,69 MAD\nNet à payer TTC 16780,13 MAD\n\nPaiement par virement ou chèque\nTafilalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle 19399091\n"
   },
   {
     "id": "inv_0136",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.24412532637075718
+    "cer": 0.24412532637075718,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0260\n05/06/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Ifrane Electro SNC\nLF.: 64139537 91 Avenue Mohammed V\nN° RC : 672423 Nador 50000 Meknès\n\nICE N° : 736576615654527\nÀ payer avant le : 04/08/2026\n\nLibellé Qté P.U. HT Montant HT\nChaise de bureau ergonomique 1 1,050.00 1,050.00\nOrdinateur portable 15,6 pouces 2) 6,337.07 12,674.14\nCartouche toner HP 305A 16 895.00 14,320.00\nTransport de marchandises Casablanca-Rabat 4 1,408.67 5,634.68\nTotal HT 33,678.82 MAD\nTVA 20% 6,735.76 MAD\nNet à payer TTC 40,414.58 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - L.F. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0137",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4308510638297872
+    "cer": 0.4308510638297872,
+    "hypothesis": "Sahara Hygiène SNC\n\n28 Avenue des FAR\n93000 Tétouan\n\nICE : 025634216073375\nIF : 43303654\n\nN° RC : 145868 Tétouan\n\nFACTURE\n\nN° : F2025-0178\nDate : 28/02/2025\nÉchéance : 29/04/2025\n\nDestinataire\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Qte\n\n| Installation et mise en service | 20\n\n| Hotte aspirante inox 7 | 2 |\n\n| Four électrique encastrable . A\n\nBureau 140 cm F 2 |\n\n| Écran 24 pouces . ee 3| - à\nMontant HT\nTVA (20 %)\n\nNet à payer TTC\n\nPaiement par virement ou chèque\n\nPU HT Total HT\n945,00 18900,00 |\n2826,15 | 5652,30 |\n71071 | : 14214,20 |\n990,97 | 1981,94 |\n\n57292,70 DH\n\n11458,54 DH\n\n68751,24 DH\n\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0138",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.11047619047619048
+    "cer": 0.11047619047619048,
+    "hypothesis": "FACTURE FA-000154\nDate: 22/12/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nICE N° : 731585149368998\n\nDésignation\n\nQuantité P.U. HT Total HT\nRéfrigérateur professionnel inox 1 13 580,67 13 580,67\nHébergement web annuel 3 2 348,25 7 044,75\nGants et EPI - lot 6 561,16 3 366,96\n\nMontant HT\nTVA 20%\nTotal TTC\n\n23 992,38 MAD\n4 798,48 MAD\n28 790,86 MAD\n\nMaghreb Electro SNC\n\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 1 1F : 78856855\n\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0139",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.3254950495049505
+    "cer": 0.3254950495049505,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed VI - 14000 Kénitra Réf : FA-000067\n\n14/12/2025\n\nFournisseur Destinataire\n\nN° ICE : 564823662994680 Ifrane Electro SNC\n\nIF : 44360957 91 Avenue Mohammed V\nR.C. : 773872 Kénitra 50000 Meknès\n\nPatente : 14805134 N° ICE : 736576615654527\n\nÀ payer avant le : 29/12/2025\n\nDescription Montant HT\n\nCarburant - carte prépayée 1 1 020,00 1 020,00\nRamette papier A4 80g 29 30,00 870,00\nCartouche toner HP 305A 8 801,91 6415,28\nChaise de bureau ergonomique 8 881,79 7 054,32\nHébergement web annuel <i 1 944,53 5 833,59\nMontant HT 21 193,19 DH\nTVA (20 %) 4 238,64 DH\nMontant TTC 25 431,83 DH\n\nPaiement par tirement ou chèque\nSous Inlommatque SNC : N° ICE : 554822602904680 | JF + 44360067 RC 773472 Kénitra + Patente : 14805134\n"
   },
   {
     "id": "inv_0140",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.03142857142857143
+    "cer": 0.03142857142857143,
+    "hypothesis": "Facture F2025-0229\n\nDate: 07/07/2025\nÀ payer avant le: 06/08/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nN° ICE : 731585149368998\n\nDescription Quantité Prix unitaire HT Montant HT\nChaise de bureau ergonomique 2 1 463,21 2 926,42\nRéfrigérateur professionnel inox 2 8 993,30 17 986,60\nAudit de sécurité applicative - forfait 2 9 345,00 18 690,00\nImpression flyers A5 (1000 ex.) 8 770,00 6 160,00\nGants et EPI - lot 20 540,00 10 800,00\nPièces détachées - lot 3 3 095,00 9 285,00\n\nTotal HT 65 848,02 MAD\n\nTVA 20% 13 169,60 MAD\n\nMontant TTC 79 017,62 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | 1.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0141",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.08251748251748252
+    "cer": 0.08251748251748252,
+    "hypothesis": "Facture F2026-0231\n\nDate: 18/05/2026\nÀ payer avant le: 17/06/2026\n\nDestinataire:\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nN° ICE : 731585149368998\n\nDescription Quantité Prix unitaire HT Montant HT\nImpression flyers A5 (1000 ex.) FT 770,00 13 090,00\nPièces détachées - lot 4 3 095,00 12 380,00\nRéfrigérateur professionnel inox 4 8 993,30 35 973,20\nChaise de bureau ergonomique 1 1 463,21 1 463,21\nGants et EPI - lot 17 540,00 9 180,00\nAudit de sécurité applicative - forfait 3 9 345,00 28 035,00\n\nTotal HT 100 121,41 MAD\n\nTVA 20%\n\nMontant TTC\n\n20 024,28 MAD\n\n120 145,69 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0142",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.047540983606557376
+    "cer": 0.047540983606557376,
+    "hypothesis": "FACTURE FA-000156\nDate: 13/01/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE N° : 736576615654527\n\nDésignation Quantité P.U. HT Total HT\nBureau 140 cm 2 1 065,00 2 130,00\nCarburant - carte prépayée 3 1 218,10 3 654,30\nGants et EPI - lot 8 561,16 4 489,28\nÉcran 24 pouces 3 1 700,00 5 100,00\nNettoyage des locaux - mensuel 4 1 536,80 6 147,20\nMontant HT 21 520,78 MAD\nTVA 7% 1 506,45 MAD\nTotal TTC 23 027,23 MAD\n\nMaghreb Electro SNC\n\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | IF : 78856855\n\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0143",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2403486924034869
+    "cer": 0.2403486924034869,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2025-0264\n30/08/2025\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLF. : 64139537 117 Avenue Hassan Il\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 29/10/2025\n\nLibellé Qté HT Montant HT\nCartouche toner HP 305A 1 895.00 895.00\nOrdinateur portable 15,6 pouces 2 6,337.07 12,674.14\nMaintenance climatisation - forfait 4 1,620.00 6,480.00\nLicence logiciel comptable 4 4,492.04 17,968.16\nTransport de marchandises Casablanca-Rabat 2 1,408.67 2,817.34\nTotal HT 40,834.64 MAD\nTVA 7% 2,858.42 MAD\nNet à payer TTC 43,693.06 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - L.F. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0144",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2759407069555302
+    "cer": 0.2759407069555302,
+    "hypothesis": "Bouregreg Import Export SARL AU FACTURE\n\n85 Rue des Orangers - 30000 Fès Réf : 202600123\n\n03/05/2026\n\nVendeur\nN° ICE : 887719065940139\nIdentifiant fiscal : 90490278\n\ntaire\nElectro SA\n117 Avenue Hassan II\n\nRC : 742967 Fès 11000 Salé\nN° ICE : 731585149368998\nDate d'échéance : 17/06/2026\n\nCâble réseau RJ45 Cat6 (bobine) 12 766.04 9,192.48\nLave-vaisselle 12 couverts ll 7,450.00 7,450.00\nOrdinateur portable 15,6 pouces 4 8,455.00 33,820.00\nCartouche toner HP 305A 4 625.03 2,500.12\nAudit de sécurité applicative - forfait 3 11,660.00 34,980.00\nFournitures diverses de bureau 20 450.00 9,000.00\nMontant HT 96,942.60 Dhs\nTVA (20 %) 19,388.52 Dhs\nTotal TTC 116,331.12 Dhs\nPaiement par virement ou chèque\n\nBouregreg Import Export SARL AU - N° ICE : 877190659401\n\n"
   },
   {
     "id": "inv_0145",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.2776381909547739
+    "cer": 0.2776381909547739,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue Al Qods - 30000 Fès N° : FAC/2025/00174\n29 mai 2025\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Tingis Electro SA\nIdentifiant fiscal : 97882081 117 Avenue Hassan Il\nRC. : 219136 Fès 11000 Salé\n\nTaxe professionnelle : 19399091 Échéance : 28 juin 2025\n\nDescription Qte PU HT Total HT\nPièces détachées - lot 4 1481,93 5927,72\nAudit de sécurité applicative - forfait 1 13080,00 13080,00\nNettoyage des locaux - mensuel is 1800,00 1800,00\nHébergement web annuel 2 1266,43 2532,86\nSous-total HT 23340,58 MAD\nTVA (20 %) 4668,12 MAD\nNet à payer TTC 28008,70 MAD\n\nPaiement par virement ou chèque\nTafilalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0146",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.1015625
+    "cer": 0.1015625,
+    "hypothesis": "Facture FAC/2025/00076\nDate: 9 mai 2025\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription Qté P.U. HT Montant HT\nPalette eau minérale 13 305,95 3 977,35\nRéfrigérateur professionnel inox 1 8 359,29 8 359,29\nLicence logiciel comptable 1 4 772,93 4 772,93\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n17 109,57 DH\n3 421,91 DH\n20 531,48 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0147",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.2715909090909091
+    "cer": 0.2715909090909091,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue Al Qods - 30000 Fès N° : FAC/2025/00177\n11 septembre 2025\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Ifrane Electro SNC\nIdentifiant fiscal : 97882081 91 Avenue Mohammed V\nR.C. : 219136 Fès 50000 Meknès\n\nTaxe professionnelle : 19399091 Échéance : 11 octobre 2025\n\nDescrip! Qte PU HT tal HT\nFour électrique encastrable 3 6260,00 18780,00\nBureau 140 cm 3 1495,00 4485,00\nNettoyage des locaux - mensuel 4 1800,00 7200,00\nPièces détachées - lot 4 1481,93 5927,72\nImpression flyers A5 (1000 ex.) 18 561,25 10102,50\nFormation bureautique - journée 3 4052,90 12158,70\n\nSous-total HT 58653,92 MAD\n\nTVA (20 %) 11730,78 MAD\n\nNet à payer TTC 70384,70 MAD\n\nPaiement par virement ou chèque\n\nTañlalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - RC. : 219136 Fés - Taxe professionnelle : 19390091\n\n"
   },
   {
     "id": "inv_0148",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2892086330935252
+    "cer": 0.2892086330935252,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000113\nN° ICE : 473829973763116 Date : 29 mars 2026\nLE. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Total HT\n\n| Location de véhicule utilitaire - jour | 855,00 | 855,00 |\nLicence logiciel comptable | : | ie | 279500! 272500\n\n| Cartouche toner HP 305A : à - | : ; a 587.31 | À 9 06427 |\n| Fournitures diverses de bureau | 5 414,75 | 2073,75\nTotal HT 15 708,02 Dhs\nTVA (20 %) 3 141,60 Dhs\nNet à payer TTC 18 849,62 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473829073763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0149",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.034623217922606926
+    "cer": 0.034623217922606926,
+    "hypothesis": "Facture F2026-0233\n\nDate: 09/02/2026\nÀ payer avant le: 11/03/2026\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nN° ICE : 731585149368998\n\nDescription Quantité Prix unitaire HT Montant HT\nChaise de bureau ergonomique 4 1 463,21 5 852,84\nPièces détachées - lot 2 3 095,00 6 190,00\nTotal HT 12 042,84 MAD\nTVA 20% 2 408,57 MAD\nMontant TTC 14 451,41 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0150",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.08681672025723473
+    "cer": 0.08681672025723473,
+    "hypothesis": "Facture FAC/2025/00080\nDate: 24 avril 2025\n\nClient:\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qté P.U. HT Montant HT\nLave-vaisselle 12 couverts 2 3 584,14 7 168,28\nAudit de sécurité applicative - forfait 1 14 240,00 14 240,00\nPalette eau minérale 18 305,95 5 507,10\nRéfrigérateur professionnel inox 1 8 359,29 8 359,29\nLicence logiciel comptable 2 4 772,93 9 545,86\n\nSous-total HT\nTVA 7%\nTotal TTC\n\n44 820,53 DH\n3 137,44 DH\n47 957,97 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0151",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4222222222222222
+    "cer": 0.4222222222222222,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n\n217 Av Hassan II\n\n12000 Témara N° FAC/2025/00199\nICE : 332181960013389 Date : 24/03/2025\nLF. : 08386379 Date d'échéance : 23/05/2025\n\nRC : 402654 Témara\nTaxe professionnelle : 23511615\n\nDestinataire\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nTotal HT\n\nDescription\n\n| Câble réseau RJ45 Cat6 (bobine) 13 890.00 11,570.00\n\nMontant HT 11,570.00 MAD\nTVA 20% 2,314.00 MAD\nTotal TTC 13,884.00 MAD\n\nPaiement par virement ou chèque\n\n8196013389 - LF. : 08386379 - RC : 402654 Témara - Taxe professionnelle : 2351161$\n\nMaghreb Distribution SARL AU - ICE : 33\n"
   },
   {
     "id": "inv_0152",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.36324167872648333
+    "cer": 0.36324167872648333,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 Ei Jadida N° FA-000115\nN'ICE : 473829973763116 Date : 7 avril 2025\nLF, : 56670106\n\nN°RC : 513338 E] Jadida\n\nTingis Electro SA\n117 Avenue Hassan li\n11000 Salé\n\nFacturé à\n| N'ICE : 731585149368098\nl\n\nEST RE |\n\nDescription Quantité Prix unitaire HT Total HT\n| Location de véhicule utilitaire - jour 6! 855,00 | 5130,00 |\n| Foumiures diverses de bureau 2 414,75 829,50 |\n\n| Licence logiciel comptable | 1 2795,00 | 2 795,00\n| Cartouche toner HP 3054 9! 587,31 | 5 285,79 |\n\nTotal HT 14 040,29 Dhs\n\nTVA (20 %) 2 808,06 Dhs\n\nNet à payer TTC 16 848,35 Dhs\n\nFalement à récephon\n\nRif Négoce SA: N'ICE ATSB2MO EME: LE - S6S70 108 - Ne RC: 813338 El Jadida\n"
   },
   {
     "id": "inv_0153",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.5741839762611276
+    "cer": 0.5741839762611276,
+    "hypothesis": "Maghreb Distribution SARL AU\n\n247 Avenue Hassan If\n\n12000 Témara\n\nICE : 332181960013389\n\nLE. : 08386379\n\nRC : 402654 Témara\n\nTaxe professionnelle : 23511615\n\nDescription\nFournitures diverses de bureau\n\nÉcran 24 pouces\n\nMaghreb Distribution SARL AU - ICE: HIS1R19400L3IR = LP\n\nFACTURE\n\nN° FAC/2026/00203\n\nDate\n\nDate d'échéance\n\n19/08/2026\n18/10/2026\n\nDestinataire\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nPrix unitaire HT\n\n625.00\n\n5\n\n1462.73\n\nTotal HT\n\n1875.00\n\nMontant HT 4,800.46 MAD\nTVA 20% 960 09 MAD\nTotal TTC 5,760.55 MAD\n\nPaiement par Virement ou chéqué\n\nRES 70 RC | 402864 T'émurs - Taxe professionelle : 2ASELÈLS\n"
   },
   {
     "id": "inv_0154",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.05934065934065934
+    "cer": 0.05934065934065934,
+    "hypothesis": "FACTURE 202600028\n\nDate: 26/03/2026\nÀ payer avant le: 25/04/2026\n\nDestinataire:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qte PU HT Montant HT\nInstallation et mise en service 3 1 070,00 3 210,00\nTotal HT 3 210,00 MAD\nTVA 20% 642,00 MAD\nTotal TIC 3 852,00 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal : 72774348\n\nRC : 734714 Meknès\n"
   },
   {
     "id": "inv_0155",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.04908835904628331
+    "cer": 0.04908835904628331,
+    "hypothesis": "Facture F2025-0235\n\nDate: 12/03/2025\nÀ payer avant le: 11/04/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Montant HT\nImpression flyers A5 (1000 ex.) 6 770,00 4 620,00\nChaise de bureau ergonomique 1 1 463,21 1 463,21\nAudit de sécurité applicative - forfait 3 9 345,00 28 035,00\nRéfrigérateur professionnel inox 2 8 993,30 17 986,60\nGants et EPI - lot IL 540,00 5 940,00\nPièces détachées - lot 1 3 095,00 3 095,00\n\nTotal HT 61 139,81 MAD\n\nTVA 20% 12 227,96 MAD\n\nMontant TTC\n\n73 367,77 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0156",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.11020408163265306
+    "cer": 0.11020408163265306,
+    "hypothesis": "Facture FAC/2025/00082\nDate: 2 février 2025\n\nClient:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nDescription\n\nQté P.U. HT Montant HT\nAudit de sécurité applicative - forfait 1 14 240,00 14 240,00\nRéfrigérateur professionnel inox 1 8 359,29 8 359,29\n\nSous-total HT\nTVA 20%\nTotal TTC\n\n22 599,29 DH\n4 519,86 DH\n27 119,15 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0157",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.20597652081109924
+    "cer": 0.20597652081109924,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2025-0267\n04/03/2025\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLF.: 64139537 117 Avenue Hassan ||\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 03/05/2025\n\nLibellé Qté P.U. HT Montant HT\nLicence logiciel comptable 3 4,492.04 13,476.12\nTransport de marchandises Casablanca-Rabat 1 1,408.67 1,408.67\nPièces détachées - lot 2 2,040.00 4,080.00\nChaise de bureau ergonomique 1 1,050.00 1,050.00\nMaintenance climatisation - forfait 1 1,620.00 1,620.00\nCartouche toner HP 305A 8 895.00 7,160.00\nÉcran 24 pouces 4 1,676.58 6,706.32\nOrdinateur portable 15,6 pouces 2 6,337.07 12,674.14\n\nTotal HT 48,175.25 MAD\n\nTVA 20% 9,635.05 MAD\n\nNet à payer TTC 57,810.30 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - L.F. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0158",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.10222222222222223
+    "cer": 0.10222222222222223,
+    "hypothesis": "FACTURE FA-000159\nDate: 14/08/2026\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE N° : 736576615654527\n\nDésignation Quantité P.U. HT Total HT\nGants et EPI - lot 11 561,16 6 172,76\nPièces détachées - lot 2 1 337,03 2 674,06\nBureau 140 cm 4 1 065,00 4 260,00\nNettoyage des locaux - mensuel 3 1 536,80 4 610,40\nRéfrigérateur professionnel inox 3 13 580,67 40 742,01\nCarburant - carte prépayée 3 1 218,10 3 654,30\n\nMontant HT\nTVA 10%\nTotal TIC\n\n62 113,53 MAD\n6 211,35 MAD\n68 324,88 MAD\n\nMaghreb Electro SNC\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | IF : 78856855\n\nN° RC : 744431 Marrakech | Patente :\n\n35182337\n"
   },
   {
     "id": "inv_0159",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.37105751391465674
+    "cer": 0.37105751391465674,
+    "hypothesis": "Sahara Hygiène SNC\n\n28 Avenue des FAR\n93000 Tétouan\n\nICE : 025634216073375\nIF : 43303654\n\nN° RC : 145868 Tétouan\n\nLibellé\n\n| Carburant - carte prépayée\n\nFACTURE\n\nN° : F2025-0181\n\nDate : 05/02/2025\nÉchéance : 06/04/2025\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nQte\n\nMontant HT\nTVA (7 %)\nNet à payer TTC\n\nPaiement par virement ou chèque\n\nPU HT Total HT\n\n3685.00 | 7370,00 |\n\n7370,00 DH\n515,90 DH\n7885,90 DH\n\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0160",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4268104776579353
+    "cer": 0.4268104776579353,
+    "hypothesis": "Facture\n\nRéf : F2026-0270\n17/04/2026\n\nOum Errabia Informatique SARL\n\n57 Rue Ibn Sina - 62000 Nador\n\nFacturé à\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nICE N° : 736576615654527\n\nÀ payer avant le : 16/06/2026\n\nFournisseur\n\nICE N° : 928327648350305\nLF.: 64139537\n\nN° RC : 672423 Nador\n\nLibellé Qté P.U. HT Montant HT\nPièces détachées - lot 3 2,040.00 6,120.00\nTransport de marchandises Casablanca-Rabat 2 1,408.67 2,817.34\nTotal HT 8,937.34 MAD\nTVA 20% 1,787.47 MAD\n\nNet à payer TTC\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - LF. : 64139537 - N° RC : 672423 Nador\n\n10,724.81 MAD\n"
   },
   {
     "id": "inv_0161",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.29780564263322884
+    "cer": 0.29780564263322884,
+    "hypothesis": "Oum Errabia Informatique SAR Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2025-0274\n08/0 25\n\nFournisseur Facturé à\nICE N° : 928327648350305 Tingis Electro SA\nLF. : 64139537 117 Avenue Hassan Il\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 09/04/2025\n\nLibellé Qté P.U. HT Montant HT\nChaise de bureau ergonomique 3 1,050.00 3,150.00\nLicence logiciel comptable 3 4,492.04 13,476.12\nTotal HT 16,626.12 MAD\nTVA 10% 1,662.61 MAD\nNet à payer TTC 18,288.73 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - LF. : 64130537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0162",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.13485477178423236
+    "cer": 0.13485477178423236,
+    "hypothesis": "Facture FAC/2026/00084\nDate: 30 mai 2026\n\nClient:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qté P.U. HT Montant HT\nPalette eau minérale 15 305,95 4 589,25\nAudit de sécurité applicative - forfait & 14 240,00 14 240,00\n\nSous-total AT\nTVA 20%\nTotal TTC\n\n18 829,25 DH\n3 765,85 DH\n22 595,10 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | 1.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0163",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3413597733711048
+    "cer": 0.3413597733711048,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed VI - 14000 Kénitra Réf : FA-000071\n\n15/05/2026\n\nFournisseur Destinataire\nN° ICE : 564823662994680 Ifrane Electro SNC\n\nIF : 44369957 91 Avenue Mohammed V\nR.C. : 773872 Kénitra 50000 Meknès\n\nPatente : 14895134 N°ICE : 736576615654527\nÀ payer avant le : 30/05/2026\n\nQte P.U. HT Montant HT\n\nCarburant - carte prépayée TL 1 020,00 1 020,00\nCartouche toner HP 305A 9 801,91 7 217,19\nRamette papier A4 80g 54 30,00 1 620,00\nMontant HT 9 857,19 DH\nTVA (20 %) 1 971,44 DH\nMontant TTC 11 828,63 DH\n\nPaiement par virement ou chèque\n\nSouss Informatique SNC - N° ICE : 564823662904680 - IF : 44369957 - RC. : 773872 Kénitra - Patente : 14895134\n"
   },
   {
     "id": "inv_0164",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.24034334763948498
+    "cer": 0.24034334763948498,
+    "hypothesis": "FACTURE FAC/2025/00105\n\nDate: 30 mai 2025\nÀ payer avant le: 14 juin 2025\n\nFacturé à:\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\nICE : 731585149368998\n\nLibellé\n\nQte Prix unitaire HT\n\nTotal HT\n\nFournitures diverses de bureau\n\n7\n\nSous-total HT\nTVA 20%\nMontant TTC\n\n625,00\n\n4 375,00\n\n4 375,00 MAD\n875,00 MAD\n5 250,00 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal\nR.C. : 005242 Meknès\n\n: 48740164\n"
   },
   {
     "id": "inv_0165",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.05263157894736842
+    "cer": 0.05263157894736842,
+    "hypothesis": "Facture FAC/2025/00087\nDate: 15 janvier 2025\n\nClient:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qté P.U. HT Montant HT\nLave-vaisselle 12 couverts 4 3 584,14 14 336,56\nAudit de sécurité applicative - forfait 1 14 240,00 14 240,00\nSous-total HT 28 576,56 DH\nTVA 20% 5 715,31 DH\nTotal TTC 34 291,87 DH\n\nTingis Équipement SA\n\n55 Rue Moulay Youssef, 30000 Fès\n\nICE : 814893252880957 | I.F. : 01543039\nR.C. : 117182 Fès | TP : 27824896\n"
   },
   {
     "id": "inv_0166",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.4034090909090909
+    "cer": 0.4034090909090909,
+    "hypothesis": "Maghreb Distribution SARL AU FACTURE\n\n217 Avenue Hassan II\n\n12000 Témara N° FAC/2025/00204\n\nICE : 332181960013389 Date : 24/06/2025\nLE:< 0828637 Date d'échéance : 23/08/2025\n\nRC : 402654 Témara\nTaxe professionnelle : 23511615\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nGants et EPI - lot | 20 | 679.82 | 13,596.40\nÉcran 24 pouces 3| 1,462.73 | 4388.19\nFournitures diverses de bureau FA | 625.00 | 1,250.00\nMontant HT 19,234.59 MAD\nTVA 20% 3846.92 MAD\nTotal TTC 23,081.51 MAD\n\nPaiement par virement ou chèque\n\nMaghreb Distribution SARL AU - ICE : 332181960013389 - LF. : 0838\n\n79 - RC : 402654 Témara - Taxe professionnelle : 23511615\n"
   },
   {
     "id": "inv_0167",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.34746922024623805
+    "cer": 0.34746922024623805,
+    "hypothesis": "FACTURE\n\n85 Rue des Orangers - 30000 Fès Réf : 20250012\n\n21/04/2025\n\nVendeur Destinataire\n\nN° ICE : 887719065940139 Tingis Electro SA\nIdentifiant fiscal : 90490278 117 Avenue Hassan II\nRC : 742967 Fès 11000 Salé\n\nN°ICE : 731585149368998\nDate d'échéance : 05/06/2025\n\nOrdinateur portable 15,6 pouces 2 8455.00 16,910.00\nCâble réseau RJ45 Cat6 (bobine) 13 766.04 9,958.52\nFournitures diverses de bureau 17 450.00 7,650.00\nMontant HT 34,518.52 Dhs\nTVA (7%) 2,416.30 Dhs\nTotal TTC 36,934.82 Dhs\n\nPaiement par virement ou chèque\n\nBouregreg Import Export SARL AU - N° ICE : 887719065040 39 - Identifiant fiscal : 90490278 - RC : 742967 Fès\n"
   },
   {
     "id": "inv_0168",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.3629139072847682
+    "cer": 0.3629139072847682,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed VI - 14000 Kénitra Réf : FA-000072\n\n10/06/2025\n\nFournisseur Destinataire\n\nN° ICE : 564823662994680 Tingis Electro SA\n\nIF : 44: 369957 117 Avenue Hassan 1\n\nRC. : 773872 Kénitra 11000 Salé\n\nPatente : 14895134 N° ICE : 731585140368908\n\nÀ payer avant le : 25/06/2025\n\nDescription Montant HT\n\nHébergement web annuel 2 1 944,53 3 889,06\nCarburant - carte Prépayée 3 1 020,00 3 060,00\nChaise de bureau ergonomique 2 881,79 1763,58\nCartouche toner HP 305A 9 801,91 7217.19\nMontant HT 15 929,83 DH\n\nTVA (10 %) 1 592,98 DH\n\nMontant TTC 17 522,81 DH\n\nPatement par Virement où chèque\nSoues inommatque SNC . N° ICE SOLBTIGS RD - 1F | 4436007 RC. : 773872 Kénra - Parents : 14905334\n"
   },
   {
     "id": "inv_0169",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2901639344262295
+    "cer": 0.2901639344262295,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0181/2026\n04/03/2026\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignation PU HT Total HT\nImpression flyers A5 (1000 ex.) 20 669,60 13392,00\nPièces détachées - lot 3 2726,48 8179,44\nTotal HT 21571,44 MAD\nTVA (20 %) 4314,29 MAD\nTotal TTC 25885,73 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0170",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.21140939597315436
+    "cer": 0.21140939597315436,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan 0182/2025\n22/11/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignatio! PU HT Total HT\nFournitures diverses de bureau 10 305,00 3050,00\nFormation bureautique - journée 4 3990,39 15961,56\nPièces détachées - lot 3 2726,48 8179,44\nImpression flyers A5 (1000 ex.) 5 669,60 3348,00\nStylos à bille (boîte de 50) 54 53,50 2889,00\nCâble réseau RJ45 Cat6 (bobine) 14 621,87 4353,09\nInstallation et mise en service 4 738,79 2955,16\nChaise de bureau ergonomique 2 1285,00 2570,00\n\nTotal HT 43306,25 MAD\n\nTVA (20 %) 8661,25 MAD\n\nTotal TTC 51967,50 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0171",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.06230529595015576
+    "cer": 0.06230529595015576,
+    "hypothesis": "FACTURE 202600030\n\nDate: 18/01/2026\nÀ payer avant le: 17/02/2026\n\nDestinataire:\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qte PU HT Montant HT\nInstallation et mise en service 2 1 070,00 2 140,00\nFour électrique encastrable : 4 205,00 4 205,00\nPalette eau minérale 14 240,00 3 360,00\nOrdinateur portable 15,6 pouces 1 7 470,00 7 470,00\nNettoyage des locaux - mensuel 3 2 760,43 8 281,29\nTotal HT 25 456,29 MAD\nTVA 7% 1 781,94 MAD\nTotal TTC 27 238,23 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal :\n\nRC : 734714 Meknès\n\n72774348\n"
   },
   {
     "id": "inv_0172",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2757142857142857
+    "cer": 0.2757142857142857,
+    "hypothesis": "Sahara Hygiène\n\n28 Avenue des FAR\n93000 Tétouan\n\nICE : 025634216073375\nIF : 43303654\n\nN° RC : 145868 Tétouan\n\nLibellé\n\nSNC\n\nFACTURE\n\nN° : F2026-0184\n\nDate : 25/01/2026\nÉchéance : 26/03/2026\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nTotal HT\n\nCarburant - carte prépayée d 3685,00 | 3685,00\nBureau 140 cm mn Re EE | ë 15 | Ee 990,97 FRS 14864,55 |\n[écran 24pouces a| | 136500 | : 5460,00\n\nHotte aspirante inox : | 1 2826,15 | 282615\nEE électrique encastrable re ne | ; 2 | 624,63 | & 1244926\n\nMontant HT 39284,96 DH\nTVA (20 %) 7856,99 DH\nNet à payer TTC 47141,95 DH\n\nPaiement par virement ou chèque\n\nSahara Hygiène SNC - ICE : 025634216073375 - IF : 43303654 - N° RC : 145868 Tétouan\n"
   },
   {
     "id": "inv_0173",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2291421856639248
+    "cer": 0.2291421856639248,
+    "hypothesis": "Tafilalet Conseil SNC\n\n72 Rue des Orangers\n24000 El Jadida\n\nICE N° : 889373467065627\nIdentifiant fiscal : 29806990\nN° RC : 162720 El Jadida\n\nellé\n\nFACTURE\n\nN° : FAC/2026/00315\n\nDate : 14/06/2026\nÀ payer avant le : 14/07/2026\n\nFacturé à\n\n50000 Meknès\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n\nNet à payer TTC\n\nPaiement par virement ou chèque\n\nQte Prix unitaire HT Total HT\n\n| Cartouche toner HP 305A 19 817,78 15 537,82\n\nRamette papier A4 80g Fi = DESNE Eu 49 ie ce 30,00 ae 1 470,00\n\nLocation de véhicule utilitaire - jour Ê 18 | 605,00 | 10 890,00\n\n| Chaise de bureau ergonomique 2 1 365,00 | 2 730,00\nFournitures diverses de bureau DR 13 | 23381 À 303053 |\n\nOrdinateur Poneble 15,6 pouces £ | 4! 8 575.00 | 34 300,00\n\nMontant HT 67 967,35 Dhs\n\nTVA 20% 13 593,47 Dhs\n\n81 560,82 Dhs\n\nTafilalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806990 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0174",
     "split": "dev",
     "scan_profile": "clean",
-    "cer": 0.20696937697993664
+    "cer": 0.20696937697993664,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0275\n07/01/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLF.: 64139537 117 Avenue Hassan Il\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 08/03/2026\n\nLibellé Qté 2 T Montant HT\nLicence logiciel comptable 2 4,492.04 8,984.08\nMaintenance climatisation - forfait 3 1,620.00 4,860.00\nÉcran 24 pouces 2 1,676.58 3,353.16\nTransport de marchandises Casablanca-Rabat 2 1,408.67 2,817.34\nOrdinateur portable 15,6 pouces 2 6,337.07 12,674.14\nCartouche toner HP 305A 6 895.00 5,370.00\nPièces détachées - lot 1 2,040.00 2,040.00\nChaise de bureau ergonomique 4 1,050.00 4,200.00\n\nTotal HT 44,298.72 MAD\n\nTVA 20% 8,859.74 MAD\n\nNet à payer TTC 53,158.46 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - L.F. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0175",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.41761363636363635
+    "cer": 0.41761363636363635,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000116\nN° ICE : 473829973763116 Date : 17 septembre 2025\nLE. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nTotal HT\nLocation de véhicule utilitaire - jour 8\n\n| jour For | | 6 840,00 |\n\n| Licence logiciel comptable 2| 5 590,00 |\n\n| Cartouche toner HP 3054 a 6. | mass)\nTotal HT 30 224,89 Dhs\nTVA (20 %) 6 044,98 Dhs\nNet à payer TTC 36 269,87 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473829973763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0176",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.40512820512820513
+    "cer": 0.40512820512820513,
+    "hypothesis": "Bouregreg Import Export SARL AU FACTURE\n\ners - 30000 Fès Réf : 202600127\n\n15/08/2026\n\nVendeur Destinataire\n\nN° ICE : 887719065940139 Ifrane Electro SNC\nIdentifiant fiscal : 90490278 91 Avenue Mohammed V\nRC : 742967 Fès 50000 Meknès\n\nN° ICE : 736576615654527\nDate d'échéance : 29/09/2026\n\nRéfrigérateur professionnel inox 2 8,924.55 17,849.10\nOrdinateur portable 15,6 pouces 2 8,455.00 16,910.00\nCâble réseau RJ45 Cat6 (bobine) 10 766.04 7,660.40\nFournitures diverses de bureau 20 450.00 9,000.00\nMontant HT 51,419.50 Dhs\nTVA (20% 10,283.90 Dhs\nTotal TTC 61,703.40 Dhs\n\n"
   },
   {
     "id": "inv_0177",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.3125
+    "cer": 0.3125,
+    "hypothesis": "Bouregreg Import Export SARL AU FACTURE\n\n85 Rue des Orangers - 30000 Fès Réf : 202600128\n\n14/03/2026\n\nVendeur Destinataire\n\nN° ICE : 887719065940139 Ifrane Electro SNC\nIdentifiant fiscal : 90490278 91 Avenue Mohammed V\nRC : 742967 Fès 50000 Meknès\n\nN°ICE : 736576615654527\nDate d'échéance : 28/04/2026\n\nFournitures diverses de bureau 9 450.00 4,050.00\nAudit de sécurité applicative - forfait 3 11,660.00 34,980.00\nRéfrigérateur professionnel inox 4 8,924.55 35,698.20\nMontant HT 74,728.20 Dhs\n\nTVA (20 %) 14,945.64 Dhs\n\nTotal TTC 89,673.84 Dhs\n\nPaiement par virement ou chèque\n\nBouregreg Import Export SARL AU - N° ICE : 887719065940139 - Identifiant fiscal : 90490278 - RC : 742967 Fès\n"
   },
   {
     "id": "inv_0178",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.6202661207778914
+    "cer": 0.6202661207778914,
+    "hypothesis": "Tafilalet Équipement SNC\n\n108 Rue Al Qods - 30000 Fès\n\nÉmetteur\n\nN° ICE : 468723430980500\nIdentifiant fiscal : 97882081\nRC. : 219136 Fès\n\nTaxe professionnelle : 19399091\n\nDescription\n\nAudit de sécurité applicative - forfait\nBureau 140 cm\n\nNettoyage des locaux - mensuel\nHébergement web annuel\nFormation bureautique - journée\nFour électrique encastrable\n\nPièces détachées - lot\n\nImpression flyers A5 (1000 ex.}\n\nFACTURE\n\nN° : FAC/2025/00180\n21 novembre 2025\n\nFacturé à\nTingis Electro SA\n117 Avenue Hassan 11\n11000 Salé\n\nÉchéance : 21 décembre 2025\n\nQte PU HT Total\n\n2 13080,00 26160,00\n\n2 1495,00 2990.00\n\n3 1800.00 5400,00\n\n2 1266.43 2532.86\n\n1 4052,90 4052,90\n\n1 6260.00 6260,00\n\n1 1481,93 1481.93\n\n15 561,25 841875\nSous-total HT 57296,44 MAD\nTVA (20 %) 11459,29 MAD\nNet à payer TTC 68755,73 MAD\n\nPaiement par wirement ou chèque\n\nTafisiet Équipamerit SNC : N° ICE : 48\n\n30880800 - ldenbhant fac : SAB2OE! : RC. : 219136 Fès - Tase professionnelle : 1039909\n"
   },
   {
     "id": "inv_0179",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.5707395498392283
+    "cer": 0.5707395498392283,
+    "hypothesis": "Tafilalet Équipement SNC\n\n48 AI Qus - SOON Ces\n\nEmetteur Facturg à\n\nN° ICE : 468723430989500 Tingis Electro SA\n\nL di 117 Avenue Hassan H\n11000 Saté\nÉchéance : 3 juiliet 2026\n\nPUHT Totat HT\n\nBureau 140 om $ 1495.00 4485.00\nSous-totai HT #485,00 MAD\nTVA (20 %) 897,00 MAD\nNet à payer TTC 5382.00 MAD\n\nFIN Pau « Va pnésionnmte : +340\n\n"
   },
   {
     "id": "inv_0180",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.4366883116883117
+    "cer": 0.4366883116883117,
+    "hypothesis": "Souss Informatique SNC Facture\n\n58 Bd Mohammed VI - 14000 Kénitra Réf : FA-000076\n19/04/2026\n\nFournisseur Destinataire\n\nN° ICE : 564823662994680 Tingis Electro SA\n\nIF : 44369957 117 Avenue Hassan Il\n\nRC. : 773872 Kénitra 11000 Salé\n\nPatente : 14895134 N° ICE : 731585149368008\n\nÀ payer avant le : 04/05/2026\n\nDescription Qte HT Montant HT\nCarburant - carte prépayée 3 1 020,00 3 060,00\nMontant HT 3 060,00 DH\n\nTVA (20 %) 612,00 DH\n\nMontant TTC 3 672,00 DH\n\n3872 Kénitra - Patente : 1\n\nSouss Informatia}\n"
   },
   {
     "id": "inv_0181",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.04457652303120357
+    "cer": 0.04457652303120357,
+    "hypothesis": "FACTURE FAC/2026/00107\n\nDate: 2 juillet 2026\nÀ payer avant le: 17 juillet 2026\n\nFacturé à:\n\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nLibellé Qte Prix unitaire HT Total HT\nFournitures diverses de bureau 2 625,00 1 250,00\nPièces détachées - lot 3 3 140,00 9 420,00\nImpression flyers A5 (1000 ex.) 4 1 214,13 4 856,52\nCartouche toner HP 305A 3 798,26 2 394,78\nMaintenance climatisation - forfait 4 1 000,00 4 000,00\nSous-total HT 21 921,30 MAD\nTVA 10% 2 192,13 MAD\nMontant TTC 24 113,43 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal : 48740164\n\nR.C. : 005242 Meknès\n"
   },
   {
     "id": "inv_0182",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.40086206896551724
+    "cer": 0.40086206896551724,
+    "hypothesis": "Rif Négoce SA\n\n114 Rue Moulay Youssef\n24000 El Jadida\n\nN° ICE : 473829973763116\nLF.: 56670106\n\nN° RC : 513338 El Jadida\n\nFACTURE\n\nN° FA-000119\n\nDate : 11 mai 2026\n\nFacturé à\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nN°ICE : 731585149368998\n\nNet à payer TTC\n\nPaiement à réception\n\nRif Négoce SA - N° ICE : 473829973763116 - L.F. : 56670106 - N° RC : 513338 El Jadida\n\nPrix un e HT Total HT\n\nLicence logiciel comptable 1 2 795,00 2 795,00\n| Cartouche toner HP 305 15 | 587,31 8 809,65\nFournitures diverses de bureau | 13 414,75 5 391,75\nLocation de véhicule utilitaire - jour 17 | 855,00 14 535,00\nTotal HT 31 531,40 Dhs\n\nTVA (20 %) 6 306,28 Dhs\n\n37 837,68 Dhs\n"
   },
   {
     "id": "inv_0183",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.03185840707964602
+    "cer": 0.03185840707964602,
+    "hypothesis": "Facture F2025-0237\n\nDate: 25/11/2025\nÀ payer avant le: 25/12/2025\n\nDestinataire:\n\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nDescription Quantité Prix unitaire HT Montant HT\nImpression flyers A5 (1000 ex.) 15 770,00 11 550,00\nChaise de bureau ergonomique 1 1 463,21 1 463,21\nAudit de sécurité applicative - forfait 3 9 345,00 28 035,00\nTotal HT 41 048,21 MAD\nTVA 20% 8 209,64 MAD\nMontant TTC 49 257,85 MAD\n\nDoukkala Hygiène SNC\n\n69 Bd Zerktouni, 30000 Fès\n\nN° ICE : 109324808613171 | I.F. : 27484677\nN° RC : 378263 Fès\n"
   },
   {
     "id": "inv_0184",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.3395061728395062
+    "cer": 0.3395061728395062,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue Al Qods - 30000 Fès N° : FAC/2026/00187\n8 juillet 2026\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Tingis Electro SA\nIdentifiant fiscal : 97882081 117 Avenue Hassan Il\nRC. : 219136 Fès 11000 Salé\n\nTaxe professionnelle : 19399091 Échéance : 7 août 2026\n\nDescription Qte PU HT al HT\nFour électrique encastrable 1 6260,00 6260,00\nSous-total HT 6260,00 MAD\nTVA (20 %) 1252,00 MAD\nNet à payer TTC 7512,00 MAD\n\nPaiement par virement ou chèque\nTaflalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0185",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.37866666666666665
+    "cer": 0.37866666666666665,
+    "hypothesis": "Tafilalet Conseil SNC FACTURE\n\n72 Rue des O\n\nbn N° : FAC/2025/00318\nICE N° : 889373467065627 Date : 31/12/2025\nIdentifiant fiscal : 29806990 À payer avant le : 30/01/2026\n\nN° RC : 162720 El Jadida\n\nFacturé à\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nLibellé Prix unitaire HT Total HT\n\nOrdinateur portable 15,6 pouces | 2 | 8 575,00 | 17 150,00\na 2 m8\nLocation de véhicule utiftaire - jour + 15 | : 605,00 | 9 075,00\nCartouche toner HP 305A | 4 | 817,78 | 3271,12\nMontant HT 30 197,55 Dhs\nTVA 20% 6 039,51 Dhs\nNet à payer TTC 36 237,06 Dhs\n\nPaiement par virement ou chèque\naflalet Conseil SNC - ICE N° : 889373467065627 - Identifiant fiscal : 29806900 - N° RC : 162720 El Jadida\n"
   },
   {
     "id": "inv_0186",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.7027463651050081
+    "cer": 0.7027463651050081,
+    "hypothesis": "Bouregreg Import Export\n\n8$ Rue des Orangers - 30000 Fès\n\nVendeur\n\nN° ICE ; 88771906$040139\nKientifiant fiscal : 90490278\nRC : 742967 Fès\n\nRéfrigérateur professionnel inox\n\nPaiemat par virus\n\nBogtegres lenport Espar SARL ALI NS ICE : ET71006 Sat\n\nARL AU\n\n1 à HétontiFige fisc : 90\n\nTURE\n\nRéf : 2026001 32\n10/042602%6\n\nDestinataire\nFingis Electro SA\n7 Avenu\n11000 Salé\n\nN° ICE : 731585140368098\n\nHassan 1\n\nDate d'échéance : 25/05/2026\n\n4 892455 35,698 20\nMontant HT 35,69820 Dhs\nTVA (20 %) 7,139.64 Dhs\nTotal TTC 42,837.84 Dhs\n\noù chèque\n\nRE, Her Fès\n"
   },
   {
     "id": "inv_0187",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.24125
+    "cer": 0.24125,
+    "hypothesis": "Oum Errabia Informatique SARL Facture\n\n57 Rue Ibn Sina - 62000 Nador Réf : F2026-0279\n30/06/2026\n\nFournisseur Facturé à\n\nICE N° : 928327648350305 Tingis Electro SA\nLF.: 64139537 117 Avenue Hassan Il\nN° RC : 672423 Nador 11000 Salé\n\nICE N° : 731585149368998\nÀ payer avant le : 29/08/2026\n\nLibellé Qté P.\n\nHT Montant HT\n\nLicence logiciel comptable 4 4,492.04 17,968.16\nOrdinateur portable 15,6 pouces 4 6,337.07 25,348.28\nÉcran 24 pouces 1 1,676.58 1,676.58\nTransport de marchandises Casablanca-Rabat 3 1,408.67 4,226.01\nMaintenance climatisation - forfait 2 1,620.00 3,240.00\nTotal HT 52,459.03 MAD\nTVA 10% 5,245.90 MAD\nNet à payer TTC 57,704.93 MAD\n\nPaiement par virement ou chèque\nOum Errabia Informatique SARL - ICE N° : 928327648350305 - LF. : 64139537 - N° RC : 672423 Nador\n"
   },
   {
     "id": "inv_0188",
     "split": "test",
     "scan_profile": "clean",
-    "cer": 0.15331010452961671
+    "cer": 0.15331010452961671,
+    "hypothesis": "FACTURE FAC/2026/00109\n\nDate: 1 avril 2026\nÀ payer avant le: 16 avril 2026\n\nFacturé à:\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nLibellé Qte Prix unitaire HT Total HT\nInstallation et mise en service 20 392,51 7 850,20\nImpression flyers A5 (1000 ex.) 4 1 214,13 4 856,52\nPièces détachées - lot 3 3 140,00 9 420,00\n\nSous-total HT\nTVA 20%\n\nMontant TTC\n\n22 126,72 MAD\n4 425,34 MAD\n26 552,06 MAD\n\nSouss Matériaux SARL\n140 Bd Zerktouni, 50000 Meknès\n\nICE : 841241182449353 | Identifiant fiscal\n\nR.C. : 005242 Meknès\n\n48740164\n"
   },
   {
     "id": "inv_0189",
     "split": "dev",
     "scan_profile": "bad",
-    "cer": 0.23478260869565218
+    "cer": 0.23478260869565218,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Ai Massira - 93000 Tétouan\n\nN° 0184/2025\n31/05/2025\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Ifrane Electro SNC\nIdentifiant fiscal : 91905865 91 Avenue Mohammed V\nN° RC : 185067 Tétouan 50000 Meknès\n\nN° ICE : 736576615654527\n\nDésignation antits PU HT Total H\nCâble réseau RJ45 Cat6 (bobine) 7 621.87 4353.09\nChaise de bureau ergonomique 3 1285,00 3855.00\nFormation bureautique - journée 3 3990.39 11971,17\nInstallation et mise en service 19 738,79 14037,01\nImpression flyers A5 (1000 ex.) 10 669,60 6696,00\nStylos à bille (boite de 50) 32 53,50 1712.00\nTotal HT 42624,27 MAD\nTVA (20 %) 8524,85 MAD\nTotal TTC 51149,12 MAD\n\nPaiement 4 récephon\nR Services SARL - N° ICE : 241904968319314 - identifiant focai : 1005868 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0190",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.18243243243243243
+    "cer": 0.18243243243243243,
+    "hypothesis": "FACTURE FA-000162\nDate: 23/04/2025\n\nDestinataire:\n\nTingis Electro SA\n\n117 Avenue Hassan II\n11000 Salé\n\nICE N° : 731585149368998\n\nDésignation\n\nQuantité\n\nP.U. HT Total HT\n\nRéfrigérateur professionnel inox\n\n4\n\nMontant HT\nTVA 20%\nTotal TIC\n\n13 580,67 54 322,68\n\n54 322,68 MAD\n10 864,54 MAD\n65 187,22 MAD\n\nMaghreb Electro SNC\n71 Bd Abdelmoumen, 40000 Marrakech\n\nICE N° : 783777014363495 | IF : 78856855\nN° RC : 744431 Marrakech | Patente : 35182337\n"
   },
   {
     "id": "inv_0191",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.371301775147929
+    "cer": 0.371301775147929,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue Al Qods - 30000 Fès N° : FAC/2025/00188\n18 mai 2025\n\nÉmetteur Facturé à\nN° ICE : 468723430980500 Ifrane Electro SNC\nIdentifiant fiscal : 97882081 91 Avenue Mohammed V\nR.C. : 219136 Fès 50000 Meknès\nTaxe professionnelle : 19399091 Échéance : 17 juin 2025\nDescripti Qte PU HT\nImpression flyers A5 (1000 ex.) 16 561,25\nBureau 140 cm 4 1495,00\nSous-total HT 14960,00 MAD\nTVA (7 %) 1047,20 MAD\nNet à payer TTC 16007,20 MAD\n\nPaiement par virement ou chèque\nTafñilalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0192",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.6526315789473685
+    "cer": 0.6526315789473685,
+    "hypothesis": "FACTURE FAC/2025/00113\n\nDate: 10 juillet 2025\nÀ payer avant le: 25 juillet 2025\n\nTE  ——————————————————— \"<<\n\nFacturé à:\n\n_Ifrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès ;\nICE : 736576615654527\n\nQte Prix unitaire HT\n\n4 3 140,00\n\n"
   },
   {
     "id": "inv_0193",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.031055900621118012
+    "cer": 0.031055900621118012,
+    "hypothesis": "FACTURE 202600031\n\nDate: 22/04/2026\nÀ payer avant le: 22/05/2026\n\nDestinataire:\nTingis Electro SA\n117 Avenue Hassan II\n11000 Salé\n\nICE : 731585149368998\n\nDescription Qte PU HT Montant HT\nFour électrique encastrable 3 4 205,00 12 615,00\nPalette eau minérale 20 240,00 4 800,00\nInstallation et mise en service 1 1 070,00 1 070,00\nNettoyage des locaux - mensuel 3 2 760,43 8 281,29\nOrdinateur portable 15,6 pouces 1 7 470,00 7 470,00\nTotal HT 34 236,29 MAD\nTVA 20% 6 847,26 MAD\nTotal TTC 41 083,55 MAD\n\nTingis Logistique SARL\n60 Rue des Orangers, 50000 Meknès\n\nICE : 831727889579868 | Identifiant fiscal : 72774348\n\nRC : 734714 Meknès\n"
   },
   {
     "id": "inv_0194",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.35429447852760737
+    "cer": 0.35429447852760737,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue AI Qods - 30000 Fès N° : FAC/2026/00190\n\n30 avril 2026\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Ifrane Electro SNC\nIdentifiant fiscal : 97882081 91 Avenue Mohammed V\nRC. : 219136 Fès 50000 Meknès\n\nTaxe professionnelle : 19399091 Échéance : 30 mai 2026\n\nDescription Qte Total HT\nNettoyage des locaux - mensuel 4 1800,00 1800,00\nSous-total HT 1800,00 MAD\nTVA (20 %) 360,00 MAD\nNet à payer TTC 2160,00 MAD\n\nPaiement par virement ou chèque\nTaflalet Équipement SNC - N° ICE : 468723430980500 - Identifiant fiscal : 97882081 - RC. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0195",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.2824074074074074
+    "cer": 0.2824074074074074,
+    "hypothesis": "Rif Services SARL FACTURE\n\n167 Rue Al Massira - 93000 Tétouan N° 0186/2026\n\n14/01/2026\n\nÉmetteur Facturé à\n\nN° ICE : 241904966319314 Tingis Electro SA\nIdentifiant fiscal : 91905865\n\n117 Avenue Hassan II\nN° RC : 185067 Tétouan\n\n11000 Salé\nN° ICE : 731585149368998\n\nation\n\nPU HT tal HT\n\nChaise de bureau ergonomique 1 1285,00 1285,00\nFormation bureautique - journée 3 3990,39 11971,17\nFournitures diverses de bureau 3 305,00 915,00\nTotal HT 14171,17 MAD\n\nTVA (7 %) 991,98 MAD\n\nTotal TTC 15163,15 MAD\n\nPaiement à réception\nRif Services SARL - N° ICE : 241904966319314 - Identifiant fiscal : 91905865 - N° RC : 185067 Tétouan\n"
   },
   {
     "id": "inv_0196",
     "split": "test",
     "scan_profile": "bad",
-    "cer": 0.33641618497109826
+    "cer": 0.33641618497109826,
+    "hypothesis": "Tafilalet Équipement SNC FACTURE\n\n108 Rue AI Qods - 30000 Fès N° : FAC/2025/00192\n23 février 2025\n\nÉmetteur Facturé à\n\nN° ICE : 468723430980500 Ifrane Electro SNC\nIdentifiant fiscal : 97882081 91 Avenue Mohammed V\nR.C. : 219136 Fès 50000 Meknès\n\nTaxe professionnelle : 19399091 Échéance : 25 mars 2025\n\nQte PU HT Total HT\n4 1481,93 5927,72\nFormation bureautique - journée 4 4052,90 16211,60\nFour électrique encastrable 3 6260,00 18780,00\nHébergement web annuel 2 1266,43 2532,86\nBureau 140 cm 4 1495,00 5980,00\nNettoyage des locaux - mensuel L 1800,00 1800,00\nSous-total HT 51232,18 MAD\nTVA (20 %) 10246,44 MAD\nNet à payer TTC 61478,62 MAD\n\nPaiement par virement où chèque\n\n“ahiolet Équipement SNC : N° ICE : 488723430080800- ldentfiant facal 87882081 - RC. : 219196 Fès : Tax prolesstonneie 1939909\n"
   },
   {
     "id": "inv_0197",
     "split": "test",
     "scan_profile": "scan",
-    "cer": 0.5299145299145299
+    "cer": 0.5299145299145299,
+    "hypothesis": "Tafilalet Équipement SNC\n\n108 Rue AI Qods - 30000 Fès\n\nÉmetteur\n\nN° ICE : 468723430980500\nIdentifiant fiscal : 97882081\n\nR.C. : 219136 Fès\n\nTaxe professionnelle : 19399091\n\nDescrip!\n\nmn\n\nHébergement web annuel\n\nPièces détachées - lot\n\nAudit de sécurité applicative - forfait\nBureau 140 cm\n\nNettoyage des locaux - mensuel\n\nre RE\n\nAC/2025/00195\n11 avril 2025\n\nFacturé à\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nÉchéance : 11 mai 2025\n\nQte PU HT tal HT\n3 1266,43 3799,29\n\n2 1481,93 2963,86\n\n3 13080,00 39240,00\n\n1 1495,00 1495,00\n\nÀ 1800,00 1800,00\nSous-total HT 49298,15 MAD\nTVA (10 %) 4929,82 MAD\nNet à payer TTC 54227,97 MAD\n\nPaiement par virement ou chèque\nTaflalet Équipement SNC - N° ICE : 468723430980500 - identifiant fiscal : 97882081 - R.C. : 219136 Fès - Taxe professionnelle : 19399091\n"
   },
   {
     "id": "inv_0198",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.31006493506493504
+    "cer": 0.31006493506493504,
+    "hypothesis": "Rif Négoce SA FACTURE\n\n114 Rue Moulay Youssef\n\n24000 El Jadida N° FA-000120\nN° ICE : 473829973763116 Date : 3 mai 2025\nLF. : 56670106\n\nN° RC : 513338 El Jadida\n\nFacturé à\nIfrane Electro SNC\n\n91 Avenue Mohammed V\n50000 Meknès\n\nN° ICE : 736576615654527\n\nTotal HT\n\n| Location de véhicule utilitaire - jour | 19 855,00 | 16 245,00 |\n| Fournitures diverses de bureau | 6 414,75 2 488,50 |\nTotal HT 18 733,50 Dhs\n\nTVA (10 %) 1 873,35 Dhs\n\nNet à payer TTC 20 606,85 Dhs\n\nPaiement à réception\nRif Négoce SA - N° ICE : 473829973763116 - LF. : 56670106 - N° RC : 513338 El Jadida\n"
   },
   {
     "id": "inv_0199",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.19005102040816327
+    "cer": 0.19005102040816327,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n28800 Mohammedia N° FA-000166\nICE : 229413186999386 Date : 11/10/2025\nLF. : 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\n\nIfrane Electro SNC\n91 Avenue Mohammed V\n50000 Meknès\n\nICE : 736576615654527\n\nLibellé Quantité Prix unitaire HT Total HT\nCâble réseau RJ45 Cat6 (bobine) 6 519,19 3115,14\n| Cartouche toner HP 305A 15 925,00 13 875,00\nChaise de bureau ergonomique 1 1 530,00 1 530,00\nOrdinateur portable 15,6 pouces 4 7 390,00 29 560,00\nStylos à bille (boîte de 50) 17 90,00 1 530,00\nSous-total HT 49 610,14 DH\n\nTVA 20% 9 922,03 DH\n\nNet à payer TTC 59 532,17 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE : 229413186990386 - LF. : 77496499 - RC : 091334 Mohammedia - Patente : 12328120\n"
   },
   {
     "id": "inv_0200",
     "split": "dev",
     "scan_profile": "scan",
-    "cer": 0.33226837060702874
+    "cer": 0.33226837060702874,
+    "hypothesis": "Doukkala Négoce SARL FACTURE\n\n105 Bd Anfa\n\n28800 Mohammedia N° FA-000170\nICE : 229413186999386 Date : 20/01/2025\nLF. : 77496499\n\nRC : 091334 Mohammedia\nPatente : 12328120\n\nDestinataire\n\nTingis Electro SA\n117 Avenue Hassan Il\n11000 Salé\n\nICE : 731585149368998\n\nbel Total HT\n| Chaise É bureau ergonomique ; | E | 1 530,00 | 6 120,00 |\n[Ordinateur portable 15,6 pouces \"|\"? DU Re\nSous-total HT 28 290,00 DH\nTVA 20% 5 658,00 DH\nNet à payer TTC 33 948,00 DH\n\nPaiement à réception\nDoukkala Négoce SARL - ICE : 229413186009386 - 1.F. : 77496499 - RC : 091334 Mohammedia - Patente : 12328120\n"
   }
 ]

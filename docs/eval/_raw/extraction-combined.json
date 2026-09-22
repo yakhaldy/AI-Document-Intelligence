@@ -1,0 +1,1974 @@
+[
+  {
+    "id": "inv_0001",
+    "gold": {
+      "invoice_number": "FAC/2025/00082",
+      "invoice_date": "2025-02-23",
+      "due_date": "2025-03-10",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 6782.39,
+      "tva_rate": 20,
+      "total_tva": 1356.48,
+      "total_ttc": 8138.87
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00082",
+      "invoice_date": "2025-02-23",
+      "due_date": "2025-03-10",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 6782.39,
+      "tva_rate": 20,
+      "total_tva": 1356.48,
+      "total_ttc": 8138.87
+    }
+  },
+  {
+    "id": "inv_0005",
+    "gold": {
+      "invoice_number": "FAC/2025/00033",
+      "invoice_date": "2025-04-16",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 28659.79,
+      "tva_rate": 7,
+      "total_tva": 2006.19,
+      "total_ttc": 30665.98
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00033",
+      "invoice_date": "2025-04-16",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 28659.79,
+      "tva_rate": 7,
+      "total_tva": 2006.19,
+      "total_ttc": 30665.98
+    }
+  },
+  {
+    "id": "inv_0008",
+    "gold": {
+      "invoice_number": "FAC/2025/00147",
+      "invoice_date": "2025-12-08",
+      "due_date": "2026-01-07",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 64840.0,
+      "tva_rate": 20,
+      "total_tva": 12968.0,
+      "total_ttc": 77808.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00147",
+      "invoice_date": "2025-12-08",
+      "due_date": "2026-01-07",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 64840.0,
+      "tva_rate": 20,
+      "total_tva": 12968.0,
+      "total_ttc": 77808.0
+    }
+  },
+  {
+    "id": "inv_0011",
+    "gold": {
+      "invoice_number": "FAC/2026/00085",
+      "invoice_date": "2026-04-18",
+      "due_date": "2026-05-03",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 22105.88,
+      "tva_rate": 20,
+      "total_tva": 4421.18,
+      "total_ttc": 26527.06
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00085",
+      "invoice_date": "2026-04-18",
+      "due_date": "2026-05-03",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": null,
+      "supplier_rc": "005242",
+      "total_ht": 22105.88,
+      "tva_rate": 20,
+      "total_tva": 4421.18,
+      "total_ttc": 26527.06
+    }
+  },
+  {
+    "id": "inv_0012",
+    "gold": {
+      "invoice_number": "FAC/2026/00086",
+      "invoice_date": "2026-03-01",
+      "due_date": "2026-03-16",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 17576.74,
+      "tva_rate": 10,
+      "total_tva": 1757.67,
+      "total_ttc": 19334.41
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00086",
+      "invoice_date": "2026-03-01",
+      "due_date": "2026-03-16",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": null,
+      "supplier_rc": "005242",
+      "total_ht": 17576.74,
+      "tva_rate": 10,
+      "total_tva": 1757.67,
+      "total_ttc": 19334.41
+    }
+  },
+  {
+    "id": "inv_0015",
+    "gold": {
+      "invoice_number": "FA-000132",
+      "invoice_date": "2025-07-06",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 9718.81,
+      "tva_rate": 20,
+      "total_tva": 1943.76,
+      "total_ttc": 11662.57
+    },
+    "prediction": {
+      "invoice_number": "FA-000132",
+      "invoice_date": "2025-07-06",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 9718.81,
+      "tva_rate": 20,
+      "total_tva": 1943.76,
+      "total_ttc": 11662.57
+    }
+  },
+  {
+    "id": "inv_0020",
+    "gold": {
+      "invoice_number": "FAC/2025/00036",
+      "invoice_date": "2025-03-31",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 34079.63,
+      "tva_rate": 7,
+      "total_tva": 2385.57,
+      "total_ttc": 36465.2
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00036",
+      "invoice_date": "2025-03-31",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 34079.63,
+      "tva_rate": 7,
+      "total_tva": 2385.57,
+      "total_ttc": 36465.2
+    }
+  },
+  {
+    "id": "inv_0023",
+    "gold": {
+      "invoice_number": "FAC/2025/00087",
+      "invoice_date": "2025-01-30",
+      "due_date": "2025-02-14",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 15166.94,
+      "tva_rate": 20,
+      "total_tva": 3033.39,
+      "total_ttc": 18200.33
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00087",
+      "invoice_date": "2025-01-30",
+      "due_date": "2025-02-14",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 15166.94,
+      "tva_rate": 20,
+      "total_tva": 3033.39,
+      "total_ttc": 18200.33
+    }
+  },
+  {
+    "id": "inv_0024",
+    "gold": {
+      "invoice_number": "FAC/2026/00149",
+      "invoice_date": "2026-05-10",
+      "due_date": "2026-06-09",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 87701.6,
+      "tva_rate": 20,
+      "total_tva": 17540.32,
+      "total_ttc": 105241.92
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00 149",
+      "invoice_date": "2026-05-10",
+      "due_date": "2026-06-09",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430080500",
+      "supplier_if": "97852081",
+      "supplier_rc": "219136",
+      "total_ht": 87701.6,
+      "tva_rate": 20,
+      "total_tva": 17540.32,
+      "total_ttc": 105241.92
+    }
+  },
+  {
+    "id": "inv_0025",
+    "gold": {
+      "invoice_number": "FAC/2025/00039",
+      "invoice_date": "2025-02-21",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 92408.21,
+      "tva_rate": 20,
+      "total_tva": 18481.64,
+      "total_ttc": 110889.85
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00039",
+      "invoice_date": "2025-02-21",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 92408.21,
+      "tva_rate": 20,
+      "total_tva": 18481.64,
+      "total_ttc": 110889.85
+    }
+  },
+  {
+    "id": "inv_0026",
+    "gold": {
+      "invoice_number": "FAC/2025/00153",
+      "invoice_date": "2025-04-21",
+      "due_date": "2025-05-21",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 57720.0,
+      "tva_rate": 20,
+      "total_tva": 11544.0,
+      "total_ttc": 69264.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00153",
+      "invoice_date": "2025-04-21",
+      "due_date": "2025-05-21",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 57720.0,
+      "tva_rate": 20,
+      "total_tva": 11544.0,
+      "total_ttc": 69264.0
+    }
+  },
+  {
+    "id": "inv_0028",
+    "gold": {
+      "invoice_number": "FAC/2026/00090",
+      "invoice_date": "2026-03-03",
+      "due_date": "2026-03-18",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 12560.0,
+      "tva_rate": 20,
+      "total_tva": 2512.0,
+      "total_ttc": 15072.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00090",
+      "invoice_date": "2026-03-03",
+      "due_date": "2026-03-18",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "641241182449353",
+      "supplier_if": null,
+      "supplier_rc": "005242",
+      "total_ht": 12560.0,
+      "tva_rate": 20,
+      "total_tva": 2512.0,
+      "total_ttc": 15072.0
+    }
+  },
+  {
+    "id": "inv_0031",
+    "gold": {
+      "invoice_number": "FAC/2025/00042",
+      "invoice_date": "2025-02-13",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 67712.42,
+      "tva_rate": 20,
+      "total_tva": 13542.48,
+      "total_ttc": 81254.9
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00042",
+      "invoice_date": "2025-02-13",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 67712.42,
+      "tva_rate": 20,
+      "total_tva": 13542.48,
+      "total_ttc": 81254.9
+    }
+  },
+  {
+    "id": "inv_0033",
+    "gold": {
+      "invoice_number": "FA-000136",
+      "invoice_date": "2025-06-29",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 14326.68,
+      "tva_rate": 20,
+      "total_tva": 2865.34,
+      "total_ttc": 17192.02
+    },
+    "prediction": {
+      "invoice_number": "FA-000136",
+      "invoice_date": "2025-06-29",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 14326.68,
+      "tva_rate": 20,
+      "total_tva": 2865.34,
+      "total_ttc": 17192.02
+    }
+  },
+  {
+    "id": "inv_0035",
+    "gold": {
+      "invoice_number": "FAC/2026/00045",
+      "invoice_date": "2026-05-04",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 41862.03,
+      "tva_rate": 7,
+      "total_tva": 2930.34,
+      "total_ttc": 44792.37
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00045",
+      "invoice_date": "2026-05-04",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 41862.03,
+      "tva_rate": 7,
+      "total_tva": 2930.34,
+      "total_ttc": 44792.37
+    }
+  },
+  {
+    "id": "inv_0036",
+    "gold": {
+      "invoice_number": "FAC/2025/00156",
+      "invoice_date": "2025-10-30",
+      "due_date": "2025-11-29",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 17885.09,
+      "tva_rate": 20,
+      "total_tva": 3577.02,
+      "total_ttc": 21462.11
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00156",
+      "invoice_date": null,
+      "due_date": "2025-11-29",
+      "supplier_name": "Tafilalet Équ",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 17885.09,
+      "tva_rate": 20,
+      "total_tva": 3577.02,
+      "total_ttc": 21462.11
+    }
+  },
+  {
+    "id": "inv_0041",
+    "gold": {
+      "invoice_number": "FA-000140",
+      "invoice_date": "2026-03-14",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 6147.2,
+      "tva_rate": 20,
+      "total_tva": 1229.44,
+      "total_ttc": 7376.64
+    },
+    "prediction": {
+      "invoice_number": "FA-000140",
+      "invoice_date": "2026-03-14",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 6147.2,
+      "tva_rate": 20,
+      "total_tva": 1229.44,
+      "total_ttc": 7376.64
+    }
+  },
+  {
+    "id": "inv_0043",
+    "gold": {
+      "invoice_number": "FAC/2025/00158",
+      "invoice_date": "2025-08-05",
+      "due_date": "2025-09-04",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 8512.86,
+      "tva_rate": 14,
+      "total_tva": 1191.8,
+      "total_ttc": 9704.66
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00158",
+      "invoice_date": "2025-08-05",
+      "due_date": "2025-09-04",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 8512.86,
+      "tva_rate": 14,
+      "total_tva": 1191.8,
+      "total_ttc": 9704.66
+    }
+  },
+  {
+    "id": "inv_0044",
+    "gold": {
+      "invoice_number": "FAC/2026/00093",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-01-30",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 33866.73,
+      "tva_rate": 20,
+      "total_tva": 6773.35,
+      "total_ttc": 40640.08
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00093",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-01-30",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "641241182449353",
+      "supplier_if": null,
+      "supplier_rc": "005242",
+      "total_ht": 33866.73,
+      "tva_rate": 20,
+      "total_tva": 6773.35,
+      "total_ttc": 40640.08
+    }
+  },
+  {
+    "id": "inv_0045",
+    "gold": {
+      "invoice_number": "FA-000142",
+      "invoice_date": "2025-06-23",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 44890.22,
+      "tva_rate": 20,
+      "total_tva": 8978.04,
+      "total_ttc": 53868.26
+    },
+    "prediction": {
+      "invoice_number": "FA-000142",
+      "invoice_date": "2025-06-23",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 44890.22,
+      "tva_rate": 20,
+      "total_tva": 8978.04,
+      "total_ttc": 53868.26
+    }
+  },
+  {
+    "id": "inv_0049",
+    "gold": {
+      "invoice_number": "FAC/2026/00048",
+      "invoice_date": "2026-05-28",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 4283.3,
+      "tva_rate": 20,
+      "total_tva": 856.66,
+      "total_ttc": 5139.96
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00048",
+      "invoice_date": "2026-05-28",
+      "due_date": null,
+      "supplier_name": null,
+      "supplier_ice": "736576615654527",
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": 4283.3,
+      "tva_rate": null,
+      "total_tva": null,
+      "total_ttc": null
+    }
+  },
+  {
+    "id": "inv_0057",
+    "gold": {
+      "invoice_number": "FAC/2025/00094",
+      "invoice_date": "2025-11-04",
+      "due_date": "2025-11-19",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 3214.13,
+      "tva_rate": 14,
+      "total_tva": 449.98,
+      "total_ttc": 3664.11
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00094",
+      "invoice_date": "2025-11-04",
+      "due_date": "2025-11-19",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 3214.13,
+      "tva_rate": 14,
+      "total_tva": 449.98,
+      "total_ttc": 3664.11
+    }
+  },
+  {
+    "id": "inv_0059",
+    "gold": {
+      "invoice_number": "FAC/2026/00161",
+      "invoice_date": "2026-06-25",
+      "due_date": "2026-07-25",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 23933.08,
+      "tva_rate": 20,
+      "total_tva": 4786.62,
+      "total_ttc": 28719.7
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00161",
+      "invoice_date": "2026-06-25",
+      "due_date": "2026-07-25",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 23933.08,
+      "tva_rate": 20,
+      "total_tva": 4786.62,
+      "total_ttc": 28719.7
+    }
+  },
+  {
+    "id": "inv_0060",
+    "gold": {
+      "invoice_number": "FAC/2026/00051",
+      "invoice_date": "2026-05-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 37021.3,
+      "tva_rate": 10,
+      "total_tva": 3702.13,
+      "total_ttc": 40723.43
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00051",
+      "invoice_date": "2026-05-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 37021.3,
+      "tva_rate": 10,
+      "total_tva": 3702.13,
+      "total_ttc": 40723.43
+    }
+  },
+  {
+    "id": "inv_0061",
+    "gold": {
+      "invoice_number": "FAC/2026/00052",
+      "invoice_date": "2026-08-02",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 37753.25,
+      "tva_rate": 20,
+      "total_tva": 7550.65,
+      "total_ttc": 45303.9
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00052",
+      "invoice_date": "2026-08-02",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 37753.25,
+      "tva_rate": 20,
+      "total_tva": 7550.65,
+      "total_ttc": 45303.9
+    }
+  },
+  {
+    "id": "inv_0068",
+    "gold": {
+      "invoice_number": "FAC/2025/00054",
+      "invoice_date": "2025-05-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 14135.11,
+      "tva_rate": 20,
+      "total_tva": 2827.02,
+      "total_ttc": 16962.13
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00054",
+      "invoice_date": "2025-05-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 14135.11,
+      "tva_rate": 20,
+      "total_tva": 2827.02,
+      "total_ttc": 16962.13
+    }
+  },
+  {
+    "id": "inv_0075",
+    "gold": {
+      "invoice_number": "FAC/2026/00055",
+      "invoice_date": "2026-06-13",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 86535.42,
+      "tva_rate": 20,
+      "total_tva": 17307.08,
+      "total_ttc": 103842.5
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00055",
+      "invoice_date": "2026-06-13",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 86535.42,
+      "tva_rate": 20,
+      "total_tva": 17307.08,
+      "total_ttc": 103842.5
+    }
+  },
+  {
+    "id": "inv_0078",
+    "gold": {
+      "invoice_number": "FAC/2025/00097",
+      "invoice_date": "2025-12-01",
+      "due_date": "2025-12-16",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 34209.81,
+      "tva_rate": 20,
+      "total_tva": 6841.96,
+      "total_ttc": 41051.77
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00097",
+      "invoice_date": "2025-12-01",
+      "due_date": "2025-12-16",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": null,
+      "supplier_rc": "005242",
+      "total_ht": 34209.81,
+      "tva_rate": 20,
+      "total_tva": 6841.96,
+      "total_ttc": 41051.77
+    }
+  },
+  {
+    "id": "inv_0079",
+    "gold": {
+      "invoice_number": "FAC/2025/00058",
+      "invoice_date": "2025-09-12",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 86105.53,
+      "tva_rate": 20,
+      "total_tva": 17221.11,
+      "total_ttc": 103326.64
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00058",
+      "invoice_date": "2025-09-12",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 86105.53,
+      "tva_rate": 20,
+      "total_tva": 17221.11,
+      "total_ttc": 103326.64
+    }
+  },
+  {
+    "id": "inv_0080",
+    "gold": {
+      "invoice_number": "FAC/2026/00061",
+      "invoice_date": "2026-02-15",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 8357.07,
+      "tva_rate": 7,
+      "total_tva": 584.99,
+      "total_ttc": 8942.06
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00061",
+      "invoice_date": "2026-02-15",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 8357.07,
+      "tva_rate": 7,
+      "total_tva": 584.99,
+      "total_ttc": 8942.06
+    }
+  },
+  {
+    "id": "inv_0083",
+    "gold": {
+      "invoice_number": "FAC/2025/00164",
+      "invoice_date": "2025-01-27",
+      "due_date": "2025-02-26",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 25830.22,
+      "tva_rate": 20,
+      "total_tva": 5166.04,
+      "total_ttc": 30996.26
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00164",
+      "invoice_date": "2025-01-27",
+      "due_date": "2025-02-26",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 25830.22,
+      "tva_rate": 20,
+      "total_tva": 5166.04,
+      "total_ttc": 30996.26
+    }
+  },
+  {
+    "id": "inv_0086",
+    "gold": {
+      "invoice_number": "FAC/2025/00099",
+      "invoice_date": "2025-01-23",
+      "due_date": "2025-02-07",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 6782.39,
+      "tva_rate": 20,
+      "total_tva": 1356.48,
+      "total_ttc": 8138.87
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00099",
+      "invoice_date": "2025-01-23",
+      "due_date": "2025-02-07",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 6782.39,
+      "tva_rate": 20,
+      "total_tva": 1356.48,
+      "total_ttc": 8138.87
+    }
+  },
+  {
+    "id": "inv_0087",
+    "gold": {
+      "invoice_number": "FAC/2025/00063",
+      "invoice_date": "2025-08-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 80383.77,
+      "tva_rate": 20,
+      "total_tva": 16076.75,
+      "total_ttc": 96460.52
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00063",
+      "invoice_date": "2025-08-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 80383.77,
+      "tva_rate": 20,
+      "total_tva": 16076.75,
+      "total_ttc": 96460.52
+    }
+  },
+  {
+    "id": "inv_0089",
+    "gold": {
+      "invoice_number": "FAC/2025/00064",
+      "invoice_date": "2025-03-17",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 29885.81,
+      "tva_rate": 20,
+      "total_tva": 5977.16,
+      "total_ttc": 35862.97
+    },
+    "prediction": {
+      "invoice_number": null,
+      "invoice_date": null,
+      "due_date": null,
+      "supplier_name": null,
+      "supplier_ice": null,
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": null,
+      "tva_rate": null,
+      "total_tva": null,
+      "total_ttc": null
+    }
+  },
+  {
+    "id": "inv_0090",
+    "gold": {
+      "invoice_number": "FAC/2025/00067",
+      "invoice_date": "2025-04-14",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 78550.29,
+      "tva_rate": 20,
+      "total_tva": 15710.06,
+      "total_ttc": 94260.35
+    },
+    "prediction": {
+      "invoice_number": "rig",
+      "invoice_date": "2025-04-14",
+      "due_date": null,
+      "supplier_name": null,
+      "supplier_ice": "814893252880957",
+      "supplier_if": null,
+      "supplier_rc": "117182",
+      "total_ht": null,
+      "tva_rate": 20,
+      "total_tva": null,
+      "total_ttc": 78550.29
+    }
+  },
+  {
+    "id": "inv_0092",
+    "gold": {
+      "invoice_number": "FAC/2026/00101",
+      "invoice_date": "2026-01-14",
+      "due_date": "2026-01-29",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 21824.06,
+      "tva_rate": 10,
+      "total_tva": 2182.41,
+      "total_ttc": 24006.47
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00101",
+      "invoice_date": "2026-01-14",
+      "due_date": "2026-01-29",
+      "supplier_name": null,
+      "supplier_ice": null,
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": null,
+      "tva_rate": null,
+      "total_tva": null,
+      "total_ttc": null
+    }
+  },
+  {
+    "id": "inv_0098",
+    "gold": {
+      "invoice_number": "FAC/2025/00070",
+      "invoice_date": "2025-04-03",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 14240.0,
+      "tva_rate": 20,
+      "total_tva": 2848.0,
+      "total_ttc": 17088.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00070",
+      "invoice_date": "2025-04-03",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 14240.0,
+      "tva_rate": 20,
+      "total_tva": 2848.0,
+      "total_ttc": 17088.0
+    }
+  },
+  {
+    "id": "inv_0108",
+    "gold": {
+      "invoice_number": "FAC/2026/00165",
+      "invoice_date": "2026-04-21",
+      "due_date": "2026-05-21",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 10705.79,
+      "tva_rate": 20,
+      "total_tva": 2141.16,
+      "total_ttc": 12846.95
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00165",
+      "invoice_date": "2026-04-21",
+      "due_date": "2026-05-21",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 10705.79,
+      "tva_rate": 20,
+      "total_tva": 2141.16,
+      "total_ttc": 12846.95
+    }
+  },
+  {
+    "id": "inv_0114",
+    "gold": {
+      "invoice_number": "FA-000145",
+      "invoice_date": "2025-04-20",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 37205.96,
+      "tva_rate": 20,
+      "total_tva": 7441.19,
+      "total_ttc": 44647.15
+    },
+    "prediction": {
+      "invoice_number": "FA-000145",
+      "invoice_date": "2025-04-20",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 37205.96,
+      "tva_rate": 20,
+      "total_tva": 7441.19,
+      "total_ttc": 44647.15
+    }
+  },
+  {
+    "id": "inv_0115",
+    "gold": {
+      "invoice_number": "FA-000149",
+      "invoice_date": "2026-07-21",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 34440.06,
+      "tva_rate": 20,
+      "total_tva": 6888.01,
+      "total_ttc": 41328.07
+    },
+    "prediction": {
+      "invoice_number": "FA-000149",
+      "invoice_date": "2026-07-21",
+      "due_date": null,
+      "supplier_name": null,
+      "supplier_ice": "736576615654527",
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": null,
+      "tva_rate": null,
+      "total_tva": null,
+      "total_ttc": null
+    }
+  },
+  {
+    "id": "inv_0116",
+    "gold": {
+      "invoice_number": "FA-000151",
+      "invoice_date": "2025-07-25",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 11183.35,
+      "tva_rate": 20,
+      "total_tva": 2236.67,
+      "total_ttc": 13420.02
+    },
+    "prediction": {
+      "invoice_number": "FA-000151",
+      "invoice_date": "2025-07-25",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 11183.35,
+      "tva_rate": 20,
+      "total_tva": 2236.67,
+      "total_ttc": 13420.02
+    }
+  },
+  {
+    "id": "inv_0117",
+    "gold": {
+      "invoice_number": "FAC/2025/00072",
+      "invoice_date": "2025-02-27",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 46486.15,
+      "tva_rate": 20,
+      "total_tva": 9297.23,
+      "total_ttc": 55783.38
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00072",
+      "invoice_date": "2025-02-27",
+      "due_date": null,
+      "supplier_name": "lfrane Electre suc",
+      "supplier_ice": null,
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": null,
+      "tva_rate": null,
+      "total_tva": null,
+      "total_ttc": null
+    }
+  },
+  {
+    "id": "inv_0124",
+    "gold": {
+      "invoice_number": "FAC/2025/00167",
+      "invoice_date": "2025-01-12",
+      "due_date": "2025-02-11",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 15729.47,
+      "tva_rate": 20,
+      "total_tva": 3145.89,
+      "total_ttc": 18875.36
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00167",
+      "invoice_date": "2025-01-12",
+      "due_date": "2025-02-11",
+      "supplier_name": "afilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 15729.47,
+      "tva_rate": 20,
+      "total_tva": 3145.89,
+      "total_ttc": 18875.36
+    }
+  },
+  {
+    "id": "inv_0129",
+    "gold": {
+      "invoice_number": "FAC/2026/00169",
+      "invoice_date": "2026-08-16",
+      "due_date": "2026-09-15",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 36182.01,
+      "tva_rate": 20,
+      "total_tva": 7236.4,
+      "total_ttc": 43418.41
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00169",
+      "invoice_date": "2026-08-16",
+      "due_date": "2026-09-15",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 36182.01,
+      "tva_rate": 20,
+      "total_tva": 7236.4,
+      "total_ttc": 43418.41
+    }
+  },
+  {
+    "id": "inv_0131",
+    "gold": {
+      "invoice_number": "FAC/2026/00074",
+      "invoice_date": "2026-08-10",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 25077.87,
+      "tva_rate": 14,
+      "total_tva": 3510.9,
+      "total_ttc": 28588.77
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00074",
+      "invoice_date": "2026-08-10",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 25077.87,
+      "tva_rate": 14,
+      "total_tva": 3510.9,
+      "total_ttc": 28588.77
+    }
+  },
+  {
+    "id": "inv_0135",
+    "gold": {
+      "invoice_number": "FAC/2026/00172",
+      "invoice_date": "2026-08-02",
+      "due_date": "2026-09-01",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 13983.44,
+      "tva_rate": 20,
+      "total_tva": 2796.69,
+      "total_ttc": 16780.13
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00172",
+      "invoice_date": "2026-08-02",
+      "due_date": "2026-09-01",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 13983.44,
+      "tva_rate": 20,
+      "total_tva": 2796.69,
+      "total_ttc": 16780.13
+    }
+  },
+  {
+    "id": "inv_0138",
+    "gold": {
+      "invoice_number": "FA-000154",
+      "invoice_date": "2025-12-22",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 23992.38,
+      "tva_rate": 20,
+      "total_tva": 4798.48,
+      "total_ttc": 28790.86
+    },
+    "prediction": {
+      "invoice_number": "FA-000154",
+      "invoice_date": "2025-12-22",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 23992.38,
+      "tva_rate": 20,
+      "total_tva": 4798.48,
+      "total_ttc": 28790.86
+    }
+  },
+  {
+    "id": "inv_0142",
+    "gold": {
+      "invoice_number": "FA-000156",
+      "invoice_date": "2025-01-13",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 21520.78,
+      "tva_rate": 7,
+      "total_tva": 1506.45,
+      "total_ttc": 23027.23
+    },
+    "prediction": {
+      "invoice_number": "FA-000156",
+      "invoice_date": "2025-01-13",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 21520.78,
+      "tva_rate": 7,
+      "total_tva": 1506.45,
+      "total_ttc": 23027.23
+    }
+  },
+  {
+    "id": "inv_0145",
+    "gold": {
+      "invoice_number": "FAC/2025/00174",
+      "invoice_date": "2025-05-29",
+      "due_date": "2025-06-28",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 23340.58,
+      "tva_rate": 20,
+      "total_tva": 4668.12,
+      "total_ttc": 28008.7
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00174",
+      "invoice_date": "2025-05-29",
+      "due_date": "2025-06-28",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 23340.58,
+      "tva_rate": 20,
+      "total_tva": 4668.12,
+      "total_ttc": 28008.7
+    }
+  },
+  {
+    "id": "inv_0146",
+    "gold": {
+      "invoice_number": "FAC/2025/00076",
+      "invoice_date": "2025-05-09",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 17109.57,
+      "tva_rate": 20,
+      "total_tva": 3421.91,
+      "total_ttc": 20531.48
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00076",
+      "invoice_date": "2025-05-09",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 17109.57,
+      "tva_rate": 20,
+      "total_tva": 3421.91,
+      "total_ttc": 20531.48
+    }
+  },
+  {
+    "id": "inv_0147",
+    "gold": {
+      "invoice_number": "FAC/2025/00177",
+      "invoice_date": "2025-09-11",
+      "due_date": "2025-10-11",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 58653.92,
+      "tva_rate": 20,
+      "total_tva": 11730.78,
+      "total_ttc": 70384.7
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00177",
+      "invoice_date": "2025-09-11",
+      "due_date": "2025-10-11",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 58653.92,
+      "tva_rate": 20,
+      "total_tva": 11730.78,
+      "total_ttc": 70384.7
+    }
+  },
+  {
+    "id": "inv_0150",
+    "gold": {
+      "invoice_number": "FAC/2025/00080",
+      "invoice_date": "2025-04-24",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 44820.53,
+      "tva_rate": 7,
+      "total_tva": 3137.44,
+      "total_ttc": 47957.97
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00080",
+      "invoice_date": "2025-04-24",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 44820.53,
+      "tva_rate": 7,
+      "total_tva": 3137.44,
+      "total_ttc": 47957.97
+    }
+  },
+  {
+    "id": "inv_0156",
+    "gold": {
+      "invoice_number": "FAC/2025/00082",
+      "invoice_date": "2025-02-02",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 22599.29,
+      "tva_rate": 20,
+      "total_tva": 4519.86,
+      "total_ttc": 27119.15
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00082",
+      "invoice_date": "2025-02-02",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 22599.29,
+      "tva_rate": 20,
+      "total_tva": 4519.86,
+      "total_ttc": 27119.15
+    }
+  },
+  {
+    "id": "inv_0158",
+    "gold": {
+      "invoice_number": "FA-000159",
+      "invoice_date": "2026-08-14",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 62113.53,
+      "tva_rate": 10,
+      "total_tva": 6211.35,
+      "total_ttc": 68324.88
+    },
+    "prediction": {
+      "invoice_number": "FA-000159",
+      "invoice_date": "2026-08-14",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 62113.53,
+      "tva_rate": 10,
+      "total_tva": 6211.35,
+      "total_ttc": 68324.88
+    }
+  },
+  {
+    "id": "inv_0162",
+    "gold": {
+      "invoice_number": "FAC/2026/00084",
+      "invoice_date": "2026-05-30",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 18829.25,
+      "tva_rate": 20,
+      "total_tva": 3765.85,
+      "total_ttc": 22595.1
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00084",
+      "invoice_date": "2026-05-30",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 18829.25,
+      "tva_rate": 20,
+      "total_tva": 3765.85,
+      "total_ttc": 22595.1
+    }
+  },
+  {
+    "id": "inv_0164",
+    "gold": {
+      "invoice_number": "FAC/2025/00105",
+      "invoice_date": "2025-05-30",
+      "due_date": "2025-06-14",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 4375.0,
+      "tva_rate": 20,
+      "total_tva": 875.0,
+      "total_ttc": 5250.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00105",
+      "invoice_date": "2025-05-30",
+      "due_date": "2025-06-14",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 4375.0,
+      "tva_rate": 20,
+      "total_tva": 875.0,
+      "total_ttc": 5250.0
+    }
+  },
+  {
+    "id": "inv_0165",
+    "gold": {
+      "invoice_number": "FAC/2025/00087",
+      "invoice_date": "2025-01-15",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 28576.56,
+      "tva_rate": 20,
+      "total_tva": 5715.31,
+      "total_ttc": 34291.87
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00087",
+      "invoice_date": "2025-01-15",
+      "due_date": null,
+      "supplier_name": "Tingis Équipement SA",
+      "supplier_ice": "814893252880957",
+      "supplier_if": "01543039",
+      "supplier_rc": "117182",
+      "total_ht": 28576.56,
+      "tva_rate": 20,
+      "total_tva": 5715.31,
+      "total_ttc": 34291.87
+    }
+  },
+  {
+    "id": "inv_0178",
+    "gold": {
+      "invoice_number": "FAC/2025/00180",
+      "invoice_date": "2025-11-21",
+      "due_date": "2025-12-21",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 57296.44,
+      "tva_rate": 20,
+      "total_tva": 11459.29,
+      "total_ttc": 68755.73
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00180",
+      "invoice_date": "2025-11-21",
+      "due_date": "2025-12-21",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 57296.44,
+      "tva_rate": 20,
+      "total_tva": 11459.29,
+      "total_ttc": 68755.73
+    }
+  },
+  {
+    "id": "inv_0179",
+    "gold": {
+      "invoice_number": "FAC/2026/00183",
+      "invoice_date": "2026-06-03",
+      "due_date": "2026-07-03",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 4485.0,
+      "tva_rate": 20,
+      "total_tva": 897.0,
+      "total_ttc": 5382.0
+    },
+    "prediction": {
+      "invoice_number": null,
+      "invoice_date": null,
+      "due_date": "2026-07-03",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430989500",
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": 4485.0,
+      "tva_rate": 20,
+      "total_tva": 897.0,
+      "total_ttc": 5382.0
+    }
+  },
+  {
+    "id": "inv_0181",
+    "gold": {
+      "invoice_number": "FAC/2026/00107",
+      "invoice_date": "2026-07-02",
+      "due_date": "2026-07-17",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 21921.3,
+      "tva_rate": 10,
+      "total_tva": 2192.13,
+      "total_ttc": 24113.43
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00107",
+      "invoice_date": "2026-07-02",
+      "due_date": "2026-07-17",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 21921.3,
+      "tva_rate": 10,
+      "total_tva": 2192.13,
+      "total_ttc": 24113.43
+    }
+  },
+  {
+    "id": "inv_0184",
+    "gold": {
+      "invoice_number": "FAC/2026/00187",
+      "invoice_date": "2026-07-08",
+      "due_date": "2026-08-07",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 6260.0,
+      "tva_rate": 20,
+      "total_tva": 1252.0,
+      "total_ttc": 7512.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00187",
+      "invoice_date": "2026-07-08",
+      "due_date": "2026-08-07",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 6260.0,
+      "tva_rate": 20,
+      "total_tva": 1252.0,
+      "total_ttc": 7512.0
+    }
+  },
+  {
+    "id": "inv_0188",
+    "gold": {
+      "invoice_number": "FAC/2026/00109",
+      "invoice_date": "2026-04-01",
+      "due_date": "2026-04-16",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 22126.72,
+      "tva_rate": 20,
+      "total_tva": 4425.34,
+      "total_ttc": 26552.06
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00109",
+      "invoice_date": "2026-04-01",
+      "due_date": "2026-04-16",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 22126.72,
+      "tva_rate": 20,
+      "total_tva": 4425.34,
+      "total_ttc": 26552.06
+    }
+  },
+  {
+    "id": "inv_0190",
+    "gold": {
+      "invoice_number": "FA-000162",
+      "invoice_date": "2025-04-23",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 54322.68,
+      "tva_rate": 20,
+      "total_tva": 10864.54,
+      "total_ttc": 65187.22
+    },
+    "prediction": {
+      "invoice_number": "FA-000162",
+      "invoice_date": "2025-04-23",
+      "due_date": null,
+      "supplier_name": "Maghreb Electro SNC",
+      "supplier_ice": "783777014363495",
+      "supplier_if": "78856855",
+      "supplier_rc": "744431",
+      "total_ht": 54322.68,
+      "tva_rate": 20,
+      "total_tva": 10864.54,
+      "total_ttc": 65187.22
+    }
+  },
+  {
+    "id": "inv_0191",
+    "gold": {
+      "invoice_number": "FAC/2025/00188",
+      "invoice_date": "2025-05-18",
+      "due_date": "2025-06-17",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 14960.0,
+      "tva_rate": 7,
+      "total_tva": 1047.2,
+      "total_ttc": 16007.2
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00188",
+      "invoice_date": "2025-05-18",
+      "due_date": "2025-06-17",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 14960.0,
+      "tva_rate": 7,
+      "total_tva": 1047.2,
+      "total_ttc": 16007.2
+    }
+  },
+  {
+    "id": "inv_0192",
+    "gold": {
+      "invoice_number": "FAC/2025/00113",
+      "invoice_date": "2025-07-10",
+      "due_date": "2025-07-25",
+      "supplier_name": "Souss Matériaux SARL",
+      "supplier_ice": "841241182449353",
+      "supplier_if": "48740164",
+      "supplier_rc": "005242",
+      "total_ht": 12560.0,
+      "tva_rate": 10,
+      "total_tva": 1256.0,
+      "total_ttc": 13816.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00113",
+      "invoice_date": "2025-07-10",
+      "due_date": "2025-07-25",
+      "supplier_name": null,
+      "supplier_ice": "736576615654527",
+      "supplier_if": null,
+      "supplier_rc": null,
+      "total_ht": null,
+      "tva_rate": null,
+      "total_tva": null,
+      "total_ttc": null
+    }
+  },
+  {
+    "id": "inv_0194",
+    "gold": {
+      "invoice_number": "FAC/2026/00190",
+      "invoice_date": "2026-04-30",
+      "due_date": "2026-05-30",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 1800.0,
+      "tva_rate": 20,
+      "total_tva": 360.0,
+      "total_ttc": 2160.0
+    },
+    "prediction": {
+      "invoice_number": "FAC/2026/00190",
+      "invoice_date": "2026-04-30",
+      "due_date": "2026-05-30",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 1800.0,
+      "tva_rate": 20,
+      "total_tva": 360.0,
+      "total_ttc": 2160.0
+    }
+  },
+  {
+    "id": "inv_0196",
+    "gold": {
+      "invoice_number": "FAC/2025/00192",
+      "invoice_date": "2025-02-23",
+      "due_date": "2025-03-25",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 51232.18,
+      "tva_rate": 20,
+      "total_tva": 10246.44,
+      "total_ttc": 61478.62
+    },
+    "prediction": {
+      "invoice_number": "FAC/2025/00192",
+      "invoice_date": "2025-02-23",
+      "due_date": "2025-03-25",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 51232.18,
+      "tva_rate": 20,
+      "total_tva": 10246.44,
+      "total_ttc": 61478.62
+    }
+  },
+  {
+    "id": "inv_0197",
+    "gold": {
+      "invoice_number": "FAC/2025/00195",
+      "invoice_date": "2025-04-11",
+      "due_date": "2025-05-11",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 49298.15,
+      "tva_rate": 10,
+      "total_tva": 4929.82,
+      "total_ttc": 54227.97
+    },
+    "prediction": {
+      "invoice_number": "AC/2025/00195",
+      "invoice_date": "2025-04-11",
+      "due_date": "2025-05-11",
+      "supplier_name": "Tafilalet Équipement SNC",
+      "supplier_ice": "468723430980500",
+      "supplier_if": "97882081",
+      "supplier_rc": "219136",
+      "total_ht": 49298.15,
+      "tva_rate": 10,
+      "total_tva": 4929.82,
+      "total_ttc": 54227.97
+    }
+  }
+]
