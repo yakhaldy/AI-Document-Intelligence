@@ -101,6 +101,27 @@ approprié (SQL, calculatrice) et se contente de formuler la réponse.
 | CI/CD | GitHub Actions | tests automatiques + build image |
 | Frontend | React (minimal : upload, chat, tableau de bord) | pas la priorité |
 
+### 2.2bis Environnements Python
+
+Deux environnements virtuels coexistent, pour une raison purement technique :
+
+- **`.venv`** (Python 3.14) — environnement principal du projet (Tesseract,
+  extraction, RAG, agent, API...).
+- **`.venv-paddle`** (Python 3.12) — dédié à PaddleOCR. `paddlepaddle` n'a pas
+  de wheel pour Python 3.14, et sur ce Mac (macOS x86_64), `paddlepaddle==3.0`
+  (backend d'inférence PIR) plante à l'exécution. La combinaison qui fonctionne
+  est figée dans l'extra `paddleocr` de `pyproject.toml` :
+  `paddlepaddle==2.6.2` + `paddleocr==2.7.3` + `numpy<2` +
+  `opencv-python-headless==4.9.0.80` + `scipy==1.11.4` + `scikit-image==0.22.0`
+  (les versions récentes de scipy/scikit-image exigent numpy≥2, incompatible
+  avec paddlepaddle 2.6.2).
+
+```bash
+python3.12 -m venv .venv-paddle
+.venv-paddle/bin/pip install -e ".[paddleocr]"
+.venv-paddle/bin/python -m src.ocr.evaluate --engine paddleocr --lang fr --out docs/eval
+```
+
 ### 2.3 Principes de sécurité (à ne pas sauter)
 
 - Le contenu d'un document uploadé est une **entrée non fiable** : un texte
@@ -193,11 +214,12 @@ suivante avant que l'étape courante ait ses métriques écrites dans
 - [ ] Ajouter quelques documents réels anonymisés si disponibles
 
 ### Étape 1 — OCR baseline
-- [ ] Tesseract sur les 200 images (`--lang fra`) — arabe hors scope pour le
+- [x] Tesseract sur les 200 images (`--lang fra`) — arabe hors scope pour le
       moment
-- [ ] Calculer le CER (character error rate) contre le texte de référence
-- [ ] Tester PaddleOCR sur le même jeu, comparer
-- [ ] Livrable : tableau CER par profil de scan (clean/scan/bad) et par outil
+- [x] Calculer le CER (character error rate) contre le texte de référence
+- [x] Tester PaddleOCR sur le même jeu, comparer
+- [x] Livrable : tableau CER par profil de scan (clean/scan/bad) et par outil
+      → `docs/eval/2026-09-22-ocr-comparison.md`
 
 ### Étape 2 — Extraction de champs
 - [ ] Prompt LLM structuré : texte OCR → JSON (schéma fixe : numéro, date,
@@ -273,7 +295,7 @@ suivante avant que l'étape courante ait ses métriques écrites dans
 
 | Étape | Métrique | Résultat |
 |---|---|---|
-| OCR | CER (clean / scan / bad) | à mesurer |
+| OCR | CER (clean / scan / bad) | Tesseract 0.22/0.24/0.52 — PaddleOCR 0.23/0.30/0.46 (voir limite méthodologique dans le rapport) |
 | Extraction | F1 par champ | à mesurer |
 | Classification | accuracy, coût/doc | à mesurer |
 | RAG | recall@5, faithfulness | à mesurer |

@@ -1,7 +1,13 @@
-"""Run the Tesseract OCR baseline over data/synthetic and report CER by scan profile.
+"""Run an OCR engine baseline over data/synthetic and report CER by scan profile.
 
 Usage:
-    python -m src.ocr.evaluate --data data/synthetic --lang fra --out docs/eval
+    python -m src.ocr.evaluate --engine tesseract --data data/synthetic --lang fra --out docs/eval
+    python -m src.ocr.evaluate --engine paddleocr --data data/synthetic --lang fr  --out docs/eval
+
+Tesseract needs the `.venv` environment; PaddleOCR needs the dedicated
+`.venv-paddle` environment (see docs/eval report for why).
+Each run also writes the raw per-invoice CER to docs/eval/_raw/{engine}-{lang}.json,
+consumed by `src.ocr.compare` to build the cross-tool table.
 """
 import argparse
 import csv
@@ -12,7 +18,18 @@ from pathlib import Path
 
 from src.ocr.metrics import compute_cer
 from src.ocr.reference_text import extract_reference_text
-from src.ocr.tesseract_ocr import run_tesseract
+
+ENGINES = {}
+
+
+def _load_engine(name):
+    if name == "tesseract":
+        from src.ocr.tesseract_ocr import run_tesseract
+        return run_tesseract
+    if name == "paddleocr":
+        from src.ocr.paddleocr_engine import run_paddleocr
+        return run_paddleocr
+    raise ValueError(f"Moteur OCR inconnu : {name}")
 
 
 def load_manifest(data_dir: Path):
@@ -20,7 +37,8 @@ def load_manifest(data_dir: Path):
         return list(csv.DictReader(fh))
 
 
-def evaluate(data_dir: Path, lang: str):
+def evaluate(data_dir: Path, engine: str, lang: str):
+    run_ocr = _load_engine(engine)
     rows = load_manifest(data_dir)
     results = []
     for row in rows:
@@ -28,7 +46,7 @@ def evaluate(data_dir: Path, lang: str):
         with open(data_dir / "labels" / f"{inv_id}.json", encoding="utf-8") as fh:
             label = json.load(fh)
         reference = extract_reference_text(data_dir / "pdf" / f"{inv_id}.pdf")
-        hypothesis = run_tesseract(data_dir / "images" / f"{inv_id}.jpg", lang=lang)
+        hypothesis = run_ocr(data_dir / "images" / f"{inv_id}.jpg", lang=lang)
         cer = compute_cer(reference, hypothesis)
         results.append({
             "id": inv_id,
@@ -46,16 +64,24 @@ def aggregate_by_profile(results):
     return {profile: sum(cers) / len(cers) for profile, cers in buckets.items()}
 
 
-def write_report(out_dir: Path, lang: str, results, by_profile):
+def write_raw_results(out_dir: Path, engine: str, lang: str, results):
+    raw_dir = out_dir / "_raw"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    raw_path = raw_dir / f"{engine}-{lang}.json"
+    raw_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
+    return raw_path
+
+
+def write_report(out_dir: Path, engine: str, lang: str, results, by_profile):
     out_dir.mkdir(parents=True, exist_ok=True)
-    report_path = out_dir / f"{date.today().isoformat()}-ocr-tesseract-baseline.md"
+    report_path = out_dir / f"{date.today().isoformat()}-ocr-{engine}-baseline.md"
     overall_cer = sum(r["cer"] for r in results) / len(results)
 
     lines = [
-        f"# OCR baseline — Tesseract (`--lang {lang}`)",
+        f"# OCR baseline — {engine} (`--lang {lang}`)",
         "",
         f"Date : {date.today().isoformat()}",
-        f"Méthode : `tesseract --lang {lang}` sur `data/synthetic/images/*.jpg`, "
+        f"Méthode : `{engine}` (lang={lang}) sur `data/synthetic/images/*.jpg`, "
         "comparé au texte extrait des PDF vectoriels (`data/synthetic/pdf/*.pdf`) "
         "via CER (`jiwer.cer`).",
         f"N = {len(results)} factures.",
@@ -79,15 +105,19 @@ def write_report(out_dir: Path, lang: str, results, by_profile):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--engine", required=True, choices=["tesseract", "paddleocr"])
     parser.add_argument("--data", default="data/synthetic")
-    parser.add_argument("--lang", default="fra")
+    parser.add_argument("--lang", required=True)
     parser.add_argument("--out", default="docs/eval")
     args = parser.parse_args()
 
     data_dir = Path(args.data)
-    results = evaluate(data_dir, args.lang)
+    results = evaluate(data_dir, args.engine, args.lang)
     by_profile = aggregate_by_profile(results)
-    report_path = write_report(Path(args.out), args.lang, results, by_profile)
+    out_dir = Path(args.out)
+    raw_path = write_raw_results(out_dir, args.engine, args.lang, results)
+    report_path = write_report(out_dir, args.engine, args.lang, results, by_profile)
+    print(f"Résultats bruts : {raw_path}")
     print(f"Rapport écrit dans {report_path}")
 
 

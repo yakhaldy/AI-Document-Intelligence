@@ -1,7 +1,7 @@
-# OCR baseline — Tesseract (`--lang fra`)
+# OCR baseline — tesseract (`--lang fra`)
 
 Date : 2026-09-22
-Méthode : `tesseract --lang fra` sur `data/synthetic/images/*.jpg`, comparé au texte extrait des PDF vectoriels (`data/synthetic/pdf/*.pdf`) via CER (`jiwer.cer`).
+Méthode : `tesseract` (lang=fra) sur `data/synthetic/images/*.jpg`, comparé au texte extrait des PDF vectoriels (`data/synthetic/pdf/*.pdf`) via CER (`jiwer.cer`).
 N = 200 factures.
 
 ## CER global : 0.2850

@@ -18,6 +18,21 @@ dev = [
 synthetic-data = [
     "reportlab>=4.0",
 ]
+# PaddleOCR nécessite un environnement Python séparé (voir README "Environnements
+# Python") : paddlepaddle n'a pas de wheel pour Python 3.14, et cette combinaison
+# de versions est la seule testée qui fonctionne en CPU sur macOS x86_64 sans
+# planter sur le nouveau backend d'inférence PIR (paddlepaddle 3.x) ni sur des
+# conflits d'ABI numpy (scipy/scikit-image récents exigent numpy>=2).
+paddleocr = [
+    "paddlepaddle==2.6.2",
+    "paddleocr==2.7.3",
+    "numpy<2",
+    "opencv-python-headless==4.9.0.80",
+    "scipy==1.11.4",
+    "scikit-image==0.22.0",
+    "pypdfium2>=4.30",
+    "jiwer>=3.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
