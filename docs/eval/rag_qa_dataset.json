@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Quel est le montant total HT de la facture FAC/2025/00300 ?",
+    "expected_answer": "10923.36",
+    "expected_document_id": 18,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-07-18 ?",
+    "expected_answer": "FAC/2025/00309",
+    "expected_document_id": 126,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FAC/2025/00304 ?",
+    "expected_answer": "33420.45",
+    "expected_document_id": 100,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FAC/2026/00299 ?",
+    "expected_answer": "25173.36",
+    "expected_document_id": 17,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FAC/2025/00296 ?",
+    "expected_answer": "34862.65",
+    "expected_document_id": 14,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-03-15 ?",
+    "expected_answer": "FA-000089",
+    "expected_document_id": 3,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27 ?",
+    "expected_answer": "rig",
+    "expected_document_id": 97,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FA-000089 ?",
+    "expected_answer": "1026.0",
+    "expected_document_id": 3,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture rig ?",
+    "expected_answer": "2026-06-29",
+    "expected_document_id": 93,
+    "field": "due_date"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FAC/2026/00315 ?",
+    "expected_answer": "67967.35",
+    "expected_document_id": 173,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture FAC/2025/00309 ?",
+    "expected_answer": "2025-08-17",
+    "expected_document_id": 126,
+    "field": "due_date"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-03-05 ?",
+    "expected_answer": "rig",
+    "expected_document_id": 37,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FA-000116 ?",
+    "expected_answer": "30224.89",
+    "expected_document_id": 175,
+    "field": "total_ht"
+  },
+  {
+    "question": "Qui est le fournisseur de la facture FAC/2025/00309 ?",
+    "expected_answer": "Tafilalet Conseil SNC",
+    "expected_document_id": 126,
+    "field": "supplier_name"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture rig ?",
+    "expected_answer": "25779.52",
+    "expected_document_id": 97,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Qui est le fournisseur de la facture FAC/2026/00299 ?",
+    "expected_answer": "Tafilalet Conseil SNC",
+    "expected_document_id": 17,
+    "field": "supplier_name"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Rif Négoce SA datée du 2025-04-07 ?",
+    "expected_answer": "FA-000115",
+    "expected_document_id": 152,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2026-05-18 ?",
+    "expected_answer": "rig",
+    "expected_document_id": 141,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Qui est le fournisseur de la facture FA-000108 ?",
+    "expected_answer": "Rif Négoce SA",
+    "expected_document_id": 121,
+    "field": "supplier_name"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture FAC/2025/00300 ?",
+    "expected_answer": "2025-11-08",
+    "expected_document_id": 18,
+    "field": "due_date"
+  },
+  {
+    "question": "Quel est le taux de TVA appliqué sur la facture FAC/2025/00296 ?",
+    "expected_answer": "20.0",
+    "expected_document_id": 14,
+    "field": "tva_rate"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture FAC/2026/00311 ?",
+    "expected_answer": "2026-07-11",
+    "expected_document_id": 128,
+    "field": "due_date"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture rig ?",
+    "expected_answer": "2026-06-29",
+    "expected_document_id": 93,
+    "field": "due_date"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture rig ?",
+    "expected_answer": "55366.6",
+    "expected_document_id": 10,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 ?",
+    "expected_answer": "FAC/2025/00304",
+    "expected_document_id": 100,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Qui est le fournisseur de la facture FAC/2025/00296 ?",
+    "expected_answer": "Tafilalet Conseil SNC",
+    "expected_document_id": 14,
+    "field": "supplier_name"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FAC/2026/00299 ?",
+    "expected_answer": "25173.36",
+    "expected_document_id": 17,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le taux de TVA appliqué sur la facture FAC/2025/00309 ?",
+    "expected_answer": "20.0",
+    "expected_document_id": 126,
+    "field": "tva_rate"
+  },
+  {
+    "question": "Qui est le fournisseur de la facture rig ?",
+    "expected_answer": "Doukkala Hygiène SNC",
+    "expected_document_id": 97,
+    "field": "supplier_name"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FAC/2025/00309 ?",
+    "expected_answer": "40285.02",
+    "expected_document_id": 126,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture rig ?",
+    "expected_answer": "55366.6",
+    "expected_document_id": 10,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture rig ?",
+    "expected_answer": "2025-04-04",
+    "expected_document_id": 37,
+    "field": "due_date"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture FAC/2026/00306 ?",
+    "expected_answer": "2026-05-29",
+    "expected_document_id": 102,
+    "field": "due_date"
+  },
+  {
+    "question": "Quel est le taux de TVA appliqué sur la facture FAC/2025/00309 ?",
+    "expected_answer": "20.0",
+    "expected_document_id": 126,
+    "field": "tva_rate"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FAC/2025/00304 ?",
+    "expected_answer": "30382.23",
+    "expected_document_id": 100,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FAC/2026/00313 ?",
+    "expected_answer": "40435.0",
+    "expected_document_id": 134,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-02 ?",
+    "expected_answer": "FAC/2025/00304",
+    "expected_document_id": 100,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2026-03-12 ?",
+    "expected_answer": "FAC/2026/00313",
+    "expected_document_id": 134,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quel est le taux de TVA appliqué sur la facture FAC/2025/00309 ?",
+    "expected_answer": "20.0",
+    "expected_document_id": 126,
+    "field": "tva_rate"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Doukkala Hygiène SNC datée du 2025-06-27 ?",
+    "expected_answer": "rig",
+    "expected_document_id": 97,
+    "field": "invoice_number"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture FAC/2026/00313 ?",
+    "expected_answer": "2026-04-11",
+    "expected_document_id": 134,
+    "field": "due_date"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FA-000120 ?",
+    "expected_answer": "20606.85",
+    "expected_document_id": 198,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FA-000108 ?",
+    "expected_answer": "28530.0",
+    "expected_document_id": 121,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FAC/2026/00306 ?",
+    "expected_answer": "73169.96",
+    "expected_document_id": 102,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FA-000108 ?",
+    "expected_answer": "23775.0",
+    "expected_document_id": 121,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quel est le montant total HT de la facture FA-000116 ?",
+    "expected_answer": "30224.89",
+    "expected_document_id": 175,
+    "field": "total_ht"
+  },
+  {
+    "question": "Quelle est la date d'échéance de la facture rig ?",
+    "expected_answer": "2025-04-11",
+    "expected_document_id": 155,
+    "field": "due_date"
+  },
+  {
+    "question": "Qui est le fournisseur de la facture FAC/2025/00304 ?",
+    "expected_answer": "Tafilalet Conseil SNC",
+    "expected_document_id": 100,
+    "field": "supplier_name"
+  },
+  {
+    "question": "Quel est le montant total TTC de la facture FA-000120 ?",
+    "expected_answer": "20606.85",
+    "expected_document_id": 198,
+    "field": "total_ttc"
+  },
+  {
+    "question": "Quel est le numéro de la facture du fournisseur Tafilalet Conseil SNC datée du 2025-11-26 ?",
+    "expected_answer": "FAC/2025/00295",
+    "expected_document_id": 7,
+    "field": "invoice_number"
+  }
+]

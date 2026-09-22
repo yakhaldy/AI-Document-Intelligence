@@ -37,6 +37,9 @@ def parse_iso_date(value: str | None):
     return date.fromisoformat(value) if value else None
 
 
+UNKNOWN_SUPPLIER_PLACEHOLDER = "Fournisseur inconnu"
+
+
 def get_or_create_supplier(session: Session, tenant_id, fields: dict) -> Supplier:
     ice = fields.get("supplier_ice")
     if ice:
@@ -44,10 +47,18 @@ def get_or_create_supplier(session: Session, tenant_id, fields: dict) -> Supplie
             select(Supplier).where(Supplier.tenant_id == tenant_id, Supplier.ice == ice)
         ).scalar_one_or_none()
         if existing:
+            # Self-heal: an earlier invoice for this supplier may have had a
+            # failed/null extraction (regex doesn't extract supplier_name at
+            # all) and left the placeholder here — don't let that permanently
+            # poison every other invoice from the same supplier once a good
+            # name comes along.
+            name = fields.get("supplier_name")
+            if existing.name == UNKNOWN_SUPPLIER_PLACEHOLDER and name:
+                existing.name = name
             return existing
     supplier = Supplier(
         tenant_id=tenant_id,
-        name=fields.get("supplier_name") or "Fournisseur inconnu",
+        name=fields.get("supplier_name") or UNKNOWN_SUPPLIER_PLACEHOLDER,
         ice=ice,
         if_number=fields.get("supplier_if"),
         rc=fields.get("supplier_rc"),

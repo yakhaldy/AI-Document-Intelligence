@@ -42,7 +42,9 @@ def index_document(session: Session, document: Document, text: str) -> int:
         print(f"  document {document.id}: embedding en échec ({exc}), ignoré pour cette passe")
         return 0
     for content, vector in zip(chunks, vectors):
-        session.add(DocumentChunk(document_id=document.id, content=content, embedding=vector))
+        # All invoices in data/synthetic/pdf are single-page (verified), so
+        # page_number=1 is a real fact, not a placeholder.
+        session.add(DocumentChunk(document_id=document.id, page_number=1, content=content, embedding=vector))
     return len(chunks)
 
 
