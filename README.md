@@ -347,15 +347,52 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       comportementale
 
 ### Étape 7 — API et frontend
-- [ ] FastAPI : endpoints upload, liste documents, chat
-- [ ] Authentification simple (JWT)
-- [ ] Frontend React minimal (upload + chat + tableau des factures)
+- [x] FastAPI : endpoints upload, liste documents, chat
+      → `src/api/main.py` + `src/api/routers/{auth,upload,invoices,chat}.py` —
+      `/upload` exécute le pipeline complet en direct (OCR → classification
+      Jev → extraction → insertion DB → chunking/indexation), `/invoices`
+      liste avec pagination et filtre par statut, `/chat` appelle l'agent de
+      l'Étape 6. Testé : `pytest tests/test_api.py` — 18/18
+- [x] Authentification JWT + comptes utilisateurs avec approbation admin
+      → `src/api/auth.py` + table `users` (migration
+      `49f841888fb8_users_table_for_auth_and_admin_approval.py`) : chaque
+      compte créé via `POST /auth/register` reste `status='pending'` et ne
+      peut pas se connecter tant qu'un administrateur ne l'approuve pas
+      (`POST /admin/users/{id}/approve`, routeur `src/api/routers/admin.py`,
+      protégé par rôle `admin`). Le compte admin de bootstrap est créé une
+      fois via `python -m db.seed_admin` (`ADMIN_USERNAME` /
+      `ADMIN_PASSWORD_HASH` en `.env`, hash bcrypt jamais en clair) — c'est
+      le seul moyen d'obtenir un premier admin, ensuite il peut approuver
+      les suivants. Token JWT HS256 1h, revérifié en base à chaque requête
+      (`get_current_user` re-fetch l'utilisateur, pas seulement le JWT) pour
+      qu'un compte rejeté ne puisse pas continuer à s'en servir jusqu'à
+      expiration
+- [x] Frontend React minimal (upload + chat + tableau des factures + admin +
+      documents + à propos)
+      → `frontend/src/pages/{Login,Register,About,Upload,Chat,Invoices,
+      Documents,Admin}.jsx`, routage protégé (`react-router-dom`, routes
+      `/admin` réservée au rôle admin, `/about` publique sans connexion),
+      token JWT persisté en `localStorage`, rôle résolu via `GET /auth/me`.
+      La page **Documents** (`GET /documents`) liste tous les documents
+      envoyés avec leur type détecté (facture / contrat / rapport, badge
+      coloré) — pas seulement les factures — et le résultat d'un upload
+      affiche aussi ce type. La page **À propos** (publique, `/about`)
+      reprend les différenciateurs du §5 et les vrais chiffres mesurés du
+      §6 (aucun chiffre inventé, repris tel quel de ce README). Vérifié en
+      conditions réelles (Playwright, backend + DB réels, pas de mock) :
+      connexion, upload d'une facture PDF réelle avec pipeline complet
+      exécuté, type détecté affiché, question chiffrée à l'agent avec bonne
+      réponse, tableau des factures et tableau des documents
+      paginés/filtrables, inscription → connexion refusée tant que le
+      compte est en attente → approbation par l'admin dans l'UI →
+      connexion acceptée, lien "Admin" masqué pour les comptes non-admin.
+      Lint `oxlint` : 0 erreur, 0 warning · Backend `pytest` : 85/85
 
 ### Étape 8 — Production
 - [ ] Dockerfile + docker-compose (API, DB, vector store, frontend)
 - [ ] GitHub Actions : tests + lint + build image à chaque push
 - [ ] Intégration Langfuse (ou équivalent) : coût, latence, traces
-- [ ] Déploiement (VPS, ou Azure/GCP) + lien de démo public
+- [ ] Déploiement (VPS) + lien de démo public
 - [ ] `.env.example`, jamais de secret commité
 
 ### Étape 9 — Documentation finale

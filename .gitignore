@@ -19,7 +19,11 @@ data/public/*
 !data/public/.gitkeep
 data/real_anonymized/*
 !data/real_anonymized/.gitkeep
+data/uploads/
 *.zip
+
+# Playwright MCP (captures d'écran de vérification, pas du code)
+.playwright-mcp/
 
 # Vector DB / index locaux
 .chroma/
