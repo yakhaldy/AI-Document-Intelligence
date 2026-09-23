@@ -54,7 +54,7 @@ def chunk_by_section(text: str, max_chunk_chars: int = MAX_CHUNK_CHARS) -> list[
             flush()
         if line.strip():
             current.append(line)
-        if current and sum(len(l) for l in current) > max_chunk_chars:
+        if current and sum(len(chunk_line) for chunk_line in current) > max_chunk_chars:
             flush()
     flush()
     return chunks

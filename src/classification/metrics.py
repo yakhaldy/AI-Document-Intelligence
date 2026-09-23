@@ -1,5 +1,4 @@
 """Accuracy, per-class precision/recall/F1, and confusion matrix."""
-from collections import Counter
 
 LABELS = ["facture", "contrat", "rapport"]
 

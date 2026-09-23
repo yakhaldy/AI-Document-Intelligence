@@ -31,7 +31,7 @@ import random
 from datetime import date, timedelta
 from pathlib import Path
 
-from generate_invoices import CITIES, LEGAL, MONTHS, NAME_A, NAME_B, STREETS
+from generate_invoices import CITIES, LEGAL, MONTHS, NAME_A, NAME_B
 
 DURATIONS = ["6 mois", "12 mois", "24 mois", "36 mois", "une durée indéterminée"]
 AMOUNTS_MAD = [15000, 25000, 45000, 80000, 120000, 250000, 500000]
@@ -179,7 +179,7 @@ def make_contract(rng, idx):
         lines.append("")
     lines.append(f"Fait à {city(rng)}, le {fmt_date(signing_date)}, en deux exemplaires originaux.")
     lines.append("")
-    lines.append(f"Pour la Première Partie                    Pour la Seconde Partie")
+    lines.append("Pour la Première Partie                    Pour la Seconde Partie")
     lines.append(f"{party_a}                    {party_b}")
 
     return {
