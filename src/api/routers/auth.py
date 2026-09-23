@@ -10,7 +10,13 @@ from src.api.auth import (
     hash_password,
 )
 from src.api.deps import get_db
-from src.api.schemas import LoginRequest, RegisterRequest, RegisterResponse, Token, UserOut
+from src.api.schemas import (
+    LoginRequest,
+    RegisterRequest,
+    RegisterResponse,
+    Token,
+    UserOut,
+)
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 

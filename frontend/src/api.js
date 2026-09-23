@@ -1,4 +1,7 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+// '??' (pas '||') : une VITE_API_URL vide en prod doit rester vide (chemins
+// relatifs, même origine que nginx), seule l'absence de la variable (dev
+// sans build) retombe sur le serveur local.
+const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8000'
 
 export class ApiError extends Error {
   constructor(message, status) {

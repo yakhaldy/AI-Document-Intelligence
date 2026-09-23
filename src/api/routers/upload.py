@@ -7,8 +7,8 @@ from pathlib import Path
 from fastapi import APIRouter, Depends, HTTPException, UploadFile
 from sqlalchemy.orm import Session
 
-from db.ingest import ingest_invoice
 from db.index_chunks import index_document
+from db.ingest import ingest_invoice
 from db.models import Document, User
 from src.api.auth import get_current_user
 from src.api.deps import get_db, get_tenant_id

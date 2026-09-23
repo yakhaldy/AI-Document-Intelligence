@@ -6,7 +6,7 @@ bootstrap admin is seeded once via `python -m db.seed_admin` — see
 ADMIN_USERNAME / ADMIN_PASSWORD_HASH in .env.
 """
 import os
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 import bcrypt
 import jwt
@@ -57,7 +57,7 @@ def authenticate_user(session: Session, username: str, password: str) -> User | 
 
 
 def create_access_token(subject: str) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    expire = datetime.now(UTC) + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     payload = {"sub": subject, "exp": expire}
     return jwt.encode(payload, _secret_key(), algorithm=ALGORITHM)
 
