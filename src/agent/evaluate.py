@@ -71,6 +71,7 @@ def run(session, tenant_id) -> list[dict]:
             case["expected_answer_contains"] is None
             or case["expected_answer_contains"] in result["answer"]
         )
+        usage = result.get("usage", {})
         results.append({
             "question": case["question"],
             "expected_tool": case["expected_tool"],
@@ -78,8 +79,21 @@ def run(session, tenant_id) -> list[dict]:
             "tool_ok": tool_ok,
             "answer": result["answer"],
             "answer_ok": answer_ok,
+            "latency_s": usage.get("latency_s"),
+            "cost_usd": usage.get("cost_usd"),
         })
     return results
+
+
+def _percentile(values: list[float], p: float) -> float:
+    if not values:
+        return 0.0
+    ordered = sorted(values)
+    k = (len(ordered) - 1) * p
+    f, c = int(k), min(int(k) + 1, len(ordered) - 1)
+    if f == c:
+        return ordered[f]
+    return ordered[f] + (ordered[c] - ordered[f]) * (k - f)
 
 
 def write_report(out_dir: Path, results: list[dict]) -> Path:
@@ -88,22 +102,39 @@ def write_report(out_dir: Path, results: list[dict]) -> Path:
     n = len(results)
     tool_acc = sum(r["tool_ok"] for r in results) / n
     answer_acc = sum(r["answer_ok"] for r in results) / n
+    latencies = [r["latency_s"] for r in results if r["latency_s"] is not None]
+    costs = [r["cost_usd"] for r in results if r["cost_usd"] is not None]
+    lat_p50 = _percentile(latencies, 0.5)
+    lat_p95 = _percentile(latencies, 0.95)
+    cost_total = sum(costs) if costs else None
+    cost_mean = (cost_total / len(costs)) if costs else None
 
     lines = [
-        "# Agent — sélection d'outil et exactitude des réponses",
+        "# Agent — sélection d'outil, exactitude, coût et latence",
         "",
         f"Date : {date.today().isoformat()}",
-        f"N = {n} questions.",
+        f"N = {n} questions (mêmes questions que l'évaluation initiale du"
+        " 2026-09-22, ré-exécutées pour mesurer coût/latence réels).",
         "",
         f"**Bon outil choisi : {tool_acc:.0%}**  |  **Réponse correcte : {answer_acc:.0%}**",
+        f"**Latence p50 : {lat_p50:.2f}s**  |  **Latence p95 : {lat_p95:.2f}s**",
+        (
+            f"**Coût total : ${cost_total:.6f}**  |  **Coût moyen/requête : ${cost_mean:.6f}**"
+            if cost_total is not None
+            else "**Coût : n/d** (le fournisseur OpenRouter n'a pas renvoyé de champ `usage.cost` "
+            "pour ce modèle/cette clé)"
+        ),
         "",
-        "| Question | Outil attendu | Outils appelés | Outil OK | Réponse OK |",
-        "|---|---|---|---|---|",
+        "| Question | Outil attendu | Outils appelés | Outil OK | Réponse OK | Latence (s) | Coût ($) |",
+        "|---|---|---|---|---|---|---|",
     ]
     for r in results:
+        lat = f"{r['latency_s']:.2f}" if r["latency_s"] is not None else "n/d"
+        cost = f"{r['cost_usd']:.6f}" if r["cost_usd"] is not None else "n/d"
         lines.append(
             f"| {r['question']} | {r['expected_tool']} | {', '.join(r['tools_called']) or '—'} "
-            f"| {'✓' if r['tool_ok'] else '✗'} | {'✓' if r['answer_ok'] else '✗'} |"
+            f"| {'✓' if r['tool_ok'] else '✗'} | {'✓' if r['answer_ok'] else '✗'} "
+            f"| {lat} | {cost} |"
         )
     lines.append("")
     for r in results:

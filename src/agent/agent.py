@@ -4,6 +4,7 @@ in the final answer must come from query_sql or calculate.
 """
 import json
 import os
+import time
 
 import requests
 from dotenv import load_dotenv
@@ -153,6 +154,8 @@ def ask_agent(session: Session, tenant_id, question: str, model: str | None = No
         {"role": "user", "content": question},
     ]
     tools_used = []
+    cost_usd = 0.0
+    t0 = time.time()
 
     for _ in range(max_rounds):
         resp = requests.post(
@@ -162,11 +165,16 @@ def ask_agent(session: Session, tenant_id, question: str, model: str | None = No
             timeout=60,
         )
         resp.raise_for_status()
-        message = resp.json()["choices"][0]["message"]
+        data = resp.json()
+        call_cost = data.get("usage", {}).get("cost")
+        if call_cost is not None:
+            cost_usd += call_cost
+        message = data["choices"][0]["message"]
         tool_calls = message.get("tool_calls")
 
         if not tool_calls:
-            return {"answer": message["content"], "tools_used": tools_used}
+            usage = {"latency_s": time.time() - t0, "cost_usd": cost_usd}
+            return {"answer": message["content"], "tools_used": tools_used, "usage": usage}
 
         messages.append(message)
         for call in tool_calls:
@@ -183,4 +191,9 @@ def ask_agent(session: Session, tenant_id, question: str, model: str | None = No
                 "content": json.dumps(result, ensure_ascii=False, default=str),
             })
 
-    return {"answer": "Nombre maximal d'étapes atteint sans réponse finale.", "tools_used": tools_used}
+    usage = {"latency_s": time.time() - t0, "cost_usd": cost_usd}
+    return {
+        "answer": "Nombre maximal d'étapes atteint sans réponse finale.",
+        "tools_used": tools_used,
+        "usage": usage,
+    }

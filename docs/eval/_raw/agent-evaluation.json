@@ -7,7 +7,9 @@
     ],
     "tool_ok": true,
     "answer": "Le montant total des factures impayées est de 1 542 744,82 MAD.",
-    "answer_ok": true
+    "answer_ok": true,
+    "latency_s": 2.842180013656616,
+    "cost_usd": 0.0001509
   },
   {
     "question": "Quel est le montant total des factures payées ?",
@@ -17,7 +19,9 @@
     ],
     "tool_ok": true,
     "answer": "Le montant total des factures payées est de 4 634 305,27 MAD.",
-    "answer_ok": true
+    "answer_ok": true,
+    "latency_s": 2.815027952194214,
+    "cost_usd": 0.00014925
   },
   {
     "question": "Combien de factures sont impayées ?",
@@ -27,7 +31,9 @@
     ],
     "tool_ok": true,
     "answer": "Il y a 40 factures impayées.",
-    "answer_ok": true
+    "answer_ok": true,
+    "latency_s": 1.5771009922027588,
+    "cost_usd": 0.0001437
   },
   {
     "question": "Quels sont les 2 fournisseurs auxquels on doit le plus au total ?",
@@ -36,8 +42,10 @@
       "top_suppliers_by_total"
     ],
     "tool_ok": true,
-    "answer": "Les deux fournisseurs auxquels on doit le plus au total sont :\n\n1. **Doukkala Hygiène SNC** : 545 901,09 MAD\n2. **Tafilalet Conseil SNC** : 481 365,11 MAD",
-    "answer_ok": true
+    "answer": "Les deux fournisseurs auxquels on doit le plus au total sont :\n\n1. **Tafilalet Conseil SNC** : 606228.63 MAD\n2. **Doukkala Hygiène SNC** : 545901.09 MAD",
+    "answer_ok": true,
+    "latency_s": 1.8852908611297607,
+    "cost_usd": 0.00017235
   },
   {
     "question": "Quel est le montant TTC de la facture FA-000089 ?",
@@ -47,7 +55,9 @@
     ],
     "tool_ok": true,
     "answer": "Le montant TTC de la facture FA-000089 est de 1026 MAD.",
-    "answer_ok": true
+    "answer_ok": true,
+    "latency_s": 2.696925163269043,
+    "cost_usd": 0.00016845
   },
   {
     "question": "Combien font 43302.70 plus 1026.00 plus 8138.87 ?",
@@ -57,7 +67,9 @@
     ],
     "tool_ok": true,
     "answer": "La somme de 43302.70, 1026.00 et 8138.87 est de 52467.57.",
-    "answer_ok": true
+    "answer_ok": true,
+    "latency_s": 2.2504258155822754,
+    "cost_usd": 0.00016544999999999998
   },
   {
     "question": "Quelle est l'adresse du fournisseur sur la facture FAC/2025/00291 ?",
@@ -67,6 +79,8 @@
     ],
     "tool_ok": false,
     "answer": "L'adresse du fournisseur \"Tafilalet Conseil SNC\" sur la facture FAC/2025/00291 n'est pas spécifiée dans les informations disponibles.",
-    "answer_ok": true
+    "answer_ok": true,
+    "latency_s": 2.15265154838562,
+    "cost_usd": 0.00018285
   }
 ]

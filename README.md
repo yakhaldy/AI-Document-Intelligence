@@ -337,6 +337,11 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       tenté `invoice_lookup` au lieu de `search_documents` pour une adresse
       non présente en base — échec **sûr**, réponse "non spécifié" plutôt
       qu'une hallucination)
+- [x] Coût et latence réels mesurés (pas juste "à mesurer")
+      → `docs/eval/2026-09-23-agent-tool-selection.md` — ré-exécution des 7
+      mêmes questions avec instrumentation `usage.cost`/latence ajoutée à
+      `ask_agent` : **latence p50 2.25s / p95 2.83s, coût moyen
+      $0.000162/requête** (`openai/gpt-4o-mini` via OpenRouter)
 - [x] Tests d'attaque : injection de prompt dans un document, tentative
       d'accès hors tenant — documenter les résultats
       → `docs/eval/2026-09-22-agent-security-tests.md` — **les deux tests
@@ -435,8 +440,15 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       spécifiquement pour le VPS (pas de réutilisation des valeurs de dev)
 
 ### Étape 9 — Documentation finale
+- [x] Nettoie le repository en supprimant les fichiers qui ne sont plus utilisés
+      → vérification exhaustive (imports croisés + grep par module sur tout
+      `src/`, `docs/`, `scripts/`, racine) : **aucun fichier mort trouvé**,
+      tout est référencé (README, imports Python, CI). Seule anomalie
+      annexe : `.lint-baseline.json` référence des règles ruff (DTZ011,
+      BLE001, SIM103...) absentes du `[tool.ruff]` actuel — dette de
+      configuration lint, pas des fichiers à supprimer, hors périmètre ici
 - [ ] Ce README mis à jour avec tous les chiffres réels obtenus
-- [ ] Section "limites connues" honnête
+- [x] Section "limites connues" honnête → section 9
 - [ ] GIF ou courte vidéo de démonstration
 
 ---
@@ -465,8 +477,8 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
 | Classification | accuracy, coût/doc | 100% (5 méthodes) — voir limite méthodologique, Étape 3 |
 | RAG | recall@5, faithfulness | recall@5 : 0.18 (vecteur) / 0.26 (hybride) / 0.44 (hybride+rerank) — faithfulness ≥0.92 partout |
 | Agent | taux de bon choix d'outil | 86% bon outil, 100% réponse correcte (7 questions) |
-| Coût | $/requête moyen | à mesurer |
-| Latence | p50 / p95 | à mesurer |
+| Coût | $/requête moyen (agent, `openai/gpt-4o-mini`) | **$0.000162** (docs/eval/2026-09-23-agent-tool-selection.md, 7 requêtes) |
+| Latence | p50 / p95 (agent, bout en bout) | **2.25s / 2.83s** (idem, 7 requêtes) |
 
 Ne jamais écrire une valeur ici sans l'avoir réellement calculée.
 
@@ -512,3 +524,72 @@ Ne jamais écrire une valeur ici sans l'avoir réellement calculée.
   finale de chaque étape, jamais pour ajuster le code.
 - Consigner tout résultat de mesure dans `docs/eval/` au format Markdown,
   avec la date et la méthode utilisée.
+
+---
+
+## 9. Limites connues
+
+Honnêtement, sans enjoliver — chiffres et détails sourcés dans `docs/eval/`.
+
+### Qualité des résultats
+
+- **RAG — recall modeste** : même la meilleure configuration (hybride +
+  reranker) ne retrouve le bon passage dans le top-5 que **44% du temps**
+  (`recall@5 : 0.18` vecteur seul, `0.26` hybride, `0.44` hybride+rerank —
+  voir `docs/eval/2026-09-22-rag-comparison.md`). Le chat répond correctement
+  quand il trouve l'info, mais il ne la trouve pas toujours.
+- **Classification à 100% d'accuracy — résultat trop facile pour être un vrai
+  signal** : les documents `contrat`/`rapport` sont synthétiques avec un
+  vocabulaire volontairement disjoint des factures (voir
+  `docs/eval/2026-09-22-classification-baseline.md`). Une simple recherche de
+  mots-clés séparerait déjà parfaitement les 3 classes — ce 100% ne prouve pas
+  qu'une méthode est meilleure qu'une autre sur des documents réels.
+- **OCR dégradé sur mauvais scans** : CER jusqu'à 0.52 (Tesseract) / 0.46
+  (PaddleOCR) sur le sous-jeu "bad" — un quart à un tiers des caractères mal
+  reconnus sur les pires scans (`docs/eval/2026-09-22-ocr-comparison.md`).
+- **Extraction de champs inégale** : F1 de 0.88 à 1.00 selon le champ en LLM,
+  mais le repli regex seul varie de 0.00 à 0.99 — sans LLM disponible,
+  certains champs ne sont quasiment jamais extraits correctement.
+- **Arabe hors scope** : OCR entraîné/évalué en français uniquement
+  (`--lang fra`), alors qu'une facture marocaine réelle est souvent bilingue.
+- **`invoice_lines` toujours vide** : seuls les champs d'en-tête de facture
+  sont extraits (Étape 2) ; le détail ligne par ligne n'est pas implémenté.
+- **Champs parfois `NULL` sans repli** : `documents.ocr_confidence`,
+  `suppliers.city`, `invoices.payment_status` — non extraits par le pipeline
+  actuel, jamais remplis par une valeur inventée.
+- **Corpus RAG partiellement indexé** : 85/200 documents indexés en vecteurs
+  au 2026-09-22 (995 chunks), le reste bloqué par le quota gratuit de l'API
+  d'embedding à ce moment-là (`docs/eval/2026-09-22-stockage.md`) — le chat
+  répond donc sur un sous-ensemble du corpus tant que le script d'indexation
+  n'est pas relancé.
+- **Métriques RAG maison, pas RAGAS** : la librairie `ragas` a été abandonnée
+  (dépendance interne cassée, `langchain_community.chat_models.vertexai`
+  supprimée) au profit d'une implémentation LLM-juge maison
+  (`src/rag/metrics.py`) — documentée comme telle, pas un standard externe
+  auditable indépendamment.
+
+### Sécurité et infrastructure
+
+- **Mono-tenant par conception malgré un schéma multi-tenant** :
+  `get_tenant_id()` renvoie un UUID fixe pour tous les comptes
+  (`db/models.py::default_tenant_id`) — le narratif produit évoque plusieurs
+  PME mais l'implémentation actuelle sert un seul tenant en pratique.
+- **Pas de TLS** : la démo (`http://152.70.20.148`) est en HTTP seul, sans nom
+  de domaine — identifiants et jetons JWT transitent en clair.
+- **Pas de récupération de mot de passe ni de 2FA** — seul le rate limiting
+  anti-bruteforce (5/minute sur `/auth/login` et `/auth/register`) est en
+  place à ce stade.
+- **Pas de sauvegarde automatisée de la base de données** sur le VPS.
+- **Un seul serveur, sans réplication** : toute panne du VPS unique
+  (152.70.20.148) rend l'application indisponible, pas de failover.
+- **Pas de validation antivirus/malware** sur les fichiers uploadés (seule la
+  validation d'extension + le nettoyage du nom de fichier sont en place).
+
+### Couverture de tests
+
+- **Aucun test end-to-end automatisé côté frontend** — seuls les tests
+  manuels via Playwright réalisés pendant l'audit couvrent l'UI ; la suite
+  automatisée (85 tests) ne couvre que le backend.
+- **Coût et latence de l'agent non mesurés en continu** : Langfuse est câblé
+  mais les clés sont vides en prod à ce stade — pas de suivi coût/latence en
+  conditions réelles pour l'instant (voir mesure ponctuelle section 6).
