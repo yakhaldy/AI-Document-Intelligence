@@ -10,6 +10,7 @@ import os
 
 import requests
 from dotenv import load_dotenv
+from langfuse import observe
 
 load_dotenv()
 
@@ -56,6 +57,7 @@ def _api_key() -> str:
     return key
 
 
+@observe(name="rag.generate", as_type="generation")
 def generate_answer(query: str, retrieved: list[dict], model: str | None = None) -> dict:
     model = model or os.environ.get("LLM_OPNEROUTER_MODEL", "openai/gpt-4o-mini")
     extracts = "\n\n".join(

@@ -11,6 +11,7 @@ import time
 
 import requests
 from dotenv import load_dotenv
+from langfuse import observe
 
 load_dotenv()
 
@@ -64,6 +65,7 @@ def _api_key() -> str:
     return key
 
 
+@observe(name="extraction.llm", as_type="generation")
 def extract_with_llm(text: str, model: str | None = None, retries: int = 3) -> dict:
     model = model or os.environ.get("LLM_MODEL", "gemini-flash-latest")
     url = f"{API_BASE}/{model}:generateContent?key={_api_key()}"

@@ -7,6 +7,7 @@ import os
 
 import requests
 from dotenv import load_dotenv
+from langfuse import observe
 from sqlalchemy.orm import Session
 
 from src.agent.calculate import calculate
@@ -143,6 +144,7 @@ def _execute_tool(session: Session, tenant_id, name: str, args: dict):
     raise ValueError(f"outil inconnu : {name}")
 
 
+@observe(name="agent.ask", as_type="agent")
 def ask_agent(session: Session, tenant_id, question: str, model: str | None = None, max_rounds: int = 4) -> dict:
     model = model or os.environ.get("LLM_OPNEROUTER_MODEL", "openai/gpt-4o-mini")
     headers = {"Authorization": f"Bearer {_api_key()}", "Content-Type": "application/json"}

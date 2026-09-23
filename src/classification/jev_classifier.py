@@ -11,6 +11,7 @@ import os
 import time
 
 from dotenv import load_dotenv
+from langfuse import observe
 from typesafe_sdk import Choice, TypeSafeClient
 
 load_dotenv()
@@ -49,6 +50,7 @@ def _build_state(text: str, few_shot_examples: list[dict] | None) -> str:
     return "\n".join(parts)
 
 
+@observe(name="classification.jev", as_type="generation")
 def classify_with_jev(
     text: str,
     few_shot_examples: list[dict] | None = None,
