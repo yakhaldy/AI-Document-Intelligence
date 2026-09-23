@@ -10,6 +10,8 @@ postes AI Engineer au Maroc, en démontrant OCR, extraction structurée, RAG,
 agents avec tool calling, évaluation rigoureuse, et mise en production
 (Docker, CI/CD, monitoring).
 
+![Démo : login, factures, upload, assistant conversationnel, documents](docs/demo.gif)
+
 ---
 
 ## 1. Pourquoi ce projet
@@ -449,7 +451,9 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       configuration lint, pas des fichiers à supprimer, hors périmètre ici
 - [ ] Ce README mis à jour avec tous les chiffres réels obtenus
 - [x] Section "limites connues" honnête → section 9
-- [ ] GIF ou courte vidéo de démonstration
+- [x] GIF ou courte vidéo de démonstration → `docs/demo.gif` (5 captures
+      Playwright réelles : login, factures, upload, assistant avec une vraie
+      question/réponse, documents), affiché en haut du README
 
 ---
 
