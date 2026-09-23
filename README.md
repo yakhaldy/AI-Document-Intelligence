@@ -92,7 +92,7 @@ approprié (SQL, calculatrice) et se contente de formuler la réponse.
 | Extraction | LLM (prompt structuré → JSON) + regex de secours pour ICE/IF/RC/TVA | ne pas tout confier au LLM |
 | Classification | TF-IDF + LogisticRegression **et** LLM zero-shot **et** Jev (TypeSafe System One) | comparer, garder le meilleur rapport coût/précision |
 | RAG | embeddings multilingues (type BGE-M3 / multilingual-e5) + BM25 hybride + reranker | chunking par section, pas par nombre de caractères fixe |
-| Vector DB | ChromaDB (dev) → Qdrant (prod) | |
+| Vector DB | pgvector (dans PostgreSQL) | Chroma/Qdrant envisagés initialement, jamais implémentés — pgvector suffit à l'échelle de ce projet |
 | Base relationnelle | PostgreSQL | champs extraits + statut de paiement |
 | Agent | function calling (outils : search_documents, query_sql, calculate) | SQL toujours en lecture seule |
 | Observabilité | Langfuse ou équivalent open source | coût, latence, traces |
@@ -389,11 +389,50 @@ plus robuste hors distribution. À reconfirmer avec de vraies données
       Lint `oxlint` : 0 erreur, 0 warning · Backend `pytest` : 85/85
 
 ### Étape 8 — Production
-- [ ] Dockerfile + docker-compose (API, DB, vector store, frontend)
-- [ ] GitHub Actions : tests + lint + build image à chaque push
-- [ ] Intégration Langfuse (ou équivalent) : coût, latence, traces
-- [ ] Déploiement (VPS) + lien de démo public
-- [ ] `.env.example`, jamais de secret commité
+- [x] Dockerfile + docker-compose (API, DB, frontend)
+      → `Dockerfile` (API, tesseract-ocr) + `frontend/Dockerfile` (build Vite
+      → nginx, sert le frontend et proxifie l'API sous `/api/`) +
+      `docker-compose.prod.yml`. Pas de vector store séparé : la "Vector DB"
+      du §2.2 est en fait pgvector directement dans PostgreSQL (voir
+      `src/rag/vector_search.py`) — ChromaDB/Qdrant évoqués dans le tableau
+      stack n'ont jamais été implémentés, corrigé ici pour refléter la
+      réalité. `pyproject.toml` corrigé au passage : fastapi/uvicorn/pyjwt/
+      bcrypt/rank-bm25/python-multipart manquaient des dependencies
+- [x] GitHub Actions : tests + lint + build image à chaque push
+      → `.github/workflows/ci.yml` — postgres pgvector en service, migrations
+      + fixture minimale insérée en direct (sans OCR/LLM), pytest (85 tests
+      moins 1 marqué `requires_llm`, non reproductible en CI sans coût ni
+      flakiness réseau), lint (`.lint-baseline.json` + dette pré-existante
+      grandfathered, tout code nouveau reste 100% propre), build des deux
+      images Docker
+- [x] Intégration Langfuse (ou équivalent) : coût, latence, traces
+      → `@observe` sur les 4 points d'appel LLM (extraction, classification,
+      génération RAG, agent) — no-op sûr sans clés configurées (vérifié :
+      85/85 tests passent sans `LANGFUSE_*` dans `.env`). Nécessite un
+      compte Langfuse Cloud (gratuit) créé manuellement pour s'activer
+      réellement — pas encore fait, clés vides sur le VPS
+- [x] Déploiement (VPS) + lien de démo public
+      → Ubuntu 20.04 (Oracle Cloud), Docker + compose installés, déployé par
+      git (clone du dépôt public, jamais de scp/rsync du code). Deux pare-feu
+      à débloquer, découverts en déployant (aucun des deux n'était visible
+      avant : le premier bloquait tout sauf SSH, le second n'existait qu'au
+      niveau du fournisseur cloud, invisible depuis la machine) :
+      iptables du système (ne laissait passer que le port 22, corrigé et
+      persisté) et la Security List OCI (pare-feu réseau du fournisseur,
+      séparé de l'OS — ouverte par l'utilisateur lui-même dans la console,
+      jamais par un accès direct aux identifiants cloud). Deux bugs trouvés
+      en vérifiant le déploiement réel (pas juste "ça a démarré") :
+      un hash bcrypt corrompu par un `source` shell sur un fichier de
+      secrets non protégé (`$2b$12$...` interprété comme des paramètres
+      positionnels bash), et une collision de routage nginx entre les pages
+      frontend et les routes API de même nom (`/upload`, `/chat`, `/admin`,
+      `/documents` existent des deux côtés — corrigé en isolant l'API sous
+      `/api/`). Démo : **http://152.70.20.148** (HTTP uniquement pour
+      l'instant, pas de nom de domaine — voir Étape 9 pour HTTPS)
+- [x] `.env.example`, jamais de secret commité
+      → à jour avec toutes les variables (dont `ADMIN_USERNAME`/
+      `ADMIN_PASSWORD_HASH`, `LANGFUSE_*`) ; secrets de prod générés
+      spécifiquement pour le VPS (pas de réutilisation des valeurs de dev)
 
 ### Étape 9 — Documentation finale
 - [ ] Ce README mis à jour avec tous les chiffres réels obtenus
