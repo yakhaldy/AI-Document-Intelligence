@@ -33,7 +33,11 @@ def _extract_text(path: Path, content_type: str | None) -> str:
 router = APIRouter(prefix="/upload", tags=["upload"])
 
 
-@router.post("", response_model=UploadResponse)
+@router.post(
+    "",
+    response_model=UploadResponse,
+    responses={500: {"description": "Échec de l'ingestion (document déjà en cours d'ingestion introuvable)"}},
+)
 async def upload_document(
     file: UploadFile,
     session: Session = Depends(get_db),
@@ -45,7 +49,8 @@ async def upload_document(
         raise HTTPException(status_code=422, detail="Formats acceptés : PDF, JPG, PNG")
 
     UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
-    dest = UPLOAD_DIR / f"{tenant_id}_{file.filename}"
+    safe_filename = Path(file.filename or "upload").name
+    dest = UPLOAD_DIR / f"{tenant_id}_{safe_filename}"
     with dest.open("wb") as fh:
         shutil.copyfileobj(file.file, fh)
 
@@ -61,6 +66,8 @@ async def upload_document(
             existing_doc = session.query(Document).filter_by(
                 tenant_id=tenant_id, file_path=str(dest)
             ).first()
+            if existing_doc is None:
+                raise HTTPException(status_code=500, detail="Échec de l'ingestion de la facture")
             document_id = existing_doc.id
             invoice_out = None
         else:
