@@ -96,6 +96,12 @@ export default function About() {
           Créer un compte
         </Link>
       </div>
+
+      <p style={{ marginTop: '2.5rem' }}>
+        <Link to="/legal" style={{ color: 'var(--color-text-muted)', fontSize: '0.85rem' }}>
+          Informations légales
+        </Link>
+      </p>
     </div>
   )
 }

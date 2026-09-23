@@ -9,6 +9,8 @@ import Chat from './pages/Chat'
 import Invoices from './pages/Invoices'
 import Documents from './pages/Documents'
 import Admin from './pages/Admin'
+import Legal from './pages/Legal'
+import NotFound from './pages/NotFound'
 
 function RequireAuth({ children }) {
   const { isAuthenticated } = useAuth()
@@ -27,6 +29,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/about" element={<About />} />
+      <Route path="/legal" element={<Legal />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route
@@ -50,7 +53,7 @@ export default function App() {
         />
         <Route path="/" element={<Navigate to="/factures" replace />} />
       </Route>
-      <Route path="*" element={<Navigate to="/factures" replace />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   )
 }

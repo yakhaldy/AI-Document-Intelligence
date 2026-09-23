@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { useAuth } from '../hooks/useAuth'
 
@@ -10,27 +11,30 @@ const links = [
 
 export default function Layout() {
   const { logout, isAdmin } = useAuth()
+  const [navOpen, setNavOpen] = useState(false)
   const navLinks = isAdmin ? [...links, { to: '/admin', label: 'Admin' }] : links
 
   return (
     <div style={{ minHeight: '100%', display: 'flex', flexDirection: 'column' }}>
-      <header
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          padding: '1rem 1.5rem',
-          borderBottom: '1px solid var(--color-border)',
-        }}
-      >
+      <header className="app-header">
         <strong>AI Document Intelligence</strong>
-        <nav style={{ display: 'flex', gap: '1.2rem', alignItems: 'center' }}>
+        <button
+          type="button"
+          className="nav-toggle"
+          aria-label="Ouvrir le menu"
+          aria-expanded={navOpen}
+          onClick={() => setNavOpen((v) => !v)}
+        >
+          ☰
+        </button>
+        <nav className={navOpen ? 'app-nav app-nav-open' : 'app-nav'}>
           {navLinks.map((l) => (
             <NavLink
               key={l.to}
               to={l.to}
+              onClick={() => setNavOpen(false)}
               style={({ isActive }) => ({
-                color: isActive ? 'var(--color-primary)' : 'var(--color-text)',
+                color: isActive ? 'var(--color-link)' : 'var(--color-text)',
                 fontWeight: isActive ? 600 : 400,
                 textDecoration: 'none',
               })}
@@ -46,6 +50,11 @@ export default function Layout() {
       <main style={{ flex: 1, padding: '1.5rem' }}>
         <Outlet />
       </main>
+      <footer style={{ padding: '1rem 1.5rem', textAlign: 'center' }}>
+        <NavLink to="/legal" style={{ color: 'var(--color-text-muted)', fontSize: '0.85rem' }}>
+          Informations légales
+        </NavLink>
+      </footer>
     </div>
   )
 }
