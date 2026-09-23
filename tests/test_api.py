@@ -76,6 +76,7 @@ def test_chat_requires_auth():
     assert resp.status_code == 401
 
 
+@pytest.mark.requires_llm
 def test_chat_answers_a_known_fact(token):
     resp = client.post(
         "/chat",
