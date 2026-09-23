@@ -113,8 +113,10 @@ def write_report(out_dir: Path, results: list[dict]) -> Path:
         "# Agent — sélection d'outil, exactitude, coût et latence",
         "",
         f"Date : {date.today().isoformat()}",
-        f"N = {n} questions (mêmes questions que l'évaluation initiale du"
-        " 2026-09-22, ré-exécutées pour mesurer coût/latence réels).",
+        (
+            f"N = {n} questions (mêmes questions que l'évaluation initiale du"
+            " 2026-09-22, ré-exécutées pour mesurer coût/latence réels)."
+        ),
         "",
         f"**Bon outil choisi : {tool_acc:.0%}**  |  **Réponse correcte : {answer_acc:.0%}**",
         f"**Latence p50 : {lat_p50:.2f}s**  |  **Latence p95 : {lat_p95:.2f}s**",
