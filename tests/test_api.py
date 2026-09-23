@@ -7,6 +7,11 @@ from fastapi.testclient import TestClient
 
 from src.api.main import app
 
+# Rate limiting sur /auth/login et /auth/register est une protection anti-bruteforce,
+# pas une règle métier — désactivée ici pour ne pas polluer des tests qui appellent
+# ces endpoints des dizaines de fois via la fixture `token`.
+app.state.limiter.enabled = False
+
 client = TestClient(app)
 
 
@@ -41,6 +46,15 @@ def test_login_success_returns_token(token):
 def test_login_wrong_password_rejected():
     resp = client.post("/auth/login", json={"username": "demo", "password": "wrong"})
     assert resp.status_code == 401
+
+
+def test_login_rate_limited_after_5_attempts(monkeypatch):
+    monkeypatch.setattr(app.state.limiter, "enabled", True)
+    for _ in range(5):
+        client.post("/auth/login", json={"username": "demo", "password": "wrong"})
+    resp = client.post("/auth/login", json={"username": "demo", "password": "wrong"})
+    assert resp.status_code == 429
+    app.state.limiter.reset()
 
 
 def test_invoices_requires_auth():

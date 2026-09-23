@@ -1,14 +1,18 @@
-"""Shared FastAPI dependencies: DB session, current tenant."""
+"""Shared FastAPI dependencies: DB session, current tenant, rate limiter."""
 import os
 from collections.abc import Generator
 
 from dotenv import load_dotenv
+from slowapi import Limiter
+from slowapi.util import get_remote_address
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session, sessionmaker
 
 from db.models import default_tenant_id
 
 load_dotenv()
+
+limiter = Limiter(key_func=get_remote_address)
 
 _engine = None
 _SessionLocal = None

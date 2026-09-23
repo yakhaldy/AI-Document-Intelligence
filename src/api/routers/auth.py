@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from sqlalchemy.orm import Session
 
 from db.models import User
@@ -9,7 +9,7 @@ from src.api.auth import (
     get_user_by_username,
     hash_password,
 )
-from src.api.deps import get_db
+from src.api.deps import get_db, limiter
 from src.api.schemas import (
     LoginRequest,
     RegisterRequest,
@@ -22,7 +22,8 @@ router = APIRouter(prefix="/auth", tags=["auth"])
 
 
 @router.post("/login", response_model=Token)
-def login(payload: LoginRequest, session: Session = Depends(get_db)):
+@limiter.limit("5/minute")
+def login(request: Request, payload: LoginRequest, session: Session = Depends(get_db)):
     user = authenticate_user(session, payload.username, payload.password)
     if user is None:
         raise HTTPException(
@@ -41,7 +42,8 @@ def login(payload: LoginRequest, session: Session = Depends(get_db)):
         409: {"description": "Nom d'utilisateur déjà pris"},
     },
 )
-def register(payload: RegisterRequest, session: Session = Depends(get_db)):
+@limiter.limit("5/minute")
+def register(request: Request, payload: RegisterRequest, session: Session = Depends(get_db)):
     username = payload.username.strip()
     if len(username) < 3 or len(payload.password) < 8:
         raise HTTPException(
